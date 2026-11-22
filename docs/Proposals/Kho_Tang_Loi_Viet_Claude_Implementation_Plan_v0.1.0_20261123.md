@@ -311,3 +311,48 @@ It should warn on:
 
 Review this plan and create a new independent repository `fossbk-spec/kho-tang-loi-viet`. Implement Phase 0 first with Next.js, TypeScript, static Markdown/JSON content, Zod validation, Vietnamese search normalization and GitHub Actions. Do not copy the full HCA ontology or database architecture. Add the data model, editorial and copyright policies, validators, and 10 sourced representative entries covering ca dao, tục ngữ and at least one documented variant. Do not invent entries or explanations, and do not publish an entry without a traceable source. Report the proposed architecture, files changed, tests and validation results, limitations and PR URL. Work in small reviewable branches. Do not add PostgreSQL, user accounts, AI Tutor, GraphRAG, public editing, merge or public deployment without explicit project-owner approval.
 
+
+
+---
+
+## 15. Claude review and adjustments (v0.1.1, 2026-11-23)
+
+Reviewer: Claude. Status: adjustments applied to Phase 0; the original sections above are kept for traceability.
+
+### 15.1 Feasibility and scope
+
+- **Feasible.** The engineering is small (static site, JSON, Zod, build-time search). The constraint is **provenance and rights**: every saying needs a traceable compilation, and the compilations and annotations are often still protected. The 200-entry private-beta target is realistic only with a librarian or folklorist checking sources.
+- Phase 0 keeps the UI minimal (home page and one entry template) to prove build and link checks. Browse pages, filters and the random view stay in Phase 1.
+
+### 15.2 Data model adjustments
+
+| Plan | Adjustment | Reason |
+|---|---|---|
+| `entryType` includes `DISPUTED` | `entryType: CA_DAO or TUC_NGU`, plus `classificationStatus: established or disputed` and a required `classificationNote` when disputed | Classification status is a separate concern from the type; the plan itself says disputed entries should not be forced into a category |
+| Both a `Variant` entity and a `VARIANT_OF` relation | Variants are **embedded** in the entry (`variants[]`: `{ text, normalizedText, region?, attestedBy: sourceId[] }`). `VARIANT_OF` stays only for two separately catalogued entries and is checked for cycles | One model per concept; avoids duplicated variant data |
+| Relations `ASSOCIATED_WITH_REGION`, `ASSOCIATED_WITH_THEME`, `USES_TERM`, `EXPLAINS` | Dropped. Themes, regions and glossary terms are fields on the entry. Remaining relations: `VARIANT_OF`, `SIMILAR_TO`, `CONTRASTS_WITH` | The dropped types duplicate fields and invite inconsistency. Symmetric relations are stored once in canonical order |
+| Identity by slug only | Each entry has a stable `id` (for example `ktlv-000001`) plus a `slug` for the URL | Corrected spellings must not break links or references |
+| `text` only | Keep `text` as the sourced spelling (NFC), add `lines[]` for verse (ca dao is often lục bát, so line structure matters), and a **computed** `normalizedText` that the validator recomputes | The original text is never overwritten |
+| Region as free tag | Controlled list (`toan-quoc`, `bac-bo`, `trung-bo`, `nam-bo`, optional provinces) with `regionCertainty: attested, probable or unknown` | Regional origin is often uncertain |
+| Source | `{ id, title, authorsOrCollectors[], editorsOrTranslators?, edition, year, publisher, identifier, kind, copyrightNote }`; `EntrySource { entryId, sourceId, locator, verification: cited or verified }` | Matches the plan's need to record edition, page and collector |
+
+### 15.3 Normalization specification (Phase 0 deliverable)
+
+1. Stored text: Unicode NFC, collapse whitespace, preserve punctuation.
+2. `normalizedText`: NFD, strip combining marks, `đ` and `Đ` to `d`, lowercase, replace punctuation with a space, collapse whitespace. This makes tone-mark placement variants (`hòa` and `hoà`) equal.
+3. Search: tokenize the normalized query; phrase means normalized substring; partial means every token is present. Ranking prefers an exact diacritic match over a normalized-only match.
+4. A documented test set (cases with and without diacritics, partial phrases, punctuation, tone-mark placement) is a Phase 0 unit test.
+
+### 15.4 Validation additions
+
+Fail on: text not in NFC; `normalizedText` differing from the computed value; a variant identical to its entry text; a disputed classification without a note; an unknown region or theme; duplicate normalized texts across entries (an error unless declared as a variant or a similar entry). Warn on: a single source; no usage context.
+
+### 15.5 Rights and content rules (kept strict)
+
+- Sample entries are **traditional sayings that are widely attested**; no text is generated or adapted. Explanations are original short writing, not copied annotations.
+- `published` requires at least one `verified` source; `cited` sources keep the entry at `draft` or `source_checked`.
+- Variants must name the source that attests them.
+
+### 15.6 Phase 0 limits recorded
+
+The implementer cannot verify page-level locators or the exact wording of a saying in a given edition. Sample sources are marked `cited` with an empty `locator`, every sample is `draft`, and the report lists what a reviewer must check. Entries are limited to sayings whose wording is common knowledge; a documented variant is included but flagged for source verification.

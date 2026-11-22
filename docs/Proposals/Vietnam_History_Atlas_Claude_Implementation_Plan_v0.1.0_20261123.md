@@ -270,3 +270,64 @@ scripts/
 
 Review this plan and the current HCA repository only for reusable architectural patterns. Create a new independent repository `fossbk-spec/vietnam-history-atlas`; do not fork or copy the entire HCA application. Implement Phase 0 first using Next.js, TypeScript, static Markdown/JSON content, Zod validation and GitHub Actions. Use the reduced ontology in this document, require `entityType + slug` for relations, include Source/EntitySource and editorial states from the beginning, and add five representative seed objects. Report the proposed structure, files changed, validation results, limitations and the PR URL. Work in small reviewable branches. Do not add PostgreSQL, AI Tutor, Neo4j, GraphRAG, public editing, merge or public deployment without explicit project-owner approval.
 
+
+
+---
+
+## 12. Claude review and adjustments (v0.1.1, 2026-11-23)
+
+Reviewer: Claude. Status: adjustments applied to Phase 0 of this plan; the original sections above are kept for traceability.
+
+### 12.1 Feasibility and scope
+
+- **Feasible.** A static Next.js + JSON + Zod site needs no runtime database. The binding constraint is not engineering but **source work and expert review**: 140–150 reviewed objects is a content project of weeks, so the private-beta target of 50–70 objects is the realistic first milestone.
+- **Phase 0 scope is kept small:** repository, schemas, validators, CI, five sample objects, and a minimal UI (home page plus one generic entity page) only to prove the build and the link check. Period, people and place pages, timeline and search stay in Phase 1–2.
+- JSON content in Phase 0. Long-form prose in Markdown with frontmatter is a Phase 1 decision, to be made when the first full article is written.
+
+### 12.2 Ontology adjustments
+
+| Plan | Adjustment | Reason |
+|---|---|---|
+| `PRECEDED` and `SUCCEEDED` | Keep only `SUCCEEDED`; derive the inverse | A redundant inverse pair doubles data and can contradict |
+| `RELATED_TO` | Keep, but require a non-empty `note`; the validator warns when it exceeds 10% of relations | A catch-all type erodes graph quality |
+| Free relationship endpoints | Each relationship type has a **type-pair signature** (below), enforced by the validator | Prevents errors such as `LED: Place -> Theme` |
+| Relationship identity | `(sourceType, sourceSlug, type, targetType, targetSlug)`; lookups by `entityType + slug` only | Slugs are unique per entity type, not globally. Tests must include the same slug in two entity types |
+
+Signatures (source to target):
+
+```text
+PART_OF:         Event|Period|Place|Polity -> Period|Polity|Place|Theme
+SUCCEEDED:       Period|Polity -> Period|Polity
+OCCURRED_IN:     Event -> Place
+PARTICIPATED_IN: Person|Polity -> Event
+LED:             Person -> Event|Polity
+RULED:           Person -> Polity
+AUTHORED:        Person -> Document
+MENTIONED_IN:    Person|Event|Place|Polity -> Document
+LOCATED_IN:      Place|Polity -> Place
+INFLUENCED:      Person|Event|Document|Theme -> Person|Event|Document|Theme
+RELATED_TO:      any -> any (note required)
+```
+
+### 12.3 Data model adjustments
+
+- **Dates.** Integer `startYear/endYear` is not enough for uncertain dates. Each dated entity has `date: { start, end, precision: "day"|"year"|"decade"|"century", circa: boolean, note? }`. BCE years are negative integers; there is no year 0 in the data (documented), with a derived `sortKey` used for the timeline.
+- **Source.** `{ id, kind: "primary"|"secondary"|"reference", title, authors[], year, publisher?, language, identifier: { type: "isbn"|"doi"|"url"|"archive"|"none", value }, copyrightNote? }`. Sources are separate files so they can be reused.
+- **EntitySource.** `{ entityType, slug, sourceId, locator, supports: "fact"|"interpretation"|"context", verification: "cited"|"verified", verifiedBy?, verifiedAt? }`. `cited` means a work is named but the locator has not been checked against the work.
+- **Editorial states** `draft`, `source_checked`, `expert_reviewed`, `published`, with a `reviews[]` record (role, name, date) required from `expert_reviewed` on. The validator **fails** a `published` entity that has fewer than two `verified` sources (core types) and a `source_checked` entity with none.
+- **Names.** `aliases[]` carry a language tag (`vi`, `han-nom`, `en`); search normalization (NFD, strip combining marks, `đ` to `d`) is the same approach as in Kho tàng Lời Việt but implemented separately (no shared package yet).
+- **Quotations.** Short quotations only; no verbatim long passages from sources.
+
+### 12.4 HCA export (Phase 3, designed now)
+
+Mapping to HCA ontology 1.1: Polity to CIVILIZATION, Person to PERSON, Event to EVENT, Theme to IDEA, Document to BOOK. Period, Place and Source have no HCA type and are not exported. Relationship types map only where HCA 1.1 has an equivalent (`PART_OF`, `RULED`, `LED`, `PARTICIPATED_IN`, `INFLUENCED`, `LOCATED_IN`, and `SUCCEEDED` as the inverse of `SUCCEEDED_BY`); others are dropped and listed in an export report. Exported slugs keep an `externalId` (`vha:<type>:<slug>`) to avoid collisions in HCA.
+
+### 12.5 Acceptance criteria added
+
+- Validator unit tests: duplicate slug inside a type (error), the same slug in two types (allowed, and relationship lookup stays separate), signature violations, missing endpoints, `published` without verified sources, uncertain-date formats.
+- CI fails on any validation error; warnings are printed.
+- Sample objects are `draft` or `source_checked` only. **No sample may be `published`** until a human has checked the locators.
+
+### 12.6 Phase 0 limits recorded
+
+Page-level locators for the sample objects cannot be verified by the implementer. Sample sources are therefore marked `cited`, and the content is written as short original summaries. A project-owner or domain reviewer must verify them before any status change.
