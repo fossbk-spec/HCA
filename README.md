@@ -163,6 +163,8 @@ npm run dev
 
 ## Scripts / CI
 
+`npm run verify:seed` validates seed relationships against ontology 1.1.
+
 Run `npm run verify:seed` to check seed data, `npm run seed` to load it, and
 `npm run db:generate`, `npm run db:migrate`, or `npm run db:studio` for local
 database work. CI checks Prisma, types, seed integrity, and the production build
