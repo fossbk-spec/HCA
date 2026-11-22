@@ -1,0 +1,3 @@
+# C3 Fix nested <main> (branch chore/fix-nested-main)
+src/app/layout.tsx already wraps {children} in <main>. Every page under src/app (page.tsx, [slug]/page.tsx, not-found.tsx, and any component) must NOT render another <main>: replace each nested <main ...> ... </main> with <div ...> ... </div> keeping all className/attributes. Keep the layout's <main> (add id="main" is optional; do not add skip links). Find all occurrences with grep for "<main" and "</main>" under src (exclude src/app/layout.tsx). Do not change anything else, do not touch data/ or docs/, do not install anything.
+Gates (report pass/fail): `grep -rn "<main" src` shows only layout.tsx; `npm run typecheck`; `DATABASE_URL= NEXT_TELEMETRY_DISABLED=1 npx next build`. Do not commit. Final answer <4 lines.

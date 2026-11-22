@@ -17,7 +17,7 @@ export function TimelineExplorer({ items }: { items: TimelineDetailItem[] }) {
   if (!selected) return <p className="text-slate-500">No timeline entries in this epoch yet.</p>;
 
   return <div className="space-y-6">
-    <div className="overflow-x-auto pb-4" aria-label="Timeline entries">
+    <div className="overflow-x-auto pb-4" role="region" aria-label="Timeline entries" tabIndex={0}>
       <ol className="flex min-w-max border-t border-amber-500 pt-8">
         {items.map((item) => {
           const key = `${item.kind}-${item.slug}`;

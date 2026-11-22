@@ -14,7 +14,7 @@ export default async function IdeasPage() {
   const totalCount = categories.reduce((sum, g) => sum + g.ideas.length, 0);
 
   return (
-    <main className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <header className="border-b border-stone-200 pb-8">
         <p className="text-sm font-semibold uppercase tracking-widest text-amber-800">Intellectual Heritage</p>
         <h1 className="mt-2 text-4xl font-bold tracking-tight text-slate-900">Ideas That Shaped Humanity</h1>
@@ -63,6 +63,6 @@ export default async function IdeasPage() {
           </section>
         ))}
       </div>
-    </main>
+    </div>
   );
 }

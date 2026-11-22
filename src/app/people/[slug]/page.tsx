@@ -27,7 +27,7 @@ export default async function PersonPage({ params }: Props) {
   const lifespan = formatLifespan(person.birthYear, person.deathYear);
   const paragraphs = person.content?.split(/\n\s*\n/).map((text) => text.trim()).filter(Boolean) ?? [];
 
-  return <main className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+  return <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
     <Link href="/people" className="text-sm font-semibold text-amber-800 hover:underline focus-visible:outline-2 focus-visible:outline-amber-600">← People</Link>
     <header className="mt-8 border-b border-stone-200 pb-8">
       <h1 className="text-4xl font-bold tracking-tight text-slate-900">{person.name}</h1>
@@ -44,5 +44,5 @@ export default async function PersonPage({ params }: Props) {
       <div className="mt-4 space-y-4 leading-8 text-slate-700">{paragraphs.map((text, index) => <p key={index}>{text}</p>)}</div>
     </section>}
     <RelationList relations={person.relations} />
-  </main>;
+  </div>;
 }

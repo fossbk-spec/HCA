@@ -36,7 +36,7 @@ export default async function CivilizationPage({ params }: Props) {
 
   const paragraphs = civilization.content?.split(/\n\s*\n/).map((text) => text.trim()).filter(Boolean) ?? [];
 
-  return <main className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+  return <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
     <Link href="/civilizations" className="text-sm font-semibold text-amber-800 hover:underline focus-visible:outline-2 focus-visible:outline-amber-600">← Civilization Atlas</Link>
     <header className="mt-8 border-b border-stone-200 pb-8">
       <p className="text-sm font-semibold uppercase tracking-widest text-amber-800">{civilization.region ?? "World history"}</p>
@@ -63,5 +63,5 @@ export default async function CivilizationPage({ params }: Props) {
       </ul>
     </section>}
     <p className="mt-12 border-t border-stone-200 pt-6"><Link href="/timeline" className="font-semibold text-amber-800 hover:underline focus-visible:outline-2 focus-visible:outline-amber-600">Explore the Timeline →</Link></p>
-  </main>;
+  </div>;
 }

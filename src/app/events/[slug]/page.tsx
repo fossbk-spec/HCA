@@ -40,7 +40,7 @@ export default async function EventPage({ params }: Props) {
   const paragraphs = event.content?.split(/\n\s*\n/).map((text) => text.trim()).filter(Boolean) ?? [];
 
   return (
-    <main className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
       <Link
         href="/events"
         className="text-sm font-semibold text-amber-800 hover:underline focus-visible:outline-2 focus-visible:outline-amber-600"
@@ -84,6 +84,6 @@ export default async function EventPage({ params }: Props) {
           Explore the Timeline →
         </Link>
       </p>
-    </main>
+    </div>
   );
 }
