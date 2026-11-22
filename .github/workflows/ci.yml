@@ -20,6 +20,7 @@ jobs:
           DATABASE_URL: postgresql://hca:hca@localhost:5432/hca
       - run: npx prisma generate
       - run: npm run typecheck
+      - run: npm test
       - run: npm run verify:seed
       - run: env -u DATABASE_URL npm run build
         env:
