@@ -360,5 +360,37 @@
     "publicationYear": 1600,
     "summary": "Collection of 17th- and 18th-century Yucatec Maya handwritten manuscripts preserving traditional history, astrology, medicine, and katun prophecies.",
     "content": "Named after the title of the jaguar-priest (Chilam), these manuscripts were secretly penned in the Yucatec Maya language using the Latin alphabet following the destruction of hieroglyphic codices by Spanish friars. The books—such as those of Chumayel, Mani, and Tizimin—preserve ancient katun cycles (20-year eras), historical chronicles of dynastic migrations, medical herbal recipes, and enigmatic mythological riddles."
+  },
+  {
+    "slug": "astadhyayi",
+    "title": "Astadhyayi (Eight Chapters of Sanskrit Grammar)",
+    "author": "Panini",
+    "publicationYear": -500,
+    "summary": "The foundational masterwork of formal linguistics, establishing 3,959 algebraic meta-rules for Classical Sanskrit.",
+    "content": "Composed by Panini, the Astadhyayi represents one of the greatest intellectual achievements of antiquity. Consisting of 3,959 sutras organized into eight chapters, it models the entire morphology, phonology, and syntax of Sanskrit using auxiliary marker symbols, context-sensitive rewriting rules, and recursive transformations, preceding Western formal grammar by 2,400 years."
+  },
+  {
+    "slug": "hai-thuong-y-tong-tam-linh",
+    "title": "Hai Thuong Y Tong Tam Linh (Medical Heritage of Hai Thuong)",
+    "author": "Le Huu Trac (Hai Thuong Lan Ong)",
+    "publicationYear": 1770,
+    "summary": "Comprehensive 28-volume encyclopedia of traditional Vietnamese medicine, clinical ethics, and indigenous Southern pharmacology.",
+    "content": "Compiled over thirty years by Le Huu Trac, this 28-volume medical masterpiece synthesizes traditional East Asian medical theory with Vietnamese herbal practice (Thuoc Nam). It encompasses clinical diagnoses, pediatrics, gynecology, acupuncture, dietetics, and over 2,000 medicinal recipes, anchored by a noble medical ethics code prioritizing compassion for the poor."
+  },
+  {
+    "slug": "corpus-juris-civilis",
+    "title": "Corpus Juris Civilis (Body of Civil Law)",
+    "author": "Emperor Justinian I & Tribonian",
+    "publicationYear": 534,
+    "summary": "Monumental codification of Roman law commissioned by Justinian I, forming the foundation of continental European civil law.",
+    "content": "Promulgated in Constantinople between 529 and 534 CE, the Corpus Juris Civilis comprised the Code (imperial edicts), the Digest (jurisprudential opinions of classical jurists), the Institutes (legal textbook for students), and the Novels (new laws). It preserved Roman law and shaped modern civil legal systems worldwide, from the Napoleonic Code to international law."
+  },
+  {
+    "slug": "al-qanun-al-masudi",
+    "title": "The Mas'udi Canon (Al-Qanun al-Mas'udi)",
+    "author": "Abu Rayhan al-Biruni",
+    "publicationYear": 1030,
+    "summary": "Monumental Islamic astronomical, mathematical, and geodetic encyclopedia dedicated to Sultan Mas'ud of Ghazni.",
+    "content": "Composed by Al-Biruni, this comprehensive astronomical encyclopedia spans eleven treatises. It details spherical trigonometry, planetary orbital models, calculation of solar apogees, geographic latitudes and longitudes, and geodetic measurements of the Earth's circumference, representing the pinnacle of observational science in the Islamic Golden Age."
   }
 ]

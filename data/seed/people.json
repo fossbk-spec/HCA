@@ -261,15 +261,6 @@
     "civilizationSlug": "ancient-india"
   },
   {
-    "slug": "muhammad",
-    "name": "Muhammad",
-    "birthYear": 570,
-    "deathYear": 632,
-    "occupations": "Prophet, Religious & Political Leader",
-    "summary": "Founder of Islam and the recipient of the Quran according to Islamic belief, unifying the Arabian peninsula into a single religious polity.",
-    "civilizationSlug": "islamic-civilization"
-  },
-  {
     "slug": "saladin",
     "name": "Saladin",
     "birthYear": 1137,
@@ -681,5 +672,295 @@
     "civilizationSlug": "maya-civilization",
     "summary": "Powerful principal queen of Yaxchilan whose famous carved stone lintels depict royal bloodletting rituals and the conjuring of Vision Serpents.",
     "content": "Lady Xoc was the principal wife of King Itzamnaaj B'alam II (Shield Jaguar III) of Yaxchilan. Her political influence and priestly authority are immortalized on the magnificent carved stone lintels (Lintels 24, 25, and 26) of Structure 23. The carvings show her performing auto-sacrifice by pulling a barbed rope through her tongue to communicate with ancestral spirits, exemplifying the spiritual and political power wielded by aristocratic women in Classic Maya dynastic politics."
+  },
+  {
+    "slug": "ur-nammu",
+    "name": "Ur-Nammu",
+    "birthYear": -2112,
+    "deathYear": -2095,
+    "occupations": "King of Ur, Lawgiver, Architect",
+    "civilizationSlug": "mesopotamia",
+    "summary": "Sumerian king who founded the Third Dynasty of Ur, promulgated the Code of Ur-Nammu, and constructed the Great Ziggurat of Ur.",
+    "content": "Ur-Nammu revitalized Sumerian culture after Gutian dominance. He established the Third Dynasty of Ur, instituted standardized weights, and promulgated the Code of Ur-Nammu—the oldest surviving legal code in human history, preceding Hammurabi by three centuries. His monumental stepped temple, the Great Ziggurat of Ur, stands as a masterpiece of ancient Mesopotamian mudbrick architecture."
+  },
+  {
+    "slug": "nebuchadnezzar-ii",
+    "name": "Nebuchadnezzar II",
+    "birthYear": -642,
+    "deathYear": -562,
+    "occupations": "King of Babylon, Conqueror, Master Builder",
+    "civilizationSlug": "mesopotamia",
+    "summary": "Greatest monarch of the Neo-Babylonian Empire who constructed the Ishtar Gate, rebuilt Babylon, and created the legendary Hanging Gardens.",
+    "content": "Reigning for 43 years, Nebuchadnezzar II transformed Babylon into the cultural and architectural wonder of the ancient Near East. He fortified the city with double walls, paved the Processional Way, and erected the dazzling blue-glazed Ishtar Gate. He expanded Babylonian hegemony across the Levant and commissioned the legendary Hanging Gardens of Babylon, one of the Seven Wonders of the Ancient World."
+  },
+  {
+    "slug": "narmer",
+    "name": "Narmer (Menes)",
+    "birthYear": -3150,
+    "deathYear": -3100,
+    "occupations": "First Pharaoh, Unifier of Egypt",
+    "civilizationSlug": "ancient-egypt",
+    "summary": "First King of the First Dynasty of Egypt who unified Upper and Lower Egypt into a single kingdom, commemorated on the Narmer Palette.",
+    "content": "King Narmer united the rival kingdoms of the Nile Delta (Lower Egypt) and Nile Valley (Upper Egypt) around 3100 BCE, establishing the First Dynasty and founding the white-walled capital of Memphis. The famous Narmer Palette discovered at Hierakonpolis depicts him wearing both the White Crown of Upper Egypt and the Red Crown of Lower Egypt, marking the dawn of dynastic Egyptian civilization."
+  },
+  {
+    "slug": "khufu",
+    "name": "Khufu (Cheops)",
+    "birthYear": -2589,
+    "deathYear": -2566,
+    "occupations": "Pharaoh of the Fourth Dynasty, Master Builder",
+    "civilizationSlug": "ancient-egypt",
+    "summary": "Fourth Dynasty pharaoh who commissioned the Great Pyramid of Giza, the oldest and only surviving monument of the Seven Wonders of the Ancient World.",
+    "content": "Son of Sneferu, Khufu mobilized thousands of skilled artisans, surveyors, and seasonal workers to construct the Great Pyramid on the Giza plateau. Requiring over 2.3 million precisely cut limestone blocks, the monumental tomb represented the pinnacle of Old Kingdom central mobilization, solar theology, and astronomical alignment."
+  },
+  {
+    "slug": "archimedes",
+    "name": "Archimedes of Syracuse",
+    "birthYear": -287,
+    "deathYear": -212,
+    "occupations": "Mathematician, Physicist, Engineer, Inventor",
+    "civilizationSlug": "ancient-greece",
+    "summary": "Foremost mathematician and inventor of antiquity who discovered the principle of buoyancy, levers, the Archimedean screw, and early infinitesimal calculus.",
+    "content": "Living in the Magna Graecia city of Syracuse, Archimedes formulated foundational principles of hydrostatics (Archimedes' Principle: \"Eureka!\") and static mechanics. He calculated accurate approximations of pi, derived surface areas and volumes of spheres and cylinders, and designed revolutionary defensive war machines during the Roman siege of Syracuse."
+  },
+  {
+    "slug": "euclid",
+    "name": "Euclid of Alexandria",
+    "birthYear": -325,
+    "deathYear": -265,
+    "occupations": "Mathematician, Geometer, Logician",
+    "civilizationSlug": "ancient-greece",
+    "summary": "The \"Father of Geometry\" whose monumental mathematical treatise Elements established the axiomatic-deductive method for over two millennia.",
+    "content": "Working at the Great Library of Alexandria during the reign of Ptolemy I, Euclid compiled the Elements (Cơ sở Hình học). Consisting of 13 books, the work deduced hundreds of geometric propositions, prime number theorems, and the Euclidean algorithm from just five basic axioms, serving as the textbook model for rigorous mathematical and logical proof across the globe."
+  },
+  {
+    "slug": "hippocrates",
+    "name": "Hippocrates of Kos",
+    "birthYear": -460,
+    "deathYear": -370,
+    "occupations": "Physician, Medical Educator, Ethical Theorist",
+    "civilizationSlug": "ancient-greece",
+    "summary": "The \"Father of Medicine\" who separated medicine from superstitious magic and established the ethical foundation of medical practice in the Hippocratic Oath.",
+    "content": "Founding the medical school on the island of Kos, Hippocrates revolutionized ancient healing by viewing diseases as natural biological phenomena rather than divine punishments. He emphasized clinical observation, empirical prognosis, dietetics, and the ethical responsibility of doctors to act exclusively for the patient's benefit (\"First, do no harm\")."
+  },
+  {
+    "slug": "sophocles",
+    "name": "Sophocles",
+    "birthYear": -496,
+    "deathYear": -406,
+    "occupations": "Tragic Dramatist, Statesman, General",
+    "civilizationSlug": "ancient-greece",
+    "summary": "One of classical Athens' supreme tragic playwrights, author of Oedipus Rex and Antigone, renowned for adding the third actor to drama.",
+    "content": "Writing during the Golden Age of Athens, Sophocles won more victories at the Dionysia festival than Aeschylus and Euripides combined. He introduced a third actor to theatrical performance, deepened character psychology, and explored timeless conflicts between divine moral law, human pride (hubris), and tragic destiny in masterpieces such as Oedipus Rex, Antigone, and Electra."
+  },
+  {
+    "slug": "scipio-africanus",
+    "name": "Scipio Africanus",
+    "birthYear": -236,
+    "deathYear": -183,
+    "occupations": "Roman General, Statesman, Consul",
+    "civilizationSlug": "roman-empire",
+    "summary": "Brilliant Roman general who defeated Hannibal Barca at the Battle of Zama in 202 BCE, securing Roman supremacy over Carthage in the Mediterranean.",
+    "content": "Publius Cornelius Scipio Africanus adapted Hannibal's own tactical maneuvers against him. After liberating Roman Hispania, he launched a daring amphibious invasion of North Africa. At the Battle of Zama, his clever battlefield formations neutralized Carthaginian war elephants and annihilated Hannibal's forces, elevating Rome to unquestioned dominance over the western Mediterranean."
+  },
+  {
+    "slug": "hadrian",
+    "name": "Hadrian",
+    "birthYear": 76,
+    "deathYear": 138,
+    "occupations": "Roman Emperor, Philhellene, Architect",
+    "civilizationSlug": "roman-empire",
+    "summary": "One of the \"Five Good Emperors\" who consolidated Roman borders, constructed Hadrian's Wall in Britain, and rebuilt the Pantheon with its unreinforced dome.",
+    "content": "Succeeding Trajan, Hadrian abandoned aggressive territorial expansion to focus on imperial consolidation and cultural revitalization. Traveling to almost every province, he oversaw the construction of defensive frontiers (Hadrian's Wall) and transformed Rome's cityscape, personally supervising the rebuilding of the Pantheon with the world's largest unreinforced concrete dome."
+  },
+  {
+    "slug": "justinian-i",
+    "name": "Justinian I the Great",
+    "birthYear": 482,
+    "deathYear": 565,
+    "occupations": "Eastern Roman Emperor, Lawgiver, Master Builder",
+    "civilizationSlug": "roman-empire",
+    "summary": "Byzantine emperor who reconquered Italy and North Africa, built the monumental Hagia Sophia, and codified the Corpus Juris Civilis.",
+    "content": "Reigning from Constantinople, Justinian sought to restore the grandeur of the Roman Empire (Renovatio Imperii). Under his command, General Belisarius reclaimed Rome, Italy, and Carthage. His enduring triumph was commissioning the Corpus Juris Civilis (Civil Law Code), which organized a millennium of Roman jurisprudence into a coherent system that became the basis for modern continental European civil law."
+  },
+  {
+    "slug": "zhuang-zhou",
+    "name": "Zhuang Zhou (Zhuangzi)",
+    "birthYear": -369,
+    "deathYear": -286,
+    "occupations": "Taoist Philosopher, Sceptic, Writer",
+    "civilizationSlug": "ancient-china",
+    "summary": "Major Taoist thinker alongside Laozi, famed for philosophical parables, the Butterfly Dream, and skepticism of rigid social constructs.",
+    "content": "Living during the Warring States period, Zhuang Zhou articulated a philosophy of spontaneous spiritual liberation, cognitive flexibility, and natural harmony. Through iconic allegories like Cook Ding carving the ox and dreaming he was a butterfly, he questioned the certainty of conventional language, moral dogmas, and the fear of death, inspiring centuries of Chinese aesthetics and Zen Buddhism."
+  },
+  {
+    "slug": "shang-yang",
+    "name": "Shang Yang (Lord Shang)",
+    "birthYear": -390,
+    "deathYear": -338,
+    "occupations": "Statesman, Legalist Reformer, Chancellor of Qin",
+    "civilizationSlug": "ancient-china",
+    "summary": "Qin chancellor whose radical Legalist reforms instituted strict meritocracy, codified laws, and military organization, paving the way for Chinese unification.",
+    "content": "Serving Duke Xiao of Qin, Shang Yang dismantled hereditary feudal privileges, dividing the state into direct administrative counties, rewarding military valor with aristocratic rank regardless of birth, and enforcing harsh, universal penal laws. His reforms transformed Qin from a backward western frontier into an unstoppable military and economic engine."
+  },
+  {
+    "slug": "li-si",
+    "name": "Li Si",
+    "birthYear": -280,
+    "deathYear": -208,
+    "occupations": "Chancellor of Qin, Calligrapher, Legalist Architect",
+    "civilizationSlug": "ancient-china",
+    "summary": "Chief Chancellor to Qin Shi Huang who standardized Chinese characters, weights, and measures, creating the administrative apparatus of imperial China.",
+    "content": "A disciple of Xunzi, Li Si became the premier administrative architect of the unified Qin Empire. He abolished feudal fiefdoms in favor of 36 centralized commanderies, standardized the small seal script (Tiểu triện) for universal communication, and standardized axle widths and coinage across China."
+  },
+  {
+    "slug": "qu-yuan",
+    "name": "Qu Yuan",
+    "birthYear": -340,
+    "deathYear": -278,
+    "occupations": "Patriotic Poet, Statesman of Chu",
+    "civilizationSlug": "ancient-china",
+    "summary": "Legendary patriotic poet of the State of Chu, author of Li Sao (The Lament), in whose memory the Dragon Boat Festival is celebrated.",
+    "content": "Qu Yuan was a noble minister of the southern kingdom of Chu during the Warring States period. Falsely slandered by corrupt courtiers and exiled, he poured his grief, moral purity, and patriotism into romantic poetry characterized by shamanic visions, mythical journeys, and rich floral symbolism. Upon learning of Chu's capital falling to Qin, he drowned himself in the Miluo River."
+  },
+  {
+    "slug": "panini",
+    "name": "Panini",
+    "birthYear": -520,
+    "deathYear": -460,
+    "occupations": "Sanskrit Grammarian, Linguist, Logician",
+    "civilizationSlug": "ancient-india",
+    "summary": "Ancient Indian linguist whose Astadhyayi formulated a generative grammar of 3,959 rules, anticipating modern computer programming syntax.",
+    "content": "Flourishing in Gandhara, Panini composed the Astadhyayi (Eight Chapters), an exhaustive formal grammar of Classical Sanskrit. Using auxiliary symbols, algebraic meta-rules, transformations, and recursive rule systems, his work represents the world's first formal deductive linguistic generative system, directly influencing modern linguistics (Noam Chomsky) and Backus-Naur form in computer science."
+  },
+  {
+    "slug": "varahamihira",
+    "name": "Varahamihira",
+    "birthYear": 505,
+    "deathYear": 587,
+    "occupations": "Astronomer, Mathematician, Polymath of Ujjain",
+    "civilizationSlug": "ancient-india",
+    "summary": "Eminent astronomer and mathematician of the Gupta Golden Age who compiled the Panchasiddhantika and developed early trigonometry formulas.",
+    "content": "Living in Ujjain, Varahamihira was one of the \"Nine Gems\" at the court of King Yashodharman. In his magnum opus Panchasiddhantika, he synthesized ancient Indian, Greek, and Roman astronomical systems, formulated early trigonometric identities (such as sin^2 + cos^2 = 1), and made pioneering contributions to combinatorics and Pascal's triangle."
+  },
+  {
+    "slug": "harsha",
+    "name": "King Harsha (Harshavardhana)",
+    "birthYear": 590,
+    "deathYear": 647,
+    "occupations": "Emperor of Northern India, Patron of Nalanda, Playwright",
+    "civilizationSlug": "ancient-india",
+    "summary": "Ruler of Kanauj who unified northern India after the Gupta collapse, patronized Nalanda University, and hosted Chinese pilgrim Xuanzang.",
+    "content": "King Harsha reunited fragmented northern India into an empire spanning from the Punjab to Bengal. A devout patron of Buddhism and the arts, he funded thousands of scholars at Nalanda Mahavihara, organized massive multi-faith assemblies at Prayag, and authored classical Sanskrit plays such as Ratnavali and Nagananda."
+  },
+  {
+    "slug": "phung-hung",
+    "name": "Phung Hung (Bo Cai Dai Vuong)",
+    "birthYear": 761,
+    "deathYear": 802,
+    "occupations": "National Hero, Insurgent Leader, Ruler",
+    "civilizationSlug": "vietnam",
+    "summary": "Leader of an eighth-century national uprising that expelled Tang Chinese imperial administrators and established autonomy for seven years.",
+    "content": "Hailing from Duong Lam (Son Tay), Phung Hung possessed renowned strength and military charisma. In 791 CE, enraged by heavy Tang taxation and labor conscription, he launched a massive rebellion, besieged the fortress of Tong Binh (Hanoi), and expelled the Tang military governor. He governed the liberated realm with benevolence, honored by the people as Bố Cái Đại Vương (Great Father and Mother King)."
+  },
+  {
+    "slug": "dinh-bo-linh",
+    "name": "Dinh Bo Linh (Dinh Tien Hoang)",
+    "birthYear": 924,
+    "deathYear": 979,
+    "occupations": "First Emperor of Dai Co Viet, Military Unifier",
+    "civilizationSlug": "vietnam",
+    "summary": "Founding emperor of the Dinh dynasty who suppressed the Anarchy of the 12 Warlords, established the capital at Hoa Lu, and founded Dai Co Viet.",
+    "content": "Growing up in the karst valleys of Ninh Binh, Dinh Bo Linh rallied local forces with brilliant military tactics to defeat twelve rival warlords (Loạn 12 sứ quân) by 968 CE. Refusing the subordinate title of King, he proclaimed himself Emperor (Đinh Tiên Hoàng Đế), named the country Đại Cồ Việt, established court ranks, and minted Vietnam's first indigenous currency (Thái Bình hưng bảo)."
+  },
+  {
+    "slug": "le-huu-trac",
+    "name": "Le Huu Trac (Hai Thuong Lan Ong)",
+    "birthYear": 1720,
+    "deathYear": 1791,
+    "occupations": "Great Physician, Medical Ethicist, Writer, Herbalist",
+    "civilizationSlug": "vietnam",
+    "summary": "Vietnam's greatest traditional medical scholar, author of the 28-volume encyclopedia Hai Thuong Y Tong Tam Linh and founder of Vietnamese medical ethics.",
+    "content": "Originating from Hai Duong and practicing in Huong Son (Ha Tinh), Le Huu Trac dedicated three decades to treating the sick regardless of wealth. In his monumental 28-volume encyclopedia Hải Thượng Y Tông Tâm Lĩnh (Treatise on the Medical Heritage of Hai Thuong), he codified clinical diagnoses, pharmacology of indigenous Southern herbs, and established the Nine Medical Precepts embodying the highest humanist compassion."
+  },
+  {
+    "slug": "xerxes-i",
+    "name": "Xerxes I the Great",
+    "birthYear": -518,
+    "deathYear": -465,
+    "occupations": "Achaemenid King of Kings, Monumental Builder",
+    "civilizationSlug": "persian-empire",
+    "summary": "Son of Darius I who completed the magnificent palaces of Persepolis, including the Gate of All Nations and the Hall of a Hundred Columns.",
+    "content": "Succeeding Darius the Great, Xerxes I ruled over the vast Achaemenid Empire from Egypt to the Indus. Known for constructing monumental bridges across the Hellespont during the Greco-Persian wars, his greatest historical legacy lies at Persepolis, where he completed the Apadana, erected the iconic Gate of All Nations guarded by winged bulls (Lamassu), and carved the imperial Palace of Xerxes (Hadish)."
+  },
+  {
+    "slug": "shapur-i",
+    "name": "Shapur I the Great",
+    "birthYear": 215,
+    "deathYear": 270,
+    "occupations": "Sasanian King of Kings, Conqueror, Builder",
+    "civilizationSlug": "persian-empire",
+    "summary": "Second Sasanian monarch who defeated three Roman emperors (Gordian III, Philip the Arab, Valerian) and founded the Academy of Gundeshapur.",
+    "content": "Son of Ardashir I, Shapur I cemented Sasanian Persia as a superpower rival to Rome. At the Battle of Edessa (260 CE), he captured Roman Emperor Valerian alive—an event immortalized in massive rock reliefs at Naqsh-e Rustam. Using captured Roman engineers, he built the monumental bridge-weir Band-e Kaisar and founded Gundeshapur, which grew into antiquity's greatest university hospital."
+  },
+  {
+    "slug": "mani",
+    "name": "Mani",
+    "birthYear": 216,
+    "deathYear": 274,
+    "occupations": "Prophet, Painter, Mystic, Founder of Manichaeism",
+    "civilizationSlug": "persian-empire",
+    "summary": "Iranian spiritual prophet who synthesized Zoroastrianism, Christianity, and Buddhism into the global religion of Manichaeism.",
+    "content": "Born near Ctesiphon in Babylonia, Mani founded Manichaeism, preaching that the cosmos is a battleground between Light and Darkness. Translating his teachings into multiple languages and illustrating his scriptures with exquisite paintings, his syncretic faith spread along the Silk Road from the Roman Empire to Tang China for over a millennium."
+  },
+  {
+    "slug": "al-biruni",
+    "name": "Abu Rayhan al-Biruni",
+    "birthYear": 973,
+    "deathYear": 1050,
+    "occupations": "Polymath, Geodesist, Astronomer, Father of Indology",
+    "civilizationSlug": "islamic-civilization",
+    "summary": "Supreme Islamic scholar who calculated the Earth's radius with 99% accuracy using trigonometry and authored the pioneering anthropological study of India.",
+    "content": "Born in Khwarazm, Al-Biruni was a master of Persian, Arabic, Sanskrit, Greek, and Syriac. Using an innovative trigonometric method from a hill in Nandana, he calculated the radius of the Earth to within 1% of modern satellite measurements. His Kitab al-Hind (Book on India) represents humanity's first objective, rigorous anthropological analysis of another culture's religion, philosophy, and customs."
+  },
+  {
+    "slug": "ibn-battuta",
+    "name": "Ibn Battuta",
+    "birthYear": 1304,
+    "deathYear": 1369,
+    "occupations": "Explorer, Jurist, Scholar, Author of the Rihla",
+    "civilizationSlug": "islamic-civilization",
+    "summary": "Moroccan scholar who traveled over 117,000 kilometers across Africa, the Middle East, India, Southeast Asia, and China over three decades.",
+    "content": "Setting out from Tangier on a pilgrimage to Mecca at age 21, Ibn Battuta embarked on a 30-year odyssey traversing virtually the entire Islamic world and beyond—reaching Timbuktu, the Golden Horde, the Delhi Sultanate, the Maldives, Java, and Quanzhou in Yuan China. His travelogue, the Rihla, provides unparalleled primary sociological records of medieval global trade and culture."
+  },
+  {
+    "slug": "spearthrower-owl",
+    "name": "Spearthrower Owl (Atlatl Cauac)",
+    "birthYear": 340,
+    "deathYear": 439,
+    "occupations": "Ruler of Teotihuacan, Overseer of the Maya Entrada",
+    "civilizationSlug": "maya-civilization",
+    "summary": "Lord of Teotihuacan whose general Siyaj K'ak' orchestrated the 378 CE Entrada into the Maya lowlands, installing dynasties at Tikal and Copan.",
+    "content": "Ruling the central Mexican metropolis of Teotihuacan for six decades, Spearthrower Owl directed military and commercial expeditions into the Maya lowlands. In January 378 CE, his warlord Siyaj K'ak' arrived at Tikal, deposed its local ruler, and installed Spearthrower Owl's young son Yax Nuun Ahyiin I as king, introducing Teotihuacan talud-tablero architecture and feather-serpent warrior iconography to the Classic Maya."
+  },
+  {
+    "slug": "yuknoom-the-great",
+    "name": "Yuknoom Ch'een II (Yuknoom the Great)",
+    "birthYear": 600,
+    "deathYear": 686,
+    "occupations": "Ajaw of Calakmul, Imperial Hegemon of the Maya Lowlands",
+    "civilizationSlug": "maya-civilization",
+    "summary": "Supreme monarch of the Kan (Snake) Kingdom of Calakmul who orchestrated an empire-wide alliance that dominated the Maya lowlands for fifty years.",
+    "content": "Ruling Calakmul during its golden zenith, Yuknoom the Great forged a web of vassal alliances connecting Dos Pilas, El Peru, Naranjo, and Caracol to encircle and suppress rival superpower Tikal. Known for his diplomatic finesse and monument construction, his fifty-year reign represents the apex of Classic Maya geopolitical hegemony."
+  },
+  {
+    "slug": "yax-ehb-xook",
+    "name": "Yax Ehb Xook",
+    "birthYear": 60,
+    "deathYear": 110,
+    "occupations": "Founding King of Tikal, Dynastic Patriarch",
+    "civilizationSlug": "maya-civilization",
+    "summary": "The revered first monarch and founding ancestor of the royal dynasty of Tikal in the Petén jungle.",
+    "content": "Flourishing in the 1st century CE at the dawn of the Classic period, Yax Ehb Xook founded the dynastic seat of Mutul at Tikal. All subsequent 33 royal rulers of Tikal—including Jasaw Chan K'awiil I—traced their sacred lineage and royal right to rule back to Yax Ehb Xook as their divine dynastic progenitor."
   }
 ]

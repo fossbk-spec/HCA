@@ -244,5 +244,89 @@
     "category": "Political Philosophy / Religion",
     "summary": "Maya political theology where the holy lord (K'uhul Ajaw) acted as a living shamanic axis mundi mediating between the gods, cosmos, and mortal realm.",
     "content": "In Classic Maya statecraft, the sovereign (K'uhul Ajaw) held sacred authority as the human incarnation of the Maize God and living World Tree (Axis Mundi). Through royal bloodletting ceremonies, ritual ballgame competitions, and trance communication with ancestors via the Vision Serpent, the ruler guaranteed cosmic fertility, rainfall, agricultural abundance, and victory in war."
+  },
+  {
+    "slug": "paninian-formal-grammar",
+    "title": "Paninian Formal Generative Grammar",
+    "category": "Linguistics / Philosophy of Language",
+    "summary": "The earliest formal deductive linguistic system, modeling syntax and morphology with algebraic meta-rules.",
+    "content": "Formulated by Panini in ancient India, this system demonstrated that natural human language can be rigorously generated from a finite set of phonetic and morphosyntactic rules with zero ambiguity, foreshadowing computer algorithms, Backus-Naur form, and modern generative syntax."
+  },
+  {
+    "slug": "hippocratic-medicine-and-ethics",
+    "title": "Hippocratic Clinical Observation and Medical Ethics",
+    "category": "Medicine / Applied Ethics",
+    "summary": "The empirical clinical method and moral duty of physicians to act solely for the patient's welfare (\"First, do no harm\").",
+    "content": "Pioneered by Hippocrates and his disciples, this philosophy separated pathology from supernatural punishment, treating disease through systematic clinical observation, holistic lifestyle modification, and the solemn moral obligation to maintain patient confidentiality and medical integrity."
+  },
+  {
+    "slug": "justinian-civil-law-codification",
+    "title": "Comprehensive Civil Law Codification",
+    "category": "Jurisprudence / Law",
+    "summary": "The systematic organization of jurisprudence, public law, private property, and contract into a single unified civil code.",
+    "content": "Epitomized by Justinian's Corpus Juris Civilis, this legal philosophy establishes that justice must be codified into accessible, written statutory laws rather than arbitrary sovereign decrees, anchoring the rule of law across civil law systems globally."
+  },
+  {
+    "slug": "yin-yang-and-five-elements",
+    "title": "Yin-Yang and Five Elements Cosmology (Wuxing)",
+    "category": "Metaphysics / Natural Philosophy",
+    "summary": "Chinese dynamic cosmological framework explaining all natural and physiological transformations through complementary forces and cycles.",
+    "content": "Systematized by Zou Yan and integrated into medicine, politics, and martial arts, this philosophy posits that the cosmos operates through complementary polarities (Yin and Yang) and five dynamic energetic phases (Wood, Fire, Earth, Metal, Water) in perpetual generation and overcoming cycles."
+  },
+  {
+    "slug": "shang-yang-legalist-meritocracy",
+    "title": "Legalist Meritocratic State Mobilization",
+    "category": "Political Philosophy / Governance",
+    "summary": "Total state reorganization rewarding individual citizens strictly on agricultural production and military performance rather than birth.",
+    "content": "Introduced by Shang Yang in the State of Qin, this doctrine dismantled hereditary aristocratic privilege, instituting standardized laws, universal land taxation, and a 20-rank meritocracy based solely on verified military heads captured and grain produced."
+  },
+  {
+    "slug": "buddhist-middle-way",
+    "title": "The Middle Way (Madhyamaka / Trung Dao)",
+    "category": "Philosophy / Religion",
+    "summary": "The Buddhist spiritual and philosophical path avoiding both sensual indulgence and severe ascetic self-mortification.",
+    "content": "Articulated by the Buddha and philosophically deepened by Nagarjuna, the Middle Way rejects dualistic extremes of existence and non-existence, eternalism and nihilism, guiding spiritual seekers toward liberation through dependent origination and mindful balance."
+  },
+  {
+    "slug": "zhuangzi-spiritual-relativism",
+    "title": "Zhuangzian Spiritual Freedom and Cognitive Spontaneity",
+    "category": "Philosophy / Epistemology",
+    "summary": "Taoist philosophy of questioning conceptual boundaries, embracing perspective relativism, and attaining joyous wandering with the Tao.",
+    "content": "Through paradoxical parables and skepticism toward absolute human categories, Zhuangzi taught that authentic freedom arises when one releases self-righteous moralism and rigid utilitarian ambition, cultivating spontaneous awareness (Ziran)."
+  },
+  {
+    "slug": "indigenous-holistic-medicine-nam-duoc",
+    "title": "Holistic Traditional Medicine and Indigenous Herbalism (Nam Duoc)",
+    "category": "Medicine / Natural Science",
+    "summary": "Vietnamese medical philosophy formulated by Tue Tinh and Le Huu Trac asserting that local climates produce optimal natural remedies.",
+    "content": "Synthesized under the maxim \"Nam dược trị Nam nhân\" (Southern medicine to treat Southern people), this philosophy balances humoral thermal states (Hàn/Nhiệt) through indigenous botanical remedies, preventive dietetics, and compassionate medical humanism."
+  },
+  {
+    "slug": "manichaean-universal-light-dualism",
+    "title": "Manichaean Universal Gnostic Dualism",
+    "category": "Religion / Metaphysics",
+    "summary": "Universal cosmological doctrine of the primordial mingling and ultimate liberation of Light from the prison of Darkness.",
+    "content": "Preached by Mani across Sasanian Persia and the Silk Road, this faith viewed human history as a grand cosmic rescue mission where ascetic discipline, pure vegetarianism, and spiritual knowledge (Gnosis) liberate particles of divine Light from material entrapment."
+  },
+  {
+    "slug": "mathematical-geodesy-and-indology",
+    "title": "Mathematical Geodesy and Cross-Cultural Historiography",
+    "category": "Astronomy / Social Sciences",
+    "summary": "The empirical scientific calculation of planetary dimensions and objective sociological study of foreign cultures.",
+    "content": "Pioneered by Al-Biruni, this methodology combined rigorous trigonometry with dispassionate anthropological inquiry, setting the standard for both modern planetary geodesy and comparative religious studies."
+  },
+  {
+    "slug": "euclidean-axiomatic-geometry",
+    "title": "Euclidean Axiomatic-Deductive Geometry",
+    "category": "Mathematics / Logic",
+    "summary": "Deductive mathematical system where complex geometric theorems are proven rigorously from five fundamental self-evident postulates.",
+    "content": "Formulated in Euclid's Elements, this method established deduction as the primary foundation of Western rational thought, directly inspiring Spinoza's Ethics, Newton's Principia, and modern mathematical logic."
+  },
+  {
+    "slug": "archimedean-hydrostatics-and-mechanics",
+    "title": "Archimedean Hydrostatics and Mathematical Physics",
+    "category": "Physics / Mathematics",
+    "summary": "The foundation of fluid mechanics and statics combining mathematical proof with practical mechanical engineering.",
+    "content": "Formulated by Archimedes, this science quantified the buoyant force exerted on submerged bodies and the equilibrium of levers, establishing the mathematical foundations of naval architecture and physical mechanics."
   }
 ]

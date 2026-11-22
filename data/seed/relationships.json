@@ -1006,5 +1006,642 @@
     "targetSlug": "maya-vigesimal-mathematics-and-zero",
     "targetType": "IDEA",
     "relationshipType": "EMPLOYED"
+  },
+  {
+    "sourceSlug": "isaac-newton",
+    "sourceType": "PERSON",
+    "targetSlug": "principia",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "isaac-newton",
+    "sourceType": "PERSON",
+    "targetSlug": "scientific-method",
+    "targetType": "IDEA",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "charles-darwin",
+    "sourceType": "PERSON",
+    "targetSlug": "origin-of-species",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "charles-darwin",
+    "sourceType": "PERSON",
+    "targetSlug": "evolution",
+    "targetType": "IDEA",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "alan-turing",
+    "sourceType": "PERSON",
+    "targetSlug": "artificial-intelligence",
+    "targetType": "IDEA",
+    "relationshipType": "PIONEERED"
+  },
+  {
+    "sourceSlug": "pythagoras",
+    "sourceType": "PERSON",
+    "targetSlug": "scientific-method",
+    "targetType": "IDEA",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "ashurbanipal",
+    "sourceType": "PERSON",
+    "targetSlug": "mesopotamia",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "imhotep",
+    "sourceType": "PERSON",
+    "targetSlug": "ancient-egypt",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "hatshepsut",
+    "sourceType": "PERSON",
+    "targetSlug": "ancient-egypt",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "cleopatra",
+    "sourceType": "PERSON",
+    "targetSlug": "ancient-egypt",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "saladin",
+    "sourceType": "PERSON",
+    "targetSlug": "islamic-civilization",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "ho-chi-minh",
+    "sourceType": "PERSON",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "CHAMPIONED"
+  },
+  {
+    "sourceSlug": "ancient-egypt",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "unification-of-egypt",
+    "targetType": "EVENT",
+    "relationshipType": "EXPERIENCED"
+  },
+  {
+    "sourceSlug": "ancient-egypt",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "construction-of-great-pyramids",
+    "targetType": "EVENT",
+    "relationshipType": "HOSTED"
+  },
+  {
+    "sourceSlug": "book-of-the-dead",
+    "sourceType": "BOOK",
+    "targetSlug": "ma-at",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "narmer",
+    "sourceType": "PERSON",
+    "targetSlug": "unification-of-egypt",
+    "targetType": "EVENT",
+    "relationshipType": "COMMANDED"
+  },
+  {
+    "sourceSlug": "khufu",
+    "sourceType": "PERSON",
+    "targetSlug": "construction-of-great-pyramids",
+    "targetType": "EVENT",
+    "relationshipType": "COMMANDED"
+  },
+  {
+    "sourceSlug": "mesopotamia",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "invention-of-cuneiform",
+    "targetType": "EVENT",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "hammurabi",
+    "sourceType": "PERSON",
+    "targetSlug": "promulgation-of-hammurabi-code",
+    "targetType": "EVENT",
+    "relationshipType": "ISSUED"
+  },
+  {
+    "sourceSlug": "ancient-greece",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "first-ancient-olympic-games",
+    "targetType": "EVENT",
+    "relationshipType": "HOSTED"
+  },
+  {
+    "sourceSlug": "ancient-greece",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "greco-persian-wars",
+    "targetType": "EVENT",
+    "relationshipType": "EXPERIENCED"
+  },
+  {
+    "sourceSlug": "socrates",
+    "sourceType": "PERSON",
+    "targetSlug": "trial-and-death-of-socrates",
+    "targetType": "EVENT",
+    "relationshipType": "FLOURISHED_DURING"
+  },
+  {
+    "sourceSlug": "roman-empire",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "founding-of-rome",
+    "targetType": "EVENT",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "roman-empire",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "roman-republic-established",
+    "targetType": "EVENT",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "roman-empire",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "punic-wars",
+    "targetType": "EVENT",
+    "relationshipType": "EXPERIENCED"
+  },
+  {
+    "sourceSlug": "roman-empire",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "construction-of-colosseum",
+    "targetType": "EVENT",
+    "relationshipType": "HOSTED"
+  },
+  {
+    "sourceSlug": "roman-empire",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "fall-of-rome",
+    "targetType": "EVENT",
+    "relationshipType": "EXPERIENCED"
+  },
+  {
+    "sourceSlug": "roman-empire",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "citizenship",
+    "targetType": "IDEA",
+    "relationshipType": "PRACTICED"
+  },
+  {
+    "sourceSlug": "ancient-china",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "warring-states-period",
+    "targetType": "EVENT",
+    "relationshipType": "EXPERIENCED"
+  },
+  {
+    "sourceSlug": "ancient-china",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "invention-of-paper",
+    "targetType": "EVENT",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "ancient-china",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "keju-examination-system",
+    "targetType": "EVENT",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "ancient-india",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "dharma",
+    "targetType": "IDEA",
+    "relationshipType": "ORIGINATED"
+  },
+  {
+    "sourceSlug": "ur-nammu",
+    "sourceType": "PERSON",
+    "targetSlug": "mesopotamia",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "nebuchadnezzar-ii",
+    "sourceType": "PERSON",
+    "targetSlug": "mesopotamia",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "archimedes",
+    "sourceType": "PERSON",
+    "targetSlug": "archimedean-hydrostatics-and-mechanics",
+    "targetType": "IDEA",
+    "relationshipType": "PIONEERED"
+  },
+  {
+    "sourceSlug": "euclid",
+    "sourceType": "PERSON",
+    "targetSlug": "elements",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "euclid",
+    "sourceType": "PERSON",
+    "targetSlug": "euclidean-axiomatic-geometry",
+    "targetType": "IDEA",
+    "relationshipType": "PIONEERED"
+  },
+  {
+    "sourceSlug": "elements",
+    "sourceType": "BOOK",
+    "targetSlug": "euclidean-axiomatic-geometry",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "hippocrates",
+    "sourceType": "PERSON",
+    "targetSlug": "hippocratic-medicine-and-ethics",
+    "targetType": "IDEA",
+    "relationshipType": "PIONEERED"
+  },
+  {
+    "sourceSlug": "sophocles",
+    "sourceType": "PERSON",
+    "targetSlug": "ancient-greece",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "sophocles",
+    "sourceType": "PERSON",
+    "targetSlug": "golden-age-of-athens",
+    "targetType": "EVENT",
+    "relationshipType": "FLOURISHED_DURING"
+  },
+  {
+    "sourceSlug": "scipio-africanus",
+    "sourceType": "PERSON",
+    "targetSlug": "punic-wars",
+    "targetType": "EVENT",
+    "relationshipType": "COMMANDED"
+  },
+  {
+    "sourceSlug": "hadrian",
+    "sourceType": "PERSON",
+    "targetSlug": "roman-empire",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "justinian-i",
+    "sourceType": "PERSON",
+    "targetSlug": "roman-empire",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "justinian-i",
+    "sourceType": "PERSON",
+    "targetSlug": "corpus-juris-civilis",
+    "targetType": "BOOK",
+    "relationshipType": "ISSUED"
+  },
+  {
+    "sourceSlug": "justinian-i",
+    "sourceType": "PERSON",
+    "targetSlug": "justinian-civil-law-codification",
+    "targetType": "IDEA",
+    "relationshipType": "ENACTED"
+  },
+  {
+    "sourceSlug": "corpus-juris-civilis",
+    "sourceType": "BOOK",
+    "targetSlug": "justinian-civil-law-codification",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "zhuang-zhou",
+    "sourceType": "PERSON",
+    "targetSlug": "zhuangzi",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "zhuang-zhou",
+    "sourceType": "PERSON",
+    "targetSlug": "zhuangzi-spiritual-relativism",
+    "targetType": "IDEA",
+    "relationshipType": "TAUGHT"
+  },
+  {
+    "sourceSlug": "zhuangzi",
+    "sourceType": "BOOK",
+    "targetSlug": "zhuangzi-spiritual-relativism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "shang-yang",
+    "sourceType": "PERSON",
+    "targetSlug": "shang-yang-legalist-meritocracy",
+    "targetType": "IDEA",
+    "relationshipType": "ENACTED"
+  },
+  {
+    "sourceSlug": "li-si",
+    "sourceType": "PERSON",
+    "targetSlug": "legalism",
+    "targetType": "IDEA",
+    "relationshipType": "ENACTED"
+  },
+  {
+    "sourceSlug": "li-si",
+    "sourceType": "PERSON",
+    "targetSlug": "shang-yang-legalist-meritocracy",
+    "targetType": "IDEA",
+    "relationshipType": "PRACTICED"
+  },
+  {
+    "sourceSlug": "ancient-china",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "yin-yang-and-five-elements",
+    "targetType": "IDEA",
+    "relationshipType": "ORIGINATED"
+  },
+  {
+    "sourceSlug": "panini",
+    "sourceType": "PERSON",
+    "targetSlug": "astadhyayi",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "panini",
+    "sourceType": "PERSON",
+    "targetSlug": "paninian-formal-grammar",
+    "targetType": "IDEA",
+    "relationshipType": "PIONEERED"
+  },
+  {
+    "sourceSlug": "astadhyayi",
+    "sourceType": "BOOK",
+    "targetSlug": "paninian-formal-grammar",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "varahamihira",
+    "sourceType": "PERSON",
+    "targetSlug": "gupta-empire-golden-age",
+    "targetType": "EVENT",
+    "relationshipType": "FLOURISHED_DURING"
+  },
+  {
+    "sourceSlug": "harsha",
+    "sourceType": "PERSON",
+    "targetSlug": "founding-of-nalanda",
+    "targetType": "EVENT",
+    "relationshipType": "FLOURISHED_DURING"
+  },
+  {
+    "sourceSlug": "ancient-india",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "buddhist-middle-way",
+    "targetType": "IDEA",
+    "relationshipType": "ORIGINATED"
+  },
+  {
+    "sourceSlug": "buddha",
+    "sourceType": "PERSON",
+    "targetSlug": "buddhist-middle-way",
+    "targetType": "IDEA",
+    "relationshipType": "TAUGHT"
+  },
+  {
+    "sourceSlug": "phung-hung",
+    "sourceType": "PERSON",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "DEFENDED"
+  },
+  {
+    "sourceSlug": "dinh-bo-linh",
+    "sourceType": "PERSON",
+    "targetSlug": "vietnam",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "dinh-bo-linh",
+    "sourceType": "PERSON",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "DEFENDED"
+  },
+  {
+    "sourceSlug": "le-huu-trac",
+    "sourceType": "PERSON",
+    "targetSlug": "hai-thuong-y-tong-tam-linh",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "le-huu-trac",
+    "sourceType": "PERSON",
+    "targetSlug": "indigenous-holistic-medicine-nam-duoc",
+    "targetType": "IDEA",
+    "relationshipType": "PIONEERED"
+  },
+  {
+    "sourceSlug": "hai-thuong-y-tong-tam-linh",
+    "sourceType": "BOOK",
+    "targetSlug": "indigenous-holistic-medicine-nam-duoc",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "xerxes-i",
+    "sourceType": "PERSON",
+    "targetSlug": "persian-empire",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "shapur-i",
+    "sourceType": "PERSON",
+    "targetSlug": "persian-empire",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "mani",
+    "sourceType": "PERSON",
+    "targetSlug": "manichaean-universal-light-dualism",
+    "targetType": "IDEA",
+    "relationshipType": "PIONEERED"
+  },
+  {
+    "sourceSlug": "al-biruni",
+    "sourceType": "PERSON",
+    "targetSlug": "al-qanun-al-masudi",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "al-biruni",
+    "sourceType": "PERSON",
+    "targetSlug": "mathematical-geodesy-and-indology",
+    "targetType": "IDEA",
+    "relationshipType": "PIONEERED"
+  },
+  {
+    "sourceSlug": "al-qanun-al-masudi",
+    "sourceType": "BOOK",
+    "targetSlug": "mathematical-geodesy-and-indology",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "ibn-battuta",
+    "sourceType": "PERSON",
+    "targetSlug": "golden-age-of-cordoba",
+    "targetType": "EVENT",
+    "relationshipType": "FLOURISHED_DURING"
+  },
+  {
+    "sourceSlug": "spearthrower-owl",
+    "sourceType": "PERSON",
+    "targetSlug": "maya-civilization",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "yuknoom-the-great",
+    "sourceType": "PERSON",
+    "targetSlug": "tikal-defeat-of-calakmul",
+    "targetType": "EVENT",
+    "relationshipType": "COMMANDED"
+  },
+  {
+    "sourceSlug": "yax-ehb-xook",
+    "sourceType": "PERSON",
+    "targetSlug": "maya-civilization",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "qu-yuan",
+    "sourceType": "PERSON",
+    "targetSlug": "warring-states-period",
+    "targetType": "EVENT",
+    "relationshipType": "FLOURISHED_DURING"
+  },
+  {
+    "sourceSlug": "albert-einstein",
+    "sourceType": "PERSON",
+    "targetSlug": "scientific-method",
+    "targetType": "IDEA",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "leonardo-da-vinci",
+    "sourceType": "PERSON",
+    "targetSlug": "scientific-method",
+    "targetType": "IDEA",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "bhagavad-gita",
+    "sourceType": "BOOK",
+    "targetSlug": "dharma",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "upanishads",
+    "sourceType": "BOOK",
+    "targetSlug": "karma-and-samsara",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "rigveda",
+    "sourceType": "BOOK",
+    "targetSlug": "dharma",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "chieu-doi-do",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "dai-viet-su-ky-toan-thu",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "shahnameh",
+    "sourceType": "BOOK",
+    "targetSlug": "zoroastrian-cosmic-dualism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "chilam-balam",
+    "sourceType": "BOOK",
+    "targetSlug": "cyclical-cosmic-time-and-long-count",
+    "targetType": "IDEA",
+    "relationshipType": "RECORDED"
+  },
+  {
+    "sourceSlug": "roman-empire",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "law-of-twelve-tables",
+    "targetType": "EVENT",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "cyrus-cylinder",
+    "sourceType": "BOOK",
+    "targetSlug": "human-rights",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "cicero",
+    "sourceType": "PERSON",
+    "targetSlug": "constitutionalism",
+    "targetType": "IDEA",
+    "relationshipType": "CHAMPIONED"
+  },
+  {
+    "sourceSlug": "wealth-of-nations",
+    "sourceType": "BOOK",
+    "targetSlug": "capitalism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
   }
 ]
