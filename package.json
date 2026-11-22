@@ -1,0 +1,25 @@
+{
+  "name": "human-civilization-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "scripts": {
+    "seed": "tsx prisma/seed.ts",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy",
+    "db:studio": "prisma studio"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "prisma": "^6.19.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3"
+  }
+}
