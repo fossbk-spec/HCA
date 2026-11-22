@@ -6,3 +6,5 @@ node_modules/
 *.log
 .DS_Store
 reports/
+tsconfig.tsbuildinfo
+next-env.d.ts
