@@ -1,0 +1,490 @@
+{
+  "ontologyVersion": "1.1",
+  "types": [
+    {
+      "type": "ADOPTED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>PERSON"
+      ],
+      "seedCount": 1,
+      "example": "julius-caesar -> augustus"
+    },
+    {
+      "type": "ADVISED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>PERSON"
+      ],
+      "seedCount": 1,
+      "example": "kautilya -> chandragupta-maurya"
+    },
+    {
+      "type": "ADVOCATED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>IDEA"
+      ],
+      "seedCount": 1,
+      "example": "mencius -> mandate-of-heaven"
+    },
+    {
+      "type": "AFFIRMED",
+      "since": "1.1",
+      "signatures": [
+        "BOOK>IDEA"
+      ],
+      "seedCount": 2,
+      "example": "nam-quoc-son-ha -> national-sovereignty-identity"
+    },
+    {
+      "type": "ANNOTATED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>BOOK"
+      ],
+      "seedCount": 1,
+      "example": "confucius -> i-ching"
+    },
+    {
+      "type": "ARTICULATED",
+      "since": "1.1",
+      "signatures": [
+        "BOOK>IDEA"
+      ],
+      "seedCount": 1,
+      "example": "popol-vuh -> maya-divine-kingship-kuhul-ajaw"
+    },
+    {
+      "type": "BELONGS_TO",
+      "since": "1.0",
+      "signatures": [],
+      "seedCount": 0,
+      "example": null
+    },
+    {
+      "type": "CHAMPIONED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>IDEA"
+      ],
+      "seedCount": 2,
+      "example": "pericles -> democracy"
+    },
+    {
+      "type": "CODIFIED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>IDEA"
+      ],
+      "seedCount": 2,
+      "example": "hammurabi -> rule-of-law"
+    },
+    {
+      "type": "COLLABORATED_WITH",
+      "since": "1.0",
+      "signatures": [],
+      "seedCount": 0,
+      "example": null
+    },
+    {
+      "type": "COMMANDED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>EVENT"
+      ],
+      "seedCount": 11,
+      "example": "ramesses-ii -> battle-of-kadesh"
+    },
+    {
+      "type": "CORONATED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>EVENT"
+      ],
+      "seedCount": 1,
+      "example": "pakal-the-great -> coronation-of-pakal-the-great"
+    },
+    {
+      "type": "CREATED",
+      "since": "1.0",
+      "signatures": [
+        "PERSON>IDEA"
+      ],
+      "seedCount": 2,
+      "example": "socrates -> socratic-method"
+    },
+    {
+      "type": "DEFENDED",
+      "since": "1.1",
+      "signatures": [
+        "CIVILIZATION>IDEA",
+        "PERSON>IDEA"
+      ],
+      "seedCount": 2,
+      "example": "cicero -> republic"
+    },
+    {
+      "type": "DEVELOPED",
+      "since": "1.0",
+      "signatures": [
+        "CIVILIZATION>EVENT",
+        "CIVILIZATION>IDEA",
+        "PERSON>IDEA"
+      ],
+      "seedCount": 5,
+      "example": "roman-empire -> roman-law"
+    },
+    {
+      "type": "DISCOVERED",
+      "since": "1.0",
+      "signatures": [],
+      "seedCount": 0,
+      "example": null
+    },
+    {
+      "type": "EMPLOYED",
+      "since": "1.1",
+      "signatures": [
+        "BOOK>IDEA"
+      ],
+      "seedCount": 1,
+      "example": "dresden-codex -> maya-vigesimal-mathematics-and-zero"
+    },
+    {
+      "type": "ENACTED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>EVENT",
+        "PERSON>IDEA"
+      ],
+      "seedCount": 5,
+      "example": "solon -> solon-reforms-athens"
+    },
+    {
+      "type": "ESTABLISHED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>EVENT"
+      ],
+      "seedCount": 1,
+      "example": "harun-al-rashid -> founding-of-house-of-wisdom"
+    },
+    {
+      "type": "ESTABLISHED_AS_ORTHODOXY",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>IDEA"
+      ],
+      "seedCount": 1,
+      "example": "han-wudi -> confucianism"
+    },
+    {
+      "type": "EXEMPLIFIED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>IDEA"
+      ],
+      "seedCount": 2,
+      "example": "tue-tinh -> tam-giao-dong-nguyen"
+    },
+    {
+      "type": "EXPERIENCED",
+      "since": "1.1",
+      "signatures": [
+        "CIVILIZATION>EVENT"
+      ],
+      "seedCount": 4,
+      "example": "persian-empire -> battle-of-gaugamela"
+    },
+    {
+      "type": "FLOURISHED_DURING",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>EVENT"
+      ],
+      "seedCount": 2,
+      "example": "kalidasa -> gupta-empire-golden-age"
+    },
+    {
+      "type": "FORMULATED",
+      "since": "1.1",
+      "signatures": [
+        "CIVILIZATION>IDEA"
+      ],
+      "seedCount": 1,
+      "example": "ancient-egypt -> ma-at"
+    },
+    {
+      "type": "FOUNDED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>CIVILIZATION",
+        "PERSON>EVENT",
+        "PERSON>IDEA"
+      ],
+      "seedCount": 8,
+      "example": "plato -> platonism"
+    },
+    {
+      "type": "HOSTED",
+      "since": "1.1",
+      "signatures": [
+        "CIVILIZATION>EVENT"
+      ],
+      "seedCount": 5,
+      "example": "ancient-china -> opening-of-silk-road"
+    },
+    {
+      "type": "INFLUENCED",
+      "since": "1.0",
+      "signatures": [],
+      "seedCount": 0,
+      "example": null
+    },
+    {
+      "type": "INITIATED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>EVENT"
+      ],
+      "seedCount": 3,
+      "example": "plato -> founding-of-platos-academy"
+    },
+    {
+      "type": "INSPIRED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>BOOK"
+      ],
+      "seedCount": 2,
+      "example": "confucius -> analects"
+    },
+    {
+      "type": "INVENTED",
+      "since": "1.0",
+      "signatures": [
+        "CIVILIZATION>IDEA"
+      ],
+      "seedCount": 1,
+      "example": "mesopotamia -> cuneiform-writing"
+    },
+    {
+      "type": "ISSUED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>BOOK",
+        "PERSON>EVENT"
+      ],
+      "seedCount": 2,
+      "example": "hammurabi -> code-of-hammurabi"
+    },
+    {
+      "type": "LED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>EVENT"
+      ],
+      "seedCount": 4,
+      "example": "pericles -> golden-age-of-athens"
+    },
+    {
+      "type": "LOCATED_IN",
+      "since": "1.0",
+      "signatures": [],
+      "seedCount": 0,
+      "example": null
+    },
+    {
+      "type": "ORIGINATED",
+      "since": "1.1",
+      "signatures": [
+        "CIVILIZATION>IDEA"
+      ],
+      "seedCount": 13,
+      "example": "ancient-china -> confucianism"
+    },
+    {
+      "type": "ORIGINATED_IN",
+      "since": "1.1",
+      "signatures": [
+        "CIVILIZATION>IDEA"
+      ],
+      "seedCount": 1,
+      "example": "ancient-greece -> democracy"
+    },
+    {
+      "type": "PARTICIPATED_IN",
+      "since": "1.0",
+      "signatures": [],
+      "seedCount": 0,
+      "example": null
+    },
+    {
+      "type": "PART_OF",
+      "since": "1.0",
+      "signatures": [],
+      "seedCount": 0,
+      "example": null
+    },
+    {
+      "type": "PIONEERED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>EVENT",
+        "PERSON>IDEA"
+      ],
+      "seedCount": 5,
+      "example": "akhenaten -> monotheism"
+    },
+    {
+      "type": "PRACTICED",
+      "since": "1.1",
+      "signatures": [
+        "CIVILIZATION>IDEA",
+        "PERSON>IDEA"
+      ],
+      "seedCount": 6,
+      "example": "marcus-aurelius -> stoicism"
+    },
+    {
+      "type": "PRECEDED_BY",
+      "since": "1.0",
+      "signatures": [],
+      "seedCount": 0,
+      "example": null
+    },
+    {
+      "type": "PROCLAIMED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>BOOK"
+      ],
+      "seedCount": 1,
+      "example": "prophet-muhammad -> the-quran"
+    },
+    {
+      "type": "PROMOTED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>IDEA"
+      ],
+      "seedCount": 1,
+      "example": "ashoka -> dharma"
+    },
+    {
+      "type": "PROMULGATED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>BOOK"
+      ],
+      "seedCount": 1,
+      "example": "le-thanh-tong -> quoc-trieu-hinh-luat"
+    },
+    {
+      "type": "RECORDED",
+      "since": "1.1",
+      "signatures": [
+        "BOOK>IDEA"
+      ],
+      "seedCount": 1,
+      "example": "dresden-codex -> cyclical-cosmic-time-and-long-count"
+    },
+    {
+      "type": "REFORMULATED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>IDEA"
+      ],
+      "seedCount": 1,
+      "example": "zhu-xi -> confucianism"
+    },
+    {
+      "type": "RULED",
+      "since": "1.0",
+      "signatures": [
+        "PERSON>CIVILIZATION"
+      ],
+      "seedCount": 1,
+      "example": "khosrow-i -> persian-empire"
+    },
+    {
+      "type": "SPONSORED",
+      "since": "1.1",
+      "signatures": [
+        "CIVILIZATION>EVENT"
+      ],
+      "seedCount": 1,
+      "example": "islamic-civilization -> translation-movement"
+    },
+    {
+      "type": "STRATEGIC_ADVISOR",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>EVENT"
+      ],
+      "seedCount": 1,
+      "example": "nguyen-trai -> lam-son-uprising"
+    },
+    {
+      "type": "SUBJECT_OF",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>BOOK"
+      ],
+      "seedCount": 1,
+      "example": "gilgamesh -> epic-of-gilgamesh"
+    },
+    {
+      "type": "SUCCEEDED_BY",
+      "since": "1.0",
+      "signatures": [],
+      "seedCount": 0,
+      "example": null
+    },
+    {
+      "type": "SYNTHESIZED",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>IDEA"
+      ],
+      "seedCount": 1,
+      "example": "han-feizi -> legalism"
+    },
+    {
+      "type": "TAUGHT",
+      "since": "1.0",
+      "signatures": [
+        "PERSON>IDEA",
+        "PERSON>PERSON"
+      ],
+      "seedCount": 9,
+      "example": "socrates -> plato"
+    },
+    {
+      "type": "WITNESSED",
+      "since": "1.0",
+      "signatures": [],
+      "seedCount": 0,
+      "example": null
+    },
+    {
+      "type": "WORKED_AT",
+      "since": "1.1",
+      "signatures": [
+        "PERSON>EVENT"
+      ],
+      "seedCount": 1,
+      "example": "al-khwarizmi -> founding-of-house-of-wisdom"
+    },
+    {
+      "type": "WROTE",
+      "since": "1.0",
+      "signatures": [
+        "PERSON>BOOK"
+      ],
+      "seedCount": 25,
+      "example": "plato -> the-republic"
+    }
+  ]
+}
