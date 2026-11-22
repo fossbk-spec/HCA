@@ -30,7 +30,7 @@ export default async function IdeaPage({ params }: Props) {
   const paragraphs = idea.content?.split(/\n\s*\n/).map((text) => text.trim()).filter(Boolean) ?? [];
 
   return (
-    <main className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
       <Link
         href="/ideas"
         className="text-sm font-semibold text-amber-800 hover:underline focus-visible:outline-2 focus-visible:outline-amber-600"
@@ -76,6 +76,6 @@ export default async function IdeaPage({ params }: Props) {
           Explore the Timeline →
         </Link>
       </p>
-    </main>
+    </div>
   );
 }

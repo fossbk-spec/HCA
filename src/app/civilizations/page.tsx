@@ -13,7 +13,7 @@ export default async function CivilizationsPage() {
   const groups = await listCivilizations();
   let index = 0;
 
-  return <main className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+  return <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
     <header className="max-w-3xl">
       <p className="text-sm font-semibold uppercase tracking-widest text-amber-800">Explore history</p>
       <h1 className="mt-2 text-4xl font-bold tracking-tight text-slate-900">Civilization Atlas</h1>
@@ -27,5 +27,5 @@ export default async function CivilizationsPage() {
         </div>
       </section>)}
     </div>
-  </main>;
+  </div>;
 }

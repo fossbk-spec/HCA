@@ -14,7 +14,7 @@ export default async function BooksPage() {
   const books = await listAllBooks();
 
   return (
-    <main className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <header className="border-b border-stone-200 pb-8">
         <p className="text-sm font-semibold uppercase tracking-widest text-amber-800">Knowledge & Literature</p>
         <h1 className="mt-2 text-4xl font-bold tracking-tight text-slate-900">Classic Books & Treatises</h1>
@@ -58,6 +58,6 @@ export default async function BooksPage() {
           </article>
         ))}
       </div>
-    </main>
+    </div>
   );
 }

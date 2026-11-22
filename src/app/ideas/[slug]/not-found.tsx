@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function IdeaNotFound() {
   return (
-    <main className="mx-auto max-w-2xl px-4 py-20 text-center sm:px-6">
+    <div className="mx-auto max-w-2xl px-4 py-20 text-center sm:px-6">
       <h1 className="text-3xl font-bold tracking-tight text-slate-900">Idea not found</h1>
       <p className="mt-4 text-slate-600">The philosophical concept or scientific theory you requested could not be found.</p>
       <div className="mt-8 flex justify-center gap-4">
@@ -19,6 +19,6 @@ export default function IdeaNotFound() {
           Go back home
         </Link>
       </div>
-    </main>
+    </div>
   );
 }
