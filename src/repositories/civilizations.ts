@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { prisma } from "@/lib/prisma";
+import { withDatabase } from "@/lib/seed-fallback";
 
 export type CivilizationSummary = {
   slug: string;
@@ -44,63 +45,39 @@ async function seedCivilizations(): Promise<CivilizationSummary[]> {
 }
 
 export async function listFeaturedCivilizations(limit = 10): Promise<CivilizationSummary[]> {
-  if (process.env.DATABASE_URL) {
-    try {
+  return withDatabase("civilizations.featured", async () => {
       const rows = await prisma.civilization.findMany({
         take: limit,
         orderBy: { createdAt: "asc" },
         select: { slug: true, name: true, region: true, periodStart: true, periodEnd: true, summary: true },
       });
       return rows;
-    } catch (error) {
-      console.warn("Civilization query failed; using seed data.", error);
-    }
-  }
-  return (await seedCivilizations()).slice(0, limit);
+  }, async () => (await seedCivilizations()).slice(0, limit));
 }
 
 export async function listAllCivilizations(): Promise<CivilizationSummary[]> {
-  if (process.env.DATABASE_URL) {
-    try {
-      return await prisma.civilization.findMany({
+  return withDatabase("civilizations.list", () => prisma.civilization.findMany({
         orderBy: { periodStart: "asc" },
         select: { slug: true, name: true, region: true, periodStart: true, periodEnd: true, summary: true },
-      });
-    } catch (error) {
-      console.warn("Civilization query failed; using seed data.", error);
-    }
-  }
-  return seedCivilizations();
+      }), seedCivilizations);
 }
 
 export async function listCivilizationSlugs(): Promise<string[]> {
-  if (process.env.DATABASE_URL) {
-    try {
+  return withDatabase("civilizations.slugs", async () => {
       const rows = await prisma.civilization.findMany({ select: { slug: true }, orderBy: { slug: "asc" } });
       return rows.map((row) => row.slug);
-    } catch (error) {
-      console.warn("Civilization query failed; using seed data.", error);
-    }
-  }
-  return (await seedCivilizationRows()).map((row) => row.slug);
+  }, async () => (await seedCivilizationRows()).map((row) => row.slug));
 }
 
 export async function getCivilizationBySlug(slug: string): Promise<CivilizationDetail | null> {
-  if (process.env.DATABASE_URL) {
-    try {
-      return await prisma.civilization.findUnique({
+  return withDatabase("civilizations.detail", () => prisma.civilization.findUnique({
         where: { slug },
         select: {
           slug: true, name: true, region: true, periodStart: true, periodEnd: true,
           summary: true, content: true,
           people: { select: { name: true, slug: true, birthYear: true, deathYear: true }, orderBy: { name: "asc" } },
         },
-      });
-    } catch (error) {
-      console.warn("Civilization query failed; using seed data.", error);
-    }
-  }
-
+      }), async () => {
   const civilization = (await seedCivilizationRows()).find((row) => row.slug === slug);
   if (!civilization) return null;
 
@@ -120,4 +97,5 @@ export async function getCivilizationBySlug(slug: string): Promise<CivilizationD
       }))
       .sort((a, b) => a.name.localeCompare(b.name)),
   };
+  });
 }

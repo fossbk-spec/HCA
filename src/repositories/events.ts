@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { prisma } from "@/lib/prisma";
+import { withDatabase } from "@/lib/seed-fallback";
 
 export type Event = {
   slug: string;
@@ -43,35 +44,18 @@ const eventSelect = {
 } as const;
 
 export async function listEvents(): Promise<Event[]> {
-  if (process.env.DATABASE_URL) {
-    try {
-      return sortEvents(await prisma.event.findMany({ select: eventSelect }));
-    } catch (error) {
-      console.warn("Events query failed; using seed data.", error);
-    }
-  }
-  return sortEvents(await seedEvents());
+  return withDatabase("events.list", async () => sortEvents(await prisma.event.findMany({ select: eventSelect })),
+    async () => sortEvents(await seedEvents()));
 }
 
 export async function getEventBySlug(slug: string): Promise<Event | null> {
-  if (process.env.DATABASE_URL) {
-    try {
-      return await prisma.event.findUnique({ where: { slug }, select: eventSelect });
-    } catch (error) {
-      console.warn("Event query failed; using seed data.", error);
-    }
-  }
-  return (await seedEvents()).find((e) => e.slug === slug) ?? null;
+  return withDatabase("events.detail", () => prisma.event.findUnique({ where: { slug }, select: eventSelect }),
+    async () => (await seedEvents()).find((e) => e.slug === slug) ?? null);
 }
 
 export async function listEventSlugs(): Promise<string[]> {
-  if (process.env.DATABASE_URL) {
-    try {
+  return withDatabase("events.slugs", async () => {
       const rows = await prisma.event.findMany({ select: { slug: true }, orderBy: { slug: "asc" } });
       return rows.map(({ slug }) => slug);
-    } catch (error) {
-      console.warn("Event slugs query failed; using seed data.", error);
-    }
-  }
-  return (await seedEvents()).map(({ slug }) => slug).sort();
+  }, async () => (await seedEvents()).map(({ slug }) => slug).sort());
 }

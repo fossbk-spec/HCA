@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { EntityType } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
+import { withDatabase } from "@/lib/seed-fallback";
 import { matchSeedRelations, type SeedRelationship } from "@/repositories/relationship-matching";
 import type { Relation } from "@/types/relationships";
 
@@ -114,12 +115,5 @@ async function dbRelationsFor(entityType: EntityType, slug: string): Promise<Rel
 }
 
 export async function listRelationsFor(entityType: EntityType, slug: string): Promise<Relation[]> {
-  if (process.env.DATABASE_URL) {
-    try {
-      return await dbRelationsFor(entityType, slug);
-    } catch (error) {
-      console.warn("Relationship query failed; using seed data.", error);
-    }
-  }
-  return seedRelationsFor(entityType, slug);
+  return withDatabase("relationships.list", () => dbRelationsFor(entityType, slug), () => seedRelationsFor(entityType, slug));
 }
