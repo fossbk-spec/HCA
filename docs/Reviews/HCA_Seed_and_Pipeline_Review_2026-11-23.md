@@ -82,3 +82,19 @@ Dữ liệu tăng lên 225 thực thể (72 người, 57 sự kiện, 38 ý tư�
 - D2 nặng hơn: 45 loại quan hệ, chỉ 6 loại có trong ontology (TAUGHT, CREATED, WROTE, INVENTED, DEVELOPED, RULED). Vẫn chờ quyết định.
 - D3 gần như giữ nguyên: 53/225 thực thể chưa có quan hệ nào.
 - `scripts/seed_batch2.js` và `seed_batch3.js` (dữ liệu nhúng cứng, ghi đè JSON) không đưa vào repo.
+
+## 7. Cập nhật v1.2 (2026-11-23, sau PR #6, main = 54b1b91)
+
+| Mã | Trạng thái |
+|---|---|
+| D1 | Đã xử lý phần lớn (batch 3) |
+| D2 | Mở. 45 loại quan hệ; `verify:seed` cảnh báo 39 loại ngoài ontology |
+| D3 | Mở. 53/225 thực thể chưa có quan hệ |
+| D4 | Ghi nhận (5 nhân vật không có nền văn minh) |
+| D5–D8 | Mở, mức thấp |
+| P1, P2, P3, P5 (postinstall), P7 | Đã xử lý trong PR #6; CI xanh trên main |
+| P4 | Đã xử lý trên main (2 script cục bộ nằm trong `.gitignore`) |
+| P5 (seed fallback ở production, Vercel) | Mở |
+| P6 | Mở: seed chưa chạy trên PostgreSQL thật |
+| P8, P9 | Mở |
+| Mới | Dữ liệu sự kiện không còn Big Bang, Origin of Life, Human Evolution (có trong seed v1.0); chưa có sự kiện sau năm 1760. Xem `HCA_Claude_Review_of_Progress_Report_2026-11-23_v1.0.md` |
