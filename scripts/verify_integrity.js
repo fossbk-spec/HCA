@@ -30,6 +30,15 @@ function verify() {
 
   let errors = 0;
   let warnings = 0;
+  const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+  const ontologyTypes = new Set([
+    'INFLUENCED', 'TAUGHT', 'COLLABORATED_WITH',
+    'PARTICIPATED_IN', 'WITNESSED', 'RULED',
+    'WROTE', 'CREATED', 'DISCOVERED', 'INVENTED', 'DEVELOPED',
+    'PART_OF', 'BELONGS_TO', 'LOCATED_IN',
+    'PRECEDED_BY', 'SUCCEEDED_BY',
+  ]);
+  const nonOntologyTypes = new Map();
 
   // 1. Slug uniqueness across all entities
   const slugRegistry = new Map();
@@ -39,6 +48,10 @@ function verify() {
         console.error(`[ERROR] Missing slug in ${type}:`, item);
         errors++;
         return;
+      }
+      if (!slugPattern.test(item.slug)) {
+        console.error(`[ERROR] Invalid slug in ${type}: "${item.slug}"`);
+        errors++;
       }
       if (slugRegistry.has(item.slug)) {
         console.error(`[COLLISION] Slug "${item.slug}" duplicated in ${type} and ${slugRegistry.get(item.slug)}`);
@@ -55,12 +68,23 @@ function verify() {
   register(ideas, 'IDEA');
   register(books, 'BOOK');
 
+  const checkYearRange = (arr, startKey, endKey, type) => {
+    arr.forEach(item => {
+      if (item[startKey] != null && item[endKey] != null && item[startKey] > item[endKey]) {
+        console.error(`[ERROR] ${type} "${item.slug}" has ${startKey} after ${endKey}`);
+        errors++;
+      }
+    });
+  };
+  checkYearRange(people, 'birthYear', 'deathYear', 'Person');
+  checkYearRange(events, 'startYear', 'endYear', 'Event');
+
   console.log(`✓ Total Unique Entity Slugs: ${slugRegistry.size}`);
 
   // 2. People -> Civilization check
   const civSlugs = new Set(civs.map(c => c.slug));
   people.forEach(p => {
-    if (p.civilizationSlug && !civSlugs.has(p.civilizationSlug)) {
+    if (p.civilizationSlug != null && !civSlugs.has(p.civilizationSlug)) {
       console.error(`[ERROR] Person "${p.slug}" has invalid civilizationSlug: "${p.civilizationSlug}"`);
       errors++;
     }
@@ -68,6 +92,7 @@ function verify() {
   console.log('✓ People civilizationSlug validity checked.');
 
   // 3. Relationships source and target check
+  const relationshipKeys = new Set();
   rels.forEach((r, idx) => {
     const { sourceSlug, sourceType, targetSlug, targetType, relationshipType } = r;
 
@@ -77,27 +102,46 @@ function verify() {
       return;
     }
 
+    const key = JSON.stringify([sourceSlug, targetSlug, relationshipType]);
+    if (relationshipKeys.has(key)) {
+      console.error(`[ERROR] Duplicate relationship #${idx}: ${sourceSlug} -> ${targetSlug} (${relationshipType})`);
+      errors++;
+    } else {
+      relationshipKeys.add(key);
+    }
+    if (!ontologyTypes.has(relationshipType)) {
+      nonOntologyTypes.set(relationshipType, (nonOntologyTypes.get(relationshipType) || 0) + 1);
+    }
+
     const actualSourceType = slugRegistry.get(sourceSlug);
     const actualTargetType = slugRegistry.get(targetSlug);
 
     if (!actualSourceType) {
       console.error(`[ORPHAN] Source slug not found: "${sourceSlug}" in relationship: ${JSON.stringify(r)}`);
       errors++;
-    } else if (sourceType && actualSourceType !== sourceType) {
-      console.warn(`[TYPE MISMATCH] Relationship #${idx}: source "${sourceSlug}" declared as ${sourceType} but exists as ${actualSourceType}`);
-      warnings++;
+    } else if (actualSourceType !== sourceType) {
+      console.error(`[TYPE MISMATCH] Relationship #${idx}: source "${sourceSlug}" declared as ${sourceType} but exists as ${actualSourceType}`);
+      errors++;
     }
 
     if (!actualTargetType) {
       console.error(`[ORPHAN] Target slug not found: "${targetSlug}" in relationship: ${JSON.stringify(r)}`);
       errors++;
-    } else if (targetType && actualTargetType !== targetType) {
-      console.warn(`[TYPE MISMATCH] Relationship #${idx}: target "${targetSlug}" declared as ${targetType} but exists as ${actualTargetType}`);
-      warnings++;
+    } else if (actualTargetType !== targetType) {
+      console.error(`[TYPE MISMATCH] Relationship #${idx}: target "${targetSlug}" declared as ${targetType} but exists as ${actualTargetType}`);
+      errors++;
     }
   });
 
   console.log('✓ Relationships graph integrity checked.');
+
+  if (nonOntologyTypes.size > 0) {
+    console.warn('[WARNING] Non-ontology relationship types:');
+    for (const [type, count] of [...nonOntologyTypes].sort(([a], [b]) => a.localeCompare(b))) {
+      console.warn(`  - ${type}: ${count}`);
+      warnings++;
+    }
+  }
 
   console.log('\n--------------------------------------------------------');
   if (errors === 0 && warnings === 0) {
