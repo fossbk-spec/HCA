@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const SEED_DIR = path.join(__dirname, '..', 'data', 'seed');
+const ONTOLOGY_PATH = path.join(__dirname, '..', 'data', 'ontology', 'relationship-types.json');
 
 function load(name) {
   return JSON.parse(fs.readFileSync(path.join(SEED_DIR, `${name}.json`), 'utf8'));
@@ -18,6 +19,8 @@ function verify() {
   const ideas = load('ideas');
   const books = load('books');
   const rels = load('relationships');
+  const ontology = JSON.parse(fs.readFileSync(ONTOLOGY_PATH, 'utf8'));
+  const ontologyTypes = new Map(ontology.types.map(entry => [entry.type, entry]));
 
   console.log('Entity Counts:');
   console.log(`  - Civilizations : ${civs.length}`);
@@ -31,14 +34,9 @@ function verify() {
   let errors = 0;
   let warnings = 0;
   const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
-  const ontologyTypes = new Set([
-    'INFLUENCED', 'TAUGHT', 'COLLABORATED_WITH',
-    'PARTICIPATED_IN', 'WITNESSED', 'RULED',
-    'WROTE', 'CREATED', 'DISCOVERED', 'INVENTED', 'DEVELOPED',
-    'PART_OF', 'BELONGS_TO', 'LOCATED_IN',
-    'PRECEDED_BY', 'SUCCEEDED_BY',
-  ]);
-  const nonOntologyTypes = new Map();
+  let unknownTypeCount = 0;
+  let signatureWarningCount = 0;
+  const signatureExamples = [];
 
   // 1. Slug uniqueness across all entities
   const slugRegistry = new Map();
@@ -109,8 +107,18 @@ function verify() {
     } else {
       relationshipKeys.add(key);
     }
-    if (!ontologyTypes.has(relationshipType)) {
-      nonOntologyTypes.set(relationshipType, (nonOntologyTypes.get(relationshipType) || 0) + 1);
+    const ontologyType = ontologyTypes.get(relationshipType);
+    if (!ontologyType) {
+      console.error(`[ERROR] Relationship #${idx} has unknown ontology type: ${relationshipType}`);
+      unknownTypeCount++;
+      errors++;
+    } else if (ontologyType.signatures?.length > 0 &&
+               !ontologyType.signatures.includes(`${sourceType}>${targetType}`)) {
+      signatureWarningCount++;
+      warnings++;
+      if (signatureExamples.length < 10) {
+        signatureExamples.push(`  - Relationship #${idx}: ${relationshipType} ${sourceType}>${targetType}`);
+      }
     }
 
     const actualSourceType = slugRegistry.get(sourceSlug);
@@ -135,12 +143,11 @@ function verify() {
 
   console.log('✓ Relationships graph integrity checked.');
 
-  if (nonOntologyTypes.size > 0) {
-    console.warn('[WARNING] Non-ontology relationship types:');
-    for (const [type, count] of [...nonOntologyTypes].sort(([a], [b]) => a.localeCompare(b))) {
-      console.warn(`  - ${type}: ${count}`);
-      warnings++;
-    }
+  console.log(`Ontology 1.1 unknown relationship types: ${unknownTypeCount}`);
+  console.log(`Ontology 1.1 signature warnings: ${signatureWarningCount}`);
+  if (signatureWarningCount > 0) {
+    console.warn('[WARNING] Relationship signatures outside ontology 1.1 (first 10):');
+    signatureExamples.forEach(example => console.warn(example));
   }
 
   console.log('\n--------------------------------------------------------');
