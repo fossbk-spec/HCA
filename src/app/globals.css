@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { font-family: Arial, Helvetica, sans-serif; }
+::selection { background: #fbbf24; color: #0f172a; }

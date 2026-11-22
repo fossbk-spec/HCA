@@ -6,6 +6,9 @@
     "seed": "tsx prisma/seed.ts"
   },
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "seed": "tsx prisma/seed.ts",
     "typecheck": "tsc --noEmit",
     "db:generate": "prisma generate",
@@ -22,7 +25,7 @@
     "prisma": "^6.19.3",
     "tailwindcss": "^4.3.5",
     "tsx": "^4.23.15",
-    "typescript": "^7.0.2"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "@prisma/client": "^6.19.3",
