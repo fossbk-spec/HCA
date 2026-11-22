@@ -37,3 +37,10 @@ Gói bổ sung hữu ích (guardrails, hợp đồng thực thi, mẫu báo cáo
 
 - Seed fallback ở production: chờ chủ dự án.
 - Bản sao cũ `docs/Prompts/HCA_Claude_Codex_Execution_Guide.md` giữ nguyên làm lịch sử; `AGENTS.md` là bản hiệu lực.
+
+## Codex second review
+
+- Đối chiếu từng chỉ dẫn của pack mục 11–20: không còn mục nào bị thiếu hoặc mâu thuẫn mà chưa được giải thích trong bảng mục 2. Việc bỏ yêu cầu agent tự lập kế hoạch/commit và ảnh chụp cho từng UI task là có chủ ý theo quy trình brief, phân vai và mốc QA; lint chưa có script.
+- Sửa mục 2 và 10 của `AGENTS.md`: danh mục nguồn là tài liệu tham chiếu, còn task có brief chỉ đọc `README.md`, `AGENTS.md`, brief và các file brief nêu.
+- Sửa mục 8 để điều kiện hoàn thành bao gồm toàn bộ tiêu chí mục 19; sửa F9 để React Flow đúng là tùy chọn như mục 4; làm rõ ưu tiên Server Components áp dụng cho trang, không ép Route Handlers hoặc phần tương tác.
+- Sửa mục 14: phân biệt kiểm tra local theo loại task với CI luôn chạy đủ năm lệnh; task chỉ sửa tài liệu kiểm tra nội dung và đường dẫn. Giữ `verify:seed`/`prisma validate` có điều kiện ở local vì chỉ liên quan khi đụng seed/ontology/schema; giữ lint chưa bắt buộc vì `package.json` không có script.

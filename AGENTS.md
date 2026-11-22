@@ -26,7 +26,7 @@ Không tạo thêm tài liệu chiến lược. Tài liệu review, quyết đ�
 
 # 2. SOURCE DOCUMENTS
 
-Đọc theo thứ tự (đường dẫn trong repo):
+Danh mục tài liệu nguồn theo thứ tự ưu tiên (đường dẫn trong repo). Với task có brief, áp dụng giới hạn đọc ở mục 10; không cần đọc toàn bộ danh mục:
 
 1. `README.md`
 2. `docs/Architecture/HCA_MVP_Execution_Plan_For_Codex.md`
@@ -105,10 +105,10 @@ Optional
 | F7 | Books | `/books`, `/books/[slug]` | Xong (PR #10) |
 | – | Events | `/events`, `/events/[slug]` | Xong (PR #10) |
 | F8 | Search | `/search`, `/api/search` | Chưa làm |
-| F9 | Knowledge Graph Lite | `/graph` | Chưa làm (React Flow, bảng quan hệ) |
+| F9 | Knowledge Graph Lite | `/graph` | Chưa làm (có thể dùng React Flow, bảng quan hệ) |
 | – | About | `/about` | Chưa làm |
 
-Mỗi feature: Server Components, repository (Prisma, có fallback đọc `data/seed` khi không có DB) và service layer.
+Các trang ưu tiên Server Components; mỗi feature dùng repository (Prisma, có fallback đọc `data/seed` khi không có DB) và service layer.
 
 ---
 
@@ -142,7 +142,7 @@ Không ghi trực tiếp vào thư mục làm việc của `main`; luôn tạo n
 
 # 8. DONE DEFINITION
 
-Project is considered complete when:
+Project is considered complete when the criteria in mục 19 are met, including:
 
 - npm install works
 - Prisma migration works trên PostgreSQL thật
@@ -183,7 +183,7 @@ Before coding:
 
 1. Read `README.md` and this file.
 2. Read the task brief in `briefs/` (nếu có).
-3. Read only the files the brief names.
+3. Ngoài `README.md`, `AGENTS.md` và brief, chỉ đọc các file brief nêu.
 4. Implement exactly one feature.
 
 Never attempt to generate the entire project in a single step. Generate and validate one feature at a time.
@@ -273,7 +273,7 @@ Thư mục `features/`, `hooks/`, `types/`, `tests/` có trong cấu trúc mục
 
 # 14. TESTING REQUIREMENTS
 
-Mỗi feature phải qua (đúng tên script trong `package.json`):
+Mỗi task mã nguồn phải qua các kiểm tra phù hợp (đúng tên script trong `package.json`):
 
 ```bash
 npm run typecheck          # tsc --noEmit
@@ -283,7 +283,7 @@ npx prisma validate        # khi đụng schema
 npx prisma generate
 ```
 
-`npm run lint` chỉ bắt buộc sau khi ESLint được cấu hình (chưa có). CI chạy các bước trên cho mọi Pull Request.
+`npm run lint` chỉ bắt buộc sau khi ESLint được cấu hình (chưa có). Task chỉ sửa tài liệu kiểm tra nội dung và đường dẫn, không cần chạy các lệnh build. CI chạy cả năm lệnh trên cho mọi Pull Request, kể cả khi local chỉ cần các lệnh có điều kiện.
 
 ---
 
