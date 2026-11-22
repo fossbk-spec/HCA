@@ -11,9 +11,28 @@ export type CivilizationSummary = {
   summary: string | null;
 };
 
-async function seedCivilizations(): Promise<CivilizationSummary[]> {
+export type CivilizationPerson = {
+  name: string;
+  slug: string;
+  birthYear: number | null;
+  deathYear: number | null;
+};
+
+export type CivilizationDetail = CivilizationSummary & {
+  content: string | null;
+  people: CivilizationPerson[];
+};
+
+type SeedCivilization = CivilizationSummary & { content?: string | null };
+type SeedPerson = CivilizationPerson & { civilizationSlug?: string | null };
+
+async function seedCivilizationRows(): Promise<SeedCivilization[]> {
   const file = path.join(process.cwd(), "data", "seed", "civilizations.json");
-  const rows = JSON.parse(await readFile(file, "utf8")) as Array<Partial<CivilizationSummary> & Pick<CivilizationSummary, "slug" | "name">>;
+  return JSON.parse(await readFile(file, "utf8")) as SeedCivilization[];
+}
+
+async function seedCivilizations(): Promise<CivilizationSummary[]> {
+  const rows = await seedCivilizationRows();
   return rows.map((row) => ({
     slug: row.slug,
     name: row.name,
@@ -52,4 +71,53 @@ export async function listAllCivilizations(): Promise<CivilizationSummary[]> {
     }
   }
   return seedCivilizations();
+}
+
+export async function listCivilizationSlugs(): Promise<string[]> {
+  if (process.env.DATABASE_URL) {
+    try {
+      const rows = await prisma.civilization.findMany({ select: { slug: true }, orderBy: { slug: "asc" } });
+      return rows.map((row) => row.slug);
+    } catch (error) {
+      console.warn("Civilization query failed; using seed data.", error);
+    }
+  }
+  return (await seedCivilizationRows()).map((row) => row.slug);
+}
+
+export async function getCivilizationBySlug(slug: string): Promise<CivilizationDetail | null> {
+  if (process.env.DATABASE_URL) {
+    try {
+      return await prisma.civilization.findUnique({
+        where: { slug },
+        select: {
+          slug: true, name: true, region: true, periodStart: true, periodEnd: true,
+          summary: true, content: true,
+          people: { select: { name: true, slug: true, birthYear: true, deathYear: true }, orderBy: { name: "asc" } },
+        },
+      });
+    } catch (error) {
+      console.warn("Civilization query failed; using seed data.", error);
+    }
+  }
+
+  const civilization = (await seedCivilizationRows()).find((row) => row.slug === slug);
+  if (!civilization) return null;
+
+  const file = path.join(process.cwd(), "data", "seed", "people.json");
+  const people = JSON.parse(await readFile(file, "utf8")) as SeedPerson[];
+  return {
+    slug: civilization.slug,
+    name: civilization.name,
+    region: civilization.region ?? null,
+    periodStart: civilization.periodStart ?? null,
+    periodEnd: civilization.periodEnd ?? null,
+    summary: civilization.summary ?? null,
+    content: civilization.content ?? null,
+    people: people.filter((person) => person.civilizationSlug === slug)
+      .map(({ name, slug: personSlug, birthYear, deathYear }) => ({
+        name, slug: personSlug, birthYear: birthYear ?? null, deathYear: deathYear ?? null,
+      }))
+      .sort((a, b) => a.name.localeCompare(b.name)),
+  };
 }
