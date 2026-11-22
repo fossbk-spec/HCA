@@ -161,6 +161,17 @@ npm run dev
 
 ---
 
+## Scripts / CI
+
+Run `npm run verify:seed` to check seed data, `npm run seed` to load it, and
+`npm run db:generate`, `npm run db:migrate`, or `npm run db:studio` for local
+database work. CI checks Prisma, types, seed integrity, and the production build
+on pull requests and pushes to `main`. Vercel Git integration handles deployment;
+set `DATABASE_URL` in Vercel. For a new database, run `npm run db:deploy` and
+then `npm run seed`.
+
+---
+
 ## Deployment
 
 ### Vercel

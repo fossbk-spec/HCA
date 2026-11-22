@@ -8,3 +8,4 @@ node_modules/
 reports/
 tsconfig.tsbuildinfo
 next-env.d.ts
+scripts/seed_batch*.js

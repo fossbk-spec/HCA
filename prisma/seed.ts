@@ -20,6 +20,7 @@ type CivilizationSeed = BaseSeed & {
 };
 type PersonSeed = BaseSeed & {
   name: string;
+  civilizationSlug?: string | null;
   birthYear?: number | null;
   deathYear?: number | null;
   occupations?: string | null;
@@ -55,6 +56,7 @@ function resolveEntity(slug: string): Entity | undefined {
 
 async function main(): Promise<void> {
   const civilizations = await readSeed<CivilizationSeed>("civilizations.json");
+  const civilizationIds = new Map<string, string>();
   for (const row of civilizations) {
     const data = {
       name: row.name,
@@ -70,13 +72,23 @@ async function main(): Promise<void> {
       create: { slug: row.slug, ...data },
     });
     addEntity(row.slug, { id: entity.id, type: EntityType.CIVILIZATION });
+    civilizationIds.set(row.slug, entity.id);
   }
   console.log(`Civilization: ${civilizations.length}`);
 
   const people = await readSeed<PersonSeed>("people.json");
   for (const row of people) {
+    const civilizationId = row.civilizationSlug
+      ? civilizationIds.get(row.civilizationSlug) ?? null
+      : null;
+    if (!row.civilizationSlug) {
+      console.warn(`Missing civilizationSlug for person "${row.slug}"; setting civilizationId to null.`);
+    } else if (!civilizationId) {
+      console.warn(`Unknown civilizationSlug "${row.civilizationSlug}" for person "${row.slug}"; setting civilizationId to null.`);
+    }
     const data = {
       name: row.name,
+      civilizationId,
       birthYear: row.birthYear ?? null,
       deathYear: row.deathYear ?? null,
       occupations: row.occupations ?? null,
