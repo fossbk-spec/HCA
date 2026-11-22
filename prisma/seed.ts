@@ -32,11 +32,16 @@ type BookSeed = BaseSeed & {
   author?: string | null;
   publicationYear?: number | null;
 };
-type RelationshipSeed = { sourceSlug: string; targetSlug: string; relationshipType: string };
+type RelationshipSeed = {
+  sourceSlug: string; sourceType?: EntityType;
+  targetSlug: string; targetType?: EntityType;
+  relationshipType: string;
+};
 type Entity = { id: string; type: EntityType };
 
 const prisma = new PrismaClient();
-const entities = new Map<string, Entity[]>();
+// Entities are keyed by `${type}:${slug}`: slugs are unique per table, not across tables.
+const entities = new Map<string, Entity>();
 
 async function readSeed<T>(filename: string): Promise<T[]> {
   const content = await readFile(join(process.cwd(), "data", "seed", filename), "utf8");
@@ -44,14 +49,14 @@ async function readSeed<T>(filename: string): Promise<T[]> {
 }
 
 function addEntity(slug: string, entity: Entity): void {
-  const matches = entities.get(slug) ?? [];
-  matches.push(entity);
-  entities.set(slug, matches);
+  entities.set(`${entity.type}:${slug}`, entity);
 }
 
-function resolveEntity(slug: string): Entity | undefined {
-  const matches = entities.get(slug);
-  return matches?.length === 1 ? matches[0] : undefined;
+function resolveEntity(type: EntityType | undefined, slug: string): Entity | undefined {
+  if (type) return entities.get(`${type}:${slug}`);
+  // Legacy rows without a type resolve only when the slug is unique across all tables.
+  const matches = [...entities].filter(([key]) => key.endsWith(`:${slug}`));
+  return matches.length === 1 ? matches[0][1] : undefined;
 }
 
 async function main(): Promise<void> {
@@ -160,10 +165,10 @@ async function main(): Promise<void> {
   const relationships = await readSeed<RelationshipSeed>("relationships.json");
   let relationshipCount = 0;
   for (const row of relationships) {
-    const source = resolveEntity(row.sourceSlug);
-    const target = resolveEntity(row.targetSlug);
+    const source = resolveEntity(row.sourceType, row.sourceSlug);
+    const target = resolveEntity(row.targetType, row.targetSlug);
     if (!source || !target) {
-      console.warn(`Skipping unresolved or ambiguous relationship: ${row.sourceSlug} -> ${row.targetSlug}`);
+      console.warn(`Skipping unresolved relationship: ${row.sourceType ?? "?"}:${row.sourceSlug} -> ${row.targetType ?? "?"}:${row.targetSlug}`);
       continue;
     }
     await prisma.relationship.upsert({
