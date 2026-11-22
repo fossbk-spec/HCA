@@ -39,3 +39,17 @@ export async function listFeaturedCivilizations(limit = 10): Promise<Civilizatio
   }
   return (await seedCivilizations()).slice(0, limit);
 }
+
+export async function listAllCivilizations(): Promise<CivilizationSummary[]> {
+  if (process.env.DATABASE_URL) {
+    try {
+      return await prisma.civilization.findMany({
+        orderBy: { periodStart: "asc" },
+        select: { slug: true, name: true, region: true, periodStart: true, periodEnd: true, summary: true },
+      });
+    } catch (error) {
+      console.warn("Civilization query failed; using seed data.", error);
+    }
+  }
+  return seedCivilizations();
+}

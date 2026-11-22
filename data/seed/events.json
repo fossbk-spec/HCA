@@ -1,22 +1,177 @@
 [
-{"slug":"big-bang","title":"Big Bang"},
-{"slug":"origin-of-life","title":"Origin of Life"},
-{"slug":"human-evolution","title":"Human Evolution"},
-{"slug":"agricultural-revolution","title":"Agricultural Revolution"},
-{"slug":"writing-invented","title":"Invention of Writing"},
-{"slug":"great-pyramids","title":"Construction of Great Pyramids"},
-{"slug":"founding-of-rome","title":"Founding of Rome"},
-{"slug":"greco-persian-wars","title":"Greco-Persian Wars"},
-{"slug":"alexander-conquests","title":"Conquests of Alexander"},
-{"slug":"fall-of-rome","title":"Fall of Western Roman Empire"},
-{"slug":"rise-of-islam","title":"Rise of Islam"},
-{"slug":"song-dynasty","title":"Song Dynasty"},
-{"slug":"mongol-empire","title":"Mongol Empire"},
-{"slug":"renaissance","title":"Renaissance"},
-{"slug":"scientific-revolution","title":"Scientific Revolution"},
-{"slug":"industrial-revolution","title":"Industrial Revolution"},
-{"slug":"world-war-i","title":"World War I"},
-{"slug":"world-war-ii","title":"World War II"},
-{"slug":"internet-age","title":"Internet Age"},
-{"slug":"ai-age","title":"AI Age"}
+  {
+    "slug": "invention-of-cuneiform",
+    "title": "Invention of Cuneiform Writing in Sumer",
+    "startYear": -3400,
+    "endYear": -3300,
+    "summary": "Sumerians in Mesopotamia develop the world's earliest known script using wedge-shaped stylus marks on clay tablets to record economic transactions and royal decrees."
+  },
+  {
+    "slug": "unification-of-egypt",
+    "title": "Unification of Upper and Lower Egypt by Narmer",
+    "startYear": -3100,
+    "endYear": -3100,
+    "summary": "Pharaoh Narmer (Menes) unifies the Nile Valley kingdoms into a centralized state, establishing the First Dynasty and the pharaonic institution."
+  },
+  {
+    "slug": "construction-of-great-pyramids",
+    "title": "Construction of the Great Pyramid of Giza",
+    "startYear": -2580,
+    "endYear": -2560,
+    "summary": "Pharaoh Khufu commissions the colossal Great Pyramid of Giza, representing the pinnacle of ancient stone engineering and religious devotion to the afterlife."
+  },
+  {
+    "slug": "akkadian-empire-founded",
+    "title": "Establishment of the Akkadian Empire by Sargon",
+    "startYear": -2334,
+    "endYear": -2279,
+    "summary": "Sargon of Akkad unifies the diverse city-states of Sumer and Akkad, creating the world's first historically documented multinational empire."
+  },
+  {
+    "slug": "promulgation-of-hammurabi-code",
+    "title": "Promulgation of the Code of Hammurabi",
+    "startYear": -1754,
+    "endYear": -1754,
+    "summary": "King Hammurabi of Babylon carves 282 edicts on an eight-foot basalt stele, establishing explicit civil penalties and proportional justice across Mesopotamia."
+  },
+  {
+    "slug": "battle-of-kadesh",
+    "title": "Battle of Kadesh and First International Peace Treaty",
+    "startYear": -1274,
+    "endYear": -1259,
+    "summary": "Ramesses II of Egypt clashes with Muwatalli II of the Hittite Empire in Syria, culminating in the earliest known bilateral mutual defense and peace treaty in history."
+  },
+  {
+    "slug": "first-ancient-olympic-games",
+    "title": "Inauguration of the Ancient Olympic Games",
+    "startYear": -776,
+    "endYear": -776,
+    "summary": "The first recorded Olympic athletic contest is held at the sanctuary of Olympia in honor of Zeus, establishing a pan-Hellenic sacred truce (Ekecheiria)."
+  },
+  {
+    "slug": "founding-of-rome",
+    "title": "Traditional Founding of Rome",
+    "startYear": -753,
+    "endYear": -753,
+    "summary": "Legendary founding of the city of Rome on the Palatine Hill by Romulus, initiating Roman political identity from monarchy to world empire."
+  },
+  {
+    "slug": "solon-reforms-athens",
+    "title": "Constitutional Reforms of Solon in Athens",
+    "startYear": -594,
+    "endYear": -594,
+    "summary": "Lawgiver Solon abolishes debt slavery (Seisachtheia) and restructures Athenian citizenship based on economic wealth rather than aristocratic lineage."
+  },
+  {
+    "slug": "roman-republic-established",
+    "title": "Establishment of the Roman Republic",
+    "startYear": -509,
+    "endYear": -509,
+    "summary": "The Roman patricians expel King Tarquinius Superbus, replacing monarchical autocracy with elected consular magistracies and the authority of the Senate."
+  },
+  {
+    "slug": "greco-persian-wars",
+    "title": "Greco-Persian Wars (Marathon and Salamis)",
+    "startYear": -499,
+    "endYear": -449,
+    "summary": "Allied Greek city-states withstand two successive Persian imperial invasions, securing the autonomy of Greek culture and democratic Athens."
+  },
+  {
+    "slug": "golden-age-of-athens",
+    "title": "Periclean Golden Age of Classical Athens",
+    "startYear": -461,
+    "endYear": -429,
+    "summary": "Under the visionary leadership of Pericles, Athens witnesses flourishing democratic participation, philosophical inquiry, dramatic arts, and the building of the Parthenon."
+  },
+  {
+    "slug": "law-of-twelve-tables",
+    "title": "Enactment of the Roman Law of the Twelve Tables",
+    "startYear": -450,
+    "endYear": -449,
+    "summary": "Rome's earliest statutory code is displayed publicly in the Forum, guaranteeing plebeians equal access to legal rights and procedural justice."
+  },
+  {
+    "slug": "trial-and-death-of-socrates",
+    "title": "Trial and Execution of Socrates",
+    "startYear": -399,
+    "endYear": -399,
+    "summary": "Athenian jurors condemn philosopher Socrates to death by hemlock for allegedly corrupting the youth and defying the traditional gods, immortalized by Plato's Apology."
+  },
+  {
+    "slug": "founding-of-platos-academy",
+    "title": "Founding of Plato's Academy in Athens",
+    "startYear": -387,
+    "endYear": -387,
+    "summary": "Plato establishes his school outside the walls of Athens, creating the prototype for Western universities where philosophy, mathematics, and science were taught."
+  },
+  {
+    "slug": "alexander-conquests",
+    "title": "Conquests of Alexander the Great",
+    "startYear": -334,
+    "endYear": -323,
+    "summary": "Alexander leads Macedonian forces across Egypt, Persia, and into the Punjab, shattering the Achaemenid Empire and propagating Hellenistic culture across Afro-Eurasia."
+  },
+  {
+    "slug": "punic-wars",
+    "title": "Punic Wars: Rome Overcomes Carthage",
+    "startYear": -264,
+    "endYear": -146,
+    "summary": "Three protracted wars between Rome and maritime Carthage culminate in the total destruction of Carthage, leaving Rome the undisputed hegemon of the Mediterranean basin."
+  },
+  {
+    "slug": "caesar-crosses-rubicon",
+    "title": "Julius Caesar Crosses the Rubicon",
+    "startYear": -49,
+    "endYear": -49,
+    "summary": "Julius Caesar marches his XIII Legion across the Rubicon boundary into Italy with the declaration 'Alea iacta est', precipitating the civil war that destroyed the Republic."
+  },
+  {
+    "slug": "establishment-of-roman-empire",
+    "title": "Establishment of the Roman Empire and Pax Romana",
+    "startYear": -27,
+    "endYear": 180,
+    "summary": "Octavian is bestowed the title Augustus by the Senate, establishing the Principate and initiating two centuries of institutional stability and imperial prosperity."
+  },
+  {
+    "slug": "construction-of-colosseum",
+    "title": "Inauguration of the Colosseum in Rome",
+    "startYear": 70,
+    "endYear": 80,
+    "summary": "The Flavian dynasty completes the massive concrete and stone amphitheater in central Rome, showcasing Roman architectural engineering and civic spectacles."
+  },
+  {
+    "slug": "edict-of-milan",
+    "title": "Edict of Milan: Legalization of Christianity",
+    "startYear": 313,
+    "endYear": 313,
+    "summary": "Emperors Constantine I and Licinius proclaim freedom of religion throughout the Roman Empire, ending state persecutions and transforming Christianity into a dominant world faith."
+  },
+  {
+    "slug": "fall-of-rome",
+    "title": "Fall of the Western Roman Empire",
+    "startYear": 476,
+    "endYear": 476,
+    "summary": "Germanic general Odoacer deposes the last Western Roman emperor Romulus Augustulus, marking the traditional transition from classical antiquity to the Middle Ages in Europe."
+  },
+  {
+    "slug": "agricultural-revolution",
+    "title": "Neolithic Agricultural Revolution",
+    "startYear": -10000,
+    "endYear": -4000,
+    "summary": "Hunter-gatherers transition to permanent agrarian settlements through the domestication of plants and animals, enabling surplus food and the rise of complex civilizations."
+  },
+  {
+    "slug": "scientific-revolution",
+    "title": "The Scientific Revolution",
+    "startYear": 1543,
+    "endYear": 1687,
+    "summary": "Emergence of modern empirical science, driven by heliocentrism, analytical mathematics, and the experimental method from Copernicus to Isaac Newton."
+  },
+  {
+    "slug": "industrial-revolution",
+    "title": "The Industrial Revolution",
+    "startYear": 1760,
+    "endYear": 1840,
+    "summary": "Transition to new manufacturing processes powered by steam engines, mechanized textile looms, metallurgy, and railroads, radically reshaping human society."
+  }
 ]

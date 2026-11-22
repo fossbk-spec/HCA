@@ -1,22 +1,122 @@
 [
-{"slug":"democracy","title":"Democracy"},
-{"slug":"rule-of-law","title":"Rule of Law"},
-{"slug":"scientific-method","title":"Scientific Method"},
-{"slug":"capitalism","title":"Capitalism"},
-{"slug":"human-rights","title":"Human Rights"},
-{"slug":"republic","title":"Republic"},
-{"slug":"monotheism","title":"Monotheism"},
-{"slug":"confucianism","title":"Confucianism"},
-{"slug":"buddhism","title":"Buddhism"},
-{"slug":"evolution","title":"Evolution"},
-{"slug":"relativity","title":"Relativity"},
-{"slug":"printing","title":"Printing"},
-{"slug":"money","title":"Money"},
-{"slug":"education","title":"Education"},
-{"slug":"citizenship","title":"Citizenship"},
-{"slug":"empiricism","title":"Empiricism"},
-{"slug":"logic","title":"Logic"},
-{"slug":"constitutionalism","title":"Constitutionalism"},
-{"slug":"globalization","title":"Globalization"},
-{"slug":"artificial-intelligence","title":"Artificial Intelligence"}
+  {
+    "slug": "democracy",
+    "title": "Democracy",
+    "category": "Politics",
+    "summary": "System of government where supreme political authority is vested in the people, pioneered as direct democracy in classical Athens under Cleisthenes and Pericles."
+  },
+  {
+    "slug": "rule-of-law",
+    "title": "Rule of Law",
+    "category": "Law",
+    "summary": "Principle that all members of a society, including lawmakers and rulers, are equally subject to publicly disclosed, independently adjudicated legal codes."
+  },
+  {
+    "slug": "republic",
+    "title": "Republic",
+    "category": "Politics",
+    "summary": "Form of government in which the country is considered a 'public affair' (res publica) and offices of state are held by election rather than hereditary right."
+  },
+  {
+    "slug": "socratic-method",
+    "title": "Socratic Method",
+    "category": "Philosophy",
+    "summary": "Form of cooperative argumentative dialogue between individuals, based on asking and answering questions to stimulate critical thinking and expose underlying contradictions."
+  },
+  {
+    "slug": "platonism",
+    "title": "Theory of Forms (Platonism)",
+    "category": "Philosophy",
+    "summary": "Philosophical doctrine holding that non-physical, eternal, and immutable Forms or Ideas represent the most accurate reality, of which material objects are imperfect reflections."
+  },
+  {
+    "slug": "aristotelian-logic",
+    "title": "Formal Logic",
+    "category": "Science",
+    "summary": "The systematic study of valid inference, argumentation, and syllogistic reasoning established by Aristotle in the Organon, underpinning scientific deduction for millennia."
+  },
+  {
+    "slug": "stoicism",
+    "title": "Stoicism",
+    "category": "Philosophy",
+    "summary": "Hellenistic philosophy founded by Zeno of Citium and practiced by Seneca and Marcus Aurelius, teaching that virtue is the only true good and happiness comes from rational self-mastery."
+  },
+  {
+    "slug": "roman-law",
+    "title": "Roman Jurisprudence",
+    "category": "Law",
+    "summary": "The legal system developed across a millennium from the Twelve Tables to Justinian's Corpus Juris Civilis, forming the foundational core of modern continental civil law."
+  },
+  {
+    "slug": "citizenship",
+    "title": "Citizenship",
+    "category": "Politics",
+    "summary": "Status of a person recognized under the custom or law of a sovereign state, granting specific civic privileges, voting rights, and legal protections in exchange for civic duties."
+  },
+  {
+    "slug": "ma-at",
+    "title": "Ma'at (Cosmic Truth & Order)",
+    "category": "Philosophy",
+    "summary": "Ancient Egyptian ethical and cosmic concept of universal truth, balance, cosmic order, harmony, law, morality, and justice personified as a goddess."
+  },
+  {
+    "slug": "cuneiform-writing",
+    "title": "Cuneiform Script",
+    "category": "Technology",
+    "summary": "One of the earliest systems of writing, invented by Sumerians in ancient Mesopotamia, using reeds to make wedge-shaped impressions on clay tablets."
+  },
+  {
+    "slug": "scientific-method",
+    "title": "Scientific Method",
+    "category": "Science",
+    "summary": "Empirical method of acquiring knowledge characterized by careful observation, rigorous skepticism, hypothesis formulation, experimental testing, and measurement."
+  },
+  {
+    "slug": "monotheism",
+    "title": "Monotheism",
+    "category": "Religion",
+    "summary": "The belief in the existence of one unified deity, early iterations seen in Akhenaten's Atenism and fully realized in Judaism, Christianity, and Islam."
+  },
+  {
+    "slug": "confucianism",
+    "title": "Confucianism",
+    "category": "Philosophy",
+    "summary": "Ancient Chinese ethical and philosophical system developed from the teachings of Confucius, focusing on filial piety, moral righteousness (Ren), and ritual propriety (Li)."
+  },
+  {
+    "slug": "buddhism",
+    "title": "Buddhism",
+    "category": "Religion",
+    "summary": "Spiritual tradition founded on the teachings of Gautama Buddha, centered on understanding the nature of suffering (Dukkha) and achieving liberation through the Eightfold Path."
+  },
+  {
+    "slug": "human-rights",
+    "title": "Human Rights",
+    "category": "Law",
+    "summary": "Moral principles or norms that set out certain standards of human behavior and are regularly protected in municipal and international law as inalienable fundamental rights."
+  },
+  {
+    "slug": "constitutionalism",
+    "title": "Constitutionalism",
+    "category": "Politics",
+    "summary": "The political philosophy holding that governmental authority is derived from and limited by a fundamental body of constitutional law."
+  },
+  {
+    "slug": "capitalism",
+    "title": "Capitalism",
+    "category": "Economics",
+    "summary": "Economic system based on the private ownership of the means of production, market competition, and their operation for profit."
+  },
+  {
+    "slug": "evolution",
+    "title": "Theory of Evolution",
+    "category": "Science",
+    "summary": "Biological principle stating that the diverse species of living things develop and adapt over generations through natural selection and descent with modification."
+  },
+  {
+    "slug": "artificial-intelligence",
+    "title": "Artificial Intelligence",
+    "category": "Technology",
+    "summary": "The simulation of human intelligence processes by computer systems, enabling reasoning, knowledge representation, problem solving, and adaptive learning."
+  }
 ]

@@ -1,22 +1,156 @@
 [
-{"slug":"epic-of-gilgamesh","title":"Epic of Gilgamesh"},
-{"slug":"iliad","title":"Iliad"},
-{"slug":"odyssey","title":"Odyssey"},
-{"slug":"analects","title":"Analects"},
-{"slug":"republic","title":"Republic"},
-{"slug":"meditations","title":"Meditations"},
-{"slug":"bhagavad-gita","title":"Bhagavad Gita"},
-{"slug":"tao-te-ching","title":"Tao Te Ching"},
-{"slug":"bible","title":"Bible"},
-{"slug":"quran","title":"Quran"},
-{"slug":"principia","title":"Principia Mathematica"},
-{"slug":"origin-of-species","title":"On the Origin of Species"},
-{"slug":"wealth-of-nations","title":"The Wealth of Nations"},
-{"slug":"communist-manifesto","title":"Communist Manifesto"},
-{"slug":"art-of-war","title":"The Art of War"},
-{"slug":"history-of-peloponnesian-war","title":"History of the Peloponnesian War"},
-{"slug":"sapiens","title":"Sapiens"},
-{"slug":"guns-germs-steel","title":"Guns Germs and Steel"},
-{"slug":"lessons-of-history","title":"The Lessons of History"},
-{"slug":"silk-roads","title":"The Silk Roads"}
+  {
+    "slug": "epic-of-gilgamesh",
+    "title": "The Epic of Gilgamesh",
+    "author": "Unknown (Standardized by Sin-leqi-unninni)",
+    "publicationYear": -2100,
+    "summary": "Mesopotamian epic poem regarding Gilgamesh, King of Uruk, his companion Enkidu, and his quest for immortality; the earliest surviving great work of world literature."
+  },
+  {
+    "slug": "code-of-hammurabi",
+    "title": "The Code of Hammurabi",
+    "author": "Hammurabi",
+    "publicationYear": -1754,
+    "summary": "Babylonian legal stele establishing 282 legal provisions covering commercial trade, family law, criminal penalties, and property rights based on proportional retribution."
+  },
+  {
+    "slug": "book-of-the-dead",
+    "title": "The Egyptian Book of the Dead",
+    "author": "Egyptian Priests and Scribes",
+    "publicationYear": -1550,
+    "summary": "Ancient Egyptian funerary corpus consisting of magic spells intended to assist a deceased person's journey through the Duat (underworld) to the afterlife."
+  },
+  {
+    "slug": "iliad",
+    "title": "The Iliad",
+    "author": "Homer",
+    "publicationYear": -750,
+    "summary": "Ancient Greek epic poem in dactylic hexameter set during the Trojan War, chronicling the wrath of the Greek warrior Achilles and the tragedy of human mortality."
+  },
+  {
+    "slug": "odyssey",
+    "title": "The Odyssey",
+    "author": "Homer",
+    "publicationYear": -725,
+    "summary": "Epic sequel to the Iliad detailing the ten-year journey of Odysseus, King of Ithaca, returning home from Troy, exploring hospitality, cunning, and endurance."
+  },
+  {
+    "slug": "the-histories",
+    "title": "The Histories",
+    "author": "Herodotus",
+    "publicationYear": -430,
+    "summary": "Foundational work of Western history documenting the origins and dramatic events of the Greco-Persian Wars through ethnography, oral traditions, and geographical inquiry."
+  },
+  {
+    "slug": "history-of-peloponnesian-war",
+    "title": "History of the Peloponnesian War",
+    "author": "Thucydides",
+    "publicationYear": -400,
+    "summary": "Rigorous historical account of the war between the Peloponnesian League (led by Sparta) and the Delian League (led by Athens), pioneering political realism."
+  },
+  {
+    "slug": "republic",
+    "title": "The Republic",
+    "author": "Plato",
+    "publicationYear": -375,
+    "summary": "Socratic dialogue concerning justice, the nature of the just city-state, the theory of Forms, the Allegory of the Cave, and the rule of the philosopher-king."
+  },
+  {
+    "slug": "politics",
+    "title": "Politics",
+    "author": "Aristotle",
+    "publicationYear": -350,
+    "summary": "Philosophical treatise examining the nature of the polis, citizenship, constitutions, and establishing that 'man is by nature a political animal'."
+  },
+  {
+    "slug": "nicomachean-ethics",
+    "title": "Nicomachean Ethics",
+    "author": "Aristotle",
+    "publicationYear": -340,
+    "summary": "Systematic investigation of ethical conduct and moral character, proposing that human happiness (Eudaimonia) is achieved through virtuous action adhering to the Golden Mean."
+  },
+  {
+    "slug": "elements",
+    "title": "Elements",
+    "author": "Euclid",
+    "publicationYear": -300,
+    "summary": "Mathematical and geometric treatise of 13 books that systematized plane and solid geometry through rigorous deductive proofs from five foundational axioms."
+  },
+  {
+    "slug": "on-the-republic",
+    "title": "De Re Publica (On the Commonwealth)",
+    "author": "Cicero",
+    "publicationYear": -51,
+    "summary": "Dialogue on Roman constitutional theory and natural law, advocating a mixed constitution combining monarchy (consuls), aristocracy (senate), and democracy (assemblies)."
+  },
+  {
+    "slug": "aeneid",
+    "title": "The Aeneid",
+    "author": "Virgil",
+    "publicationYear": -19,
+    "summary": "Latin epic masterpiece commissioned in the Augustan era, recounting the mythological journey of Trojan hero Aeneas to Italy, where he becomes the ancestor of Rome."
+  },
+  {
+    "slug": "meditations",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "publicationYear": 180,
+    "summary": "Private reflective journal written in Greek by Roman Emperor Marcus Aurelius on Stoic philosophy, self-discipline, duty, impermanence, and inner peace."
+  },
+  {
+    "slug": "analects",
+    "title": "The Analects",
+    "author": "Confucius",
+    "publicationYear": -475,
+    "summary": "Collection of sayings and ideas attributed to Confucius and his contemporaries, forming the foundational text of Chinese moral and political thought."
+  },
+  {
+    "slug": "tao-te-ching",
+    "title": "Tao Te Ching",
+    "author": "Laozi",
+    "publicationYear": -400,
+    "summary": "Fundamental text for Taoism, presenting paradoxical poetic aphorisms concerning the Tao (the Way), Te (Virtue), and the practice of Wu-wei (effortless action)."
+  },
+  {
+    "slug": "art-of-war",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "publicationYear": -500,
+    "summary": "Ancient Chinese military treatise devoted to military strategy, tactical agility, deceptive maneuvering, and psychological warfare."
+  },
+  {
+    "slug": "bhagavad-gita",
+    "title": "Bhagavad Gita",
+    "author": "Vyasa",
+    "publicationYear": -200,
+    "summary": "700-verse Hindu scripture within the epic Mahabharata, presenting a profound spiritual dialogue on duty (Dharma), action without attachment (Karma Yoga), and devotion."
+  },
+  {
+    "slug": "principia",
+    "title": "Philosophiæ Naturalis Principia Mathematica",
+    "author": "Isaac Newton",
+    "publicationYear": 1687,
+    "summary": "Foundational work in three books setting out Newton's laws of motion, universal gravitation, and calculus-based derivation of planetary motion."
+  },
+  {
+    "slug": "origin-of-species",
+    "title": "On the Origin of Species",
+    "author": "Charles Darwin",
+    "publicationYear": 1859,
+    "summary": "Landmark scientific literature that introduced the scientific theory that biological populations evolve over generations through a process of natural selection."
+  },
+  {
+    "slug": "wealth-of-nations",
+    "title": "The Wealth of Nations",
+    "author": "Adam Smith",
+    "publicationYear": 1776,
+    "summary": "Magnum opus of Scottish moral philosopher Adam Smith, providing the foundational description of classical free-market economics, division of labor, and the 'invisible hand'."
+  },
+  {
+    "slug": "communist-manifesto",
+    "title": "The Communist Manifesto",
+    "author": "Karl Marx & Friedrich Engels",
+    "publicationYear": 1848,
+    "summary": "Political pamphlet presenting an analytical approach to the class struggle and problems of capitalism, calling for the overthrow of capitalist class society."
+  }
 ]

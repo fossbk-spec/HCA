@@ -1,22 +1,335 @@
 [
-{"slug":"confucius","name":"Confucius"},
-{"slug":"buddha","name":"Gautama Buddha"},
-{"slug":"aristotle","name":"Aristotle"},
-{"slug":"plato","name":"Plato"},
-{"slug":"socrates","name":"Socrates"},
-{"slug":"alexander","name":"Alexander the Great"},
-{"slug":"julius-caesar","name":"Julius Caesar"},
-{"slug":"augustus","name":"Augustus"},
-{"slug":"ashoka","name":"Ashoka"},
-{"slug":"qin-shi-huang","name":"Qin Shi Huang"},
-{"slug":"muhammad","name":"Muhammad"},
-{"slug":"saladin","name":"Saladin"},
-{"slug":"homer","name":"Homer"},
-{"slug":"marcus-aurelius","name":"Marcus Aurelius"},
-{"slug":"isaac-newton","name":"Isaac Newton"},
-{"slug":"charles-darwin","name":"Charles Darwin"},
-{"slug":"albert-einstein","name":"Albert Einstein"},
-{"slug":"alan-turing","name":"Alan Turing"},
-{"slug":"ho-chi-minh","name":"Ho Chi Minh"},
-{"slug":"leonardo-da-vinci","name":"Leonardo da Vinci"}
+  {
+    "slug": "hammurabi",
+    "name": "Hammurabi",
+    "birthYear": -1810,
+    "deathYear": -1750,
+    "occupations": "King, Lawgiver",
+    "summary": "Sixth king of the First Babylonian Dynasty, best known for issuing the Code of Hammurabi, one of the earliest and most complete written legal codes in human history.",
+    "civilizationSlug": "mesopotamia"
+  },
+  {
+    "slug": "gilgamesh",
+    "name": "Gilgamesh",
+    "birthYear": -2800,
+    "deathYear": -2500,
+    "occupations": "King, Hero",
+    "summary": "Historical king of the Sumerian city-state of Uruk, posthumously celebrated as the demigod hero of the Epic of Gilgamesh.",
+    "civilizationSlug": "mesopotamia"
+  },
+  {
+    "slug": "sargon-of-akkad",
+    "name": "Sargon of Akkad",
+    "birthYear": -2334,
+    "deathYear": -2279,
+    "occupations": "King, Conqueror",
+    "summary": "First ruler of the Semitic-speaking Akkadian Empire, recognized in historical records as the creator of the world's first multi-ethnic, centrally organized empire.",
+    "civilizationSlug": "mesopotamia"
+  },
+  {
+    "slug": "ashurbanipal",
+    "name": "Ashurbanipal",
+    "birthYear": -685,
+    "deathYear": -627,
+    "occupations": "King, Scholar",
+    "summary": "Last strong king of the Neo-Assyrian Empire, renowned for assembling the vast cuneiform Library of Ashurbanipal at Nineveh.",
+    "civilizationSlug": "mesopotamia"
+  },
+  {
+    "slug": "imhotep",
+    "name": "Imhotep",
+    "birthYear": -2700,
+    "deathYear": -2600,
+    "occupations": "Architect, Vizier, Physician",
+    "summary": "Egyptian polymath and vizier to Pharaoh Djoser, credited as the designer of the Step Pyramid of Djoser at Saqqara and later deified as a god of medicine.",
+    "civilizationSlug": "ancient-egypt"
+  },
+  {
+    "slug": "hatshepsut",
+    "name": "Hatshepsut",
+    "birthYear": -1507,
+    "deathYear": -1458,
+    "occupations": "Pharaoh",
+    "summary": "Second historically confirmed female pharaoh of Egypt, famous for establishing major maritime trade expeditions to Punt and commissioning the mortuary temple at Deir el-Bahari.",
+    "civilizationSlug": "ancient-egypt"
+  },
+  {
+    "slug": "akhenaten",
+    "name": "Akhenaten",
+    "birthYear": -1380,
+    "deathYear": -1336,
+    "occupations": "Pharaoh, Religious Reformer",
+    "summary": "Eighteenth Dynasty pharaoh who enacted an unprecedented religious transformation by centering state worship on the sun disc Aten, representing an early form of quasi-monotheism.",
+    "civilizationSlug": "ancient-egypt"
+  },
+  {
+    "slug": "ramesses-ii",
+    "name": "Ramesses II",
+    "birthYear": -1303,
+    "deathYear": -1213,
+    "occupations": "Pharaoh, Military Commander",
+    "summary": "Known as Ramesses the Great, celebrated for his monumental building campaigns (Abu Simbel, Ramesseum) and the Battle of Kadesh, leading to the world's first recorded peace treaty.",
+    "civilizationSlug": "ancient-egypt"
+  },
+  {
+    "slug": "cleopatra",
+    "name": "Cleopatra VII",
+    "birthYear": -69,
+    "deathYear": -30,
+    "occupations": "Queen, Diplomat",
+    "summary": "Last active ruler of the Ptolemaic Kingdom of Egypt, noted for her intellect, multilingual diplomacy, and strategic alliances with Julius Caesar and Mark Antony.",
+    "civilizationSlug": "ancient-egypt"
+  },
+  {
+    "slug": "socrates",
+    "name": "Socrates",
+    "birthYear": -470,
+    "deathYear": -399,
+    "occupations": "Philosopher",
+    "summary": "Foundational figure in Western moral philosophy, immortalized for his dialectical method of inquiry (Socratic method) and his commitment to virtue, examined living, and critical self-reflection.",
+    "civilizationSlug": "ancient-greece"
+  },
+  {
+    "slug": "plato",
+    "name": "Plato",
+    "birthYear": -428,
+    "deathYear": -348,
+    "occupations": "Philosopher, Educator",
+    "summary": "Student of Socrates, founder of the Academy in Athens (the Western world's first institution of higher learning), and author of influential philosophical dialogues including The Republic and Symposium.",
+    "civilizationSlug": "ancient-greece"
+  },
+  {
+    "slug": "aristotle",
+    "name": "Aristotle",
+    "birthYear": -384,
+    "deathYear": -322,
+    "occupations": "Philosopher, Polymath",
+    "summary": "Student of Plato and tutor to Alexander the Great; founded the Lyceum and established systematic inquiry in formal logic, biology, physics, ethics, aesthetics, and political theory.",
+    "civilizationSlug": "ancient-greece"
+  },
+  {
+    "slug": "homer",
+    "name": "Homer",
+    "birthYear": -800,
+    "deathYear": -701,
+    "occupations": "Epic Poet",
+    "summary": "Legendary ancient Greek poet credited with the authorship of the Iliad and the Odyssey, two epic foundational pillars of Western literature and mythology.",
+    "civilizationSlug": "ancient-greece"
+  },
+  {
+    "slug": "pericles",
+    "name": "Pericles",
+    "birthYear": -495,
+    "deathYear": -429,
+    "occupations": "Statesman, General",
+    "summary": "Prominent leader of Athens during its Golden Age, champion of democratic institutions, sponsor of the arts and philosophy, and commissioner of the Parthenon on the Acropolis.",
+    "civilizationSlug": "ancient-greece"
+  },
+  {
+    "slug": "alexander",
+    "name": "Alexander the Great",
+    "birthYear": -356,
+    "deathYear": -323,
+    "occupations": "King, Military Conqueror",
+    "summary": "King of Macedonia who conquered the Achaemenid Persian Empire and created an empire stretching from Greece to northwestern India, ushering in the Hellenistic cultural era.",
+    "civilizationSlug": "ancient-greece"
+  },
+  {
+    "slug": "herodotus",
+    "name": "Herodotus",
+    "birthYear": -484,
+    "deathYear": -425,
+    "occupations": "Historian",
+    "summary": "Referred to by Cicero as the 'Father of History', he pioneered systematic historical inquiry and collection of ethnographic narrative in his masterwork The Histories.",
+    "civilizationSlug": "ancient-greece"
+  },
+  {
+    "slug": "thucydides",
+    "name": "Thucydides",
+    "birthYear": -460,
+    "deathYear": -400,
+    "occupations": "Historian, General",
+    "summary": "Athenian historian known for his History of the Peloponnesian War, celebrated as a founder of scientific history and political realism through rigorous evidence and causal analysis.",
+    "civilizationSlug": "ancient-greece"
+  },
+  {
+    "slug": "pythagoras",
+    "name": "Pythagoras",
+    "birthYear": -570,
+    "deathYear": -495,
+    "occupations": "Philosopher, Mathematician",
+    "summary": "Ionian Greek philosopher and founder of Pythagoreanism, known for mathematical theorems, numerical mysticism, musical harmonic ratios, and transmigration of souls.",
+    "civilizationSlug": "ancient-greece"
+  },
+  {
+    "slug": "solon",
+    "name": "Solon",
+    "birthYear": -630,
+    "deathYear": -560,
+    "occupations": "Lawgiver, Poet",
+    "summary": "Athenian statesman and lawmaker remembered for his constitutional, economic, and moral reforms against political corruption, laying the groundwork for Athenian democracy.",
+    "civilizationSlug": "ancient-greece"
+  },
+  {
+    "slug": "julius-caesar",
+    "name": "Julius Caesar",
+    "birthYear": -100,
+    "deathYear": -44,
+    "occupations": "General, Statesman, Dictator",
+    "summary": "Roman general and politician whose conquest of Gaul, crossing of the Rubicon, and appointment as dictator perpetuo precipitated the collapse of the Roman Republic and the birth of the Empire.",
+    "civilizationSlug": "roman-empire"
+  },
+  {
+    "slug": "augustus",
+    "name": "Augustus",
+    "birthYear": -63,
+    "deathYear": 14,
+    "occupations": "First Roman Emperor",
+    "summary": "Adopted son of Julius Caesar and first emperor of Rome, founder of the Roman Principate, and architect of the two-century era of relative peace known as the Pax Romana.",
+    "civilizationSlug": "roman-empire"
+  },
+  {
+    "slug": "cicero",
+    "name": "Marcus Tullius Cicero",
+    "birthYear": -106,
+    "deathYear": -43,
+    "occupations": "Orator, Statesman, Philosopher",
+    "summary": "Rome's greatest orator and constitutional defender of republican liberty, whose letters and philosophical treatises profoundly influenced humanism and the European Enlightenment.",
+    "civilizationSlug": "roman-empire"
+  },
+  {
+    "slug": "marcus-aurelius",
+    "name": "Marcus Aurelius",
+    "birthYear": 121,
+    "deathYear": 180,
+    "occupations": "Roman Emperor, Stoic Philosopher",
+    "summary": "The last of the 'Five Good Emperors' of Rome and a revered Stoic philosopher whose personal introspective reflections were published as Meditations.",
+    "civilizationSlug": "roman-empire"
+  },
+  {
+    "slug": "virgil",
+    "name": "Virgil",
+    "birthYear": -70,
+    "deathYear": -19,
+    "occupations": "Poet",
+    "summary": "Ancient Roman poet of the Augustan period, author of the national epic Aeneid, which chronicled the heroic founding myth of Rome from Trojan prince Aeneas.",
+    "civilizationSlug": "roman-empire"
+  },
+  {
+    "slug": "constantine-the-great",
+    "name": "Constantine the Great",
+    "birthYear": 272,
+    "deathYear": 337,
+    "occupations": "Roman Emperor",
+    "summary": "Roman emperor who legalized Christianity across the Empire with the Edict of Milan (313 CE), convened the First Council of Nicaea, and relocated the imperial capital to Constantinople.",
+    "civilizationSlug": "roman-empire"
+  },
+  {
+    "slug": "confucius",
+    "name": "Confucius",
+    "birthYear": -551,
+    "deathYear": -479,
+    "occupations": "Philosopher, Educator",
+    "summary": "Chinese philosopher whose teachings, preserved in the Analects, emphasized personal and governmental morality, correctness of social relationships, justice, and sincerity.",
+    "civilizationSlug": "ancient-china"
+  },
+  {
+    "slug": "qin-shi-huang",
+    "name": "Qin Shi Huang",
+    "birthYear": -259,
+    "deathYear": -210,
+    "occupations": "First Emperor of China",
+    "summary": "Founder of the Qin dynasty and first emperor of a unified China, known for centralizing bureaucratic rule, standardizing script, weights and measures, and initiating the Great Wall.",
+    "civilizationSlug": "ancient-china"
+  },
+  {
+    "slug": "buddha",
+    "name": "Gautama Buddha",
+    "birthYear": -563,
+    "deathYear": -483,
+    "occupations": "Spiritual Teacher, Philosopher",
+    "summary": "Ascetic and religious teacher of ancient India on whose teachings Buddhism was founded, expounding the Four Noble Truths and the Eightfold Path to end suffering.",
+    "civilizationSlug": "ancient-india"
+  },
+  {
+    "slug": "ashoka",
+    "name": "Ashoka the Great",
+    "birthYear": -304,
+    "deathYear": -232,
+    "occupations": "Emperor, Patron of Buddhism",
+    "summary": "Third Mauryan emperor who ruled almost the entire Indian subcontinent; following the brutal Kalinga War, he converted to Buddhism and promulgated moral edicts of non-violence (Ahimsa).",
+    "civilizationSlug": "ancient-india"
+  },
+  {
+    "slug": "muhammad",
+    "name": "Muhammad",
+    "birthYear": 570,
+    "deathYear": 632,
+    "occupations": "Prophet, Religious & Political Leader",
+    "summary": "Founder of Islam and the recipient of the Quran according to Islamic belief, unifying the Arabian peninsula into a single religious polity.",
+    "civilizationSlug": "islamic-civilization"
+  },
+  {
+    "slug": "saladin",
+    "name": "Saladin",
+    "birthYear": 1137,
+    "deathYear": 1193,
+    "occupations": "Sultan, Military Commander",
+    "summary": "First sultan of Egypt and Syria and founder of the Ayyubid dynasty, admired in both Muslim and Christian worlds for chivalry and his recapture of Jerusalem in 1187.",
+    "civilizationSlug": "islamic-civilization"
+  },
+  {
+    "slug": "ho-chi-minh",
+    "name": "Ho Chi Minh",
+    "birthYear": 1890,
+    "deathYear": 1969,
+    "occupations": "Revolutionary, Statesman",
+    "summary": "Key figure in the foundation of the Democratic Republic of Vietnam in 1945, leading the Vietnamese national liberation movement.",
+    "civilizationSlug": "vietnam"
+  },
+  {
+    "slug": "isaac-newton",
+    "name": "Isaac Newton",
+    "birthYear": 1643,
+    "deathYear": 1727,
+    "occupations": "Physicist, Mathematician, Astronomer",
+    "summary": "Key figure in the Scientific Revolution whose Philosophiæ Naturalis Principia Mathematica formulated the laws of motion and universal gravitation.",
+    "civilizationSlug": null
+  },
+  {
+    "slug": "charles-darwin",
+    "name": "Charles Darwin",
+    "birthYear": 1809,
+    "deathYear": 1882,
+    "occupations": "Naturalist, Biologist",
+    "summary": "English naturalist who established that all species of life have descended from common ancestors through the process of natural selection.",
+    "civilizationSlug": null
+  },
+  {
+    "slug": "albert-einstein",
+    "name": "Albert Einstein",
+    "birthYear": 1879,
+    "deathYear": 1955,
+    "occupations": "Theoretical Physicist",
+    "summary": "German-born theoretical physicist widely acknowledged as one of the greatest physicists of all time, best known for developing the theory of relativity.",
+    "civilizationSlug": null
+  },
+  {
+    "slug": "alan-turing",
+    "name": "Alan Turing",
+    "birthYear": 1912,
+    "deathYear": 1954,
+    "occupations": "Mathematician, Computer Scientist",
+    "summary": "English mathematician and cryptanalyst who played a pivotal role in cracking intercepted coded messages during WWII and formalized theoretical computer science.",
+    "civilizationSlug": null
+  },
+  {
+    "slug": "leonardo-da-vinci",
+    "name": "Leonardo da Vinci",
+    "birthYear": 1452,
+    "deathYear": 1519,
+    "occupations": "Polymath, Artist, Engineer",
+    "summary": "Italian Renaissance polymath whose areas of interest included painting, invention, sculpture, architecture, science, and anatomy.",
+    "civilizationSlug": null
+  }
 ]

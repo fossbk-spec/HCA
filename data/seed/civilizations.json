@@ -1,12 +1,92 @@
 [
-{"slug":"mesopotamia","name":"Mesopotamia","region":"Middle East","periodStart":-3500,"periodEnd":-539,"summary":"Cradle of civilization."},
-{"slug":"ancient-egypt","name":"Ancient Egypt","region":"Africa","periodStart":-3100,"periodEnd":-30,"summary":"Civilization of the Nile."},
-{"slug":"ancient-greece","name":"Ancient Greece","region":"Europe","periodStart":-800,"periodEnd":-146,"summary":"Birthplace of democracy and philosophy."},
-{"slug":"roman-empire","name":"Roman Empire","region":"Europe","periodStart":-27,"periodEnd":476,"summary":"Major Mediterranean empire."},
-{"slug":"ancient-india","name":"Ancient India","region":"South Asia"},
-{"slug":"ancient-china","name":"Ancient China","region":"East Asia"},
-{"slug":"persian-empire","name":"Persian Empire","region":"Middle East"},
-{"slug":"islamic-civilization","name":"Islamic Civilization","region":"Middle East"},
-{"slug":"maya-civilization","name":"Maya Civilization","region":"Americas"},
-{"slug":"vietnam","name":"Vietnam","region":"Southeast Asia"}
+  {
+    "slug": "mesopotamia",
+    "name": "Mesopotamia",
+    "region": "Middle East",
+    "periodStart": -3500,
+    "periodEnd": -539,
+    "summary": "Cradle of civilization between the Tigris and Euphrates rivers, birthplace of cuneiform writing, urbanization, and codified law.",
+    "content": "Mesopotamia, located in the fertile crescent between the Tigris and Euphrates rivers (modern-day Iraq, Kuwait, and parts of Syria and Turkey), is widely recognized as the cradle of human civilization. It witnessed the emergence of the earliest known cities such as Uruk and Ur, the invention of cuneiform writing around 3400 BCE, the development of the wheel, mathematics with base-60 numeration, and the earliest comprehensive legal codes, notably the Code of Hammurabi. It encompassed successive great empires and cultures including Sumer, Akkad, Babylonia, and Assyria until the conquest of Babylon by Cyrus the Great of Persia in 539 BCE."
+  },
+  {
+    "slug": "ancient-egypt",
+    "name": "Ancient Egypt",
+    "region": "North Africa",
+    "periodStart": -3100,
+    "periodEnd": -30,
+    "summary": "Nile River valley civilization renowned for monumental architecture, hieroglyphic writing, pharaonic governance, and complex funerary religion.",
+    "content": "Ancient Egypt flourished along the lower reaches of the Nile River for over three millennia, unified under the first pharaoh Narmer around 3100 BCE. Characterized by remarkable cultural continuity, Ancient Egypt created iconic monumental stone architecture including the Pyramids of Giza and the temples of Karnak and Luxor, hieroglyphic and hieratic script, advanced surveying, mathematics, and medicine. Its worldview was deeply shaped by the predictable annual flooding of the Nile and the pursuit of Ma'at (truth, cosmic order, and justice) alongside belief in the afterlife. The civilization ended as an independent state following the death of Cleopatra VII and Roman annexation in 30 BCE."
+  },
+  {
+    "slug": "ancient-greece",
+    "name": "Ancient Greece",
+    "region": "Mediterranean Europe",
+    "periodStart": -800,
+    "periodEnd": -146,
+    "summary": "Birthplace of Western philosophy, Athenian democracy, drama, classical architecture, Olympic Games, and rational scientific inquiry.",
+    "content": "Ancient Greece, centered in the southern Balkan peninsula and Aegean archipelago, laid the foundational philosophical, political, scientific, and aesthetic concepts of Western civilization. Composed of independent city-states (poleis) such as Athens, Sparta, Thebes, and Corinth, Greece pioneered democratic governance in Athens under Cleisthenes and Pericles. It fostered philosophical traditions spearheaded by Socrates, Plato, and Aristotle; foundational literature including Homer's Iliad and Odyssey; classical drama (Aeschylus, Sophocles, Euripides); and rigorous historical analysis (Herodotus, Thucydides). After the conquests of Alexander the Great spread Hellenistic culture across Asia and Egypt, Greece was integrated into the Roman Republic in 146 BCE."
+  },
+  {
+    "slug": "roman-empire",
+    "name": "Roman Empire",
+    "region": "Mediterranean & Europe",
+    "periodStart": -509,
+    "periodEnd": 476,
+    "summary": "Transcontinental powerhouse known for Roman law, republican governance, engineering feats (aqueducts, roads, arches), Pax Romana, and Christianization.",
+    "content": "Originating as a small agrarian city-state on the banks of the Tiber River, Rome evolved from a kingdom into a resilient Republic in 509 BCE with separation of powers, the Senate, and written law (Twelve Tables). Following the crisis of the Republic and the rise of Julius Caesar, his adopted heir Augustus founded the Roman Empire in 27 BCE, inaugurating two centuries of internal stability known as the Pax Romana. Roman civilization transformed Europe, North Africa, and the Near East through monumental civil engineering (aqueducts, concrete domes, expansive road networks), standardized Latin legal codes (the foundation of modern civil law), and the eventual adoption and dissemination of Christianity across the Western world until the fall of the Western Empire in 476 CE."
+  },
+  {
+    "slug": "ancient-india",
+    "name": "Ancient India",
+    "region": "South Asia",
+    "periodStart": -2500,
+    "periodEnd": 550,
+    "summary": "Major civilization of the Indus and Ganges valleys, birthplace of Hinduism, Buddhism, Jainism, concept of zero, and Ayurvedic medicine.",
+    "content": "Ancient India encompasses the urban Indus Valley Civilization, Vedic period, and golden age under the Maurya and Gupta empires, leaving enduring legacies in metaphysics, mathematics, linguistics, and philosophy."
+  },
+  {
+    "slug": "ancient-china",
+    "name": "Ancient China",
+    "region": "East Asia",
+    "periodStart": -2070,
+    "periodEnd": 220,
+    "summary": "Continuous East Asian civilization marked by dynastic cycles, Confucianism, Taoism, Legalism, silk trade, and foundational technological inventions.",
+    "content": "From the early Shang and Zhou dynasties through imperial unification under Qin and Han, Ancient China established enduring institutional bureaucracy, civil service examinations, and foundational philosophical systems."
+  },
+  {
+    "slug": "persian-empire",
+    "name": "Persian Empire",
+    "region": "Middle East",
+    "periodStart": -550,
+    "periodEnd": 651,
+    "summary": "Mighty Iranian plateau empire celebrated for the Cyrus Cylinder, satrapy administrative model, Royal Road network, and Zoroastrian ethics.",
+    "content": "Founded by Cyrus the Great, the Achaemenid Empire represented the largest empire the world had seen, championing cultural and religious tolerance, administrative efficiency, and monumental architecture at Persepolis."
+  },
+  {
+    "slug": "islamic-civilization",
+    "name": "Islamic Civilization",
+    "region": "Middle East & North Africa",
+    "periodStart": 622,
+    "periodEnd": 1258,
+    "summary": "Global cultural and scientific renaissance centered in Baghdad, Cairo, and Córdoba, bridging Greco-Roman philosophy and modern sciences.",
+    "content": "Beginning with the revelation of the Quran and the prophet Muhammad in 622 CE, the Islamic Golden Age fostered monumental advancements in algebra, optics, medicine, astronomy, and architectural preservation of classical learning."
+  },
+  {
+    "slug": "maya-civilization",
+    "name": "Maya Civilization",
+    "region": "Mesoamerica",
+    "periodStart": -2000,
+    "periodEnd": 1546,
+    "summary": "Pre-Columbian Mesoamerican civilization celebrated for advanced hieroglyphic writing, sophisticated mathematics (zero), astronomy, and stepped pyramids.",
+    "content": "Flourishing in the tropical lowlands of modern-day Mexico and Central America, the Classic Maya built magnificent city-states like Tikal, Palenque, and Calakmul, guided by elaborate astronomical and calendrical systems."
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "region": "Southeast Asia",
+    "periodStart": -2879,
+    "periodEnd": 1884,
+    "summary": "Resilient Southeast Asian civilization combining Dong Son bronze culture, millennia-long defense of independence, and rich Confucian-Buddhist governance.",
+    "content": "Rooted in the Red River Valley and ancient Van Lang-Au Lac cultures, Vietnam maintained an unwavering national identity, establishing dynastic peaks under the Ly, Tran, and Le dynasties with renowned legal and cultural traditions."
+  }
 ]
