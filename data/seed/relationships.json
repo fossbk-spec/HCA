@@ -1,12 +1,289 @@
 [
-{"sourceSlug":"aristotle","targetSlug":"alexander","relationshipType":"TAUGHT"},
-{"sourceSlug":"plato","targetSlug":"aristotle","relationshipType":"TAUGHT"},
-{"sourceSlug":"socrates","targetSlug":"plato","relationshipType":"TAUGHT"},
-{"sourceSlug":"ancient-greece","targetSlug":"democracy","relationshipType":"CREATED"},
-{"sourceSlug":"confucius","targetSlug":"analects","relationshipType":"WROTE"},
-{"sourceSlug":"homer","targetSlug":"iliad","relationshipType":"WROTE"},
-{"sourceSlug":"homer","targetSlug":"odyssey","relationshipType":"WROTE"},
-{"sourceSlug":"isaac-newton","targetSlug":"principia","relationshipType":"WROTE"},
-{"sourceSlug":"charles-darwin","targetSlug":"origin-of-species","relationshipType":"WROTE"},
-{"sourceSlug":"ancient-china","targetSlug":"printing","relationshipType":"DEVELOPED"}
+  {
+    "sourceSlug": "socrates",
+    "sourceType": "PERSON",
+    "targetSlug": "plato",
+    "targetType": "PERSON",
+    "relationshipType": "TAUGHT"
+  },
+  {
+    "sourceSlug": "plato",
+    "sourceType": "PERSON",
+    "targetSlug": "aristotle",
+    "targetType": "PERSON",
+    "relationshipType": "TAUGHT"
+  },
+  {
+    "sourceSlug": "aristotle",
+    "sourceType": "PERSON",
+    "targetSlug": "alexander",
+    "targetType": "PERSON",
+    "relationshipType": "TAUGHT"
+  },
+  {
+    "sourceSlug": "socrates",
+    "sourceType": "PERSON",
+    "targetSlug": "socratic-method",
+    "targetType": "IDEA",
+    "relationshipType": "CREATED"
+  },
+  {
+    "sourceSlug": "plato",
+    "sourceType": "PERSON",
+    "targetSlug": "republic",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "plato",
+    "sourceType": "PERSON",
+    "targetSlug": "platonism",
+    "targetType": "IDEA",
+    "relationshipType": "FOUNDED"
+  },
+  {
+    "sourceSlug": "plato",
+    "sourceType": "PERSON",
+    "targetSlug": "founding-of-platos-academy",
+    "targetType": "EVENT",
+    "relationshipType": "INITIATED"
+  },
+  {
+    "sourceSlug": "aristotle",
+    "sourceType": "PERSON",
+    "targetSlug": "politics",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "aristotle",
+    "sourceType": "PERSON",
+    "targetSlug": "nicomachean-ethics",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "aristotle",
+    "sourceType": "PERSON",
+    "targetSlug": "aristotelian-logic",
+    "targetType": "IDEA",
+    "relationshipType": "CREATED"
+  },
+  {
+    "sourceSlug": "homer",
+    "sourceType": "PERSON",
+    "targetSlug": "iliad",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "homer",
+    "sourceType": "PERSON",
+    "targetSlug": "odyssey",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "herodotus",
+    "sourceType": "PERSON",
+    "targetSlug": "the-histories",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "thucydides",
+    "sourceType": "PERSON",
+    "targetSlug": "history-of-peloponnesian-war",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "pericles",
+    "sourceType": "PERSON",
+    "targetSlug": "golden-age-of-athens",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "pericles",
+    "sourceType": "PERSON",
+    "targetSlug": "democracy",
+    "targetType": "IDEA",
+    "relationshipType": "CHAMPIONED"
+  },
+  {
+    "sourceSlug": "solon",
+    "sourceType": "PERSON",
+    "targetSlug": "solon-reforms-athens",
+    "targetType": "EVENT",
+    "relationshipType": "ENACTED"
+  },
+  {
+    "sourceSlug": "alexander",
+    "sourceType": "PERSON",
+    "targetSlug": "alexander-conquests",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "hammurabi",
+    "sourceType": "PERSON",
+    "targetSlug": "code-of-hammurabi",
+    "targetType": "BOOK",
+    "relationshipType": "ISSUED"
+  },
+  {
+    "sourceSlug": "hammurabi",
+    "sourceType": "PERSON",
+    "targetSlug": "rule-of-law",
+    "targetType": "IDEA",
+    "relationshipType": "CODIFIED"
+  },
+  {
+    "sourceSlug": "sargon-of-akkad",
+    "sourceType": "PERSON",
+    "targetSlug": "akkadian-empire-founded",
+    "targetType": "EVENT",
+    "relationshipType": "FOUNDED"
+  },
+  {
+    "sourceSlug": "gilgamesh",
+    "sourceType": "PERSON",
+    "targetSlug": "epic-of-gilgamesh",
+    "targetType": "BOOK",
+    "relationshipType": "SUBJECT_OF"
+  },
+  {
+    "sourceSlug": "akhenaten",
+    "sourceType": "PERSON",
+    "targetSlug": "monotheism",
+    "targetType": "IDEA",
+    "relationshipType": "PIONEERED"
+  },
+  {
+    "sourceSlug": "ramesses-ii",
+    "sourceType": "PERSON",
+    "targetSlug": "battle-of-kadesh",
+    "targetType": "EVENT",
+    "relationshipType": "COMMANDED"
+  },
+  {
+    "sourceSlug": "julius-caesar",
+    "sourceType": "PERSON",
+    "targetSlug": "caesar-crosses-rubicon",
+    "targetType": "EVENT",
+    "relationshipType": "INITIATED"
+  },
+  {
+    "sourceSlug": "julius-caesar",
+    "sourceType": "PERSON",
+    "targetSlug": "augustus",
+    "targetType": "PERSON",
+    "relationshipType": "ADOPTED"
+  },
+  {
+    "sourceSlug": "augustus",
+    "sourceType": "PERSON",
+    "targetSlug": "establishment-of-roman-empire",
+    "targetType": "EVENT",
+    "relationshipType": "FOUNDED"
+  },
+  {
+    "sourceSlug": "cicero",
+    "sourceType": "PERSON",
+    "targetSlug": "on-the-republic",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "cicero",
+    "sourceType": "PERSON",
+    "targetSlug": "republic",
+    "targetType": "IDEA",
+    "relationshipType": "DEFENDED"
+  },
+  {
+    "sourceSlug": "virgil",
+    "sourceType": "PERSON",
+    "targetSlug": "aeneid",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "marcus-aurelius",
+    "sourceType": "PERSON",
+    "targetSlug": "meditations",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "marcus-aurelius",
+    "sourceType": "PERSON",
+    "targetSlug": "stoicism",
+    "targetType": "IDEA",
+    "relationshipType": "PRACTICED"
+  },
+  {
+    "sourceSlug": "constantine-the-great",
+    "sourceType": "PERSON",
+    "targetSlug": "edict-of-milan",
+    "targetType": "EVENT",
+    "relationshipType": "ENACTED"
+  },
+  {
+    "sourceSlug": "ancient-greece",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "democracy",
+    "targetType": "IDEA",
+    "relationshipType": "ORIGINATED_IN"
+  },
+  {
+    "sourceSlug": "mesopotamia",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "cuneiform-writing",
+    "targetType": "IDEA",
+    "relationshipType": "INVENTED"
+  },
+  {
+    "sourceSlug": "ancient-egypt",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "ma-at",
+    "targetType": "IDEA",
+    "relationshipType": "FORMULATED"
+  },
+  {
+    "sourceSlug": "roman-empire",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "roman-law",
+    "targetType": "IDEA",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "roman-empire",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "republic",
+    "targetType": "IDEA",
+    "relationshipType": "PRACTICED"
+  },
+  {
+    "sourceSlug": "confucius",
+    "sourceType": "PERSON",
+    "targetSlug": "analects",
+    "targetType": "BOOK",
+    "relationshipType": "INSPIRED"
+  },
+  {
+    "sourceSlug": "confucius",
+    "sourceType": "PERSON",
+    "targetSlug": "confucianism",
+    "targetType": "IDEA",
+    "relationshipType": "FOUNDED"
+  },
+  {
+    "sourceSlug": "buddha",
+    "sourceType": "PERSON",
+    "targetSlug": "buddhism",
+    "targetType": "IDEA",
+    "relationshipType": "FOUNDED"
+  }
 ]
