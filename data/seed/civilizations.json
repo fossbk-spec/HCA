@@ -36,49 +36,22 @@
     "content": "Originating as a small agrarian city-state on the banks of the Tiber River, Rome evolved from a kingdom into a resilient Republic in 509 BCE with separation of powers, the Senate, and written law (Twelve Tables). Following the crisis of the Republic and the rise of Julius Caesar, his adopted heir Augustus founded the Roman Empire in 27 BCE, inaugurating two centuries of internal stability known as the Pax Romana. Roman civilization transformed Europe, North Africa, and the Near East through monumental civil engineering (aqueducts, concrete domes, expansive road networks), standardized Latin legal codes (the foundation of modern civil law), and the eventual adoption and dissemination of Christianity across the Western world until the fall of the Western Empire in 476 CE."
   },
   {
-    "slug": "ancient-india",
-    "name": "Ancient India",
-    "region": "South Asia",
-    "periodStart": -2500,
-    "periodEnd": 550,
-    "summary": "Major civilization of the Indus and Ganges valleys, birthplace of Hinduism, Buddhism, Jainism, concept of zero, and Ayurvedic medicine.",
-    "content": "Ancient India encompasses the urban Indus Valley Civilization, Vedic period, and golden age under the Maurya and Gupta empires, leaving enduring legacies in metaphysics, mathematics, linguistics, and philosophy."
-  },
-  {
     "slug": "ancient-china",
     "name": "Ancient China",
     "region": "East Asia",
     "periodStart": -2070,
     "periodEnd": 220,
-    "summary": "Continuous East Asian civilization marked by dynastic cycles, Confucianism, Taoism, Legalism, silk trade, and foundational technological inventions.",
-    "content": "From the early Shang and Zhou dynasties through imperial unification under Qin and Han, Ancient China established enduring institutional bureaucracy, civil service examinations, and foundational philosophical systems."
+    "summary": "Continuous East Asian civilization marked by dynastic cycles, Confucianism, Taoism, Legalism, silk trade, paper-making, and bureaucratic statecraft.",
+    "content": "Emerging in the fertile Yellow River basin and Yangtze River valley, Ancient China represents one of the world's longest continuous cultural traditions. From early mythical Xia and bronze-age Shang and Zhou dynasties through the Hundred Schools of Thought in the Spring and Autumn and Warring States periods, Chinese philosophy was defined by Confucian moral ethics, Taoist natural harmony, and Legalist institutional statecraft. Imperial unification under Qin Shi Huang in 221 BCE established standardized logographic script, weights, measures, and the Great Wall. The subsequent Han Dynasty (202 BCE – 220 CE) consolidated the civil service examination system, opened the Silk Road trans-Eurasian trade network, saw the invention of paper, and established Confucianism as the enduring ideological backbone of imperial governance."
   },
   {
-    "slug": "persian-empire",
-    "name": "Persian Empire",
-    "region": "Middle East",
-    "periodStart": -550,
-    "periodEnd": 651,
-    "summary": "Mighty Iranian plateau empire celebrated for the Cyrus Cylinder, satrapy administrative model, Royal Road network, and Zoroastrian ethics.",
-    "content": "Founded by Cyrus the Great, the Achaemenid Empire represented the largest empire the world had seen, championing cultural and religious tolerance, administrative efficiency, and monumental architecture at Persepolis."
-  },
-  {
-    "slug": "islamic-civilization",
-    "name": "Islamic Civilization",
-    "region": "Middle East & North Africa",
-    "periodStart": 622,
-    "periodEnd": 1258,
-    "summary": "Global cultural and scientific renaissance centered in Baghdad, Cairo, and Córdoba, bridging Greco-Roman philosophy and modern sciences.",
-    "content": "Beginning with the revelation of the Quran and the prophet Muhammad in 622 CE, the Islamic Golden Age fostered monumental advancements in algebra, optics, medicine, astronomy, and architectural preservation of classical learning."
-  },
-  {
-    "slug": "maya-civilization",
-    "name": "Maya Civilization",
-    "region": "Mesoamerica",
-    "periodStart": -2000,
-    "periodEnd": 1546,
-    "summary": "Pre-Columbian Mesoamerican civilization celebrated for advanced hieroglyphic writing, sophisticated mathematics (zero), astronomy, and stepped pyramids.",
-    "content": "Flourishing in the tropical lowlands of modern-day Mexico and Central America, the Classic Maya built magnificent city-states like Tikal, Palenque, and Calakmul, guided by elaborate astronomical and calendrical systems."
+    "slug": "ancient-india",
+    "name": "Ancient India",
+    "region": "South Asia",
+    "periodStart": -2500,
+    "periodEnd": 550,
+    "summary": "Subcontinental civilization of the Indus and Ganges basins, birthplace of Hinduism, Buddhism, Jainism, concept of zero, and Ayurvedic medicine.",
+    "content": "Ancient India began with the urban planned settlements of the Indus Valley Civilization (Harappa and Mohenjo-daro), characterized by advanced municipal drainage and brick architecture. The subsequent Vedic period saw the composition of the sacred Vedas and Upanishads in Sanskrit, establishing foundational concepts of Dharma, Karma, and Samsara. In the 6th century BCE, the Magadha region witnessed the intellectual and spiritual rise of Gautama Buddha and Mahavira, challenging ritual orthodoxy with paths of ethical enlightenment and Ahimsa (non-violence). The Maurya Empire under Ashoka the Great unified most of the subcontinent, promoting Buddhist dharma across Asia. Later, the Gupta Empire (c. 320–550 CE) marked a classical golden age in literature (Kalidasa), mathematics (the zero and decimal positional notation by Aryabhata), astronomy, metallurgy, and philosophy."
   },
   {
     "slug": "vietnam",
@@ -86,7 +59,34 @@
     "region": "Southeast Asia",
     "periodStart": -2879,
     "periodEnd": 1884,
-    "summary": "Resilient Southeast Asian civilization combining Dong Son bronze culture, millennia-long defense of independence, and rich Confucian-Buddhist governance.",
-    "content": "Rooted in the Red River Valley and ancient Van Lang-Au Lac cultures, Vietnam maintained an unwavering national identity, establishing dynastic peaks under the Ly, Tran, and Le dynasties with renowned legal and cultural traditions."
+    "summary": "Resilient Red River delta civilization blending Dong Son metallurgy, millennia-long defense of national autonomy, Tam Giao (Three Teachings), and enlightened legal institutions.",
+    "content": "Rooted in the Dong Son bronze culture of the Red River Delta, Vietnam trace its origins to the legendary Hong Bang clan and the Au Lac kingdom centered at Co Loa fortress. Following more than a millennium of Northern domination during which the Vietnamese people tenaciously preserved their distinct language, customs, and matriarchal memories (embodied by the Trung Sisters and Lady Trieu), Ngo Quyen achieved historic independence at the Battle of Bach Dang in 938 CE. The civilization reached cultural, administrative, and military heights under the Ly (1009–1225), Tran (1225–1400), and Le (1428–1789) dynasties. Key hallmarks include the philosophy of Tam Giao Dong Nguyen (harmonic synthesis of Buddhism, Confucianism, and Taoism), the Temple of Literature (Quoc Tu Giam) as the nation's premier university, the Hong Duc Legal Code protecting women's property rights, and legendary resistance against Mongol, Song, and Ming invasions."
+  },
+  {
+    "slug": "persian-empire",
+    "name": "Persian Empire",
+    "region": "Near East & Iranian Plateau",
+    "periodStart": -550,
+    "periodEnd": 651,
+    "summary": "Mighty Iranian civilization spanning the Achaemenid, Parthian, and Sasanian dynasties, celebrated for human tolerance, the Royal Road, satrapy governance, and Zoroastrian ethics.",
+    "content": "Founded by Cyrus the Great in 550 BCE after uniting the Medes and Persians, the Achaemenid Persian Empire expanded into the largest imperial dominion the ancient world had ever witnessed, encompassing Egypt, Mesopotamia, Anatolia, the Levant, and Central Asia to the Indus River.\n\nPersian governance pioneered revolutionary statecraft: rather than brutally subjugating conquered populations, Cyrus established a policy of religious tolerance and cultural autonomy, epitomized by the Cyrus Cylinder (which freed Jewish captives from Babylon). King Darius I the Great institutionalized this vast realm into 20 satrapies (administrative provinces) overseen by royal inspectors (\"the King's Eyes\"), standardized taxation and gold Daric currency, and engineered the 2,700-kilometer Royal Road network with express courier postal stations (Chapar Khaneh).\n\nPersian engineering developed monumental palaces at Pasargadae and Persepolis, as well as the revolutionary qanat underground water transport system that turned arid plateaus into lush agricultural paradises (Pardis / Paradise). Following conquest by Alexander the Great, Iranian civilization experienced major renaissances under the Parthian Arsacids (famed for horse archery and silk trade) and the Sasanian Empire (a philosophical, cultural, and military rival to Rome that founded the Academy of Gundeshapur). Zoroastrianism, the state religion emphasizing cosmic struggle between good (Ahura Mazda/Asha) and evil (Angra Mainyu/Druj), profoundly influenced universal concepts of free will, divine judgment, heaven, hell, and ethical living."
+  },
+  {
+    "slug": "islamic-civilization",
+    "name": "Islamic Civilization",
+    "region": "Middle East, North Africa, Central Asia & Al-Andalus",
+    "periodStart": 622,
+    "periodEnd": 1258,
+    "summary": "Spiritual, scientific, and cultural global civilization spanning from Spain to India, renowned for the Islamic Golden Age, the House of Wisdom, algebra, medicine, optics, and philosophical synthesis.",
+    "content": "Originating in the Arabian Peninsula with the revelations received by the Prophet Muhammad in 610 CE and the founding of the Medina community (the Hijra in 622 CE), Islamic Civilization rapidly expanded across Afro-Eurasia under the Rashidun, Umayyad, and Abbasid caliphates, connecting the Atlantic Ocean to the Indian Ocean through a unified cultural and linguistic realm.\n\nThe Islamic Golden Age (8th to 13th centuries), catalyzed by the Abbasid founding of Baghdad and the legendary House of Wisdom (Bayt al-Hikma) under caliphs Harun al-Rashid and Al-Ma'mun, sparked a monumental Graeco-Arabic Translation Movement. Muslim scholars preserved, translated, and critically expanded upon Greek, Persian, Babylonian, and Indian texts.\n\nGroundbreaking intellectual achievements flourished across multiple disciplines: Al-Khwarizmi invented Algebra (Al-Jabr) and popularized Indian decimal numerals; Ibn al-Haytham (Alhazen) founded modern empirical optics and formulated the scientific method; Ibn Sina (Avicenna) composed The Canon of Medicine, the foundational medical textbook for Europe and Asia for six centuries; Al-Biruni calculated the Earth's circumference with astonishing precision; and philosophers such as Ibn Rushd (Averroes) reconciled Aristotelian rationalism with monotheistic faith, profoundly stimulating the European Renaissance. Renowned for breathtaking geometric arabesques, calligraphic architecture (the Alhambra, Dome of the Rock), madrasa institutions, and free public hospitals (Bimaristans), the civilization flourished until the Mongol sack of Baghdad in 1258."
+  },
+  {
+    "slug": "maya-civilization",
+    "name": "Maya Civilization",
+    "region": "Mesoamerica (Mexico, Guatemala, Belize, Honduras)",
+    "periodStart": -2000,
+    "periodEnd": 1546,
+    "summary": "Sophisticated Pre-Columbian civilization renowned for the only complete indigenous written script in the Americas, vigesimal mathematics with zero, precise astronomy, and monumental stepped pyramids.",
+    "content": "Flourishing across the Yucatan Peninsula, the Petén rainforest of Guatemala, Belize, and western Honduras, Maya Civilization evolved over three millennia from early Preclassic farming villages through the magnificent Classic Golden Age (250–900 CE) to the Postclassic northern cities (such as Chichen Itza and Mayapan).\n\nUnlike centralized Old World empires, the Maya were organized into dynamic, competing city-states ruled by divine kings (K'uhul Ajaw) who served as cosmic mediators between gods, ancestors, and humanity. Cities like Tikal, Calakmul, Palenque, Copán, and Yaxchilan erected colossal stepped limestone pyramids, royal acropolises, sweat baths, and ceremonial ball courts, supported by intensive raised-field, terraced, and forest-gardening agroforestry.\n\nIntellectually, the Maya achieved extraordinary scientific heights: they independently invented the concept of mathematical zero and a place-value base-20 (vigesimal) positional number system centuries before Europe; tracked the celestial orbits of Venus, the Moon, and the Sun with micro-accuracy; and developed interlocking calendars including the 260-day Tzolk'in, 365-day Haab', and the 5,125-year Long Count calendar. Their writing system—a sophisticated logosyllabic script of over 800 hieroglyphs carved into stone stelae, painted on polychrome ceramic vases, and folded into bark-paper codices (such as the Dresden Codex)—represented the only fully phonetic indigenous script in the Western Hemisphere."
   }
 ]

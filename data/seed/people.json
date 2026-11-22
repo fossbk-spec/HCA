@@ -331,5 +331,355 @@
     "occupations": "Polymath, Artist, Engineer",
     "summary": "Italian Renaissance polymath whose areas of interest included painting, invention, sculpture, architecture, science, and anatomy.",
     "civilizationSlug": null
+  },
+  {
+    "slug": "laozi",
+    "name": "Laozi",
+    "birthYear": -571,
+    "deathYear": -471,
+    "occupations": "Philosopher, Archivist, Founder of Taoism",
+    "civilizationSlug": "ancient-china",
+    "summary": "Semi-legendary ancient Chinese philosopher credited with founding philosophical Taoism and authoring the Tao Te Ching.",
+    "content": "Laozi (Lão Tử) lived during the Spring and Autumn period. As the keeper of royal archives for the Zhou court, he observed the cyclical nature of political decay and social turmoil. His seminal work, the Tao Te Ching (Đạo Đức Kinh), articulates the Tao (the nameless primordial origin of all existence) and Wu Wei (effortless non-contriving action). Laozi argued that rigid artificial laws and moralistic posturing distort human nature, advocating instead for natural simplicity, humility, and spontaneous harmony with the cosmos."
+  },
+  {
+    "slug": "sun-tzu",
+    "name": "Sun Tzu",
+    "birthYear": -544,
+    "deathYear": -496,
+    "occupations": "General, Military Strategist, Philosopher",
+    "civilizationSlug": "ancient-china",
+    "summary": "Chinese general and strategist whose classic treatise The Art of War established foundational principles of military strategy and psychology.",
+    "content": "Sun Tzu (Tôn Tử / Tôn Vũ) served the State of Wu during the Spring and Autumn period. His military masterwork, The Art of War (Binh Pháp Tôn Tử), revolutionized strategic thought by treating warfare as an intellectual discipline governed by knowledge of self and enemy, adaptability like water, deception, and moral harmony between ruler and people. His highest ideal was winning without fighting through diplomacy, intelligence, and psychological superiority."
+  },
+  {
+    "slug": "mencius",
+    "name": "Mencius",
+    "birthYear": -372,
+    "deathYear": -289,
+    "occupations": "Confucian Philosopher, Scholar, Political Advisor",
+    "civilizationSlug": "ancient-china",
+    "summary": "Eminent Confucian philosopher who asserted that human nature is innately good and championed the moral supremacy of the people over the sovereign.",
+    "content": "Mencius (Mạnh Tử / Mạnh Kha) was revered across East Asia as the \"Second Sage\" (Á Thánh). Travelling among rival Warring States courts, he argued that human nature possesses innate sprouts (đoan) of benevolence (nhân), righteousness (nghĩa), propriety (lễ), and wisdom (trí). Politically, he championed the welfare of commoners over royal prerogative (\"Dân vi quý, xã tắc thứ chi, quân vi khinh\"), upholding the revolutionary doctrine that corrupt tyrants forfeit the Mandate of Heaven and may be deposed."
+  },
+  {
+    "slug": "han-feizi",
+    "name": "Han Feizi",
+    "birthYear": -280,
+    "deathYear": -233,
+    "occupations": "Philosopher, Legalist Theorist, Statesman",
+    "civilizationSlug": "ancient-china",
+    "summary": "Master synthesizer of Chinese Legalism (Fajia) who formulated the tripartite doctrine of Fa (law), Shu (statecraft), and Shi (power).",
+    "content": "Han Feizi (Hàn Phi Tử) was a prince of the State of Han who synthesized earlier thinkers Shang Yang, Shen Buhai, and Shen Dao into a cohesive Legalist system. Rejecting Confucian moral nostalgia, he viewed human nature as driven by self-interest and proposed that social harmony requires explicit codified laws (Pháp), institutional surveillance and administrative checks (Thuật), and undisputed sovereign authority (Thế). His doctrine served as the administrative blueprint for Qin unification."
+  },
+  {
+    "slug": "sima-qian",
+    "name": "Sima Qian",
+    "birthYear": -145,
+    "deathYear": -86,
+    "occupations": "Grand Historian, Astrologer, Writer",
+    "civilizationSlug": "ancient-china",
+    "summary": "Father of Chinese historiography whose monumental work Records of the Grand Historian established the standard for East Asian historical writing.",
+    "content": "Sima Qian (Tư Mã Thiên) served as Grand Astrologer under Han Emperor Wu. Choosing humiliating castration over suicide in order to complete his filial and scholarly obligation, he authored the Shiji (Records of the Grand Historian / Sử ký). Spanning over 2,000 years from the Yellow Emperor to Emperor Wu, the Shiji invented the Jizhuan (biographical-thematic) format, blending official annals, economic treatises, and vivid personal biographies with candid historical judgment."
+  },
+  {
+    "slug": "han-wudi",
+    "name": "Emperor Wu of Han",
+    "birthYear": -156,
+    "deathYear": -87,
+    "occupations": "Emperor, Military Commander, Reformer",
+    "civilizationSlug": "ancient-china",
+    "summary": "Seventh emperor of the Han dynasty who transformed China into a world power, established Confucianism as state orthodoxy, and opened the Silk Road.",
+    "content": "Emperor Wu of Han (Hán Vũ Đế) reigned for 54 transformative years. He broke the military hegemony of the northern Xiongnu nomads, extended imperial borders to Central Asia, northern Vietnam, and Korea, and dispatched Zhang Qian to initiate the Silk Road trade network. Domestically, he established Confucianism as the sole imperial state philosophy while financing his campaigns through state monopolies on salt, iron, and liquor."
+  },
+  {
+    "slug": "zhu-xi",
+    "name": "Zhu Xi",
+    "birthYear": 1130,
+    "deathYear": 1200,
+    "occupations": "Neo-Confucian Philosopher, Scholar, Educator",
+    "civilizationSlug": "ancient-china",
+    "summary": "Foremost master of Neo-Confucianism who systematized the Four Books and developed the metaphysical synthesis of Li (principle) and Qi (material force).",
+    "content": "Zhu Xi (Chu Hi) was the towering thinker of the Southern Song dynasty who revitalized Confucianism in response to Buddhism and Taoism. He selected and annotated the Four Books (Great Learning, Doctrine of the Mean, Analects, Mencius), which served as the official curriculum for civil service examinations across China, Korea, and Vietnam from 1313 until the early 20th century. His metaphysical framework of universal Principle (Lý) and physical Vital Force (Khí) shaped East Asian intellectual culture."
+  },
+  {
+    "slug": "mahavira",
+    "name": "Mahavira",
+    "birthYear": -599,
+    "deathYear": -527,
+    "occupations": "Spiritual Teacher, Philosopher, 24th Tirthankara of Jainism",
+    "civilizationSlug": "ancient-india",
+    "summary": "The 24th Tirthankara of Jainism who revitalized Jain philosophy, codifying the supreme vows of Ahimsa (non-violence) and Anekantavada (multi-faceted reality).",
+    "content": "Vardhamana Mahavira was a contemporary of Gautama Buddha who attained Kevala Jnana (supreme omniscience) after twelve years of austere asceticism. He systematized Jain dharma around five core vows: Ahimsa (non-violence to all living beings), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (chastity), and Aparigraha (non-possession). His epistemic doctrine of Anekantavada asserts that reality is multifaceted and no single human statement captures absolute truth."
+  },
+  {
+    "slug": "chandragupta-maurya",
+    "name": "Chandragupta Maurya",
+    "birthYear": -340,
+    "deathYear": -297,
+    "occupations": "Emperor, Conqueror, Founder of the Maurya Empire",
+    "civilizationSlug": "ancient-india",
+    "summary": "Founder of the Maurya Empire who unified the majority of the Indian subcontinent under a single centralized imperial state.",
+    "content": "Advised by the master strategist Chanakya (Kautilya), Chandragupta Maurya overthrew the Nanda dynasty of Magadha, defeated the Macedonian satrapies established by Alexander the Great, and concluded a historic peace treaty with Seleucus I Nicator. His empire established the first pan-Indian imperial administration, characterized by standardized taxation, extensive irrigation, royal trunk roads, and a professional standing army."
+  },
+  {
+    "slug": "kautilya",
+    "name": "Kautilya",
+    "birthYear": -375,
+    "deathYear": -283,
+    "occupations": "Philosopher, Prime Minister, Economist, Jurist",
+    "civilizationSlug": "ancient-india",
+    "summary": "Statesman and political theorist, author of the Arthashastra, who masterminded the rise of the Maurya Empire.",
+    "content": "Chanakya (known as Kautilya or Vishnugupta) was a professor of political science at Taxila and principal architect of Chandragupta Maurya's rise. His treatise, the Arthashastra (Khoa học Kinh tế & Chính trị), covers statecraft, military strategy, espionage, market regulation, judicial administration, and diplomatic alliances (the Mandala concept). His pragmatism and systematic administrative theory make him an intellectual titan of ancient governance."
+  },
+  {
+    "slug": "kalidasa",
+    "name": "Kalidasa",
+    "birthYear": 380,
+    "deathYear": 450,
+    "occupations": "Classical Sanskrit Poet, Dramatist",
+    "civilizationSlug": "ancient-india",
+    "summary": "The greatest playwright and poet in classical Sanskrit literature during the Gupta Golden Age.",
+    "content": "Kalidasa flourished during the reign of Chandragupta II (Vikramaditya). Renowned for his psychological insight, lyrical elegance, and mastery of the poetic sentiment (rasa), his masterpieces include the drama Shakuntala (Abhijnanashakuntalam), the lyric poem Meghaduta (The Cloud Messenger), and epics Kumarasambhava and Raghuvamsha. His plays received world acclaim and inspired European literary figures such as Goethe and Herder."
+  },
+  {
+    "slug": "aryabhata",
+    "name": "Aryabhata",
+    "birthYear": 476,
+    "deathYear": 550,
+    "occupations": "Mathematician, Astronomer",
+    "civilizationSlug": "ancient-india",
+    "summary": "Pioneering classical Indian mathematician and astronomer who developed early trigonometry and heliocentric planetary models.",
+    "content": "Aryabhata composed the mathematical-astronomical treatise Aryabhatiya in 499 CE at Kusumapura (modern Patna). He approximated pi to 3.1416, formulated sine and versine tables, solved indeterminate linear equations, introduced decimal place-value notation with zero, and accurately identified that the Earth rotates daily on its axis and that lunar and solar eclipses are caused by planetary shadows rather than mythological demons."
+  },
+  {
+    "slug": "an-duong-vuong",
+    "name": "An Duong Vuong",
+    "birthYear": -257,
+    "deathYear": -179,
+    "occupations": "King of Au Lac, Military Architect",
+    "civilizationSlug": "vietnam",
+    "summary": "King of Au Lac who unified the Tay Au and Lac Viet tribes and engineered the spiral fortress of Co Loa.",
+    "content": "Thuc Phan (An Duong Vuong) united the mountainous Tay Au and lowland Lac Viet communities to establish Au Lac after the Hong Bang era. He chose Co Loa (Dong Anh, Hanoi) as his capital and constructed a monumental multi-layered spiral fortress protected by defensive moats, earthen ramparts, and advanced bronze crossbow technology (No Than). His reign marked a decisive phase in early Vietnamese urban development and defensive warfare."
+  },
+  {
+    "slug": "hai-ba-trung",
+    "name": "Trung Sisters",
+    "birthYear": 14,
+    "deathYear": 43,
+    "occupations": "National Heroines, Military Leaders, Queens",
+    "civilizationSlug": "vietnam",
+    "summary": "Sisters Trung Trac and Trung Nhi who led the first national insurrection against Han Chinese imperial domination in 40 CE.",
+    "content": "Daughters of a Lac lord in Me Linh, Trung Trac and Trung Nhi mobilized northern Vietnamese chieftains and commoners in 40 CE to overthrow the oppressive rule of Han governor To Dinh. Capturing 65 citadels across Giao Chi and Cuu Chan, Trung Trac was proclaimed Queen (Trung Nu Vuong) and abolished Han taxes. The uprising stands as an indelible symbol of Vietnamese national self-determination and the prominence of female leadership in early Southeast Asian culture."
+  },
+  {
+    "slug": "ngo-quyen",
+    "name": "Ngo Quyen",
+    "birthYear": 897,
+    "deathYear": 944,
+    "occupations": "King, General, Restorer of Independence",
+    "civilizationSlug": "vietnam",
+    "summary": "Vietnamese general and king whose decisive victory at the Battle of Bach Dang in 938 brought an end to a millennium of Chinese imperial rule.",
+    "content": "Ngo Quyen was a native of Duong Lam (Son Tay). In late 938, confronted by the Southern Han invasion fleet on the Bach Dang River, he devised the tactical stratagem of planting iron-tipped timber stakes into the riverbed. By luring the enemy armada inland at high tide and counter-attacking as the tide ebbed, he annihilated the Southern Han fleet. In 939, Ngo Quyen established his royal capital at Co Loa, founding an independent sovereign state and terminating over a millennium of Northern domination (Bac thuoc)."
+  },
+  {
+    "slug": "ly-thuong-kiet",
+    "name": "Ly Thuong Kiet",
+    "birthYear": 1019,
+    "deathYear": 1105,
+    "occupations": "Grand Marshal, Military Strategist, Statesman, Poet",
+    "civilizationSlug": "vietnam",
+    "summary": "Grand Marshal of the Ly dynasty who repulsed Song invasions and authored Nam Quoc Son Ha, Vietnam's first declaration of independence.",
+    "content": "Ly Thuong Kiet served the Ly court across four reigns. Confronting impending Song invasion, he launched a preemptive strike across the northern frontier against Yongzhou in 1075 to dismantle enemy offensive preparations, followed by a masterful defensive campaign along the Nhu Nguyet River in 1077. To galvanize his troops, he authored the immortal four-line poem Nam Quoc Son Ha (\"Nam quoc son ha Nam de cu...\"), which asserted that Vietnam's territorial sovereignty is eternally decreed by the Mandate of Heaven."
+  },
+  {
+    "slug": "tran-hung-dao",
+    "name": "Tran Hung Dao",
+    "birthYear": 1228,
+    "deathYear": 1300,
+    "occupations": "Supreme Commander, Grand Prince, Military Strategist, Author",
+    "civilizationSlug": "vietnam",
+    "summary": "Supreme military commander who defeated three Mongol-Yuan invasions and authored the proclamation Hich Tuong Si.",
+    "content": "Tran Quoc Tuan (Hung Dao Dai Vuong) served as Supreme Commander of Dai Viet armed forces during the second and third Mongol invasions (1285 and 1288). Advocating total national solidarity (\"Vua toi dong tam, anh em hoa muc, ca nuoc gop suc\"), he penned the fiery proclamation Hich Tuong Si (Call to the Officers and Soldiers) and the military manual Binh Thu Yeu Luoc. His victory at Bach Dang in 1288 destroyed the Yuan navy, securing Vietnam's sovereignty against the largest empire in world history."
+  },
+  {
+    "slug": "chu-van-an",
+    "name": "Chu Van An",
+    "birthYear": 1292,
+    "deathYear": 1370,
+    "occupations": "Educator, Confucian Scholar, Chancellor of Quoc Tu Giam",
+    "civilizationSlug": "vietnam",
+    "summary": "Revered as the Teacher of Ten Thousand Generations in Vietnam, paragon of pedagogical devotion and uncompromising moral courage.",
+    "content": "Chu Van An dedicated his life to education and ethical governance. Appointed head of the Imperial Academy (Quoc Tu Giam), he trained royal heirs and senior bureaucrats. Dismayed by corruption during King Tran Du Tong's reign, he submitted the That Tram So (Seven Beheadings Memorial) demanding the execution of seven corrupt officials. When his petition was ignored, he resigned his post to establish a private school on Mount Phuong Hoang, embodying the pure integrity of the scholar-official."
+  },
+  {
+    "slug": "nguyen-trai",
+    "name": "Nguyen Trai",
+    "birthYear": 1380,
+    "deathYear": 1442,
+    "occupations": "Grand Strategist, Statesman, Scholar, Poet, National Hero",
+    "civilizationSlug": "vietnam",
+    "summary": "Chief strategist of the Lam Son Uprising, UNESCO cultural luminary, and author of Binh Ngo Dai Cao.",
+    "content": "Nguyen Trai (Uc Trai) was the intellectual architect of the ten-year Lam Son resistance against Ming Chinese occupation. Grounding his military doctrine in profound humanism (\"Nhan nghia chi cu tai an dan\"), he employed psychological warfare (Binh ngo sach) to surrender dozens of Ming garrisons without bloodshed. In 1428, he authored the declaration Binh Ngo Dai Cao, declaring the enduring political equality and cultural identity of Dai Viet alongside northern dynasties."
+  },
+  {
+    "slug": "le-thanh-tong",
+    "name": "King Le Thanh Tong",
+    "birthYear": 1442,
+    "deathYear": 1497,
+    "occupations": "Emperor, Lawgiver, Poet, Administrative Reformer",
+    "civilizationSlug": "vietnam",
+    "summary": "Monarch of the Early Le dynasty whose Hong Duc era marked the apex of Dai Viet administration, jurisprudence, culture, and power.",
+    "content": "Reigning from 1460 to 1497, King Le Thanh Tong reorganized the country into 13 circuits, compiled the Hong Duc national cadastral map, fostered education, and founded the Tao Dan literary academy. His crowning institutional legacy was the Quoc Trieu Hinh Luat (Hong Duc Code), a sophisticated legal compilation that protected communal land, safeguarded women's property and inheritance rights, and established equitable penal standards far ahead of contemporary legal systems."
+  },
+  {
+    "slug": "tue-tinh",
+    "name": "Tue Tinh",
+    "birthYear": 1330,
+    "deathYear": 1399,
+    "occupations": "Zen Buddhist Monk, Physician, Founder of Southern Herbal Medicine",
+    "civilizationSlug": "vietnam",
+    "summary": "Father of traditional Vietnamese herbal medicine who formulated the foundational principle \"Southern herbs to treat Southern people\".",
+    "content": "Zen Master Tue Tinh (Nguyen Ba Tinh) transformed Buddhist pagodas into public dispensaries and herbal gardens. He rejected exclusive reliance on expensive Chinese medicines, arguing that the tropical climate of Vietnam produces ideal natural remedies for its inhabitants. In his medical treatises Nam Duoc Than Hieu and Hong Nghia Giac Tu Y Thu, he cataloged over 500 indigenous medicinal plants and thousands of therapeutic formulas."
+  },
+  {
+    "slug": "nguyen-du",
+    "name": "Nguyen Du",
+    "birthYear": 1765,
+    "deathYear": 1820,
+    "occupations": "Great National Poet, Diplomat, Statesman",
+    "civilizationSlug": "vietnam",
+    "summary": "Vietnam's supreme literary master and UNESCO cultural figure, author of the national epic The Tale of Kieu.",
+    "content": "Nguyen Du (To Nhu) lived through the turbulent decades of civil strife between the Trinh, Nguyen, and Tay Son factions. His poetic tour de force, Truyen Kieu (The Tale of Kieu / Doan Truong Tan Thanh), comprised of 3,254 six-eight (luc bat) lines, tells the tragic plight of Thuy Kieu. The epic explores profound themes of karmic retribution, human agency, filial sacrifice, and compassion, establishing the standard of classical Vietnamese vernacular literature."
+  },
+  {
+    "slug": "cyrus-the-great",
+    "name": "Cyrus the Great",
+    "birthYear": -600,
+    "deathYear": -530,
+    "occupations": "King of Kings, Conqueror, Founder of the Achaemenid Empire",
+    "civilizationSlug": "persian-empire",
+    "summary": "Visionary monarch who founded the Achaemenid Persian Empire and promulgated the Cyrus Cylinder, hailed as the earliest charter of human rights and religious tolerance.",
+    "content": "Cyrus II (Kourosh-e Bozorg) united the Medes and Persians to conquer Lydia and the Neo-Babylonian Empire. Rather than burning conquered shrines or enslaving native populations, Cyrus respected local customs, funded the reconstruction of temples, and liberated Jewish exiles from Babylonian captivity, permitting them to return to Jerusalem and rebuild the Second Temple. The Cyrus Cylinder inscribed in cuneiform remains an international symbol of moral statecraft and tolerance."
+  },
+  {
+    "slug": "darius-the-great",
+    "name": "Darius I the Great",
+    "birthYear": -550,
+    "deathYear": -486,
+    "occupations": "King of Kings, Administrative Reformer, Master Builder",
+    "civilizationSlug": "persian-empire",
+    "summary": "Achaemenid emperor who consolidated the empire into 20 satrapies, built the ceremonial capital Persepolis, engineered the Royal Road, and standardized the Daric currency.",
+    "content": "Ascending the throne in 522 BCE, Darius I transformed a loose empire into an efficiently administered world state. He divided the realm into satrapies governed by civil satraps and independent military commanders, constructed the royal ceremonial capital Persepolis, constructed the 2,700 km Royal Road from Susa to Sardis, and commissioned the trilingual Behistun Inscription, which provided the key to deciphering ancient cuneiform script."
+  },
+  {
+    "slug": "zoroaster",
+    "name": "Zoroaster (Zarathustra)",
+    "birthYear": -628,
+    "deathYear": -551,
+    "occupations": "Prophet, Philosopher, Founder of Zoroastrianism",
+    "civilizationSlug": "persian-empire",
+    "summary": "Ancient Iranian spiritual teacher whose hymns (the Gathas) founded Zoroastrianism, articulating cosmic dualism, individual free will, and ethical truth.",
+    "content": "Zoroaster (Zarathustra) reformed archaic polytheistic Iranian religion around Ahura Mazda (the Wise Lord), creator of truth and cosmic order (Asha). He framed human life as an active moral battlefield between good thoughts, good words, and good deeds (Humata, Hukhta, Huvarshta) and the destructive spirit of falsehood (Angra Mainyu/Druj), pioneering influential ideas of universal judgment, free choice, heaven, hell, and the final renovation of the cosmos (Frashokereti)."
+  },
+  {
+    "slug": "khosrow-i",
+    "name": "Khosrow I Anushirvan",
+    "birthYear": 501,
+    "deathYear": 579,
+    "occupations": "Sasanian Emperor, Lawgiver, Patron of Arts and Sciences",
+    "civilizationSlug": "persian-empire",
+    "summary": "The most celebrated Sasanian monarch (\"Of the Immortal Soul\"), renowned for legal reforms, tax modernization, and establishing the Academy of Gundeshapur.",
+    "content": "Khosrow I presided over the zenith of the Sasanian Empire. He reorganized land taxation into an equitable cadastre, modernized military forces, and engaged in cultural exchanges with India and Byzantium. When Byzantine Emperor Justinian closed the Academy of Athens in 529 CE, Khosrow welcomed fleeing Neoplatonist philosophers to Gundeshapur, which became a premier center for medicine, translation, and chess (Shatranj)."
+  },
+  {
+    "slug": "prophet-muhammad",
+    "name": "Prophet Muhammad",
+    "birthYear": 570,
+    "deathYear": 632,
+    "occupations": "Prophet of Islam, Statesman, Jurist, Religious and Political Leader",
+    "civilizationSlug": "islamic-civilization",
+    "summary": "The founder and central prophet of Islam who unified the Arabian Peninsula into a single religious polity based on the Quran.",
+    "content": "Born in Mecca in the Banu Hashim clan, Muhammad received the revelations of the Quran beginning in 610 CE at Mount Hira. Facing persecution from Meccan oligarchs, he undertook the Hijra (migration) to Medina in 622 CE, drafting the Constitution of Medina and establishing a unified socio-political commonwealth. Through moral preaching, military defense, and political diplomacy, he eradicated tribal blood-feuds and established monotheistic justice across Arabia before his death in 632 CE."
+  },
+  {
+    "slug": "al-khwarizmi",
+    "name": "Muhammad ibn Musa al-Khwarizmi",
+    "birthYear": 780,
+    "deathYear": 850,
+    "occupations": "Mathematician, Astronomer, Geographer, Scholar of the House of Wisdom",
+    "civilizationSlug": "islamic-civilization",
+    "summary": "Persian polymath at Baghdad's House of Wisdom whose seminal treatises gave rise to the words \"algebra\" and \"algorithm\", revolutionizing mathematics.",
+    "content": "Working at the House of Wisdom under Abbasid Caliph Al-Ma'mun, Al-Khwarizmi authored Kitab al-Jabr wa-l-Muqabala, establishing algebra as an independent mathematical discipline for solving linear and quadratic equations. His treatise on Hindu-Arabic numerals introduced the decimal place-value system and zero to the Islamic world and medieval Europe (where his Latinized name Algoritmi became \"algorithm\")."
+  },
+  {
+    "slug": "ibn-sina",
+    "name": "Ibn Sina (Avicenna)",
+    "birthYear": 980,
+    "deathYear": 1037,
+    "occupations": "Polymath, Physician, Philosopher, Astronomer",
+    "civilizationSlug": "islamic-civilization",
+    "summary": "The \"Prince of Physicians\" whose The Canon of Medicine and philosophical compendium The Book of Healing shaped medicine and philosophy across the medieval world.",
+    "content": "Born near Bukhara, Ibn Sina was a prodigious intellect who mastered medicine and metaphysics by age 18. His five-volume encyclopedia, Al-Qanun fi al-Tibb (The Canon of Medicine), codified pharmacology, clinical diagnosis, contagion theory, and quarantine principles, serving as the standard university medical textbook in Europe and the Islamic world for over 500 years. In philosophy, his synthesis of Aristotelian logic and Islamic theology introduced the famous Floating Man thought experiment and proofs of the Necessary Existent."
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "name": "Ibn al-Haytham (Alhazen)",
+    "birthYear": 965,
+    "deathYear": 1040,
+    "occupations": "Physicist, Mathematician, Astronomer, Optical Pioneer",
+    "civilizationSlug": "islamic-civilization",
+    "summary": "The \"Father of Modern Optics\" whose Book of Optics overthrew ancient emission theories of vision and established systematic experimental scientific methodology.",
+    "content": "Flourishing in Cairo under the Fatimid Caliphate, Ibn al-Haytham composed the groundbreaking Kitab al-Manazir (Book of Optics). He proved experimentally that vision occurs when light rays bounce off objects into the eye (intromission), disproving the emission theories of Euclid and Ptolemy. He designed camera obscura experiments, investigated refraction and spherical aberration, and pioneered the modern scientific method based on rigorous empirical experimentation and mathematical verification."
+  },
+  {
+    "slug": "ibn-rushd",
+    "name": "Ibn Rushd (Averroes)",
+    "birthYear": 1126,
+    "deathYear": 1198,
+    "occupations": "Master Philosopher, Chief Qadi, Jurist, Physician",
+    "civilizationSlug": "islamic-civilization",
+    "summary": "Foremost Islamic philosopher of Al-Andalus, revered in Europe as \"The Commentator\" on Aristotle, who defended rational philosophy against theological anti-intellectualism.",
+    "content": "Serving as Chief Judge (Qadi) in Seville and Córdoba, Ibn Rushd wrote comprehensive commentaries on Aristotle that revived Western philosophical thought. In his masterwork Tahafut al-Tahafut (The Incoherence of the Incoherence) and Fasl al-Maqal (The Decisive Treatise), he argued passionately that reason and religious revelation cannot contradict one another because truth does not oppose truth, advocating for philosophical interpretation (ta'wil) of religious allegories."
+  },
+  {
+    "slug": "harun-al-rashid",
+    "name": "Harun al-Rashid",
+    "birthYear": 763,
+    "deathYear": 809,
+    "occupations": "Fifth Abbasid Caliph, Patron of Learning and Culture",
+    "civilizationSlug": "islamic-civilization",
+    "summary": "Fifth Abbasid caliph whose reign represents the dazzling scientific and economic zenith of Baghdad, immortalized in One Thousand and One Nights.",
+    "content": "Under Harun al-Rashid, Baghdad grew into the wealthiest and most populous metropolis in the world. He founded the legendary Bayt al-Hikma (House of Wisdom), established public hospitals, dispatched diplomatic embassies with diplomatic gifts (including a water clock and an elephant) to Holy Roman Emperor Charlemagne, and presided over a vibrant international marketplace connecting Tang China, India, Byzantium, and the Mediterranean."
+  },
+  {
+    "slug": "pakal-the-great",
+    "name": "K'inich Janaab Pakal I (Pakal the Great)",
+    "birthYear": 603,
+    "deathYear": 683,
+    "occupations": "Ajaw (Ruler) of Palenque, Master Architect, Astronomer-King",
+    "civilizationSlug": "maya-civilization",
+    "summary": "Longest-reigning Maya monarch (68 years) who elevated Palenque into an architectural and artistic jewel of the Classic Maya world.",
+    "content": "Ascending the throne of Palenque (B'aakal) at age twelve, Pakal presided over 68 years of unprecedented political stability and architectural innovation. He commissioned the grand Palace and the monumental Temple of the Inscriptions, where he was entombed in 683 CE inside a carved monolithic limestone sarcophagus weighing over 15 tons. His jade death mask and sarcophagus lid—depicting him at the center of the World Tree being reborn from the jaws of the underworld—remain masterpieces of world archaeology."
+  },
+  {
+    "slug": "jasaw-chan-kawiil-i",
+    "name": "Jasaw Chan K'awiil I",
+    "birthYear": 655,
+    "deathYear": 734,
+    "occupations": "Ajaw of Tikal, Military Commander, Imperial Restorer",
+    "civilizationSlug": "maya-civilization",
+    "summary": "Heroic 26th ruler of Tikal who shattered Calakmul's military hegemony in 695 CE, ending Tikal's dark age and initiating its grand building era.",
+    "content": "Following a century-long military eclipse (the \"Hiatus\") imposed by rival superpower Calakmul, Jasaw Chan K'awiil I took the throne in 682 CE. On August 8, 695 CE, he routed the Calakmul armies in open battle, capturing their patron deity effigy and king. He celebrated this triumph by constructing Tikal's iconic soaring limestone Temple I (Temple of the Great Jaguar), re-establishing Tikal as the undisputed political and cultural capital of the southern Maya lowlands."
+  },
+  {
+    "slug": "lady-xoc",
+    "name": "Lady K'abal Xook (Lady Xoc)",
+    "birthYear": 660,
+    "deathYear": 749,
+    "occupations": "Queen of Yaxchilan, High Priestess, Patron of Classic Maya Art",
+    "civilizationSlug": "maya-civilization",
+    "summary": "Powerful principal queen of Yaxchilan whose famous carved stone lintels depict royal bloodletting rituals and the conjuring of Vision Serpents.",
+    "content": "Lady Xoc was the principal wife of King Itzamnaaj B'alam II (Shield Jaguar III) of Yaxchilan. Her political influence and priestly authority are immortalized on the magnificent carved stone lintels (Lintels 24, 25, and 26) of Structure 23. The carvings show her performing auto-sacrifice by pulling a barbed rope through her tongue to communicate with ancestral spirits, exemplifying the spiritual and political power wielded by aristocratic women in Classic Maya dynastic politics."
   }
 ]

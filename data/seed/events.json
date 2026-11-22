@@ -173,5 +173,261 @@
     "startYear": 1760,
     "endYear": 1840,
     "summary": "Transition to new manufacturing processes powered by steam engines, mechanized textile looms, metallurgy, and railroads, radically reshaping human society."
+  },
+  {
+    "slug": "warring-states-period",
+    "title": "Warring States Period of China",
+    "startYear": -475,
+    "endYear": -221,
+    "summary": "Era of intense interstate warfare that forged Chinese military theory, philosophical pluralism (Hundred Schools of Thought), and administrative bureaucratization.",
+    "content": "Following the partition of Jin, seven major powers (Qin, Chu, Qi, Yan, Han, Wei, and Zhao) competed for supreme hegemony. The existential military competition dismantled feudal aristocracies in favor of meritocratic bureaucracies, iron weaponry, mass peasant conscription, and intense philosophical flourishing known as the Hundred Schools of Thought (Confucianism, Taoism, Legalism, Mohism)."
+  },
+  {
+    "slug": "qin-unification-china",
+    "title": "Qin Unification of China",
+    "startYear": -221,
+    "endYear": -221,
+    "summary": "Qin Shi Huang conquered all rival states, creating the first centralized, bureaucratic Chinese empire and standardizing script, currency, and weights.",
+    "content": "In 221 BCE, King Ying Zheng of Qin annexed the final independent state of Qi, proclaiming himself Qin Shi Huang (First Sovereign Emperor). Advised by Chancellor Li Si, the Qin dismantled feudal fiefdoms in favor of 36 commanderies, standardized Chinese characters (small seal script), axle widths, coin currencies, and measurement units, while linking regional fortifications into the first Great Wall of China."
+  },
+  {
+    "slug": "opening-of-silk-road",
+    "title": "Opening of the Silk Road",
+    "startYear": -130,
+    "endYear": -130,
+    "summary": "Han diplomatic missions and military conquests opened trans-Eurasian trade routes linking Chang'an with Central Asia, Persia, and the Roman Empire.",
+    "content": "Initiated by Emperor Wu of Han through the exploratory expeditions of envoy Zhang Qian into the Western Regions (Tarim Basin, Fergana, Bactria), the Silk Road grew into a continent-spanning network of caravan trails. In addition to silk, porcelain, spices, and glass, the routes catalyzed historical exchanges of religions (Buddhism, Nestorianism), technologies (paper, gunpowder), and ideas across Afro-Eurasia."
+  },
+  {
+    "slug": "invention-of-paper",
+    "title": "Refinement and Spread of Papermaking",
+    "startYear": 105,
+    "endYear": 105,
+    "summary": "Court official Cai Lun refined the papermaking process using mulberry bark, hemp, and rags, revolutionizing knowledge transmission worldwide.",
+    "content": "In 105 CE during the Eastern Han dynasty, Cai Lun presented an improved papermaking recipe to Emperor He. By beating plant fibers, rags, and fishing nets into a pulp and drying thin sheets on screens, he produced a lightweight, inexpensive, and durable writing medium that replaced heavy bamboo slips and expensive silk, later spreading to the Islamic world and Europe to transform global literacy."
+  },
+  {
+    "slug": "keju-examination-system",
+    "title": "Establishment of the Imperial Examination System",
+    "startYear": 605,
+    "endYear": 1905,
+    "summary": "Imperial civil service examinations (Keju) institutionalized meritocratic recruitment of government officials based on Confucian scholarship.",
+    "content": "Pioneered under the Sui dynasty in 605 CE and fully institutionalized during the Tang and Song dynasties, the Keju (Khoa cử) system replaced hereditary aristocratic privilege with competitive examinations in Confucian classics, statecraft, and poetry. The system served as the administrative spine of imperial China and was adopted by Vietnam and Korea for over a millennium."
+  },
+  {
+    "slug": "rise-of-buddhism-jainism",
+    "title": "Emergence of Buddhism and Jainism in Ancient India",
+    "startYear": -500,
+    "endYear": -400,
+    "summary": "Sramana movements in the Ganges basin rejected Vedic sacrificial ritualism and caste determinism, emphasizing personal moral liberation and ascetic ethics.",
+    "content": "During the 6th and 5th centuries BCE, rapid urbanization in the Gangetic plain gave rise to the Sramana ascetic tradition. Led by Gautama Buddha and Vardhamana Mahavira, these reform movements challenged the hereditary ritual hegemony of the Brahmin caste, rejecting animal sacrifices in favor of psychological introspection, non-violence (Ahimsa), karma, and self-liberation (Moksha/Nirvana)."
+  },
+  {
+    "slug": "founding-of-maurya-empire",
+    "title": "Founding of the Maurya Empire",
+    "startYear": -321,
+    "endYear": -321,
+    "summary": "Chandragupta Maurya and Chanakya established India's first subcontinent-wide empire, unifying Magadha and defending against Greek successors.",
+    "content": "In 321 BCE, Chandragupta Maurya unseated the unpopular Nanda kings of Pataliputra. Mobilizing statecraft detailed in the Arthashastra, he expanded his control across northern, central, and western India. His subsequent treaty with Seleucus I Nicator secured eastern Afghanistan and Baluchistan, establishing diplomatic ties with the Hellenistic world."
+  },
+  {
+    "slug": "kalinga-war-and-ashoka-edicts",
+    "title": "Kalinga War and Ashoka's Edicts of Dhamma",
+    "startYear": -261,
+    "endYear": -250,
+    "summary": "Horrified by the bloodshed of the Kalinga conquest, Emperor Ashoka renounced warfare, converted to Buddhism, and inscribed moral edicts across India.",
+    "content": "In 261 BCE, Emperor Ashoka conquered the coastal state of Kalinga in a war that killed over 100,000 soldiers and civilians. Overcome by grief and moral revulsion, Ashoka embraced the Buddha's Dhamma. He replaced military conquest (Digvijaya) with moral conquest (Dharmavijaya), carving edicts on pillars and rock faces across India preaching non-violence, religious toleration, and welfare institutions."
+  },
+  {
+    "slug": "gupta-empire-golden-age",
+    "title": "Golden Age of the Gupta Empire",
+    "startYear": 320,
+    "endYear": 550,
+    "summary": "A golden classical era marked by monumental achievements in Sanskrit drama, mathematics (Aryabhata), astronomy, metallurgical mastery, and sculpture.",
+    "content": "Under rulers such as Samudragupta and Chandragupta II (Vikramaditya), the Gupta Empire presided over an unprecedented efflorescence of arts and sciences. This era witnessed Kalidasa's Sanskrit dramas, Aryabhata's mathematical treatises, the invention of decimal place value and the concept of zero, the iron pillar of Delhi, and the magnificent rock-cut Buddhist murals of Ajanta."
+  },
+  {
+    "slug": "founding-of-nalanda",
+    "title": "Founding of Nalanda Mahavihara",
+    "startYear": 427,
+    "endYear": 1197,
+    "summary": "World-renowned ancient Buddhist monastic university that hosted thousands of international scholars across Asia for over seven centuries.",
+    "content": "Founded in Bihar during the Gupta dynasty under Kumaragupta I, Nalanda grew into the premier residential university of the ancient world. With an immense library (Dharmaganja) and accommodating over 10,000 students and 2,000 teachers from China, Korea, Japan, Tibet, and Southeast Asia, Nalanda served as the intellectual hub for Mahayana Buddhism, logic, linguistics, medicine, and astronomy."
+  },
+  {
+    "slug": "construction-of-co-loa",
+    "title": "Construction of Co Loa Spiral Citadel",
+    "startYear": -257,
+    "endYear": -208,
+    "summary": "King An Duong Vuong built the monumental spiral earthen citadel of Co Loa, creating an advanced defensive capital for Au Lac.",
+    "content": "Following the unification of Tay Au and Lac Viet, King An Duong Vuong established his capital at Co Loa (Dong Anh, Hanoi). The fortification featured concentric earthen ramparts interspersed with deep water moats connected to the Hoang Giang river system. Excavations reveal sophisticated bronze arrow-heads manufactured in massive quantities, demonstrating advanced urban engineering and defensive logistics."
+  },
+  {
+    "slug": "hai-ba-trung-uprising",
+    "title": "Uprising of the Trung Sisters",
+    "startYear": 40,
+    "endYear": 43,
+    "summary": "The Trung Sisters spearheaded a national revolt that expelled Han imperial forces, establishing an independent Vietnamese realm for three years.",
+    "content": "In 40 CE, outraged by the brutal execution of Thi Sach and Han exactions, Trung Trac and Trung Nhi rallied regional chieftains and the populace of Giao Chi, Cuu Chan, and Nhat Nam. Overrunning 65 forts, they expelled the Han governor To Dinh. Trung Trac was crowned monarch at Me Linh, inaugurating the first recorded sovereign administration led by Vietnamese women."
+  },
+  {
+    "slug": "battle-of-bach-dang-938",
+    "title": "Battle of Bach Dang River (938)",
+    "startYear": 938,
+    "endYear": 938,
+    "summary": "Ngo Quyen defeated the Southern Han navy on the Bach Dang River, terminating over 1,000 years of Chinese domination and restoring independence.",
+    "content": "In late 938, Southern Han prince Liu Hongcao sailed a naval invasion fleet into the Bach Dang estuary. Ngo Quyen ordered heavy wooden stakes tipped with iron embedded in the riverbed. As high tide receded, Vietnamese warcraft counter-attacked, impaling the fleeing enemy ships upon the exposed stakes. The victory ended the thousand-year Northern Domination (Bac thuoc) era, inaugurating continuous national sovereignty."
+  },
+  {
+    "slug": "relocation-of-capital-to-thang-long",
+    "title": "Relocation of the Capital to Thang Long (1010)",
+    "startYear": 1010,
+    "endYear": 1010,
+    "summary": "King Ly Thai To transferred the capital from mountainous Hoa Lu to Thang Long (Hanoi), laying the urban foundation for a prosperous millennium.",
+    "content": "In autumn 1010, King Ly Thai To issued the historic Chiếu dời đô (Edict on the Transfer of the Capital), arguing that mountainous Hoa Lu was too restrictive for a growing empire. Choosing the fertile Red River floodplain where he reportedly witnessed a rising golden dragon (Thang Long), the move positioned the capital at the geopolitical heart of the country, triggering centuries of economic, administrative, and cultural expansion."
+  },
+  {
+    "slug": "song-dynasty-resistance-1077",
+    "title": "Resistance Against the Song Dynasty on the Nhu Nguyet River",
+    "startYear": 1075,
+    "endYear": 1077,
+    "summary": "Ly Thuong Kiet executed a preemptive border raid and mounted an impregnable river defense, forcing the Song Empire to sue for peace.",
+    "content": "Confronted with Song invasion preparations, Ly Thuong Kiet launched a preemptive strike in 1075 against Song logistical hubs at Yongzhou (Qinzhou/Lianzhou), neutralizing their invasion readiness. When Song armies advanced in 1077, Ly forces halted them along fortified defensive ramparts on the Nhu Nguyet River (Cau River). Through military defense and psychological warfare via the poem Nam Quoc Son Ha, the Ly compelled the Song court to accept diplomatic peace."
+  },
+  {
+    "slug": "mongol-invasions-of-vietnam",
+    "title": "Resistances Against the Mongol-Yuan Invasions",
+    "startYear": 1258,
+    "endYear": 1288,
+    "summary": "Dai Viet forces under the Tran dynasty and General Tran Hung Dao thrice repelled massive Mongol-Yuan armies, culminating in the 1288 Bach Dang victory.",
+    "content": "Between 1258 and 1288, the Mongol Empire launched three major campaigns to subjugate Dai Viet and clear a southern flank against Song China and Champa. Utilizing the scorched-earth strategy (\"Thanh da\"), national congresses (Hoi nghi Dien Hong), and river ambushes, Tran Hung Dao orchestrated the decisive victory at Bach Dang River in 1288, capturing Yuan admiral Omar and safeguarding Southeast Asian independence."
+  },
+  {
+    "slug": "lam-son-uprising",
+    "title": "Lam Son Uprising and Expulsion of the Ming",
+    "startYear": 1418,
+    "endYear": 1428,
+    "summary": "A ten-year war of national liberation led by Le Loi and Nguyen Trai that expelled Ming occupiers and founded the Later Le dynasty.",
+    "content": "Following the Ming conquest in 1407, Le Loi gathered patriots in Thanh Hoa to launch the Lam Son insurrection in 1418. Guided by Nguyen Trai's military and psychological statecraft, the insurgents grew from guerrilla fighters into a nationwide army. After crushing Ming relief columns at Tot Dong-Chuc Dong (1426) and Chi Lang-Xuong Giang (1427), Le Loi permitted the remaining Ming forces to repatriate safely, restoring peace and sovereignty."
+  },
+  {
+    "slug": "promulgation-of-hong-duc-code",
+    "title": "Promulgation of the Hong Duc Legal Code (1483)",
+    "startYear": 1483,
+    "endYear": 1483,
+    "summary": "King Le Thanh Tong codified the Quoc Trieu Hinh Luat, creating one of the most comprehensive and progressive legal codes in pre-modern Asia.",
+    "content": "In 1483, Emperor Le Thanh Tong promulgated the Quoc Trieu Hinh Luat (commonly known as the Hong Duc Code). Comprising 722 articles across six volumes, it synthesized Confucian moral propriety, Tang legal precedents, and ancient Vietnamese customary law. The code included unique provisions protecting women's property and inheritance rights, regulating contracts, and penalizing official malfeasance."
+  },
+  {
+    "slug": "cyrus-cylinder-and-babylon-conquest",
+    "title": "Fall of Babylon and the Cyrus Cylinder Declaration",
+    "startYear": -539,
+    "endYear": -538,
+    "summary": "Cyrus the Great conquered Babylon without a siege, freed enslaved populations, and inscribed the famous Cyrus Cylinder of religious freedom.",
+    "content": "In 539 BCE, Persian forces led by Cyrus the Great marched into Babylon, welcoming the peaceful surrender of the city. Cyrus declared himself King of Babylon, restored despoiled sanctuaries, returned confiscated idols to their original sanctuaries across Mesopotamia, and permitted exiled peoples—most notably the Judean diaspora—to return to their homelands, memorialized upon the baked-clay Cyrus Cylinder."
+  },
+  {
+    "slug": "construction-of-persepolis",
+    "title": "Foundation and Construction of Persepolis",
+    "startYear": -518,
+    "endYear": -465,
+    "summary": "Darius the Great founded the monumental ceremonial capital of the Persian Empire, celebrated for the Apadana Palace and Nowruz tributes.",
+    "content": "Around 518 BCE, Darius I chose a rocky terrace at the foot of Mount Rahmat to construct Persepolis (Parsa). Elevated on a massive stone platform, the complex housed the Apadana (Audience Hall), the Gate of All Nations, and the Hall of a Hundred Columns. Masterfully carved reliefs depict delegations from 23 subject nations in native garb peacefully presenting gifts to the King of Kings during the spring equinox festival of Nowruz."
+  },
+  {
+    "slug": "construction-of-the-royal-road",
+    "title": "Construction of the Persian Royal Road",
+    "startYear": -515,
+    "endYear": -500,
+    "summary": "Darius I constructed a 2,700 km paved highway connecting Susa to Sardis with postal waystations, uniting the vast empire.",
+    "content": "Engineered during the reign of Darius I, the Persian Royal Road stretched 2,699 kilometers from the imperial capital of Susa to Sardis near the Aegean Sea. Equipped with 111 relay stations (Chapar Khaneh) where fresh couriers and horses stood ready around the clock, royal messengers could deliver dispatches across the continent in just seven days—a speed celebrated by Herodotus: \"Neither snow nor rain nor heat nor gloom of night stays these couriers from the swift completion of their appointed rounds.\""
+  },
+  {
+    "slug": "battle-of-gaugamela",
+    "title": "Battle of Gaugamela and Fall of the Achaemenid Empire",
+    "startYear": -331,
+    "endYear": -331,
+    "summary": "Alexander the Great defeated King Darius III in a monumental battle, causing the fall of the Achaemenid dynasty and the burning of Persepolis.",
+    "content": "On October 1, 331 BCE, near modern Erbil in northern Iraq, Alexander the Great's Macedonian phalanxes and companion cavalry clashed with the massive imperial army of Darius III. Utilizing a daring diagonal wedge charge that pierced the Persian center, Alexander routed the imperial forces. The defeat marked the collapse of the Achaemenid dynasty and opened Iran and Central Asia to Hellenistic rule."
+  },
+  {
+    "slug": "hijra-to-medina",
+    "title": "The Hijra (Migration to Medina)",
+    "startYear": 622,
+    "endYear": 622,
+    "summary": "Prophet Muhammad and his followers emigrated from Mecca to Yathrib (Medina), marking Year 1 of the Islamic lunar calendar (AH).",
+    "content": "In September 622 CE, facing an assassination plot by Meccan Quraysh elites, the Prophet Muhammad and Abu Bakr slipped out of Mecca and made the perilous journey north to Yathrib. Welcomed by local clans, Muhammad mediated their long-standing conflicts, drafted the historic Constitution of Medina, and established the first autonomous Islamic community (Ummah). The year of the Hijra was subsequently designated as the starting epoch of the Islamic calendar."
+  },
+  {
+    "slug": "founding-of-house-of-wisdom",
+    "title": "Establishment of the House of Wisdom (Bayt al-Hikma)",
+    "startYear": 800,
+    "endYear": 830,
+    "summary": "Abbasid Caliphs Harun al-Rashid and Al-Ma'mun created Baghdad's premier academy, translating and expanding universal scientific heritage.",
+    "content": "Established in Baghdad during the Abbasid Caliphate, the Bayt al-Hikma (House of Wisdom) served as an imperial library, translation bureau, astronomical observatory, and university. Scholars of diverse faiths (Muslims, Christians, Jews, Zoroastrians) received royal funding—reputedly matching the weight of translated books in gold—to translate Greek, Syriac, Persian, and Sanskrit manuscripts into Arabic, inaugurating five centuries of scientific and mathematical breakthroughs."
+  },
+  {
+    "slug": "translation-movement",
+    "title": "The Graeco-Arabic Translation Movement",
+    "startYear": 750,
+    "endYear": 950,
+    "summary": "Sustained state-sponsored scholarly effort translating mathematical, medical, and philosophical classics into Arabic, preserving world knowledge.",
+    "content": "Underwritten by the Abbasid court, translation masters such as Hunayn ibn Ishaq systematically rendered the complete works of Aristotle, Plato, Galen, Hippocrates, Euclid, Ptolemy, and Archimedes into Arabic with extraordinary philological accuracy. This massive enterprise established Arabic as the lingua franca of global science and philosophy, laying the indispensable foundation for both the Islamic Golden Age and the later European Renaissance."
+  },
+  {
+    "slug": "golden-age-of-cordoba",
+    "title": "Golden Age of the Caliphate of Córdoba",
+    "startYear": 929,
+    "endYear": 1031,
+    "summary": "Al-Andalus under Abd al-Rahman III flourished as Europe's greatest center of science, tolerance (Convivencia), and architectural wonder.",
+    "content": "Proclaiming an independent caliphate in 929 CE, Córdoba grew into Europe's most cultivated metropolis, boasting paved illuminated streets, running water, 70 libraries containing over 400,000 manuscripts, and the magnificent Great Mosque of Córdoba (Mezquita). Scholars, poets, and doctors of Christian, Jewish, and Muslim faiths lived in relative harmony (Convivencia), making Islamic Spain the bridge transmitting classical and scientific knowledge into Western Europe."
+  },
+  {
+    "slug": "siege-of-baghdad-1258",
+    "title": "Siege of Baghdad and Mongol Destruction of the Caliphate",
+    "startYear": 1258,
+    "endYear": 1258,
+    "summary": "Hulagu Khan's Mongol forces sacked Baghdad, executing Caliph Al-Musta'sim and throwing the manuscripts of the House of Wisdom into the Tigris.",
+    "content": "In February 1258, Mongol armies commanded by Hulagu Khan breached the walls of Baghdad. The ensuing sack resulted in the slaughter of hundreds of thousands of residents, the destruction of mosques and grand palaces, and the execution of the final Abbasid Caliph. Countless irreplaceable manuscripts from the House of Wisdom were tossed into the Tigris River, which legend recounts ran black with ink and red with blood, terminating the classic Abbasid era."
+  },
+  {
+    "slug": "emergence-of-maya-hieroglyphic-writing",
+    "title": "Development of Maya Hieroglyphic Writing and Calendar System",
+    "startYear": -300,
+    "endYear": -100,
+    "summary": "Mesoamerican scribes developed the logosyllabic hieroglyphic script and the Long Count calendar, recording dynastic history on stone stelae.",
+    "content": "During the Late Preclassic period in sites such as San Bartolo and El Mirador, Maya scribes perfected a fully phonetic logosyllabic writing script consisting of logograms and phonetic syllable signs. Alongside this written language, they formalized the Mesoamerican Long Count calendar system, anchoring historical dynastic reigns and ritual warfare into an unbroken mathematical chronology stretching back to August 11, 3114 BCE."
+  },
+  {
+    "slug": "coronation-of-pakal-the-great",
+    "title": "Coronation and Architectural Golden Age of Palenque",
+    "startYear": 615,
+    "endYear": 683,
+    "summary": "Pakal I assumed the throne of Palenque, commissioning the Temple of the Inscriptions and engineering soaring vaulted architecture.",
+    "content": "In 615 CE, following disastrous military defeats by Calakmul, twelve-year-old K'inich Janaab Pakal I was crowned ruler of Palenque under the regency of his mother Lady Sak K'uk'. Over the next seven decades, Pakal expanded the city's territory, rebuilt its shattered royal prestige, and constructed the Palace and the nine-level Temple of the Inscriptions, transforming Palenque into one of the most sublime artistic centers of the Pre-Columbian world."
+  },
+  {
+    "slug": "tikal-defeat-of-calakmul",
+    "title": "Tikal's Decisive Defeat of Calakmul (695 CE)",
+    "startYear": 695,
+    "endYear": 695,
+    "summary": "King Jasaw Chan K'awiil I shattered the hegemony of the Snake Kingdom (Calakmul), inaugurating Tikal's greatest era of pyramid construction.",
+    "content": "On the Maya Long Count date 9.13.3.7.18 (August 8, 695 CE), King Jasaw Chan K'awiil I of Tikal met the forces of Calakmul's King Yuknoom Yich'aak K'ahk' in a colossal clash in the Petén jungle. Tikal routed the enemy, seized Calakmul's sacred patron effigies, and broke the Snake Kingdom's encirclement. To immortalize the victory, Jasaw commissioned Temple I (Temple of the Great Jaguar), soaring 47 meters above Tikal's Grand Plaza."
+  },
+  {
+    "slug": "classic-maya-collapse",
+    "title": "The Classic Maya Collapse",
+    "startYear": 750,
+    "endYear": 950,
+    "summary": "Catastrophic systemic decline across the southern Maya lowlands characterized by warfare, severe prolonged megadroughts, and city abandonment.",
+    "content": "Between 750 and 950 CE, major Classic Maya metropolises across the southern lowlands—including Tikal, Palenque, Copán, and Calakmul—experienced social collapse. Historical records carved on stone stelae abruptly ceased, dynastic royal courts disintegrated, and populations dispersed. Palaeoclimatic evidence demonstrates that multi-century megadroughts, compounded by deforestation, soil erosion, and escalating endemic warfare, overwhelmed urban carrying capacities."
+  },
+  {
+    "slug": "rise-of-chichen-itza",
+    "title": "Rise of Chichen Itza and the Toltec-Maya Synthesis",
+    "startYear": 987,
+    "endYear": 1200,
+    "summary": "Chichen Itza emerged as the supreme Postclassic regional capital of northern Yucatan, famous for El Castillo and the Sacred Cenote.",
+    "content": "In the Terminal Classic and Early Postclassic periods, political power shifted north to the Yucatan plains, dominated by Chichen Itza. Synthesizing traditional Maya religion with Central Mexican Toltec motifs (such as the feathered serpent Kukulcan/Quetzalcoatl, Chacmool statues, and tzompantli skull racks), the city controlled coastal salt trade networks and erected the pyramid of El Castillo (Temple of Kukulcan), which casts shadow serpent illusions during equinoxes."
   }
 ]

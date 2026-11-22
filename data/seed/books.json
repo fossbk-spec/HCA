@@ -49,7 +49,7 @@
     "summary": "Rigorous historical account of the war between the Peloponnesian League (led by Sparta) and the Delian League (led by Athens), pioneering political realism."
   },
   {
-    "slug": "republic",
+    "slug": "the-republic",
     "title": "The Republic",
     "author": "Plato",
     "publicationYear": -375,
@@ -152,5 +152,213 @@
     "author": "Karl Marx & Friedrich Engels",
     "publicationYear": 1848,
     "summary": "Political pamphlet presenting an analytical approach to the class struggle and problems of capitalism, calling for the overthrow of capitalist class society."
+  },
+  {
+    "slug": "records-of-the-grand-historian",
+    "title": "Records of the Grand Historian (Shiji)",
+    "author": "Sima Qian",
+    "publicationYear": -94,
+    "summary": "The foundational masterpiece of Chinese historiography detailing over two thousand years of East Asian history.",
+    "content": "Composed by Sima Qian during the Western Han dynasty, the Shiji (Sử ký) spans 130 chapters organized into five categories: Basic Annals (Benji), Chronological Tables (Biao), Treatises on institutions and rites (Shu), Hereditary Houses (Shijia), and Biographies (Liezhuan). Its objective analysis, psychological realism, and literary grace established the benchmark for all subsequent dynastic histories across East Asia."
+  },
+  {
+    "slug": "zhuangzi",
+    "title": "Zhuangzi (Nan Hua Jing)",
+    "author": "Zhuang Zhou",
+    "publicationYear": -300,
+    "summary": "Seminal Taoist text famous for its allegorical parables, philosophical skepticism, and celebrated Butterfly Dream.",
+    "content": "Attributed to Zhuang Zhou (Trang Tử), the text is renowned for its humorous, paradoxical fables, celebrating spiritual freedom, cognitive flexibility, and oneness with the Dao. Through famous metaphors like the Butterfly Dream (Trang Chu mộng điệp) and Cook Ding carving an ox, Zhuangzi dismantles rigid conceptual boundaries, skepticism about conventional value judgments, and the fear of mortality."
+  },
+  {
+    "slug": "hanfeizi",
+    "title": "Han Feizi",
+    "author": "Han Feizi",
+    "publicationYear": -233,
+    "summary": "The ultimate compilation of Chinese Legalist philosophy, detailing statecraft, institutional oversight, and power mechanics.",
+    "content": "Written by Han Feizi, this 55-chapter work presents a realistic, hard-nosed analysis of political power. Combining Shang Yang's emphasis on codified law (Fa), Shen Buhai's administrative methods (Shu), and Shen Dao's concept of authority (Shi), the text serves as a manual for rulers on neutralizing court conspiracies, deploying incentives, and administering an expansive empire through impersonal institutions."
+  },
+  {
+    "slug": "i-ching",
+    "title": "I Ching (Book of Changes)",
+    "author": "King Wen, Duke of Zhou, Confucius",
+    "publicationYear": -1000,
+    "summary": "Ancient Chinese divination text and philosophical manual exploring cosmic change through 64 hexagrams and yin-yang dynamics.",
+    "content": "One of the oldest Chinese classic texts, the I Ching (Kinh Dịch) interprets the cosmic order through combinations of broken (Yin) and solid (Yang) lines in 64 hexagrams. Accompanied by the Ten Wings commentaries attributed to Confucius, it evolved from an archaic divination manual into a profound metaphysical guide to cyclical transformation, ethics, and leadership."
+  },
+  {
+    "slug": "arthashastra",
+    "title": "Arthashastra",
+    "author": "Kautilya (Chanakya)",
+    "publicationYear": -300,
+    "summary": "Monumental ancient Indian treatise on statecraft, economic policy, military strategy, and intelligence networks.",
+    "content": "Composed by Chanakya, the Arthashastra covers 15 books outlining practical governance for a monarch. It delves deeply into fiscal management, taxation, state mining, agricultural infrastructure, espionage rings, legal administration, the Saptanga theory of state components, and the Mandala diplomatic framework of foreign relations."
+  },
+  {
+    "slug": "upanishads",
+    "title": "The Principal Upanishads",
+    "author": "Ancient Vedic Sages",
+    "publicationYear": -700,
+    "summary": "Vedic philosophical texts formulating the fundamental oneness of the individual soul (Atman) and the ultimate reality (Brahman).",
+    "content": "Representing the philosophical culmination (Vedanta) of the Vedic corpus, texts such as the Chandogya, Brihadaranyaka, and Katha Upanishads transition Indian thought from external sacrificial ritualism to internal contemplation. They introduce seminal concepts of Atman, Brahman, Maya, Karma, and Moksha through intimate dialogues between spiritual masters and seekers."
+  },
+  {
+    "slug": "dhammapada",
+    "title": "Dhammapada (Words of the Doctrine)",
+    "author": "Early Buddhist Sangha",
+    "publicationYear": -300,
+    "summary": "Anthology of 423 aphoristic verses attributed to Gautama Buddha on mindfulness, moral discipline, and mental mastery.",
+    "content": "Belonging to the Khuddaka Nikaya of the Pali Canon, the Dhammapada (Kinh Pháp Cú) distills Buddhist ethics into accessible verse. Its famous opening lines emphasize that all experience is preceded by mind, led by mind, made by mind. The work offers timeless guidance on eradicating hatred with love, cultivating tranquility, and walking the path to Nirvana."
+  },
+  {
+    "slug": "rigveda",
+    "title": "Rigveda",
+    "author": "Vedic Rishis",
+    "publicationYear": -1500,
+    "summary": "Oldest known Sanskrit text and foundational sacred collection of 1,028 hymns dedicated to ancient Vedic deities and cosmic origins.",
+    "content": "The earliest of the four Vedas, the Rigveda is composed of ten Mandalas (books) containing hymns praising divine manifestations of nature (Agni, Indra, Varuna, Soma). It contains the celebrated Nasadiya Sukta (Hymn of Creation), one of humanity's earliest expressions of cosmic skepticism and inquiry into the ultimate origins of the universe."
+  },
+  {
+    "slug": "chieu-doi-do",
+    "title": "Chieu Doi Do (Edict on the Transfer of the Capital)",
+    "author": "King Ly Thai To (Ly Cong Uan)",
+    "publicationYear": 1010,
+    "summary": "Royal edict transferring Vietnam's capital from Hoa Lu to Thang Long, articulating a visionary strategy for national development.",
+    "content": "Issued in the autumn of 1010 by Ly Thai To, this brief but monumental proclamation evaluated historical precedents of dynastic relocations in China and analyzed the strategic geography of Dai La (Thang Long). Emphasizing geographic centrality, flat terrain, and convenience for trade, it laid the foundation for Hanoi as the heart of Vietnam for a millennium."
+  },
+  {
+    "slug": "nam-quoc-son-ha",
+    "title": "Nam Quoc Son Ha (Mountains and Rivers of the Southern Empire)",
+    "author": "Ly Thuong Kiet",
+    "publicationYear": 1077,
+    "summary": "Four-line classical Chinese poem revered as Vietnam's first declaration of independence and territorial sovereignty.",
+    "content": "Recited during the Song-Dai Viet battle at the Nhu Nguyet River in 1077, the poem proclaimed: \"Nam quoc son ha Nam de cu / Tiet nhien dinh phan tai thien thu / Nhu ha nghich lo lai xam pham / Nhu dang khan khan thu bai hu\". It affirmed that Vietnam is governed by its own Emperor as designated by the Book of Heaven, and that invaders would face inevitable ruin."
+  },
+  {
+    "slug": "hich-tuong-si",
+    "title": "Hich Tuong Si (Call to the Officers and Soldiers)",
+    "author": "Tran Hung Dao",
+    "publicationYear": 1284,
+    "summary": "Electrifying military proclamation rallying Tran dynasty officers to unite against the impending Mongol-Yuan invasion.",
+    "content": "Composed by Grand Prince Tran Quoc Tuan on the eve of the second Mongol invasion in 1284, this prose masterpiece blended heartfelt confession of personal grief, searing criticism of complacency and luxury, historical exemplars of loyalty, and an urgent moral plea for unified martial resolve, inspiring Vietnamese soldiers to tattoo \"Sat That\" (Kill the Tartars) on their arms."
+  },
+  {
+    "slug": "binh-ngo-dai-cao",
+    "title": "Binh Ngo Dai Cao (Great Proclamation upon the Pacification of the Wu)",
+    "author": "Nguyen Trai",
+    "publicationYear": 1428,
+    "summary": "Masterpiece declaration of independence marking the conclusion of the Lam Son Uprising and restoration of Dai Viet.",
+    "content": "Penned in 1428 in the name of King Le Loi, Binh Ngo Dai Cao is celebrated as Vietnam's second declaration of independence. Grounded in Confucian-humanist ethics (\"Việc nhân nghĩa cốt ở yên dân\"), the proclamation traced the ten-year resistance against Ming occupation, praised popular courage, and affirmed Dai Viet as an ancient civilization with distinct customs, borders, and heroes equal to China."
+  },
+  {
+    "slug": "dai-viet-su-ky-toan-thu",
+    "title": "Dai Viet Su Ky Toan Thu (Complete Annals of Dai Viet)",
+    "author": "Ngo Si Lien and Court Historians",
+    "publicationYear": 1479,
+    "summary": "Official imperial chronicle detailing the comprehensive history of Vietnam from Hong Bang dynasty to the Early Le.",
+    "content": "Commissioned by Emperor Le Thanh Tong and completed in 1479 by court historian Ngo Si Lien, this 15-volume work incorporated earlier records by Le Van Huu and Phan Phu Tien. It traced Vietnamese continuous national history from the mythic Kinh Duong Vuong (2879 BCE) through the 15th century, providing vital primary documentation of administrative, cultural, and military affairs."
+  },
+  {
+    "slug": "quoc-trieu-hinh-luat",
+    "title": "Quoc Trieu Hinh Luat (Hong Duc Code)",
+    "author": "Emperor Le Thanh Tong",
+    "publicationYear": 1483,
+    "summary": "Comprehensive legal code of the Early Le dynasty renowned for its sophistication, moral ethics, and progressive civil rights.",
+    "content": "The Hong Duc Code represented the institutional apex of pre-modern Vietnamese law. Spanning 722 articles, it regulated criminal justice, land distribution, administrative duties, family law, and contract agreements. Notably, it granted daughters equal inheritance rights to family ancestral property and protected women's legal status during divorce, centuries ahead of contemporary legal traditions."
+  },
+  {
+    "slug": "truyen-kieu",
+    "title": "The Tale of Kieu (Truyen Kieu / Doan Truong Tan Thanh)",
+    "author": "Nguyen Du",
+    "publicationYear": 1820,
+    "summary": "Supreme masterwork of Vietnamese literature exploring filial sacrifice, karmic suffering, and profound compassion in luc bat verse.",
+    "content": "Composed of 3,254 six-eight (lục bát) verses by Nguyen Du, the epic narrates the life of Thuy Kieu, a gifted young woman who sacrifices her happiness and sells herself into bondage to save her father and family. Filled with psychological insight, philosophical contemplation of Tai (talent) and Menh (destiny), and rich vernacular lyricism, Truyen Kieu is embraced as the supreme jewel of Vietnamese literary identity."
+  },
+  {
+    "slug": "avesta",
+    "title": "The Avesta",
+    "author": "Zoroaster and Ancient Persian Priests",
+    "publicationYear": -600,
+    "summary": "The primary sacred liturgical scriptures of Zoroastrianism, preserving the seventeen Gathas composed by Zarathustra.",
+    "content": "Composed in archaic Avestan (an ancient Iranian language closely related to Vedic Sanskrit), the Avesta is the foundational scripture of Zoroastrianism. It contains the Gathas (seventeen hymns directly attributed to Zoroaster celebrating Ahura Mazda and ethical cosmic truth), the Yasna (liturgical ceremonies), the Visperad, the Vendidad (purity laws), and the Khordeh Avesta (daily prayers)."
+  },
+  {
+    "slug": "cyrus-cylinder",
+    "title": "The Cyrus Cylinder",
+    "author": "Cyrus the Great & Imperial Scribes",
+    "publicationYear": -539,
+    "summary": "Ancient baked-clay cylinder inscribed in Babylonian cuneiform, hailed as the world's first charter of human rights and cultural tolerance.",
+    "content": "Discovered in the ruins of Babylon in 1879 and now housed in the British Museum, the Cyrus Cylinder records Cyrus the Great's capture of Babylon in 539 BCE. In the text, Cyrus denounces Nabonidus's religious tyranny, proclaims that he conquered Babylon peacefully under the blessing of the god Marduk, repatriated displaced peoples, and restored their temples, providing primary archaeological proof of imperial tolerance."
+  },
+  {
+    "slug": "shahnameh",
+    "title": "Shahnameh (The Book of Kings)",
+    "author": "Ferdowsi",
+    "publicationYear": 1010,
+    "summary": "Monumental Iranian national epic of 50,000 couplets preserving Persian mythology, history, language, and cultural identity.",
+    "content": "Penned over thirty years by the poet Abolqasem Ferdowsi, the Shahnameh recounts the mythic, heroic, and historical past of the Persian Empire from the creation of the world to the 7th-century Arab conquest. Written in pure Persian to revive the language and cultural heritage, its stirring narratives of heroes like Rostam and Sohrab explore fate, loyalty, moral kingship, and national pride."
+  },
+  {
+    "slug": "the-quran",
+    "title": "The Quran",
+    "author": "Revealed through Prophet Muhammad",
+    "publicationYear": 632,
+    "summary": "The central religious text of Islam, considered by Muslims to be the verbatim word of God revealed in classical Arabic.",
+    "content": "Comprising 114 surahs (chapters) arranged generally in order of descending length, the Quran articulates uncompromising monotheism (Tawhid), social justice, compassion for the poor, moral accountability, legal guidance, and spiritual eschatology. As the supreme literary masterpiece of the Arabic language, it unified diverse tribal dialects and served as the cornerstone of Islamic civilization, law, philosophy, and art."
+  },
+  {
+    "slug": "the-compendious-book-on-calculation-by-completion-and-balancing",
+    "title": "The Compendious Book on Calculation by Completion and Balancing (Kitab al-Jabr)",
+    "author": "Al-Khwarizmi",
+    "publicationYear": 820,
+    "summary": "The foundational book of algebra establishing systematic procedures for solving linear and quadratic equations.",
+    "content": "Written in Baghdad around 820 CE by Al-Khwarizmi, Kitab al-Jabr wa-l-Muqabala established algebra as an autonomous mathematical discipline. It introduced operations of al-jabr (restoring subtracted terms by adding them to both sides) and al-muqabala (balancing like terms on opposite sides) to solve real-world problems in commerce, land surveying, and Islamic inheritance distribution."
+  },
+  {
+    "slug": "the-canon-of-medicine",
+    "title": "The Canon of Medicine (Al-Qanun fi al-Tibb)",
+    "author": "Ibn Sina (Avicenna)",
+    "publicationYear": 1025,
+    "summary": "Masterpiece medical encyclopedia that unified Galenic, Aristotelian, and Islamic medicine, serving as Europe's primary medical textbook for five centuries.",
+    "content": "Comprising five extensive books, Ibn Sina's The Canon of Medicine systematically organized all known medical knowledge of his era: general principles of anatomy and physiology, materia medica (listing over 800 herbal, animal, and mineral drugs), localized diseases from head to toe, systemic illnesses (including contagious fevers and tumors), and compound pharmacopeia, introducing clinical trials and systematic quarantine."
+  },
+  {
+    "slug": "book-of-optics",
+    "title": "Book of Optics (Kitab al-Manazir)",
+    "author": "Ibn al-Haytham (Alhazen)",
+    "publicationYear": 1021,
+    "summary": "Seven-volume treatise on optics, vision, reflection, and refraction that established the modern experimental scientific method.",
+    "content": "Ibn al-Haytham's Kitab al-Manazir revolutionized physics. By demonstrating through camera obscura and light experiments that rays emanate from illuminated objects and enter the pupil, he overturned ancient Greek optical theories. Translated into Latin as De Aspectibus, the work directly influenced Roger Bacon, Kepler, Descartes, and Newton, establishing experimental verification as the golden standard of science."
+  },
+  {
+    "slug": "the-incoherence-of-the-incoherence",
+    "title": "The Incoherence of the Incoherence (Tahafut al-Tahafut)",
+    "author": "Ibn Rushd (Averroes)",
+    "publicationYear": 1180,
+    "summary": "Master philosophical treatise defending Aristotelian logic and natural causality against theological anti-rationalism.",
+    "content": "Written by Ibn Rushd in Córdoba as a point-by-point rebuttal to Al-Ghazali's Tahafut al-Falasifa (The Incoherence of the Philosophers), this work vigorously defended the legitimacy of natural philosophy, universal causality, and rational demonstration. Translated into Latin and Hebrew, Averroes' defense of reason ignited debates at medieval European universities, profoundly shaping Western Scholasticism."
+  },
+  {
+    "slug": "popol-vuh",
+    "title": "Popol Vuh (The Book of the Council)",
+    "author": "K'iche' Maya Nobles and Scribes",
+    "publicationYear": 1555,
+    "summary": "The sacred narrative of the K'iche' Maya recounting the mythological creation of the cosmos, the Hero Twins, and the creation of humanity from maize.",
+    "content": "Transcribed alphabetically into K'iche' Maya by anonymous indigenous nobles in Guatemala shortly after the Spanish conquest, the Popol Vuh is the most magnificent surviving literary text of the Americas. It recounts the gods' iterative efforts to create humans, culminating in crafting humanity from white and yellow corn, and narrates the underworld adventures of the Hero Twins Hunahpu and Xbalanque triumphing over the lords of death in Xibalba."
+  },
+  {
+    "slug": "dresden-codex",
+    "title": "The Dresden Codex",
+    "author": "Classic Maya Scribes and Astronomers",
+    "publicationYear": 1200,
+    "summary": "Pre-Columbian Maya bark-paper screenfold codex containing the most accurate ancient astronomical tables of Venus and solar eclipses.",
+    "content": "Painted with fine brushes on amatl fig-tree bark coated with lime plaster, the Dresden Codex contains 74 pages of hieroglyphic text and vivid polychrome paintings. It includes complex astronomical tables tracking the 584-day synodic cycle of Venus with an accuracy of within minutes over centuries, lunar eclipse prediction tables, seasonal rituals, and agricultural divinations."
+  },
+  {
+    "slug": "chilam-balam",
+    "title": "The Books of Chilam Balam",
+    "author": "Yucatec Maya Scribes and Chilam Priests",
+    "publicationYear": 1600,
+    "summary": "Collection of 17th- and 18th-century Yucatec Maya handwritten manuscripts preserving traditional history, astrology, medicine, and katun prophecies.",
+    "content": "Named after the title of the jaguar-priest (Chilam), these manuscripts were secretly penned in the Yucatec Maya language using the Latin alphabet following the destruction of hieroglyphic codices by Spanish friars. The books—such as those of Chumayel, Mani, and Tizimin—preserve ancient katun cycles (20-year eras), historical chronicles of dynastic migrations, medical herbal recipes, and enigmatic mythological riddles."
   }
 ]
