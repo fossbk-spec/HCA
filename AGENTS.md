@@ -1,14 +1,16 @@
 # Human Civilization Atlas (HCA)
 # Claude & Codex Execution Guide
 
+- Phiên bản: 2.0 (2026-11-23). Thay thế bản 1.x; đã gộp "AGENTS.md Enhancement Pack v1.0" sau khi chỉnh theo thực tế repo (xem `docs/Reviews/HCA_AGENTS_Enhancement_Pack_Review_2026-11-23_v1.0.md`).
+
 ## Purpose
 
-Tài liệu này hướng dẫn Claude, Codex, GitHub Copilot Agent hoặc Cursor Agent thực hiện dự án Human Civilization Atlas (HCA) dựa trên toàn bộ tài liệu đã được chuẩn bị.
+Hướng dẫn Claude, Codex, Gemini, GitHub Copilot Agent hoặc Cursor Agent thực hiện dự án Human Civilization Atlas (HCA).
 
 Mục tiêu:
 
 - Không thiết kế lại kiến trúc.
-- Không thay đổi ontology cốt lõi.
+- Không thay đổi ontology cốt lõi (chỉ chủ dự án được nâng phiên bản ontology).
 - Thực hiện MVP nhanh nhất có thể.
 - Giữ khả năng nâng cấp lên Neo4j, GraphRAG và AI Tutor.
 
@@ -16,45 +18,28 @@ Mục tiêu:
 
 # 1. PROJECT STATUS
 
-Current Status:
+Trạng thái chi tiết được cập nhật ở **mục 12**. Mục này giữ lại để tương thích.
 
-READY FOR DEVELOPMENT
-
-Đã hoàn thành:
-
-- Master Blueprint v1-v6
-- Ontology Specification
-- PRD
-- ERD
-- API Specification
-- MVP Execution Plan
-- Repository Structure
-- Prisma Schema MVP
-- Prisma Schema Production
-- Seed Dataset v1.0
-- README
-
-Không tạo thêm tài liệu chiến lược.
-
-Bắt đầu coding.
+Không tạo thêm tài liệu chiến lược. Tài liệu review, quyết định và đề xuất nằm trong `docs/Reviews/`.
 
 ---
 
 # 2. SOURCE DOCUMENTS
 
-Đọc và sử dụng các tài liệu theo thứ tự:
+Đọc theo thứ tự (đường dẫn trong repo):
 
-1. README_HCA_Repository.md
-2. HCA_MVP_Execution_Plan_For_Codex.md
-3. HCA_Project_Structure.md
-4. HCA_PRD_v1.0.md
-5. HCA_ERD_v1.0.md
-6. HCA_API_Spec_v1.0.md
-7. HCA_Prisma_Schema_MVP.prisma
-8. HCA_MVP_Dataset_Seed_v1.0.md
-9. HCA_Ontology_Specification_1.0.md
+1. `README.md`
+2. `docs/Architecture/HCA_MVP_Execution_Plan_For_Codex.md`
+3. `docs/Architecture/HCA_Project_Structure.md`
+4. `docs/Architecture/HCA_PRD_v1.0.md`
+5. `docs/Architecture/HCA_ERD_v1.0.md`
+6. `docs/Architecture/HCA_API_Spec_v1.0.md`
+7. `prisma/schema.prisma` (bản gốc: `docs/Prisma/HCA_Prisma_Schema_MVP.prisma`)
+8. `docs/Architecture/HCA_MVP_Dataset_Seed_v1.0.md` và `data/seed/*.json`
+9. `docs/Ontology/HCA_Ontology_Specification_1.1.md` (thay phần Relationship Vocabulary của 1.0) và `data/ontology/relationship-types.json`
+10. `docs/Reviews/HCA_Decisions_2026-11-23.md` (các quyết định đã chốt)
 
-Chỉ tham khảo Blueprint v1-v6 khi cần bối cảnh.
+Chỉ tham khảo `docs/MasterBlueprint/` khi cần bối cảnh.
 
 ---
 
@@ -68,8 +53,10 @@ Triển khai:
 - People Pages
 - Idea Pages
 - Book Pages
-- Search
+- Event Pages (`/events/[slug]`, có trong sitemap của Execution Plan)
+- Search (5 loại: civilizations, people, events, ideas, books)
 - Knowledge Graph Lite
+- `/about`
 
 Không triển khai:
 
@@ -86,19 +73,19 @@ Không triển khai:
 
 Frontend
 - Next.js 15
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
+- TypeScript 5 (Next 15 chưa dùng được TypeScript 7; đã ghim bản 5)
+- Tailwind CSS 4
+- shadcn/ui kiểu viết tay (không có `components.json`)
 
 Backend
 - Next.js Route Handlers
 
 Database
 - PostgreSQL
-- Prisma
+- Prisma 6
 
 Hosting
-- Vercel
+- Vercel (đã chốt hướng B: Vercel + PostgreSQL ngoài như Neon hoặc Supabase; Cloudflare chỉ làm DNS/CDN. Xem `docs/Reviews/HCA_Hosting_and_Next_Steps_Proposal_2026-11-23_v1.0.md`)
 
 Optional
 - React Flow
@@ -107,122 +94,36 @@ Optional
 
 # 5. IMPLEMENTATION ORDER
 
-## Feature 1
-Database Layer
+| # | Feature | Routes | Trạng thái (2026-11-23) |
+|---|---|---|---|
+| F1 | Database Layer | – | Gần xong: schema, migration, `seed.ts`; **chưa chạy trên PostgreSQL thật** |
+| F2 | Homepage | `/` | Xong; Featured chưa theo Plan §5 |
+| F3 | Timeline Explorer | `/timeline` | Một phần: 5 epoch, cần 9 giai đoạn |
+| F4 | Civilization Atlas | `/civilizations`, `/civilizations/[slug]` | Một phần: thiếu Related Books, References |
+| F5 | People | `/people`, `/people/[slug]` | Xong (PR #9) |
+| F6 | Ideas | `/ideas`, `/ideas/[slug]` | Xong (PR #10) |
+| F7 | Books | `/books`, `/books/[slug]` | Xong (PR #10) |
+| – | Events | `/events`, `/events/[slug]` | Xong (PR #10) |
+| F8 | Search | `/search`, `/api/search` | Chưa làm |
+| F9 | Knowledge Graph Lite | `/graph` | Chưa làm (React Flow, bảng quan hệ) |
+| – | About | `/about` | Chưa làm |
 
-Tasks:
-- Configure Prisma
-- Create schema
-- Create migration
-- Create seed script
-
-Deliverable:
-- Working PostgreSQL database
-
----
-
-## Feature 2
-Homepage
-
-Route:
-/
-
-Include:
-- Hero
-- Search
-- Timeline Preview
-- Featured Civilizations
-- Featured Ideas
-
----
-
-## Feature 3
-Timeline Explorer
-
-Route:
-/timeline
-
-Include:
-- Horizontal timeline
-- Detail panel
-- Epoch navigation
-
----
-
-## Feature 4
-Civilization Atlas
-
-Routes:
-/civilizations
-/civilizations/[slug]
-
----
-
-## Feature 5
-People
-
-Routes:
-/people
-/people/[slug]
-
----
-
-## Feature 6
-Ideas
-
-Routes:
-/ideas
-/ideas/[slug]
-
----
-
-## Feature 7
-Books
-
-Routes:
-/books
-/books/[slug]
-
----
-
-## Feature 8
-Search
-
-Route:
-/search
-
-Search Across:
-- civilizations
-- people
-- books
-- ideas
-
----
-
-## Feature 9
-Knowledge Graph Lite
-
-Use:
-- React Flow
-
-Data:
-- relationships table
+Mỗi feature: Server Components, repository (Prisma, có fallback đọc `data/seed` khi không có DB) và service layer.
 
 ---
 
 # 6. BRANCH STRATEGY
 
-feature/database
-feature/homepage
-feature/timeline
-feature/civilizations
-feature/people
-feature/ideas
-feature/books
-feature/search
-feature/graph
+Một feature một nhánh, merge tuần tự vào `main` bằng squash qua Pull Request.
 
-Merge sequentially.
+Tiền tố nhánh:
+
+- `feature/<tên>`: tính năng (`feature/database`, `feature/homepage`, `feature/timeline`, `feature/civilizations`, `feature/people`, `feature/entity-pages`, `feature/search`, `feature/graph`)
+- `chore/<tên>`: hạ tầng, CI, dọn dẹp
+- `data/<tên>`: dữ liệu seed
+- `docs/<tên>`: tài liệu
+
+Không ghi trực tiếp vào thư mục làm việc của `main`; luôn tạo nhánh.
 
 ---
 
@@ -232,9 +133,10 @@ Merge sequentially.
 - Use TypeScript strict mode.
 - Avoid premature optimization.
 - Keep components reusable.
-- Create service layer.
-- Create repository layer.
-- Use Prisma for data access.
+- Create service layer and repository layer.
+- Use Prisma for data access; khi `DATABASE_URL` trống hoặc truy vấn lỗi thì fallback đọc `data/seed/*.json` (quyết định tắt fallback ở production còn chờ chủ dự án).
+- Mỗi trang chỉ có một `<h1>`; `layout.tsx` đã cung cấp `<main>`, các trang không được render `<main>` nữa.
+- Không sửa `data/` và `docs/` trừ khi task nói rõ.
 
 ---
 
@@ -243,8 +145,8 @@ Merge sequentially.
 Project is considered complete when:
 
 - npm install works
-- Prisma migration works
-- Seed script works
+- Prisma migration works trên PostgreSQL thật
+- Seed script works trên PostgreSQL thật
 - Vercel deployment works
 - Homepage renders
 - Timeline Explorer works
@@ -279,16 +181,233 @@ Phase 6
 
 Before coding:
 
-1. Read README.
-2. Read MVP Execution Plan.
-3. Read Project Structure.
-4. Implement database first.
-5. Start Feature 1.
+1. Read `README.md` and this file.
+2. Read the task brief in `briefs/` (nếu có).
+3. Read only the files the brief names.
+4. Implement exactly one feature.
 
-Never attempt to generate the entire project in a single step.
+Never attempt to generate the entire project in a single step. Generate and validate one feature at a time.
 
-Generate and validate one feature at a time.
+---
 
-Commit after every feature.
+# 11. ARCHITECTURE GUARDRAILS
+
+The architecture defined by HCA documentation is the source of truth.
+
+Do NOT, unless the project owner explicitly requests it:
+
+- Replace Next.js with another framework.
+- Replace Prisma with another ORM.
+- Replace PostgreSQL during MVP (D1/SQLite bị loại).
+- Introduce Neo4j, LangChain, GraphRAG or a vector database during MVP.
+- Add microservices, message queues or Kubernetes.
+- Change the hosting target (Vercel) or move to Cloudflare Workers.
+- Change the ontology (vocabulary is in `HCA_Ontology_Specification_1.1.md`; new relationship types require a new ontology version approved by the owner).
+
+Architecture priority:
+
+```text
+Simplicity
+→ Working MVP
+→ Data Growth
+→ Search
+→ Knowledge Graph
+→ GraphRAG
+→ AI Tutor
+```
+
+Avoid premature optimization.
+
+---
+
+# 12. CURRENT PROJECT STATE
+
+Cập nhật: 2026-11-23, `main` sau PR #10.
+
+```text
+MVP DEVELOPMENT IN PROGRESS
+```
+
+Đã có:
+
+- Tài liệu: Blueprint v1–v6, Ontology 1.0 + 1.1, PRD, ERD, API Spec, Execution Plan, review và quyết định (`docs/Reviews/`)
+- F1 (chưa chạy trên DB thật), F2, F3, F4, F5, F6, F7, Events
+- Seed: 225 thực thể (10 civilizations, 72 people, 57 events, 38 ideas, 48 books), 144 quan hệ, 55 loại quan hệ (ontology 1.1)
+- CI GitHub Actions (`.github/workflows/ci.yml`)
+
+Chưa có:
+
+- F8 Search, F9 Knowledge Graph Lite, `/about`
+- Timeline 9 giai đoạn; Featured đúng Plan; Related Books và References trên trang nền văn minh
+- PostgreSQL thật, project Vercel, quy trình `migrate deploy`
+- Lint (ESLint chưa cấu hình), tests
+
+Vấn đề dữ liệu mở: 53/225 thực thể chưa có quan hệ; seed thiếu Big Bang, Origin of Life, Human Evolution và sự kiện sau 1760; nội dung `content` chưa kiểm độ chính xác lịch sử.
+
+Current priority: **Working MVP**, not production optimization.
+
+---
+
+# 13. REPOSITORY STRUCTURE
+
+Cấu trúc theo `docs/Architecture/HCA_Project_Structure.md`. Thực tế hiện có:
+
+```text
+src/
+├── app/            (routes, route handlers)
+├── components/
+├── repositories/
+├── services/
+└── lib/
+prisma/
+data/               (seed/, ontology/)
+docs/
+briefs/             (brief giao việc cho agent)
+scripts/            (verify_integrity.js)
+.github/workflows/
+```
+
+Thư mục `features/`, `hooks/`, `types/`, `tests/` có trong cấu trúc mục tiêu; chỉ tạo khi cần. Không tạo cấu trúc thay thế.
+
+---
+
+# 14. TESTING REQUIREMENTS
+
+Mỗi feature phải qua (đúng tên script trong `package.json`):
+
+```bash
+npm run typecheck          # tsc --noEmit
+npm run verify:seed        # khi đụng dữ liệu, ontology hoặc seed.ts
+npm run build              # chạy với DATABASE_URL trống để chắc fallback hoạt động
+npx prisma validate        # khi đụng schema
+npx prisma generate
+```
+
+`npm run lint` chỉ bắt buộc sau khi ESLint được cấu hình (chưa có). CI chạy các bước trên cho mọi Pull Request.
+
+---
+
+# 15. COMMIT CONVENTIONS
+
+Dùng conventional commits:
+
+```text
+feat(search): implement keyword search across five entity types
+fix(database): resolve seed import errors
+chore(ci): ...
+docs(reviews): ...
+data(seed): ...
+```
+
+Không ghi công công cụ AI trong commit, PR hay tài liệu (không `Co-Authored-By` cho Claude/Codex/Gemini).
+
+Trong quy trình hiện tại, **Codex không commit, không push, không merge**; Claude commit, tạo PR và merge sau khi review và CI xanh.
+
+---
+
+# 16. PULL REQUEST REQUIREMENTS
+
+Mỗi PR có:
+
+- **Summary:** đã làm gì.
+- **Scope:** các route/file chính.
+- **Validation:** lệnh đã chạy và kết quả (typecheck, verify:seed, build, CI).
+- **Screenshots:** chỉ khi có kiểm tra trình duyệt (xem mục 21); các agent không chạy trình duyệt trong từng task.
+- **Notes:** hạn chế đã biết.
+
+---
+
+# 17. AGENT EXECUTION CONTRACT
+
+1. Đọc `README.md`, `AGENTS.md` và đúng các file brief nêu.
+2. Thực hiện đúng một feature hoặc một task.
+3. Chạy các lệnh kiểm tra ở mục 14.
+4. Báo kết quả ngắn gọn (files đổi, kết quả kiểm, vấn đề phát sinh).
+5. Dừng. Không commit, không push, không merge (trừ khi được giao).
+
+Do NOT:
+
+- Implement multiple roadmap features simultaneously.
+- Refactor unrelated features.
+- Rewrite project architecture.
+- Add technologies outside the approved stack (không tự cài gói; cần gói mới thì báo lại).
+- Sửa `data/seed/*.json` khi task không phải task dữ liệu.
+- Chạy trình duyệt hoặc dev server trong task (kiểm tra trình duyệt do Claude hoặc người thực hiện tại mốc).
+
+Phân vai: Claude viết brief, review, kiểm lại gate, commit/PR/merge; Codex viết mã ứng dụng; Gemini làm dữ liệu seed và tài liệu nghiên cứu (trên nhánh `data/*` hoặc `docs/*`, không ghi vào `main`).
+
+---
+
+# 18. FEATURE COMPLETION TEMPLATE
+
+Mỗi task hoàn thành báo:
+
+- **Deliverables:** file tạo mới, file sửa.
+- **Validation:** kết quả các lệnh ở mục 14.
+- **Notes:** hạn chế, việc chưa làm.
+- **Next:** đề xuất task tiếp theo.
+
+---
+
+# 19. MVP SUCCESS CRITERIA
+
+Hai nguồn đang lệch nhau: Execution Plan §14 và PRD đặt mục tiêu **≥ 500 đối tượng tri thức** và 100 nhân vật; bản Enhancement Pack liệt kê 10 / 100 / 200 / 50 / 50 (= 410). Dùng mốc sau:
+
+### Content
+
+- 10 Civilizations (đạt)
+- 100 People (hiện 72)
+- 200 Events (hiện 57)
+- 50 Ideas (hiện 38)
+- 50 Books (hiện 48)
+- Tổng ≥ 500 đối tượng (hiện 225); mọi thực thể có ít nhất một quan hệ
+
+### Features
+
+- Homepage, Timeline Explorer, Civilization Atlas, People, Ideas, Books, Events, Search, Knowledge Graph Lite, About
+
+### Infrastructure
+
+- PostgreSQL, Prisma, Seed Script chạy trên DB thật
+- Vercel Deployment
+- CI xanh
+
+### Quality
+
+- Build succeeds
+- `verify:seed` succeeds
+- Kiểm tra trình duyệt đạt ở mốc cuối (mục 21)
+
+---
+
+# 20. AGENT FINAL INSTRUCTION
+
+The objective is not to create the perfect architecture. The objective is:
+
+```text
+Deploy the first working public MVP
+as quickly as possible.
+```
+
+```text
+Working software > Perfect architecture
+Useful content   > Complex infrastructure
+Incremental delivery > Large rewrites
+```
+
+When uncertain, choose the simplest solution that matches the approved architecture and enables progress toward the MVP.
+
+---
+
+# 21. BROWSER QA MILESTONES
+
+Kiểm tra trình duyệt chỉ tại mốc, không cho từng PR:
+
+- **M1: sau F8 Search.** Mở `/`, `/timeline`, `/civilizations`, một `/civilizations/[slug]`, `/people`, một `/people/[slug]`, `/ideas`, `/books`, `/events`, `/search` ở độ rộng điện thoại (~400px) và máy tính. Kiểm: link chết, bố cục vỡ, chữ tràn, tìm kiếm trả kết quả đúng loại, điều hướng bàn phím.
+- **M2: sau F9 Graph và khi đã có DB thật.** Lặp lại kiểm tra trên bản deploy.
+
+Người kiểm (Claude với Playwright hoặc con người) ghi kết quả vào `docs/Reviews/` và chuyển lỗi FAIL thành task cho Codex.
+
+---
 
 END OF GUIDE
