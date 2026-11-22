@@ -6,7 +6,7 @@ function formatYear(year: number) {
 }
 
 export function TimelinePreview({ items }: { items: TimelineItem[] }) {
-  return <div className="relative overflow-x-auto pb-4" aria-label="Timeline preview">
+  return <div className="relative overflow-x-auto pb-4" role="region" aria-label="Timeline preview" tabIndex={0}>
     <ol className="flex min-w-max border-t border-amber-500/50 pt-8">
       {items.map((item) => <li key={`${item.kind}-${item.slug}`} className="relative w-48 shrink-0 pr-5 sm:w-56">
         <span className="absolute -top-[38px] left-0 size-4 rounded-full border-4 border-slate-900 bg-amber-400" aria-hidden="true" />
