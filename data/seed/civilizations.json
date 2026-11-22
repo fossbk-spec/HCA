@@ -1,0 +1,12 @@
+[
+{"slug":"mesopotamia","name":"Mesopotamia","region":"Middle East","periodStart":-3500,"periodEnd":-539,"summary":"Cradle of civilization."},
+{"slug":"ancient-egypt","name":"Ancient Egypt","region":"Africa","periodStart":-3100,"periodEnd":-30,"summary":"Civilization of the Nile."},
+{"slug":"ancient-greece","name":"Ancient Greece","region":"Europe","periodStart":-800,"periodEnd":-146,"summary":"Birthplace of democracy and philosophy."},
+{"slug":"roman-empire","name":"Roman Empire","region":"Europe","periodStart":-27,"periodEnd":476,"summary":"Major Mediterranean empire."},
+{"slug":"ancient-india","name":"Ancient India","region":"South Asia"},
+{"slug":"ancient-china","name":"Ancient China","region":"East Asia"},
+{"slug":"persian-empire","name":"Persian Empire","region":"Middle East"},
+{"slug":"islamic-civilization","name":"Islamic Civilization","region":"Middle East"},
+{"slug":"maya-civilization","name":"Maya Civilization","region":"Americas"},
+{"slug":"vietnam","name":"Vietnam","region":"Southeast Asia"}
+]

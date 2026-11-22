@@ -1,0 +1,22 @@
+[
+{"slug":"confucius","name":"Confucius"},
+{"slug":"buddha","name":"Gautama Buddha"},
+{"slug":"aristotle","name":"Aristotle"},
+{"slug":"plato","name":"Plato"},
+{"slug":"socrates","name":"Socrates"},
+{"slug":"alexander","name":"Alexander the Great"},
+{"slug":"julius-caesar","name":"Julius Caesar"},
+{"slug":"augustus","name":"Augustus"},
+{"slug":"ashoka","name":"Ashoka"},
+{"slug":"qin-shi-huang","name":"Qin Shi Huang"},
+{"slug":"muhammad","name":"Muhammad"},
+{"slug":"saladin","name":"Saladin"},
+{"slug":"homer","name":"Homer"},
+{"slug":"marcus-aurelius","name":"Marcus Aurelius"},
+{"slug":"isaac-newton","name":"Isaac Newton"},
+{"slug":"charles-darwin","name":"Charles Darwin"},
+{"slug":"albert-einstein","name":"Albert Einstein"},
+{"slug":"alan-turing","name":"Alan Turing"},
+{"slug":"ho-chi-minh","name":"Ho Chi Minh"},
+{"slug":"leonardo-da-vinci","name":"Leonardo da Vinci"}
+]

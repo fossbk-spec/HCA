@@ -1,0 +1,12 @@
+[
+{"sourceSlug":"aristotle","targetSlug":"alexander","relationshipType":"TAUGHT"},
+{"sourceSlug":"plato","targetSlug":"aristotle","relationshipType":"TAUGHT"},
+{"sourceSlug":"socrates","targetSlug":"plato","relationshipType":"TAUGHT"},
+{"sourceSlug":"ancient-greece","targetSlug":"democracy","relationshipType":"CREATED"},
+{"sourceSlug":"confucius","targetSlug":"analects","relationshipType":"WROTE"},
+{"sourceSlug":"homer","targetSlug":"iliad","relationshipType":"WROTE"},
+{"sourceSlug":"homer","targetSlug":"odyssey","relationshipType":"WROTE"},
+{"sourceSlug":"isaac-newton","targetSlug":"principia","relationshipType":"WROTE"},
+{"sourceSlug":"charles-darwin","targetSlug":"origin-of-species","relationshipType":"WROTE"},
+{"sourceSlug":"ancient-china","targetSlug":"printing","relationshipType":"DEVELOPED"}
+]
