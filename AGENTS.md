@@ -85,7 +85,7 @@ Database
 - Prisma 6
 
 Hosting
-- Vercel (đã chốt hướng B: Vercel + PostgreSQL ngoài như Neon hoặc Supabase; Cloudflare chỉ làm DNS/CDN. Xem `docs/Reviews/HCA_Hosting_and_Next_Steps_Proposal_2026-11-23_v1.0.md`)
+- Vercel (đang chạy, xem mục 12; đã chốt hướng B: Vercel + PostgreSQL ngoài như Neon hoặc Supabase; Cloudflare chỉ làm DNS/CDN. Xem `docs/Reviews/HCA_Hosting_and_Next_Steps_Proposal_2026-11-23_v1.0.md`)
 
 Optional
 - React Flow
@@ -97,16 +97,16 @@ Optional
 | # | Feature | Routes | Trạng thái (2026-11-23) |
 |---|---|---|---|
 | F1 | Database Layer | – | Xong trên CI: migration, seed hai lần và `db:smoke` chạy trên PostgreSQL 16 (job `integration`); **chưa có DB production** |
-| F2 | Homepage | `/` | Xong; Featured chưa theo Plan §5 |
-| F3 | Timeline Explorer | `/timeline` | Một phần: 5 epoch, cần 9 giai đoạn |
+| F2 | Homepage | `/` | Xong (PR #21): dải 8 bước và Featured theo Plan §5; Featured ideas hiện 3/5 vì seed chưa có Money và Printing |
+| F3 | Timeline Explorer | `/timeline` | Xong (PR #21): 9 giai đoạn; 5 giai đoạn chưa có mục vì thiếu dữ liệu (xem mục 12) |
 | F4 | Civilization Atlas | `/civilizations`, `/civilizations/[slug]` | Một phần: thiếu Related Books, References |
 | F5 | People | `/people`, `/people/[slug]` | Xong (PR #9) |
 | F6 | Ideas | `/ideas`, `/ideas/[slug]` | Xong (PR #10) |
 | F7 | Books | `/books`, `/books/[slug]` | Xong (PR #10) |
 | – | Events | `/events`, `/events/[slug]` | Xong (PR #10) |
 | F8 | Search | `/search`, `/api/search` | Xong (PR #13); đường DB đọc hết dòng rồi xếp hạng ở phía ứng dụng, cần tối ưu khi dữ liệu lớn |
-| F9 | Knowledge Graph Lite | `/graph` | Chưa làm (có thể dùng React Flow, bảng quan hệ) |
-| – | About | `/about` | Chưa làm |
+| F9 | Knowledge Graph Lite | `/graph` | Xong (PR #20): đồ thị một bước quanh một thực thể bằng React Flow, kèm bản chữ thay thế |
+| – | About | `/about` | Xong (PR #19) |
 
 Các trang ưu tiên Server Components; mỗi feature dùng repository (Prisma, có fallback đọc `data/seed` khi không có DB) và service layer.
 
@@ -223,7 +223,7 @@ Avoid premature optimization.
 
 # 12. CURRENT PROJECT STATE
 
-Cập nhật: 2026-11-23, `main` sau PR #17.
+Cập nhật: 2026-11-23, `main` sau PR #21.
 
 ```text
 MVP DEVELOPMENT IN PROGRESS
@@ -232,21 +232,26 @@ MVP DEVELOPMENT IN PROGRESS
 Đã có:
 
 - Tài liệu: Blueprint v1–v6, Ontology 1.0 + 1.1, PRD, ERD, API Spec, Execution Plan, review và quyết định (`docs/Reviews/`)
-- F1 (đã kiểm trên PostgreSQL 16 ở CI), F2, F3, F4, F5, F6, F7, F8, Events
+- F1 (đã kiểm trên PostgreSQL 16 ở CI và trên Neon production), F2, F3, F4, F5, F6, F7, F8, F9, Events, About
 - Seed: 269 thực thể (10 civilizations, 100 people, 57 events, 50 ideas, 52 books), 235 quan hệ (45 loại đang dùng trong 55 loại của ontology 1.1)
 - CI GitHub Actions (`.github/workflows/ci.yml`): job `verify` (typecheck, test, verify:seed, build không DB) và job `integration` (PostgreSQL 16: migrate, seed hai lần, `db:smoke`, test, build)
 - Unit test (`npm test`, `node:test` + `tsx`) trong `tests/unit/`
 - Chính sách seed fallback (`ALLOW_SEED_FALLBACK`, mục 7)
+- **Production đang chạy:** Vercel project `hca` tại https://hca-ruddy.vercel.app, PostgreSQL trên Neon (qua Vercel Marketplace), kết nối GitHub (`main` tự deploy production, mỗi PR có bản preview). Production không bật fallback. `npm run db:smoke` đã đạt trên Neon (10/100/57/50/52 thực thể, 235 quan hệ hai chiều).
 
 Chưa có:
 
-- F9 Knowledge Graph Lite, `/about`
-- Timeline 9 giai đoạn; Featured đúng Plan; Related Books và References trên trang nền văn minh
-- PostgreSQL production, project Vercel, quy trình `migrate deploy` trên production
+- Related Books và References trên trang nền văn minh
 - Lint (ESLint chưa cấu hình)
-- Kiểm tra trình duyệt mốc M1 (mục 21)
+- Kiểm tra trình duyệt mốc M1 và M2 (mục 21), chưa chạy trên bản production
 
-Vấn đề dữ liệu mở: 4/269 thực thể chưa có quan hệ (3 events, 1 book); seed thiếu Big Bang, Origin of Life, Human Evolution và sự kiện sau 1760; nội dung `content` chưa kiểm độ chính xác lịch sử (batch 4, PR #17, chưa có người kiểm).
+Quy trình deploy và dữ liệu (quan trọng):
+
+- Merge vào `main` chỉ deploy mã. **Không tự migrate hay seed database.** Sau khi đổi schema hoặc seed, chạy thủ công với URL không pooling của Neon (`DATABASE_URL_UNPOOLED`): `prisma migrate deploy`, `npm run seed`, rồi `npm run db:smoke`. Không in hay commit giá trị chuỗi kết nối; `.env.local` đã được `.gitignore`.
+- Ứng dụng dùng `DATABASE_URL` có pooling. Preview của PR hiện dùng chung database production (Neon nối cả ba môi trường), nên PR sửa seed hoặc schema cần một nhánh Neon riêng cho Preview.
+- Lệnh `vercel link` và `vercel integration add` tự thêm `.env*` vào `.gitignore`; hoàn tác bằng `git checkout .gitignore`. Chạy Vercel CLI bằng `npx vercel@66.6.0`.
+
+Vấn đề dữ liệu mở: 4/269 thực thể chưa có quan hệ (3 events, 1 book); seed không có mục nào cho Human Evolution, Information Age, AI Age (sự kiện sau 1760) và thiếu hai ý tưởng Money, Printing nên 5/9 giai đoạn timeline trống và Featured ideas hiện 3/5. Big Bang và Origin of Life là giai đoạn mô tả cố định, không lưu thành sự kiện được vì năm là `Int` 32-bit; 'Classical Era' gộp 500 TCN–1760 vì Plan không có giai đoạn Trung cổ; nội dung `content` chưa kiểm độ chính xác lịch sử (batch 4, PR #17, chưa có người kiểm).
 
 Current priority: **Working MVP**, not production optimization.
 
@@ -376,8 +381,8 @@ Hai nguồn đang lệch nhau: Execution Plan §14 và PRD đặt mục tiêu **
 
 ### Infrastructure
 
-- PostgreSQL, Prisma, Seed Script chạy trên DB thật
-- Vercel Deployment
+- PostgreSQL, Prisma, Seed Script chạy trên DB thật (đạt, Neon)
+- Vercel Deployment (đạt)
 - CI xanh
 
 ### Quality
@@ -412,7 +417,7 @@ When uncertain, choose the simplest solution that matches the approved architect
 Kiểm tra trình duyệt chỉ tại mốc, không cho từng PR:
 
 - **M1: sau F8 Search.** Mở `/`, `/timeline`, `/civilizations`, một `/civilizations/[slug]`, `/people`, một `/people/[slug]`, `/ideas`, `/books`, `/events`, `/search` ở độ rộng điện thoại (~400px) và máy tính. Kiểm: link chết, bố cục vỡ, chữ tràn, tìm kiếm trả kết quả đúng loại, điều hướng bàn phím.
-- **M2: sau F9 Graph và khi đã có DB thật.** Lặp lại kiểm tra trên bản deploy.
+- **M2: sau F9 Graph và khi đã có DB thật (điều kiện đã đủ).** Lặp lại kiểm tra trên bản deploy production, thêm `/about` và `/graph`.
 
 Người kiểm (Claude với Playwright hoặc con người) ghi kết quả vào `docs/Reviews/` và chuyển lỗi FAIL thành task cho Codex.
 
