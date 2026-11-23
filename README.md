@@ -171,6 +171,10 @@ database work. CI checks Prisma, types, seed integrity, and the production build
 on pull requests and pushes to `main`. Vercel Git integration handles deployment;
 set `DATABASE_URL` in Vercel. For a new database, run `npm run db:deploy` and
 then `npm run seed`.
+Seed fallback is allowed locally by default; production requires an explicit
+`ALLOW_SEED_FALLBACK=true` to use JSON data if the database is unavailable.
+Run `npm run db:smoke` against a migrated, seeded PostgreSQL database.
+CI also seeds PostgreSQL twice and checks counts, relationships, and outage behavior.
 
 ---
 

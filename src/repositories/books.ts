@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { prisma } from "@/lib/prisma";
+import { withDatabase } from "@/lib/seed-fallback";
 
 export type Book = {
   slug: string;
@@ -43,35 +44,18 @@ const bookSelect = {
 } as const;
 
 export async function listBooks(): Promise<Book[]> {
-  if (process.env.DATABASE_URL) {
-    try {
-      return sortBooks(await prisma.book.findMany({ select: bookSelect }));
-    } catch (error) {
-      console.warn("Books query failed; using seed data.", error);
-    }
-  }
-  return sortBooks(await seedBooks());
+  return withDatabase("books.list", async () => sortBooks(await prisma.book.findMany({ select: bookSelect })),
+    async () => sortBooks(await seedBooks()));
 }
 
 export async function getBookBySlug(slug: string): Promise<Book | null> {
-  if (process.env.DATABASE_URL) {
-    try {
-      return await prisma.book.findUnique({ where: { slug }, select: bookSelect });
-    } catch (error) {
-      console.warn("Book query failed; using seed data.", error);
-    }
-  }
-  return (await seedBooks()).find((b) => b.slug === slug) ?? null;
+  return withDatabase("books.detail", () => prisma.book.findUnique({ where: { slug }, select: bookSelect }),
+    async () => (await seedBooks()).find((b) => b.slug === slug) ?? null);
 }
 
 export async function listBookSlugs(): Promise<string[]> {
-  if (process.env.DATABASE_URL) {
-    try {
+  return withDatabase("books.slugs", async () => {
       const rows = await prisma.book.findMany({ select: { slug: true }, orderBy: { slug: "asc" } });
       return rows.map(({ slug }) => slug);
-    } catch (error) {
-      console.warn("Book slugs query failed; using seed data.", error);
-    }
-  }
-  return (await seedBooks()).map(({ slug }) => slug).sort();
+  }, async () => (await seedBooks()).map(({ slug }) => slug).sort());
 }
