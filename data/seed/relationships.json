@@ -1643,5 +1643,187 @@
     "targetSlug": "capitalism",
     "targetType": "IDEA",
     "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "mesopotamia",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "agricultural-revolution",
+    "targetType": "EVENT",
+    "relationshipType": "EXPERIENCED"
+  },
+  {
+    "sourceSlug": "emergence-of-homo-sapiens",
+    "sourceType": "EVENT",
+    "targetSlug": "agricultural-revolution",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "isaac-newton",
+    "sourceType": "PERSON",
+    "targetSlug": "scientific-revolution",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "scientific-revolution",
+    "sourceType": "EVENT",
+    "targetSlug": "industrial-revolution",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "industrial-revolution",
+    "sourceType": "EVENT",
+    "targetSlug": "communist-manifesto",
+    "targetType": "BOOK",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "industrial-revolution",
+    "sourceType": "EVENT",
+    "targetSlug": "capitalism",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "communist-manifesto",
+    "sourceType": "BOOK",
+    "targetSlug": "capitalism",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "mesopotamia",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "money",
+    "targetType": "IDEA",
+    "relationshipType": "ORIGINATED"
+  },
+  {
+    "sourceSlug": "ancient-china",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "money",
+    "targetType": "IDEA",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "money",
+    "sourceType": "IDEA",
+    "targetSlug": "capitalism",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "wealth-of-nations",
+    "sourceType": "BOOK",
+    "targetSlug": "money",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "ancient-china",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "printing-press",
+    "targetType": "IDEA",
+    "relationshipType": "ORIGINATED"
+  },
+  {
+    "sourceSlug": "printing-press",
+    "sourceType": "IDEA",
+    "targetSlug": "scientific-revolution",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "control-of-fire-by-early-humans",
+    "sourceType": "EVENT",
+    "targetSlug": "emergence-of-homo-sapiens",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "charles-darwin",
+    "sourceType": "PERSON",
+    "targetSlug": "emergence-of-homo-sapiens",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "emergence-of-homo-sapiens",
+    "sourceType": "EVENT",
+    "targetSlug": "evolution",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "emergence-of-homo-sapiens",
+    "sourceType": "EVENT",
+    "targetSlug": "upper-paleolithic-cave-art",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "alan-turing",
+    "sourceType": "PERSON",
+    "targetSlug": "personal-computer-revolution",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "personal-computer-revolution",
+    "sourceType": "EVENT",
+    "targetSlug": "launch-of-the-global-internet",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "launch-of-the-global-internet",
+    "sourceType": "EVENT",
+    "targetSlug": "invention-of-the-world-wide-web",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "invention-of-the-world-wide-web",
+    "sourceType": "EVENT",
+    "targetSlug": "deep-learning-breakthrough-alexnet",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "deep-learning-breakthrough-alexnet",
+    "sourceType": "EVENT",
+    "targetSlug": "artificial-intelligence",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "deep-learning-breakthrough-alexnet",
+    "sourceType": "EVENT",
+    "targetSlug": "alphago-defeats-lee-sedol",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "alphago-defeats-lee-sedol",
+    "sourceType": "EVENT",
+    "targetSlug": "artificial-intelligence",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "alan-turing",
+    "sourceType": "PERSON",
+    "targetSlug": "generative-ai-and-large-language-models",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "generative-ai-and-large-language-models",
+    "sourceType": "EVENT",
+    "targetSlug": "artificial-intelligence",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
   }
 ]

@@ -429,5 +429,77 @@
     "endYear": 1200,
     "summary": "Chichen Itza emerged as the supreme Postclassic regional capital of northern Yucatan, famous for El Castillo and the Sacred Cenote.",
     "content": "In the Terminal Classic and Early Postclassic periods, political power shifted north to the Yucatan plains, dominated by Chichen Itza. Synthesizing traditional Maya religion with Central Mexican Toltec motifs (such as the feathered serpent Kukulcan/Quetzalcoatl, Chacmool statues, and tzompantli skull racks), the city controlled coastal salt trade networks and erected the pyramid of El Castillo (Temple of Kukulcan), which casts shadow serpent illusions during equinoxes."
+  },
+  {
+    "slug": "control-of-fire-by-early-humans",
+    "title": "Control of Fire by Early Humans",
+    "startYear": -400000,
+    "endYear": -300000,
+    "summary": "Early hominins master the sustained control of fire, unlocking cooked nutrition, metabolic energy for encephalization, nocturnal protection, and social campfire culture.",
+    "content": "Evidence from Wonderwerk Cave and Gesher Benot Yaakov indicates that Middle Pleistocene hominins harnessed fire systematically. Cooking dramatically increased caloric bioavailability and softened hard tubers and meat, which evolutionary biologists link to reduced gut size and accelerated cranial expansion in the genus Homo. Furthermore, communal campfires extended social waking hours, fostering storytelling and oral transmission."
+  },
+  {
+    "slug": "emergence-of-homo-sapiens",
+    "title": "Emergence and Expansion of Anatomically Modern Humans",
+    "startYear": -300000,
+    "endYear": -60000,
+    "summary": "Homo sapiens evolves in Africa and expands across continents, distinguished by flexible symbolic language, composite tool technologies, and cumulative culture.",
+    "content": "Fossil discoveries at Jebel Irhoud (c. 300,000 BCE) and Omo Kibish reveal the pan-African emergence of Homo sapiens. Equipped with bladelet industries, complex projectile points, body ornamentation, and syntactic language, modern humans dispersed out of Africa beginning roughly 70,000 to 60,000 years ago, eventually displacing or absorbing other archaic hominins across Eurasia."
+  },
+  {
+    "slug": "upper-paleolithic-cave-art",
+    "title": "Upper Paleolithic Symbolic Revolution and Cave Art",
+    "startYear": -40000,
+    "endYear": -15000,
+    "summary": "Modern humans create figurative art, musical instruments, and ritual sanctuaries, evidenced by the cave paintings of Chauvet and Lascaux.",
+    "content": "During the Upper Paleolithic, human creativity reached unprecedented heights with the creation of polychrome cave murals (Chauvet, Lascaux, Altamira), sculpted Venus figurines, bone flutes, and ritual burials with red ochre. This symbolic explosion demonstrates complex abstract thinking, mythic storytelling, and structured spiritual cosmology tens of thousands of years before the Neolithic transition."
+  },
+  {
+    "slug": "personal-computer-revolution",
+    "title": "The Personal Computer Revolution",
+    "startYear": 1975,
+    "endYear": 1984,
+    "summary": "Commercial microprocessors democratize computing, shifting computers from room-sized corporate mainframes into personal desktop tools.",
+    "content": "Beginning with the Altair 8800 in 1975, followed by the Apple II (1977) and the IBM Personal Computer (1981), computing power entered homes, classrooms, and small businesses. The introduction of the Apple Macintosh in 1984 popularized graphical user interfaces (GUI) and mouse navigation, cementing the personal computer as a universal cognitive amplifier."
+  },
+  {
+    "slug": "launch-of-the-global-internet",
+    "title": "Adoption of TCP/IP and Birth of the Global Internet",
+    "startYear": 1983,
+    "endYear": 1995,
+    "summary": "ARPANET transitions to TCP/IP protocol suite, leading to the interconnected network of networks that forms the digital backbone of the modern world.",
+    "content": "On January 1, 1983 (Flag Day), ARPANET officially switched its core networking to the TCP/IP architecture designed by Vinton Cerf and Robert Kahn. With the expansion of the NSFNET backbone and its complete commercial privatization in 1995, disparate regional networks merged into a resilient, packet-switched global communication infrastructure."
+  },
+  {
+    "slug": "invention-of-the-world-wide-web",
+    "title": "Invention and Public Release of the World Wide Web",
+    "startYear": 1989,
+    "endYear": 1993,
+    "summary": "Tim Berners-Lee develops HTTP, HTML, and URLs at CERN, turning the technical internet into an open, hyperlinked global web of information.",
+    "content": "In 1989 at CERN, British computer scientist Tim Berners-Lee authored a proposal for a distributed hypertext system to facilitate collaborative sharing of scientific documents. He created the first web browser (WorldWideWeb) and HTTP web server. In April 1993, CERN placed the web protocol into the public domain royalty-free, sparking the explosive commercial expansion of the dot-com era."
+  },
+  {
+    "slug": "deep-learning-breakthrough-alexnet",
+    "title": "Deep Learning Breakthrough with AlexNet",
+    "startYear": 2012,
+    "endYear": 2012,
+    "summary": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton win the ImageNet challenge using deep convolutional neural networks on GPUs, launching the modern AI boom.",
+    "content": "In October 2012, AlexNet crushed the competition in the ImageNet Large Scale Visual Recognition Challenge, slashing error rates by over 10 percentage points compared to traditional hand-crafted computer vision methods. By proving that deep neural networks trained with backpropagation on GPU hardware could generalize across massive datasets, AlexNet catalyzed widespread industrial and academic investment into deep learning."
+  },
+  {
+    "slug": "alphago-defeats-lee-sedol",
+    "title": "AlphaGo Defeats World Champion Lee Sedol",
+    "startYear": 2016,
+    "endYear": 2016,
+    "summary": "DeepMind AlphaGo defeats legendary 9-dan master Lee Sedol in the ancient game of Go, demonstrating intuition-like heuristic search in complex domains.",
+    "content": "In March 2016 in Seoul, Google DeepMind AlphaGo played a five-game match against 18-time world Go champion Lee Sedol, winning 4-1. By combining deep convolutional policy and value networks with Monte Carlo tree search and self-play reinforcement learning, AlphaGo mastered a game with a board complexity far greater than the number of atoms in the observable universe, highlighted by its creative Move 37."
+  },
+  {
+    "slug": "generative-ai-and-large-language-models",
+    "title": "Rise of Generative AI and Large Language Models",
+    "startYear": 2022,
+    "endYear": 2024,
+    "summary": "The public debut of ChatGPT and frontier transformer models establishes generative AI as a transformative paradigm across language, reasoning, and multimodal creation.",
+    "content": "Building upon the 2017 Transformer architecture and reinforcement learning from human feedback (RLHF), OpenAI released ChatGPT in November 2022, quickly becoming the fastest-growing consumer application in history. The subsequent rapid deployment of multimodal reasoning systems demonstrated unprecedented capabilities in coding, translation, synthesis, and creative generation."
   }
 ]

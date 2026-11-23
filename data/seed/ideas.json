@@ -328,5 +328,19 @@
     "category": "Physics / Mathematics",
     "summary": "The foundation of fluid mechanics and statics combining mathematical proof with practical mechanical engineering.",
     "content": "Formulated by Archimedes, this science quantified the buoyant force exerted on submerged bodies and the equilibrium of levers, establishing the mathematical foundations of naval architecture and physical mechanics."
+  },
+  {
+    "slug": "money",
+    "title": "Money and Currency",
+    "category": "Economics",
+    "summary": "Standardized medium of exchange, unit of account, and store of value replacing barter to facilitate trade, state taxation, and market economies.",
+    "content": "From Sumerian barley units and silver shekels to Lydian electrum coinage, Song Dynasty paper jiaozi, and modern fiat currency, money transformed human economic interaction. By eliminating the double coincidence of wants inherent in barter, standardized currency enabled specialized divisions of labor, long-distance commerce, and the mobilization of imperial resources."
+  },
+  {
+    "slug": "printing-press",
+    "title": "Movable Type Printing Press",
+    "category": "Technology",
+    "summary": "Mechanical reproduction of texts using movable type, revolutionizing mass literacy, knowledge distribution, and scientific communication.",
+    "content": "Pioneered in porcelain movable type by Bi Sheng in Song China and revolutionized in metal movable type by Johannes Gutenberg in mid-15th century Mainz, the printing press broke the scribal monopoly on written information. By lowering the cost of book production by orders of magnitude, it accelerated the Protestant Reformation, the Scientific Revolution, and the Enlightenment."
   }
 ]
