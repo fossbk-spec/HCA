@@ -6,7 +6,11 @@
     "deathYear": -1750,
     "occupations": "King, Lawgiver",
     "summary": "Sixth king of the First Babylonian Dynasty, best known for issuing the Code of Hammurabi, one of the earliest and most complete written legal codes in human history.",
-    "civilizationSlug": "mesopotamia"
+    "civilizationSlug": "mesopotamia",
+    "nameVi": "Hammurabi",
+    "occupationsVi": "Quốc vương, Nhà lập pháp",
+    "summaryVi": "Vị vua thứ sáu của Vương triều Babylon đầu tiên, nổi tiếng nhất với việc ban hành Bộ luật Hammurabi, một trong những bộ luật thành văn sớm nhất và hoàn chỉnh nhất trong lịch sử nhân loại.",
+    "contentVi": "Trị vì Babylon từ năm 1792 đến 1750 TCN, Hammurabi đã biến một thành bang nhỏ bên bờ sông Euphrates thành một đế chế thống nhất toàn bộ Lưỡng Hà thông qua các liên minh ngoại giao sắc bén và các chiến dịch quân sự quyết định. Di sản bất hủ của ông là Bộ luật Hammurabi gồm 282 điều luật được khắc trên bia đá bazan đen, thiết lập các tiêu chuẩn tư pháp về thương mại, gia đình, sở hữu và hình phạt dựa trên nguyên tắc quả báo tương xứng ('mắt đền mắt')."
   },
   {
     "slug": "gilgamesh",
@@ -15,7 +19,11 @@
     "deathYear": -2500,
     "occupations": "King, Hero",
     "summary": "Historical king of the Sumerian city-state of Uruk, posthumously celebrated as the demigod hero of the Epic of Gilgamesh.",
-    "civilizationSlug": "mesopotamia"
+    "civilizationSlug": "mesopotamia",
+    "nameVi": "Gilgamesh",
+    "occupationsVi": "Quốc vương, Anh hùng sử thi",
+    "summaryVi": "Vị vua lịch sử của thành bang Sumer Uruk, sau này được tôn vinh như vị anh hùng bán thần trong Sử thi Gilgamesh vĩ đại.",
+    "contentVi": "Gilgamesh trị vì thành bang Uruk vào khoảng năm 2700 TCN. Truyền thuyết về ông đã được kết tinh thành thiên Sử thi Gilgamesh—kiệt tác văn học sớm nhất của nhân loại. Tác phẩm kể về tình bạn sâu sắc giữa ông và người rừng Enkidu, nỗi đau đớn trước cái chết của bạn, và hành trình gian khổ đi tìm phương thuốc trường sinh bất tử, cuối cùng nhận ra giới hạn sinh tử của kiếp người."
   },
   {
     "slug": "sargon-of-akkad",
@@ -24,7 +32,11 @@
     "deathYear": -2279,
     "occupations": "King, Conqueror",
     "summary": "First ruler of the Semitic-speaking Akkadian Empire, recognized in historical records as the creator of the world's first multi-ethnic, centrally organized empire.",
-    "civilizationSlug": "mesopotamia"
+    "civilizationSlug": "mesopotamia",
+    "nameVi": "Sargon xứ Akkad",
+    "occupationsVi": "Quốc vương, Nhà chinh phạt",
+    "summaryVi": "Vị vua đầu tiên của Đế chế Akkad, được lịch sử ghi nhận là người sáng lập đế chế đa sắc tộc, có tổ chức tập quyền đầu tiên trên thế giới.",
+    "contentVi": "Xuất thân từ tầng lớp bình dân nói tiếng Semit, Sargon đã lật đổ vua Kish và chinh phục các thành bang Sumer cổ xưa, lập nên Đế chế Akkad vào khoảng năm 2334 TCN. Ông đã thống nhất toàn bộ vùng Lưỡng Hà dưới một triều đình trung ương duy nhất, chuẩn hóa đo lường và phát triển mạng lưới thương mại đường dài vươn ra tận Địa Trung Hải."
   },
   {
     "slug": "ashurbanipal",
@@ -33,7 +45,11 @@
     "deathYear": -627,
     "occupations": "King, Scholar",
     "summary": "Last strong king of the Neo-Assyrian Empire, renowned for assembling the vast cuneiform Library of Ashurbanipal at Nineveh.",
-    "civilizationSlug": "mesopotamia"
+    "civilizationSlug": "mesopotamia",
+    "nameVi": "Ashurbanipal",
+    "occupationsVi": "Hoàng đế, Học giả",
+    "summaryVi": "Vị hoàng đế vĩ đại cuối cùng của Đế quốc Tân Assyria, người đã thành lập Thư viện Hoàng gia Nineveh lưu giữ hàng vạn bản khắc đất sét Lưỡng Hà cổ đại.",
+    "contentVi": "Trị vì Assyria ở đỉnh cao quyền lực (668–627 TCN), Ashurbanipal nổi tiếng vừa là một nhà chỉ huy quân sự tàn khốc vừa là một học giả uyên bác biết đọc và viết cả tiếng Sumer cổ lẫn tiếng Akkad. Ông đã ra lệnh thu thập và sao chép toàn bộ các văn bản tôn giáo, khoa học và văn học khắp Lưỡng Hà, tạo nên Thư viện Nineveh vô giá—nơi lưu giữ bản hoàn chỉnh nhất của Sử thi Gilgamesh."
   },
   {
     "slug": "imhotep",
@@ -42,7 +58,11 @@
     "deathYear": -2600,
     "occupations": "Architect, Vizier, Physician",
     "summary": "Egyptian polymath and vizier to Pharaoh Djoser, credited as the designer of the Step Pyramid of Djoser at Saqqara and later deified as a god of medicine.",
-    "civilizationSlug": "ancient-egypt"
+    "civilizationSlug": "ancient-egypt",
+    "nameVi": "Imhotep",
+    "occupationsVi": "Tể tướng, Kiến trúc sư, Danh y",
+    "summaryVi": "Tể tướng và kiến trúc sư của Pharaoh Djoser, người thiết kế Kim tự tháp bậc thang Saqqara và sau này được tôn làm thần y học ở Ai Cập.",
+    "contentVi": "Sống vào thế kỷ 27 TCN thời Vương triều thứ Ba của Ai Cập, Imhotep được suy tôn là kiến trúc sư, kỹ sư và bác sĩ đầu tiên trong lịch sử được ghi nhận tên tuổi. Ông đã thiết kế Kim tự tháp bậc thang Saqqara—công trình kiến trúc bằng đá quy mô lớn sớm nhất thế giới. Tài năng y thuật kiệt xuất khiến ông sau khi qua đời được người Ai Cập và Hy Lạp suy tôn là vị thần bảo trợ y học."
   },
   {
     "slug": "hatshepsut",
@@ -51,7 +71,11 @@
     "deathYear": -1458,
     "occupations": "Pharaoh",
     "summary": "Second historically confirmed female pharaoh of Egypt, famous for establishing major maritime trade expeditions to Punt and commissioning the mortuary temple at Deir el-Bahari.",
-    "civilizationSlug": "ancient-egypt"
+    "civilizationSlug": "ancient-egypt",
+    "nameVi": "Hatshepsut",
+    "occupationsVi": "Pharaoh, Nữ vương",
+    "summaryVi": "Một trong những nữ pharaoh thành công nhất của Ai Cập cổ đại, nổi danh với việc mở rộng giao thương hàng hải đến xứ Punt và xây dựng đền Deir el-Bahari tráng lệ.",
+    "contentVi": "Trị vì thời kỳ Tân Vương quốc (khoảng 1479–1458 TCN), Hatshepsut đã lãnh đạo Ai Cập qua một thời kỳ hòa bình, thịnh vượng rực rỡ. Bà đã khôi phục các tuyến thương mại quốc tế, đặc biệt là chuyến thám hiểm huyền thoại tới xứ Punt mang về vàng, trầm hương và gỗ quý; đồng thời cho xây dựng ngôi đền tang lễ Deir el-Bahari kiệt tác bên vách núi đá vôi."
   },
   {
     "slug": "akhenaten",
@@ -60,7 +84,11 @@
     "deathYear": -1336,
     "occupations": "Pharaoh, Religious Reformer",
     "summary": "Eighteenth Dynasty pharaoh who enacted an unprecedented religious transformation by centering state worship on the sun disc Aten, representing an early form of quasi-monotheism.",
-    "civilizationSlug": "ancient-egypt"
+    "civilizationSlug": "ancient-egypt",
+    "nameVi": "Akhenaten",
+    "occupationsVi": "Pharaoh, Nhà cải cách tôn giáo",
+    "summaryVi": "Pharaoh thời Tân Vương quốc nổi tiếng với cuộc cách mạng tôn giáo chuyển đổi tôn giáo Ai Cập sang tôn thờ thần mặt trời độc tôn Aten.",
+    "contentVi": "Trị vì từ năm 1353 đến 1336 TCN, Akhenaten (Amenhotep IV) đã làm rúng động truyền thống tôn giáo ngàn đời của Ai Cập khi bãi bỏ quyền lực của tầng lớp tăng lữ thần Amun để thiết lập tôn giáo nhất thần tôn thờ thần đĩa mặt trời Aten. Ông dời đô về thành phố mới Amarna và bảo trợ cho phong cách nghệ thuật Amarna tự nhiên, phóng khoáng đầy tính biểu cảm."
   },
   {
     "slug": "ramesses-ii",
@@ -69,7 +97,11 @@
     "deathYear": -1213,
     "occupations": "Pharaoh, Military Commander",
     "summary": "Known as Ramesses the Great, celebrated for his monumental building campaigns (Abu Simbel, Ramesseum) and the Battle of Kadesh, leading to the world's first recorded peace treaty.",
-    "civilizationSlug": "ancient-egypt"
+    "civilizationSlug": "ancient-egypt",
+    "nameVi": "Ramesses II Đại đế",
+    "occupationsVi": "Pharaoh, Chỉ huy quân sự",
+    "summaryVi": "Pharaoh quyền lực và sống thọ bậc nhất của Vương triều thứ 19, người đã lãnh đạo trận Kadesh, ký hiệp ước hòa bình đầu tiên trong lịch sử và xây dựng đền Abu Simbel vĩ đại.",
+    "contentVi": "Trị vì rực rỡ suốt 66 năm (1279–1213 TCN), Ramesses II (Ramesses Đại đế) đã củng cố biên cương Ai Cập qua hàng loạt chiến dịch quân sự, nổi tiếng nhất là Trận Kadesh đối đầu Đế chế Hittite, dẫn tới Hiệp ước Kadesh—hiệp ước hòa bình quốc tế thành văn đầu tiên được ghi nhận. Ông đã cho xây dựng vô số tượng đài kỳ vĩ, bao gồm đại đền thờ Abu Simbel và sảnh cột Ramesseum tráng lệ."
   },
   {
     "slug": "cleopatra",
@@ -78,7 +110,11 @@
     "deathYear": -30,
     "occupations": "Queen, Diplomat",
     "summary": "Last active ruler of the Ptolemaic Kingdom of Egypt, noted for her intellect, multilingual diplomacy, and strategic alliances with Julius Caesar and Mark Antony.",
-    "civilizationSlug": "ancient-egypt"
+    "civilizationSlug": "ancient-egypt",
+    "nameVi": "Cleopatra VII",
+    "occupationsVi": "Nữ hoàng, Nhà ngoại giao",
+    "summaryVi": "Vị quân chủ độc lập cuối cùng của Vương triều Ptolemy tại Ai Cập, nhà ngoại giao thông tuệ và nhà ngôn ngữ học tài ba gắn liền với số phận của Julius Caesar và Mark Antony.",
+    "contentVi": "Cleopatra VII Philopator (69–30 TCN) là người phụ nữ quyền lực bậc nhất thời cổ đại. Uyên bác, nói được hơn 9 thứ tiếng và là pharaoh Ptolemy duy nhất học tiếng Ai Cập bản địa, bà đã khéo léo vận dụng tài trí chính trị và liên minh với Julius Caesar rồi Mark Antony để bảo vệ nền độc lập của Ai Cập trước sức ép thôn tính của La Mã, trước khi thất bại và tự vẫn sau trận Actium."
   },
   {
     "slug": "socrates",
@@ -87,7 +123,11 @@
     "deathYear": -399,
     "occupations": "Philosopher",
     "summary": "Foundational figure in Western moral philosophy, immortalized for his dialectical method of inquiry (Socratic method) and his commitment to virtue, examined living, and critical self-reflection.",
-    "civilizationSlug": "ancient-greece"
+    "civilizationSlug": "ancient-greece",
+    "nameVi": "Socrates",
+    "occupationsVi": "Triết gia",
+    "summaryVi": "Triết gia Athens đặt nền móng cho triết học đạo đức phương Tây, người tiên phong phương pháp đối thoại phản biện truy vấn chân lý (Phương pháp Socrates).",
+    "contentVi": "Socrates (khoảng 470–399 TCN) đã chuyển hướng triết học từ nghiên cứu vũ trụ tự nhiên sang nghiên cứu con người, đạo đức và cuộc sống tốt đẹp ('Cuộc đời không tự chất vấn là cuộc đời không đáng sống'). Ông không để lại trước tác nào, tư tưởng của ông được lưu truyền qua các cuộc đối thoại của học trò Plato. Năm 399 TCN, ông bị kết án tử hình bằng thuốc độc cần tây vì tội báng bổ và làm hư hỏng thanh niên, nhưng hiên ngang đón nhận cái chết để bảo vệ sự chính trực của lương tri."
   },
   {
     "slug": "plato",
@@ -96,7 +136,11 @@
     "deathYear": -348,
     "occupations": "Philosopher, Educator",
     "summary": "Student of Socrates, founder of the Academy in Athens (the Western world's first institution of higher learning), and author of influential philosophical dialogues including The Republic and Symposium.",
-    "civilizationSlug": "ancient-greece"
+    "civilizationSlug": "ancient-greece",
+    "nameVi": "Plato",
+    "occupationsVi": "Triết gia, Nhà giáo dục",
+    "summaryVi": "Học trò xuất sắc của Socrates, người sáng lập Học viện Athens (Academy)—viện nghiên cứu cấp cao đầu tiên của phương Tây, tác giả của tác phẩm kinh điển Cộng hòa (Republic).",
+    "contentVi": "Plato (428/427–348/347 TCN) đã xây dựng hệ thống triết học duy tâm khách quan vĩ đại với Thuyết Ý niệm (Theory of Forms), cho rằng thế giới vật chất chỉ là bóng hình bất toàn của thế giới ý niệm vĩnh cửu. Ông sáng lập Học viện Athens vào khoảng năm 387 TCN và để lại di sản đồ sộ gồm hàng chục cuộc đối thoại triết học sâu sắc như Cộng hòa, Biện hộ, Khách tiệc và Phaedo."
   },
   {
     "slug": "aristotle",
@@ -105,7 +149,11 @@
     "deathYear": -322,
     "occupations": "Philosopher, Polymath",
     "summary": "Student of Plato and tutor to Alexander the Great; founded the Lyceum and established systematic inquiry in formal logic, biology, physics, ethics, aesthetics, and political theory.",
-    "civilizationSlug": "ancient-greece"
+    "civilizationSlug": "ancient-greece",
+    "nameVi": "Aristotle",
+    "occupationsVi": "Triết gia, Nhà khoa học bách khoa",
+    "summaryVi": "Học trò của Plato và thầy dạy của Alexander Đại đế, bộ óc bách khoa toàn thư đã sáng lập logic học hình thức và phân loại các ngành khoa học tự nhiên lẫn nhân văn phương Tây.",
+    "contentVi": "Aristotle (384–322 TCN) thành lập trường Lyceum tại Athens. Ông đã đặt nền tảng phương pháp luận cho hầu hết mọi lĩnh vực tri thức của phương Tây: từ Logic học (công cụ tam đoạn luận), Siêu hình học, Đạo đức học (Đạo đức học Nicomachean), Chính trị học, đến Sinh học, Động vật học và Thi pháp học. Tư tưởng của ông ngự trị nền học thuật Địa Trung Hải, Hồi giáo và châu Âu suốt hơn một thiên niên kỷ rưỡi."
   },
   {
     "slug": "homer",
@@ -114,7 +162,11 @@
     "deathYear": -701,
     "occupations": "Epic Poet",
     "summary": "Legendary ancient Greek poet credited with the authorship of the Iliad and the Odyssey, two epic foundational pillars of Western literature and mythology.",
-    "civilizationSlug": "ancient-greece"
+    "civilizationSlug": "ancient-greece",
+    "nameVi": "Homer",
+    "occupationsVi": "Nhà thơ sử thi",
+    "summaryVi": "Tác giả truyền thuyết của hai đại sử thi Iliad và Odyssey, những áng văn chương nền tảng định hình thi pháp, thần thoại và đạo lý của văn minh phương Tây.",
+    "contentVi": "Homer (khoảng thế kỷ 8 TCN) được xem là thi hào vĩ đại nhất của Hy Lạp cổ đại. Tác phẩm của ông—Iliad kể về bi kịch cơn thịnh nộ của Achilles trong Chiến tranh thành Troy, và Odyssey kể về cuộc trở về quê hương kéo dài mười năm đầy hiểm nguy của Odysseus—đã trở thành sách giáo khoa tâm hồn cho mọi thế hệ người Hy Lạp và phương Tây."
   },
   {
     "slug": "pericles",
@@ -123,7 +175,11 @@
     "deathYear": -429,
     "occupations": "Statesman, General",
     "summary": "Prominent leader of Athens during its Golden Age, champion of democratic institutions, sponsor of the arts and philosophy, and commissioner of the Parthenon on the Acropolis.",
-    "civilizationSlug": "ancient-greece"
+    "civilizationSlug": "ancient-greece",
+    "nameVi": "Pericles",
+    "occupationsVi": "Chính khách, Nhà hùng biện, Tướng lĩnh",
+    "summaryVi": "Nhà lãnh đạo kiệt xuất của Athens, người đã đưa nền dân chủ Athens và nền văn hóa nghệ thuật lên đỉnh cao hoàng kim (Thời đại Pericles) và cho xây dựng Đền Parthenon.",
+    "contentVi": "Lãnh đạo Athens từ năm 461 đến 429 TCN, Pericles đã mở rộng quyền tham chính dân chủ cho mọi công dân tự do, biến Athens thành 'trường học của toàn Hy Lạp'. Ông đã khởi xướng chương trình xây dựng các công trình bất hủ trên đồi Acropolis, trong đó có Đền Parthenon kiệt tác, và có bài Điếu văn tang lễ bất hủ ca ngợi các giá trị của tự do và dân chủ."
   },
   {
     "slug": "alexander",
@@ -132,7 +188,11 @@
     "deathYear": -323,
     "occupations": "King, Military Conqueror",
     "summary": "King of Macedonia who conquered the Achaemenid Persian Empire and created an empire stretching from Greece to northwestern India, ushering in the Hellenistic cultural era.",
-    "civilizationSlug": "ancient-greece"
+    "civilizationSlug": "ancient-greece",
+    "nameVi": "Alexander Đại đế",
+    "occupationsVi": "Quốc vương, Nhà chinh phạt kiệt xuất",
+    "summaryVi": "Vua xứ Macedonia, người đã xây dựng một trong những đế quốc rộng lớn nhất lịch sử từ Hy Lạp đến tận Ấn Độ, mở ra Thời kỳ Hy Lạp hóa (Hellenistic Era).",
+    "contentVi": "Là học trò của Aristotle, Alexander III của Macedonia (356–323 TCN) lên ngôi năm 20 tuổi và trong vòng 12 năm bất bại trên chiến trường đã đập tan Đế chế Ba Tư hùng mạnh, tiến quân đến tận thung lũng sông Ấn. Ông đã sáng lập hàng loạt đô thị mang tên Alexandria và thúc đẩy sự hòa quyện văn hóa chưa từng có giữa văn hóa Hy Lạp và phương Đông."
   },
   {
     "slug": "herodotus",
@@ -141,7 +201,11 @@
     "deathYear": -425,
     "occupations": "Historian",
     "summary": "Referred to by Cicero as the 'Father of History', he pioneered systematic historical inquiry and collection of ethnographic narrative in his masterwork The Histories.",
-    "civilizationSlug": "ancient-greece"
+    "civilizationSlug": "ancient-greece",
+    "nameVi": "Herodotus",
+    "occupationsVi": "Sử gia",
+    "summaryVi": "Được mệnh danh là 'Người cha của Lịch sử', tác giả bộ sử khảo cứu The Histories ghi lại các cuộc Chiến tranh Hy Lạp - Ba Tư và các nền văn hóa cổ đại.",
+    "contentVi": "Herodotus xứ Halicarnassus (khoảng 484–425 TCN) là người đầu tiên tiếp cận lịch sử như một cuộc điều tra khảo cứu (historia) có hệ thống. Ông đã du hành khắp Ai Cập, Lưỡng Hà, Ba Tư và Hắc Hải để thu thập tư liệu thực địa, để lại bộ sử The Histories bất hủ vừa mang tính lịch sử sâu sắc vừa giàu giá trị nhân chủng học."
   },
   {
     "slug": "thucydides",
@@ -150,7 +214,11 @@
     "deathYear": -400,
     "occupations": "Historian, General",
     "summary": "Athenian historian known for his History of the Peloponnesian War, celebrated as a founder of scientific history and political realism through rigorous evidence and causal analysis.",
-    "civilizationSlug": "ancient-greece"
+    "civilizationSlug": "ancient-greece",
+    "nameVi": "Thucydides",
+    "occupationsVi": "Sử gia, Tướng lĩnh",
+    "summaryVi": "Sử gia Athens, người tiên phong phương pháp chép sử khoa học, nghiêm ngặt và không thiên vị với kiệt tác Lịch sử Chiến tranh Peloponnesus.",
+    "contentVi": "Thucydides (khoảng 460–400 TCN) đã từ bỏ cách giải thích thần thánh để phân tích lịch sử thuần túy trên cơ sở nguyên nhân chính trị, tâm lý con người và tương quan sức mạnh thực tế ('Kẻ mạnh làm những gì họ có thể, và kẻ yếu phải chịu đựng những gì họ phải chịu'). Ông được tôn vinh là cha đẻ của trường phái Hiện thực chính trị trong quan hệ quốc tế."
   },
   {
     "slug": "pythagoras",
@@ -159,7 +227,11 @@
     "deathYear": -495,
     "occupations": "Philosopher, Mathematician",
     "summary": "Ionian Greek philosopher and founder of Pythagoreanism, known for mathematical theorems, numerical mysticism, musical harmonic ratios, and transmigration of souls.",
-    "civilizationSlug": "ancient-greece"
+    "civilizationSlug": "ancient-greece",
+    "nameVi": "Pythagoras",
+    "occupationsVi": "Nhà toán học, Triết gia",
+    "summaryVi": "Nhà tư tưởng Hy Lạp sáng lập trường phái Pythagoras, nổi tiếng với định lý hình học mang tên ông và học thuyết 'Vạn vật đều là con số'.",
+    "contentVi": "Pythagoras xứ Samos (khoảng 570–495 TCN) đã thành lập một hội huynh đệ triết học và tôn giáo tại Crotone (nam Ý). Ông phát hiện ra mối liên hệ toán học trong hòa âm âm nhạc, phát biểu định lý hình học góc vuông bất hủ, và truyền bá niềm tin rằng trật tự hài hòa của vũ trụ được vận hành bởi các nguyên lý toán học thuần khiết."
   },
   {
     "slug": "solon",
@@ -168,7 +240,11 @@
     "deathYear": -560,
     "occupations": "Lawgiver, Poet",
     "summary": "Athenian statesman and lawmaker remembered for his constitutional, economic, and moral reforms against political corruption, laying the groundwork for Athenian democracy.",
-    "civilizationSlug": "ancient-greece"
+    "civilizationSlug": "ancient-greece",
+    "nameVi": "Solon",
+    "occupationsVi": "Nhà lập pháp, Chính khách, Nhà thơ",
+    "summaryVi": "Nhà lập pháp lỗi lạc của Athens, người đã xóa bỏ chế độ nô lệ vì nợ nần và đặt nền móng pháp lý cho sự ra đời của nền dân chủ Athens.",
+    "contentVi": "Được bầu làm quan Tổng đốc (Archon) vào năm 594 TCN trong bối cảnh xung đột giai cấp gay gắt, Solon đã ban hành cải cách Seisachtheia (xóa bỏ gánh nặng nợ nần), giải phóng những nông dân bị biến thành nô lệ, phân chia công dân theo thu nhập thay vì dòng dõi quý tộc, mở đường cho sự phát triển của thể chế dân chủ."
   },
   {
     "slug": "julius-caesar",
@@ -177,7 +253,11 @@
     "deathYear": -44,
     "occupations": "General, Statesman, Dictator",
     "summary": "Roman general and politician whose conquest of Gaul, crossing of the Rubicon, and appointment as dictator perpetuo precipitated the collapse of the Roman Republic and the birth of the Empire.",
-    "civilizationSlug": "roman-empire"
+    "civilizationSlug": "roman-empire",
+    "nameVi": "Julius Caesar",
+    "occupationsVi": "Độc tài, Thống soái, Chính khách",
+    "summaryVi": "Vị tướng và chính khách kiệt xuất của La Mã, người chinh phục xứ Gaul, vượt sông Rubicon và mở đường cho sự chuyển dịch từ nền Cộng hòa sang Đế chế La Mã.",
+    "contentVi": "Gaius Julius Caesar (100–44 TCN) là thiên tài quân sự và chính trị. Sau khi chinh phục toàn bộ xứ Gaul và mở rộng lãnh thổ La Mã đến sông Rhine và nước Anh, ông đã dẫn quân vượt sông Rubicon tiến về Rome, chiến thắng trong cuộc nội chiến và được phong làm Độc tài vĩnh viễn. Ông đã cải cách Lịch Julius và mở rộng quyền công dân trước khi bị ám sát vào ngày 15 tháng 3 năm 44 TCN bởi một nhóm nguyên lão."
   },
   {
     "slug": "augustus",
@@ -186,7 +266,11 @@
     "deathYear": 14,
     "occupations": "First Roman Emperor",
     "summary": "Adopted son of Julius Caesar and first emperor of Rome, founder of the Roman Principate, and architect of the two-century era of relative peace known as the Pax Romana.",
-    "civilizationSlug": "roman-empire"
+    "civilizationSlug": "roman-empire",
+    "nameVi": "Augustus (Octavian)",
+    "occupationsVi": "Hoàng đế La Mã đầu tiên",
+    "summaryVi": "Hoàng đế sáng lập Đế chế La Mã, người thiết lập nền cai trị Principate và mở ra kỷ nguyên ổn định thịnh vượng kéo dài hai thế kỷ (Pax Romana).",
+    "contentVi": "Sinh ra với tên Gaius Octavius (63 TCN – 14 SCN), ông là cháu và người thừa kế hợp pháp của Julius Caesar. Sau khi đánh bại Mark Antony và Cleopatra tại Actium năm 31 TCN, ông trở thành người nắm quyền tối cao tại La Mã. Với danh hiệu Augustus ('Đấng tôn kính'), ông đã khéo léo duy trì vỏ bọc Cộng hòa nhưng tập trung toàn bộ quyền lực thực tế, xây dựng lại diện mạo Rome bằng đá cẩm thạch và củng cố một đế chế thịnh trị ngàn đời."
   },
   {
     "slug": "cicero",
@@ -195,7 +279,11 @@
     "deathYear": -43,
     "occupations": "Orator, Statesman, Philosopher",
     "summary": "Rome's greatest orator and constitutional defender of republican liberty, whose letters and philosophical treatises profoundly influenced humanism and the European Enlightenment.",
-    "civilizationSlug": "roman-empire"
+    "civilizationSlug": "roman-empire",
+    "nameVi": "Marcus Tullius Cicero",
+    "occupationsVi": "Chính khách, Nhà hùng biện, Triết gia",
+    "summaryVi": "Bậc thầy hùng biện và văn phong Latinh, quan chấp chính kiên trung bảo vệ các thể chế của nền Cộng hòa La Mã chống lại nền chuyên chế quân phiệt.",
+    "contentVi": "Cicero (106–43 TCN) là luật sư, nhà hùng biện và triết gia vĩ đại nhất của La Mã. Ông đã phơi bày âm mưu đảo chính của Catiline và truyền bá triết học Hy Lạp vào thế giới La Mã bằng tiếng Latinh mẫu mực. Là người kiên quyết bảo vệ nền Cộng hòa truyền thống, ông đã dũng cảm công kích Mark Antony trong các bài hùng biện Philippics và bị xử tử năm 43 TCN."
   },
   {
     "slug": "marcus-aurelius",
@@ -204,7 +292,11 @@
     "deathYear": 180,
     "occupations": "Roman Emperor, Stoic Philosopher",
     "summary": "The last of the 'Five Good Emperors' of Rome and a revered Stoic philosopher whose personal introspective reflections were published as Meditations.",
-    "civilizationSlug": "roman-empire"
+    "civilizationSlug": "roman-empire",
+    "nameVi": "Marcus Aurelius",
+    "occupationsVi": "Hoàng đế La Mã, Triết gia Khắc kỷ",
+    "summaryVi": "Vị 'Hoàng đế hiền triết' cuối cùng trong Ngũ hiền đế của La Mã, tác giả của tập Suy tưởng (Meditations) kiệt tác của triết học Khắc kỷ (Stoicism).",
+    "contentVi": "Trị vì La Mã từ năm 161 đến 180 SCN, Marcus Aurelius vừa phải chỉ huy các chiến dịch quân sự khốc liệt bảo vệ biên giới sông Danube vừa phải đối phó với dịch bệnh tàn phá. Ngay giữa lều bạt nơi chiến trường, ông đã ghi lại những dòng tự vấn tâm linh sâu sắc trong tập Suy tưởng, thể hiện tinh thần trách nhiệm tận tụy, sự tự chủ nội tâm và lòng bác ái của một triết gia Khắc kỷ đích thực."
   },
   {
     "slug": "virgil",
@@ -213,7 +305,11 @@
     "deathYear": -19,
     "occupations": "Poet",
     "summary": "Ancient Roman poet of the Augustan period, author of the national epic Aeneid, which chronicled the heroic founding myth of Rome from Trojan prince Aeneas.",
-    "civilizationSlug": "roman-empire"
+    "civilizationSlug": "roman-empire",
+    "nameVi": "Virgil",
+    "occupationsVi": "Nhà thơ",
+    "summaryVi": "Thi hào vĩ đại nhất của La Mã, tác giả của sử thi Aeneid ca ngợi nguồn gốc thần thánh và sứ mệnh lịch sử vinh quang của dân tộc La Mã.",
+    "contentVi": "Publius Vergilius Maro (70–19 TCN) đã sáng tác sử thi Aeneid theo lời ủy thác của Hoàng đế Augustus. Tác phẩm kể về người anh hùng thành Troy Aeneas chạy trốn khỏi cuộc tàn sát và vượt biển đến bán đảo Ý để đặt nền móng cho dân tộc La Mã. Aeneid trở thành sử thi dân tộc của La Mã và là một trong những cột trụ văn học đồ sộ nhất phương Tây."
   },
   {
     "slug": "constantine-the-great",
@@ -222,7 +318,11 @@
     "deathYear": 337,
     "occupations": "Roman Emperor",
     "summary": "Roman emperor who legalized Christianity across the Empire with the Edict of Milan (313 CE), convened the First Council of Nicaea, and relocated the imperial capital to Constantinople.",
-    "civilizationSlug": "roman-empire"
+    "civilizationSlug": "roman-empire",
+    "nameVi": "Constantine Đại đế",
+    "occupationsVi": "Hoàng đế La Mã",
+    "summaryVi": "Hoàng đế La Mã đầu tiên cải đạo sang Kitô giáo, ban hành Chiếu chỉ Milan công nhận tự do tôn giáo và dời kinh đô về Constantinople.",
+    "contentVi": "Flavius Valerius Constantinus (272–337 SCN) đã làm thay đổi tiến trình lịch sử châu Âu. Sau chiến thắng tại cầu Milvian năm 312 SCN, ông ban hành Chiếu chỉ Milan năm 313 chấm dứt đàn áp và hợp pháp hóa Kitô giáo trên toàn đế quốc. Ông triệu tập Công đồng Nicaea đầu tiên năm 325 và dời kinh đô sang Byzantium (đổi tên thành Constantinople), đặt nền móng cho Đế quốc Đông La Mã (Byzantine) tồn tại suốt một nghìn năm sau."
   },
   {
     "slug": "confucius",
@@ -231,7 +331,11 @@
     "deathYear": -479,
     "occupations": "Philosopher, Educator",
     "summary": "Chinese philosopher whose teachings, preserved in the Analects, emphasized personal and governmental morality, correctness of social relationships, justice, and sincerity.",
-    "civilizationSlug": "ancient-china"
+    "civilizationSlug": "ancient-china",
+    "nameVi": "Khổng Tử",
+    "occupationsVi": "Triết gia, Nhà giáo dục",
+    "summaryVi": "Nhà tư tưởng và nhà giáo dục vĩ đại nhất của Trung Hoa, người sáng lập Nho giáo (Đạo Khổng) định hình nền tảng đạo đức, gia đình và xã hội Đông Á.",
+    "contentVi": "Khổng Tử (551–479 TCN), tự Trọng Ni, người nước Lỗ thời Xuân Thu. Trước cảnh suy thoái lễ nhạc và chiến tranh loạn lạc, ông đã đề xướng học thuyết Nhân (lòng yêu thương người), Lễ (khuôn phép ứng xử), Nghĩa, Trí, Tín và chủ trương cai trị bằng đức trị (Đức chính). Ông là người đầu tiên mở trường tư thục nhận học trò bất kể sang hèn ('Hữu giáo vô loại'). Lời dạy của ông được các môn đệ ghi chép lại trong bộ Luận ngữ kinh điển."
   },
   {
     "slug": "qin-shi-huang",
@@ -240,7 +344,11 @@
     "deathYear": -210,
     "occupations": "First Emperor of China",
     "summary": "Founder of the Qin dynasty and first emperor of a unified China, known for centralizing bureaucratic rule, standardizing script, weights and measures, and initiating the Great Wall.",
-    "civilizationSlug": "ancient-china"
+    "civilizationSlug": "ancient-china",
+    "nameVi": "Tần Thủy Hoàng",
+    "occupationsVi": "Hoàng đế đầu tiên của Trung Hoa",
+    "summaryVi": "Vị hoàng đế thống nhất Trung Hoa, chấm dứt thời Chiến Quốc, thiết lập nhà nước pháp gia tập quyền, chuẩn hóa chữ viết, đo lường và xây dựng Vạn Lý Trường Thành.",
+    "contentVi": "Doanh Chính (259–210 TCN) lên ngôi vua Tần năm 13 tuổi và lần lượt tiêu diệt sáu nước đối địch, thống nhất toàn bộ thiên hạ vào năm 221 TCN, xưng hiệu Tần Thủy Hoàng Đế. Ông xóa bỏ chế độ phong kiến phân quyền để lập chế độ quận huyện, thống nhất hệ thống chữ viết Tiểu triện, tiền tệ, đo lường và trục xe; đồng thời huy động hàng triệu người xây dựng Vạn Lý Trường Thành và lăng mộ với đội quân đất nung huyền thoại."
   },
   {
     "slug": "buddha",
@@ -249,7 +357,11 @@
     "deathYear": -483,
     "occupations": "Spiritual Teacher, Philosopher",
     "summary": "Ascetic and religious teacher of ancient India on whose teachings Buddhism was founded, expounding the Four Noble Truths and the Eightfold Path to end suffering.",
-    "civilizationSlug": "ancient-india"
+    "civilizationSlug": "ancient-india",
+    "nameVi": "Đức Phật Thích Ca Mâu Ni",
+    "occupationsVi": "Đạo sư, Nhà sáng lập tôn giáo",
+    "summaryVi": "Thái tử Tất-đạt-đa Cồ-đàm, người đã từ bỏ vương vị để tìm con đường giải thoát khổ đau, giác ngộ thành Phật và sáng lập Phật giáo.",
+    "contentVi": "Đức Phật Thích Ca Mâu Ni (Siddhartha Gautama, khoảng thế kỷ 6–5 TCN) sinh ra tại vương quốc Thích Ca (Lâm-tì-ni, nay thuộc Nepal). Chứng kiến cảnh sinh, lão, bệnh, tử, Ngài đã từ bỏ cung vàng điện ngọc xuất gia tầm đạo. Dưới cội bồ đề tại Bồ Đề Đạo Tràng, Ngài đã giác ngộ chân lý viên mãn, thuyết giảng Tứ Diệu Đế và Bát Chính Đạo, mở ra con đường tu tập từ bi, trí tuệ và giải thoát khỏi luân hồi sinh tử cho muôn triệu chúng sinh."
   },
   {
     "slug": "ashoka",
@@ -258,7 +370,11 @@
     "deathYear": -232,
     "occupations": "Emperor, Patron of Buddhism",
     "summary": "Third Mauryan emperor who ruled almost the entire Indian subcontinent; following the brutal Kalinga War, he converted to Buddhism and promulgated moral edicts of non-violence (Ahimsa).",
-    "civilizationSlug": "ancient-india"
+    "civilizationSlug": "ancient-india",
+    "nameVi": "Ashoka Đại đế (A-dục Vương)",
+    "occupationsVi": "Hoàng đế Đế chế Maurya",
+    "summaryVi": "Vị hoàng đế vĩ đại của Ấn Độ, người đã từ bỏ bạo lực sau Trận chiến Kalinga đẫm máu để cải đạo sang Phật giáo, truyền bá Đạo Pháp (Dhamma) khắp châu Á.",
+    "contentVi": "Ashoka (trị vì khoảng 268–232 TCN) đã thống nhất gần như toàn bộ tiểu lục địa Ấn Độ. Sau khi chứng kiến nỗi thống khổ khôn cùng của hàng vạn sinh linh trong trận Kalinga, ông đã thức tỉnh lương tri sâu sắc, quy y Phật pháp và cam kết cai trị bằng lòng từ bi và bất bạo động (Ahimsa). Ông cho khắc các Sắc chỉ Ashoka trên đá và trụ đá khắp đất nước, đồng thời cử các đoàn truyền giáo đưa Phật giáo đến Sri Lanka, Đông Nam Á và thế giới Địa Trung Hải."
   },
   {
     "slug": "saladin",
@@ -267,7 +383,11 @@
     "deathYear": 1193,
     "occupations": "Sultan, Military Commander",
     "summary": "First sultan of Egypt and Syria and founder of the Ayyubid dynasty, admired in both Muslim and Christian worlds for chivalry and his recapture of Jerusalem in 1187.",
-    "civilizationSlug": "islamic-civilization"
+    "civilizationSlug": "islamic-civilization",
+    "nameVi": "Saladin (Salah ad-Din)",
+    "occupationsVi": "Sultan, Nhà lãnh đạo quân sự",
+    "summaryVi": "Vị Sultan sáng lập triều đại Ayyubid, người đã tái chiếm Jerusalem từ tay Thập tự quân vào năm 1187 và nổi tiếng khắp Đông lẫn Tây bởi tinh thần hiệp sĩ và sự nhân từ.",
+    "contentVi": "Salah ad-Din Yusuf ibn Ayyub (1137–1193) là một trong những nhân vật được kính trọng nhất thời Trung cổ. Sau khi thống nhất Ai Cập và Syria, ông đã đánh bại quân Thập tự chinh trong Trận Hattin và thu phục Jerusalem năm 1187. Khác với sự tàn sát của Thập tự quân trước đó, Saladin đã bảo vệ tính mạng dân thường, tôn trọng các thánh địa tôn giáo và đối xử hào hiệp với đối thủ Richard Trái Tim Sư Tử."
   },
   {
     "slug": "ho-chi-minh",
@@ -276,7 +396,11 @@
     "deathYear": 1969,
     "occupations": "Revolutionary, Statesman",
     "summary": "Key figure in the foundation of the Democratic Republic of Vietnam in 1945, leading the Vietnamese national liberation movement.",
-    "civilizationSlug": "vietnam"
+    "civilizationSlug": "vietnam",
+    "nameVi": "Hồ Chí Minh",
+    "occupationsVi": "Chủ tịch nước, Nhà cách mạng, Danh nhân văn hóa",
+    "summaryVi": "Lãnh tụ vĩ đại của phong trào giải phóng dân tộc Việt Nam, người sáng lập nước Việt Nam Dân chủ Cộng hòa và Danh nhân Văn hóa kiệt xuất được UNESCO vinh danh.",
+    "contentVi": "Chủ tịch Hồ Chí Minh (1890–1969) đã cống hiến trọn đời cho sự nghiệp độc lập tự do của Tổ quốc và hạnh phúc của nhân dân. Trải qua 30 năm bôn ba tìm đường cứu nước khắp năm châu, Người đã vận dụng sáng tạo chủ nghĩa Mác - Lênin vào thực tiễn Việt Nam, lãnh đạo Cách mạng Tháng Tám 1945 thành công và đọc bản Tuyên ngôn Độc lập khai sinh nước Việt Nam Dân chủ Cộng hòa vào ngày 2 tháng 9 năm 1945."
   },
   {
     "slug": "isaac-newton",
@@ -285,7 +409,11 @@
     "deathYear": 1727,
     "occupations": "Physicist, Mathematician, Astronomer",
     "summary": "Key figure in the Scientific Revolution whose Philosophiæ Naturalis Principia Mathematica formulated the laws of motion and universal gravitation.",
-    "civilizationSlug": null
+    "civilizationSlug": null,
+    "nameVi": "Isaac Newton",
+    "occupationsVi": "Nhà vật lý học, Nhà toán học, Nhà thiên văn học",
+    "summaryVi": "Một trong những nhà khoa học có tầm ảnh hưởng lớn nhất mọi thời đại, người phát biểu Định luật vạn vật hấp dẫn, ba định luật chuyển động và phát minh phép tính vi tích phân.",
+    "contentVi": "Sir Isaac Newton (1642–1727) đã hoàn thiện cuộc Cách mạng Khoa học với kiệt tác Các nguyên lý toán học của triết học tự nhiên (Principia Mathematica) xuất bản năm 1687. Tác phẩm đã thống nhất chuyển động trên Trái đất và chuyển động của các thiên thể dưới một hệ quy luật toán học duy nhất, đặt nền móng cho cơ học cổ điển và vật lý học hiện đại."
   },
   {
     "slug": "charles-darwin",
@@ -294,7 +422,11 @@
     "deathYear": 1882,
     "occupations": "Naturalist, Biologist",
     "summary": "English naturalist who established that all species of life have descended from common ancestors through the process of natural selection.",
-    "civilizationSlug": null
+    "civilizationSlug": null,
+    "nameVi": "Charles Darwin",
+    "occupationsVi": "Nhà tự nhiên học, Nhà sinh học",
+    "summaryVi": "Nhà khoa học đề xuất thuyết tiến hóa thông qua chọn lọc tự nhiên với kiệt tác Nguồn gốc các loài (On the Origin of Species), làm thay đổi căn bản nhận thức về sự sống.",
+    "contentVi": "Charles Darwin (1809–1882) sau chuyến thám hiểm lịch sử kéo dài 5 năm trên tàu HMS Beagle (đặc biệt là tại quần đảo Galápagos) đã thu thập bằng chứng thực nghiệm vững chắc để chứng minh rằng mọi loài sinh vật đều tiến hóa từ các tổ tiên chung thông qua cơ chế chọn lọc tự nhiên. Công trình xuất bản năm 1859 của ông đã tạo nên một cuộc cách mạng tư tưởng vĩ đại trong sinh học và nhân loại học."
   },
   {
     "slug": "albert-einstein",
@@ -303,7 +435,11 @@
     "deathYear": 1955,
     "occupations": "Theoretical Physicist",
     "summary": "German-born theoretical physicist widely acknowledged as one of the greatest physicists of all time, best known for developing the theory of relativity.",
-    "civilizationSlug": null
+    "civilizationSlug": null,
+    "nameVi": "Albert Einstein",
+    "occupationsVi": "Nhà vật lý lý thuyết",
+    "summaryVi": "Nhà vật lý vĩ đại của thế kỷ 20, tác giả của Thuyết tương đối hẹp và Thuyết tương đối rộng, người giải thích hiệu ứng quang điện và định hình lại quan niệm về không - thời gian.",
+    "contentVi": "Albert Einstein (1879–1955) đã làm thay đổi hoàn toàn vật lý học hiện đại. Năm 1905 ('Năm kỳ diệu'), ông công bố bốn bài báo đột phá về hiệu ứng quang điện (đoạt giải Nobel), chuyển động Brown, thuyết tương đối hẹp và phương trình năng lượng tương đương khối lượng $E = mc^2$. Năm 1915, Thuyết tương đối rộng của ông đã mô tả lực hấp dẫn như sự uốn cong của không-thời gian do khối lượng."
   },
   {
     "slug": "alan-turing",
@@ -312,7 +448,11 @@
     "deathYear": 1954,
     "occupations": "Mathematician, Computer Scientist",
     "summary": "English mathematician and cryptanalyst who played a pivotal role in cracking intercepted coded messages during WWII and formalized theoretical computer science.",
-    "civilizationSlug": null
+    "civilizationSlug": null,
+    "nameVi": "Alan Turing",
+    "occupationsVi": "Nhà toán học, Nhà khoa học máy tính",
+    "summaryVi": "Người cha đẻ của khoa học máy tính lý thuyết và trí tuệ nhân tạo, nhà giải mã cự phách đã phá cỗ máy Enigma của Đức Quốc xã trong Thế chiến thứ hai.",
+    "contentVi": "Alan Turing (1912–1954) đã đặt nền móng cho thời đại số với mô hình Máy Turing (Turing Machine) vào năm 1936. Trong Thế chiến II tại Bletchley Park, ông đã chế tạo cỗ máy Bombe giải mã thành công mật mã hải quân Enigma của phát xít Đức, cứu sống hàng triệu sinh mạng và rút ngắn cuộc chiến tranh. Ông cũng là người đề xuất Phép thử Turing (Turing Test) nổi tiếng để đánh giá trí tuệ nhân tạo."
   },
   {
     "slug": "leonardo-da-vinci",
@@ -321,7 +461,11 @@
     "deathYear": 1519,
     "occupations": "Polymath, Artist, Engineer",
     "summary": "Italian Renaissance polymath whose areas of interest included painting, invention, sculpture, architecture, science, and anatomy.",
-    "civilizationSlug": null
+    "civilizationSlug": null,
+    "nameVi": "Leonardo da Vinci",
+    "occupationsVi": "Họa sĩ, Nhà phát minh, Nhà bác học",
+    "summaryVi": "Bậc thầy thiên tài toàn năng của thời kỳ Phục hưng Ý, tác giả của bức tranh Mona Lisa, Bữa tiệc ly và hàng nghìn trang bản thảo phác thảo các phát minh đi trước thời đại.",
+    "contentVi": "Leonardo da Vinci (1452–1519) là hiện thân rực rỡ nhất của lý tưởng 'Con người Phục hưng' (Homo universalis). Không chỉ là họa sĩ bậc thầy tạo nên kiệt tác Mona Lisa và Bữa tiệc ly (The Last Supper), ông còn là nhà giải phẫu học, kỹ sư, nhà thủy lực học và nhà nghiên cứu chuyến bay với những bản vẽ phi thường về máy bay trực thăng, tàu ngầm và cầu quay trước thời đại hàng thế kỷ."
   },
   {
     "slug": "laozi",
@@ -331,7 +475,11 @@
     "occupations": "Philosopher, Archivist, Founder of Taoism",
     "civilizationSlug": "ancient-china",
     "summary": "Semi-legendary ancient Chinese philosopher credited with founding philosophical Taoism and authoring the Tao Te Ching.",
-    "content": "Laozi (Lão Tử) lived during the Spring and Autumn period. As the keeper of royal archives for the Zhou court, he observed the cyclical nature of political decay and social turmoil. His seminal work, the Tao Te Ching (Đạo Đức Kinh), articulates the Tao (the nameless primordial origin of all existence) and Wu Wei (effortless non-contriving action). Laozi argued that rigid artificial laws and moralistic posturing distort human nature, advocating instead for natural simplicity, humility, and spontaneous harmony with the cosmos."
+    "content": "Laozi (Lão Tử) lived during the Spring and Autumn period. As the keeper of royal archives for the Zhou court, he observed the cyclical nature of political decay and social turmoil. His seminal work, the Tao Te Ching (Đạo Đức Kinh), articulates the Tao (the nameless primordial origin of all existence) and Wu Wei (effortless non-contriving action). Laozi argued that rigid artificial laws and moralistic posturing distort human nature, advocating instead for natural simplicity, humility, and spontaneous harmony with the cosmos.",
+    "nameVi": "Lão Tử",
+    "occupationsVi": "Triết gia",
+    "summaryVi": "Nhà tư tưởng sáng lập Đạo giáo (Đạo gia), tác giả cuốn Đạo Đức Kinh bất hủ với triết lý về Đạo và tư tưởng Vô vi (thuận theo tự nhiên).",
+    "contentVi": "Lão Tử (khoảng thế kỷ 6 TCN), họ Lý tên Nhĩ, tự Đam, từng làm quan thủ tàng thất (quản lý thư khố) nhà Chu. Ông chủ trương con người nên thuận theo quy luật vận động tự nhiên của 'Đạo', từ bỏ sự vị kỷ, tranh đoạt và xảo quyệt nhân tạo để thực hành 'Vô vi' (hành động không gượng gạo, thuận theo lẽ trời). Tư tưởng của ông là một trong hai trụ cột triết học nền tảng sâu sắc nhất của văn hóa Á Đông."
   },
   {
     "slug": "sun-tzu",
@@ -341,7 +489,11 @@
     "occupations": "General, Military Strategist, Philosopher",
     "civilizationSlug": "ancient-china",
     "summary": "Chinese general and strategist whose classic treatise The Art of War established foundational principles of military strategy and psychology.",
-    "content": "Sun Tzu (Tôn Tử / Tôn Vũ) served the State of Wu during the Spring and Autumn period. His military masterwork, The Art of War (Binh Pháp Tôn Tử), revolutionized strategic thought by treating warfare as an intellectual discipline governed by knowledge of self and enemy, adaptability like water, deception, and moral harmony between ruler and people. His highest ideal was winning without fighting through diplomacy, intelligence, and psychological superiority."
+    "content": "Sun Tzu (Tôn Tử / Tôn Vũ) served the State of Wu during the Spring and Autumn period. His military masterwork, The Art of War (Binh Pháp Tôn Tử), revolutionized strategic thought by treating warfare as an intellectual discipline governed by knowledge of self and enemy, adaptability like water, deception, and moral harmony between ruler and people. His highest ideal was winning without fighting through diplomacy, intelligence, and psychological superiority.",
+    "nameVi": "Tôn Tử (Tôn Vũ)",
+    "occupationsVi": "Tướng quân, Nhà lý luận quân sự",
+    "summaryVi": "Tướng quân nước Ngô thời Xuân Thu, tác giả Binh pháp Tôn Tử—bộ binh thư quân sự cổ xưa và có tầm ảnh hưởng lớn nhất thế giới.",
+    "contentVi": "Tôn Vũ (khoảng 544–496 TCN) đã viết nên tập Binh pháp Tôn Tử gồm 13 thiên. Tác phẩm không chỉ dạy cách điều binh khiển tướng mà là một hệ thống triết học sâu sắc về chiến lược: 'Biết người biết ta, trăm trận không nguy', 'Bất chiến tự nhiên thành' (thắng mà không cần đánh là đỉnh cao của mưu lược). Binh pháp của ông được áp dụng rộng rãi từ quân sự cổ kim đến quản trị và ngoại giao hiện đại."
   },
   {
     "slug": "mencius",
@@ -351,7 +503,11 @@
     "occupations": "Confucian Philosopher, Scholar, Political Advisor",
     "civilizationSlug": "ancient-china",
     "summary": "Eminent Confucian philosopher who asserted that human nature is innately good and championed the moral supremacy of the people over the sovereign.",
-    "content": "Mencius (Mạnh Tử / Mạnh Kha) was revered across East Asia as the \"Second Sage\" (Á Thánh). Travelling among rival Warring States courts, he argued that human nature possesses innate sprouts (đoan) of benevolence (nhân), righteousness (nghĩa), propriety (lễ), and wisdom (trí). Politically, he championed the welfare of commoners over royal prerogative (\"Dân vi quý, xã tắc thứ chi, quân vi khinh\"), upholding the revolutionary doctrine that corrupt tyrants forfeit the Mandate of Heaven and may be deposed."
+    "content": "Mencius (Mạnh Tử / Mạnh Kha) was revered across East Asia as the \"Second Sage\" (Á Thánh). Travelling among rival Warring States courts, he argued that human nature possesses innate sprouts (đoan) of benevolence (nhân), righteousness (nghĩa), propriety (lễ), and wisdom (trí). Politically, he championed the welfare of commoners over royal prerogative (\"Dân vi quý, xã tắc thứ chi, quân vi khinh\"), upholding the revolutionary doctrine that corrupt tyrants forfeit the Mandate of Heaven and may be deposed.",
+    "nameVi": "Mạnh Tử",
+    "occupationsVi": "Triết gia Nho gia",
+    "summaryVi": "Được tôn là 'Á thánh' của Nho giáo, người kế thừa xuất sắc đạo Khổng với học thuyết 'Nhân chi sơ, tính bản thiện' và tư tưởng coi trọng dân hơn vua ('Dân vi quý').",
+    "contentVi": "Mạnh Tử (372–289 TCN), tên Kha, sống vào thời Chiến Quốc. Ông phát triển Nho giáo lên một tầm cao mới với thuyết Tính thiện (con người sinh ra vốn có sẵn bốn mầm thiện: Trắc ẩn, Tu ác, Cung kính, Thị phi). Ông đề xướng đường lối Nhân chính và dũng cảm tuyên bố tư tưởng chính trị tiến bộ phi thường: 'Dân vi quý, xã tắc thứ chi, quân vi khinh' (Dân là quý nhất, sau đến đất nước, vua là nhẹ nhất)."
   },
   {
     "slug": "han-feizi",
@@ -361,7 +517,11 @@
     "occupations": "Philosopher, Legalist Theorist, Statesman",
     "civilizationSlug": "ancient-china",
     "summary": "Master synthesizer of Chinese Legalism (Fajia) who formulated the tripartite doctrine of Fa (law), Shu (statecraft), and Shi (power).",
-    "content": "Han Feizi (Hàn Phi Tử) was a prince of the State of Han who synthesized earlier thinkers Shang Yang, Shen Buhai, and Shen Dao into a cohesive Legalist system. Rejecting Confucian moral nostalgia, he viewed human nature as driven by self-interest and proposed that social harmony requires explicit codified laws (Pháp), institutional surveillance and administrative checks (Thuật), and undisputed sovereign authority (Thế). His doctrine served as the administrative blueprint for Qin unification."
+    "content": "Han Feizi (Hàn Phi Tử) was a prince of the State of Han who synthesized earlier thinkers Shang Yang, Shen Buhai, and Shen Dao into a cohesive Legalist system. Rejecting Confucian moral nostalgia, he viewed human nature as driven by self-interest and proposed that social harmony requires explicit codified laws (Pháp), institutional surveillance and administrative checks (Thuật), and undisputed sovereign authority (Thế). His doctrine served as the administrative blueprint for Qin unification.",
+    "nameVi": "Hàn Phi Tử",
+    "occupationsVi": "Triết gia Pháp gia",
+    "summaryVi": "Đại biểu xuất sắc nhất của học thuyết Pháp gia thời Chiến Quốc, người tập đại thành tư tưởng Pháp - Thuật - Thế làm nền tảng cho sự thống nhất của nhà Tần.",
+    "contentVi": "Hàn Phi (khoảng 280–233 TCN), công tử nước Hàn, học trò của Tuân Tử. Ông đã tổng hợp các trường phái Pháp gia trước đó thành một hệ thống chặt chẽ gồm: Pháp (luật pháp công khai, nghiêm minh), Thuật (thuật dùng người và kiểm soát quan lại của nhà vua), và Thế (uy quyền và địa vị tối cao của người cai trị). Tư tưởng của ông được ghi lại trong sách Hàn Phi Tử, trở thành kim chỉ nam cho nền cai trị đế chế chuyên chế."
   },
   {
     "slug": "sima-qian",
@@ -371,7 +531,11 @@
     "occupations": "Grand Historian, Astrologer, Writer",
     "civilizationSlug": "ancient-china",
     "summary": "Father of Chinese historiography whose monumental work Records of the Grand Historian established the standard for East Asian historical writing.",
-    "content": "Sima Qian (Tư Mã Thiên) served as Grand Astrologer under Han Emperor Wu. Choosing humiliating castration over suicide in order to complete his filial and scholarly obligation, he authored the Shiji (Records of the Grand Historian / Sử ký). Spanning over 2,000 years from the Yellow Emperor to Emperor Wu, the Shiji invented the Jizhuan (biographical-thematic) format, blending official annals, economic treatises, and vivid personal biographies with candid historical judgment."
+    "content": "Sima Qian (Tư Mã Thiên) served as Grand Astrologer under Han Emperor Wu. Choosing humiliating castration over suicide in order to complete his filial and scholarly obligation, he authored the Shiji (Records of the Grand Historian / Sử ký). Spanning over 2,000 years from the Yellow Emperor to Emperor Wu, the Shiji invented the Jizhuan (biographical-thematic) format, blending official annals, economic treatises, and vivid personal biographies with candid historical judgment.",
+    "nameVi": "Tư Mã Thiên",
+    "occupationsVi": "Thái sử lệnh, Sử gia",
+    "summaryVi": "Sử gia thời Tây Hán, người chịu đựng hình phạt nhục nhã để hoàn thành bộ Sử Ký vĩ đại—tác phẩm mở đầu cho thể loại kỷ truyện và là chuẩn mực chép sử Á Đông.",
+    "contentVi": "Tư Mã Thiên (khoảng 145–86 TCN) tiếp nối di nguyện của cha làm Thái sử lệnh thời Hán Vũ Đế. Dù bị khép án cung hình oan khuất, ông vẫn kiên cường sống để hoàn thành kiệt tác Sử Ký gồm 130 thiên, bao quát hơn hai nghìn năm lịch sử từ thời Hoàng Đế đến thời Hán Vũ Đế. Tác phẩm được Lỗ Tấn ngợi ca là 'Tuyệt xướng của sử gia, khúc Ly tao không vần'."
   },
   {
     "slug": "han-wudi",
@@ -381,7 +545,11 @@
     "occupations": "Emperor, Military Commander, Reformer",
     "civilizationSlug": "ancient-china",
     "summary": "Seventh emperor of the Han dynasty who transformed China into a world power, established Confucianism as state orthodoxy, and opened the Silk Road.",
-    "content": "Emperor Wu of Han (Hán Vũ Đế) reigned for 54 transformative years. He broke the military hegemony of the northern Xiongnu nomads, extended imperial borders to Central Asia, northern Vietnam, and Korea, and dispatched Zhang Qian to initiate the Silk Road trade network. Domestically, he established Confucianism as the sole imperial state philosophy while financing his campaigns through state monopolies on salt, iron, and liquor."
+    "content": "Emperor Wu of Han (Hán Vũ Đế) reigned for 54 transformative years. He broke the military hegemony of the northern Xiongnu nomads, extended imperial borders to Central Asia, northern Vietnam, and Korea, and dispatched Zhang Qian to initiate the Silk Road trade network. Domestically, he established Confucianism as the sole imperial state philosophy while financing his campaigns through state monopolies on salt, iron, and liquor.",
+    "nameVi": "Hán Vũ Đế",
+    "occupationsVi": "Hoàng đế nhà Hán",
+    "summaryVi": "Một trong những vị hoàng đế vĩ đại nhất của lịch sử Trung Hoa, người đưa triều Hán lên đỉnh cao quyền lực, độc tôn Nho thuật và mở rộng Con đường Tơ lụa.",
+    "contentVi": "Hán Vũ Đế (Lưu Triệt, 156–87 TCN) trị vì suốt 54 năm. Ông đã tiến hành các chiến dịch quân sự quy mô lớn đánh bại người Hung Nô, mở rộng lãnh thổ sâu vào Trung Á, Triều Tiên và phương Nam. Dưới sự khuyên giải của Đổng Trọng Thư, ông đã 'Bãi truất bách gia, độc tôn Nho thuật', xác lập vị thế độc tôn của Nho giáo làm hệ tư tưởng chính thống của chế độ phong kiến Trung Hoa suốt hai nghìn năm."
   },
   {
     "slug": "zhu-xi",
@@ -391,7 +559,11 @@
     "occupations": "Neo-Confucian Philosopher, Scholar, Educator",
     "civilizationSlug": "ancient-china",
     "summary": "Foremost master of Neo-Confucianism who systematized the Four Books and developed the metaphysical synthesis of Li (principle) and Qi (material force).",
-    "content": "Zhu Xi (Chu Hi) was the towering thinker of the Southern Song dynasty who revitalized Confucianism in response to Buddhism and Taoism. He selected and annotated the Four Books (Great Learning, Doctrine of the Mean, Analects, Mencius), which served as the official curriculum for civil service examinations across China, Korea, and Vietnam from 1313 until the early 20th century. His metaphysical framework of universal Principle (Lý) and physical Vital Force (Khí) shaped East Asian intellectual culture."
+    "content": "Zhu Xi (Chu Hi) was the towering thinker of the Southern Song dynasty who revitalized Confucianism in response to Buddhism and Taoism. He selected and annotated the Four Books (Great Learning, Doctrine of the Mean, Analects, Mencius), which served as the official curriculum for civil service examinations across China, Korea, and Vietnam from 1313 until the early 20th century. His metaphysical framework of universal Principle (Lý) and physical Vital Force (Khí) shaped East Asian intellectual culture.",
+    "nameVi": "Chu Hi",
+    "occupationsVi": "Triết gia, Học giả Tân Nho gia",
+    "summaryVi": "Nhà tư tưởng đời Tống sáng lập trường phái Lý học (Tân Nho gia), người đã chú giải bộ Tứ Thư làm khuôn mẫu chuẩn mực cho các kỳ thi khoa cử suốt nhiều thế kỷ.",
+    "contentVi": "Chu Hi (1130–1200) là nhân vật có tầm ảnh hưởng lớn nhất của Nho giáo sau Khổng Tử và Mạnh Tử. Ông đã tổng hợp triết học Nho giáo truyền thống với các yếu tố duy lý của Phật giáo và Đạo giáo để xây dựng hệ thống Lý học dựa trên hai khái niệm Lý (nguyên lý tinh thần tối cao) và Khí (chất liệu vật chất). Bộ sách Tứ thư tập chú của ông đã trở thành sách giáo khoa bắt buộc cho các sĩ tử khoa cử ở Trung Quốc, Triều Tiên và Việt Nam."
   },
   {
     "slug": "mahavira",
@@ -401,7 +573,11 @@
     "occupations": "Spiritual Teacher, Philosopher, 24th Tirthankara of Jainism",
     "civilizationSlug": "ancient-india",
     "summary": "The 24th Tirthankara of Jainism who revitalized Jain philosophy, codifying the supreme vows of Ahimsa (non-violence) and Anekantavada (multi-faceted reality).",
-    "content": "Vardhamana Mahavira was a contemporary of Gautama Buddha who attained Kevala Jnana (supreme omniscience) after twelve years of austere asceticism. He systematized Jain dharma around five core vows: Ahimsa (non-violence to all living beings), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (chastity), and Aparigraha (non-possession). His epistemic doctrine of Anekantavada asserts that reality is multifaceted and no single human statement captures absolute truth."
+    "content": "Vardhamana Mahavira was a contemporary of Gautama Buddha who attained Kevala Jnana (supreme omniscience) after twelve years of austere asceticism. He systematized Jain dharma around five core vows: Ahimsa (non-violence to all living beings), Satya (truthfulness), Asteya (non-stealing), Brahmacharya (chastity), and Aparigraha (non-possession). His epistemic doctrine of Anekantavada asserts that reality is multifaceted and no single human statement captures absolute truth.",
+    "nameVi": "Mahavira (Vardhamana)",
+    "occupationsVi": "Tirthankara thứ 24, Đạo sư",
+    "summaryVi": "Vị Tirthankara (Người khai sáng) thứ 24 và cuối cùng của Kỳ Na giáo (Jainism), người phục hưng và hệ thống hóa học thuyết bất bạo động (Ahimsa) tuyệt đối.",
+    "contentVi": "Mahavira (thế kỷ 6 TCN), người đương thời với Đức Phật Thích Ca, sinh ra trong một gia đình quý tộc vương giả ở Bihar nhưng đã từ bỏ thế tục để sống đời khổ hạnh tìm kiếm sự giải thoát linh hồn. Ông truyền dạy năm lời nguyện lớn: Bất bạo động (Ahimsa), Chân thật (Satya), Không trộm cắp (Asteya), Tiết dục (Brahmacharya) và Không sở hữu (Aparigraha), ảnh hưởng sâu sắc đến phong trào bất bạo động của Mahatma Gandhi sau này."
   },
   {
     "slug": "chandragupta-maurya",
@@ -411,7 +587,11 @@
     "occupations": "Emperor, Conqueror, Founder of the Maurya Empire",
     "civilizationSlug": "ancient-india",
     "summary": "Founder of the Maurya Empire who unified the majority of the Indian subcontinent under a single centralized imperial state.",
-    "content": "Advised by the master strategist Chanakya (Kautilya), Chandragupta Maurya overthrew the Nanda dynasty of Magadha, defeated the Macedonian satrapies established by Alexander the Great, and concluded a historic peace treaty with Seleucus I Nicator. His empire established the first pan-Indian imperial administration, characterized by standardized taxation, extensive irrigation, royal trunk roads, and a professional standing army."
+    "content": "Advised by the master strategist Chanakya (Kautilya), Chandragupta Maurya overthrew the Nanda dynasty of Magadha, defeated the Macedonian satrapies established by Alexander the Great, and concluded a historic peace treaty with Seleucus I Nicator. His empire established the first pan-Indian imperial administration, characterized by standardized taxation, extensive irrigation, royal trunk roads, and a professional standing army.",
+    "nameVi": "Chandragupta Maurya",
+    "occupationsVi": "Hoàng đế sáng lập Đế chế Maurya",
+    "summaryVi": "Vị quân vương đã lật đổ triều đại Nanda và đánh đuổi các phó vương Hy Lạp của Alexander Đại đế, thống nhất hầu hết tiểu lục địa Ấn Độ.",
+    "contentVi": "Dưới sự phò tá của quân sư kiệt xuất Kautilya, Chandragupta Maurya (khoảng 350–295 TCN) đã xây dựng Đế chế Maurya hùng mạnh. Ông thiết lập một hệ thống hành chính quan liêu tinh vi, quân đội thường trực hùng hậu và mạng lưới tình báo chặt chẽ. Sau những năm tháng hiển hách, ông đã thoái vị quy y theo một đạo sĩ Kỳ Na giáo và tu tập khổ hạnh cho đến ngày qua đời."
   },
   {
     "slug": "kautilya",
@@ -421,7 +601,11 @@
     "occupations": "Philosopher, Prime Minister, Economist, Jurist",
     "civilizationSlug": "ancient-india",
     "summary": "Statesman and political theorist, author of the Arthashastra, who masterminded the rise of the Maurya Empire.",
-    "content": "Chanakya (known as Kautilya or Vishnugupta) was a professor of political science at Taxila and principal architect of Chandragupta Maurya's rise. His treatise, the Arthashastra (Khoa học Kinh tế & Chính trị), covers statecraft, military strategy, espionage, market regulation, judicial administration, and diplomatic alliances (the Mandala concept). His pragmatism and systematic administrative theory make him an intellectual titan of ancient governance."
+    "content": "Chanakya (known as Kautilya or Vishnugupta) was a professor of political science at Taxila and principal architect of Chandragupta Maurya's rise. His treatise, the Arthashastra (Khoa học Kinh tế & Chính trị), covers statecraft, military strategy, espionage, market regulation, judicial administration, and diplomatic alliances (the Mandala concept). His pragmatism and systematic administrative theory make him an intellectual titan of ancient governance.",
+    "nameVi": "Kautilya (Chanakya)",
+    "occupationsVi": "Tể tướng, Nhà triết học chính trị",
+    "summaryVi": "Quân sư của Hoàng đế Chandragupta Maurya, tác giả cuốn Arthashastra (Kinh thực lục)—bộ luận văn chính trị, kinh tế và tình báo cổ điển của Ấn Độ.",
+    "contentVi": "Chanakya (khoảng 375–283 TCN), từng là giáo sư tại trường đại học cổ đại Taxila. Ông được xem là 'Machiavelli của Ấn Độ cổ đại' với tác phẩm Arthashastra bàn luận sâu sắc về nghệ thuật trị quốc, ngoại giao liên minh, gián điệp, quản lý tài chính công và chiến tranh thực tế vì sự thịnh vượng và an nguy của quốc gia."
   },
   {
     "slug": "kalidasa",
@@ -431,7 +615,11 @@
     "occupations": "Classical Sanskrit Poet, Dramatist",
     "civilizationSlug": "ancient-india",
     "summary": "The greatest playwright and poet in classical Sanskrit literature during the Gupta Golden Age.",
-    "content": "Kalidasa flourished during the reign of Chandragupta II (Vikramaditya). Renowned for his psychological insight, lyrical elegance, and mastery of the poetic sentiment (rasa), his masterpieces include the drama Shakuntala (Abhijnanashakuntalam), the lyric poem Meghaduta (The Cloud Messenger), and epics Kumarasambhava and Raghuvamsha. His plays received world acclaim and inspired European literary figures such as Goethe and Herder."
+    "content": "Kalidasa flourished during the reign of Chandragupta II (Vikramaditya). Renowned for his psychological insight, lyrical elegance, and mastery of the poetic sentiment (rasa), his masterpieces include the drama Shakuntala (Abhijnanashakuntalam), the lyric poem Meghaduta (The Cloud Messenger), and epics Kumarasambhava and Raghuvamsha. His plays received world acclaim and inspired European literary figures such as Goethe and Herder.",
+    "nameVi": "Kalidasa",
+    "occupationsVi": "Thi hào, Nhà soạn kịch cổ điển",
+    "summaryVi": "Được mệnh danh là 'Shakespeare của Ấn Độ', tác giả kiệt tác kịch Shakuntala và các thi phẩm tiếng Phạn tuyệt mỹ thời kỳ hoàng kim Gupta.",
+    "contentVi": "Kalidasa (khoảng thế kỷ 4–5 SCN) là thi hào cung đình dưới thời Hoàng đế Chandragupta II thời kỳ Gupta. Với nghệ thuật miêu tả thiên nhiên tinh tế và chiều sâu cảm xúc lãng mạn, vở kịch Nhận dạng Shakuntala (Abhijnanashakuntala) và thi phẩm Meghaduta (Sứ giả mây) của ông đã làm say đắm văn hào Goethe và được tôn vinh là đỉnh cao của văn học tiếng Phạn cổ điển."
   },
   {
     "slug": "aryabhata",
@@ -441,7 +629,11 @@
     "occupations": "Mathematician, Astronomer",
     "civilizationSlug": "ancient-india",
     "summary": "Pioneering classical Indian mathematician and astronomer who developed early trigonometry and heliocentric planetary models.",
-    "content": "Aryabhata composed the mathematical-astronomical treatise Aryabhatiya in 499 CE at Kusumapura (modern Patna). He approximated pi to 3.1416, formulated sine and versine tables, solved indeterminate linear equations, introduced decimal place-value notation with zero, and accurately identified that the Earth rotates daily on its axis and that lunar and solar eclipses are caused by planetary shadows rather than mythological demons."
+    "content": "Aryabhata composed the mathematical-astronomical treatise Aryabhatiya in 499 CE at Kusumapura (modern Patna). He approximated pi to 3.1416, formulated sine and versine tables, solved indeterminate linear equations, introduced decimal place-value notation with zero, and accurately identified that the Earth rotates daily on its axis and that lunar and solar eclipses are caused by planetary shadows rather than mythological demons.",
+    "nameVi": "Aryabhata",
+    "occupationsVi": "Nhà thiên văn học, Nhà toán học",
+    "summaryVi": "Nhà khoa học vĩ đại thời Gupta, tác giả cuốn Aryabhatiya, người đã tính toán giá trị số Pi đến 4 chữ số thập phân và khẳng định Trái đất tự quay quanh trục.",
+    "contentVi": "Aryabhata (476–550 SCN) làm việc tại trường đại học Nalanda danh tiếng. Trong tác phẩm toán học và thiên văn học Aryabhatiya viết bằng thơ năm 499 SCN, ông đã sử dụng hệ thống số cơ số mười có số không, tính được giá trị $\\pi \\approx 3.1416$, giải các phương trình vô định bậc nhất, và giải thích hiện tượng nhật thực, nguyệt thực dựa trên cơ chế bóng tối hình học thay vì thần thoại."
   },
   {
     "slug": "an-duong-vuong",
@@ -451,7 +643,11 @@
     "occupations": "King of Au Lac, Military Architect",
     "civilizationSlug": "vietnam",
     "summary": "King of Au Lac who unified the Tay Au and Lac Viet tribes and engineered the spiral fortress of Co Loa.",
-    "content": "Thuc Phan (An Duong Vuong) united the mountainous Tay Au and lowland Lac Viet communities to establish Au Lac after the Hong Bang era. He chose Co Loa (Dong Anh, Hanoi) as his capital and constructed a monumental multi-layered spiral fortress protected by defensive moats, earthen ramparts, and advanced bronze crossbow technology (No Than). His reign marked a decisive phase in early Vietnamese urban development and defensive warfare."
+    "content": "Thuc Phan (An Duong Vuong) united the mountainous Tay Au and lowland Lac Viet communities to establish Au Lac after the Hong Bang era. He chose Co Loa (Dong Anh, Hanoi) as his capital and constructed a monumental multi-layered spiral fortress protected by defensive moats, earthen ramparts, and advanced bronze crossbow technology (No Than). His reign marked a decisive phase in early Vietnamese urban development and defensive warfare.",
+    "nameVi": "An Dương Vương (Thục Phán)",
+    "occupationsVi": "Quốc vương",
+    "summaryVi": "Vị vua sáng lập vương quốc Âu Lạc, người cho xây dựng tòa thành xoắn ốc Cổ Loa kiên cố và phát triển nỏ thần liên châu bảo vệ đất nước.",
+    "contentVi": "Thục Phán hợp nhất hai bộ tộc Âu Việt và Lạc Việt để thành lập nước Âu Lạc vào thế kỷ thứ 3 TCN, xưng hiệu An Dương Vương. Ông dời đô từ vùng đồi núi Nghĩa Lĩnh xuống đồng bằng Phong Khê, cho đắp tòa Thành Cổ Loa độc đáo hình trôn ốc gồm ba vòng thành hào kiên cố và trang bị cho quân đội hàng vạn mũi tên đồng sắc bén (khảo cổ học Cổ Loa đã chứng thực kho tên đồng hàng chục nghìn mũi)."
   },
   {
     "slug": "hai-ba-trung",
@@ -461,7 +657,11 @@
     "occupations": "National Heroines, Military Leaders, Queens",
     "civilizationSlug": "vietnam",
     "summary": "Sisters Trung Trac and Trung Nhi who led the first national insurrection against Han Chinese imperial domination in 40 CE.",
-    "content": "Daughters of a Lac lord in Me Linh, Trung Trac and Trung Nhi mobilized northern Vietnamese chieftains and commoners in 40 CE to overthrow the oppressive rule of Han governor To Dinh. Capturing 65 citadels across Giao Chi and Cuu Chan, Trung Trac was proclaimed Queen (Trung Nu Vuong) and abolished Han taxes. The uprising stands as an indelible symbol of Vietnamese national self-determination and the prominence of female leadership in early Southeast Asian culture."
+    "content": "Daughters of a Lac lord in Me Linh, Trung Trac and Trung Nhi mobilized northern Vietnamese chieftains and commoners in 40 CE to overthrow the oppressive rule of Han governor To Dinh. Capturing 65 citadels across Giao Chi and Cuu Chan, Trung Trac was proclaimed Queen (Trung Nu Vuong) and abolished Han taxes. The uprising stands as an indelible symbol of Vietnamese national self-determination and the prominence of female leadership in early Southeast Asian culture.",
+    "nameVi": "Hai Bà Trưng (Trưng Trắc - Trưng Nhị)",
+    "occupationsVi": "Nữ anh hùng dân tộc, Lãnh tụ khởi nghĩa",
+    "summaryVi": "Hai nữ thủ lĩnh kiệt xuất đã lãnh đạo cuộc khởi nghĩa năm 40 SCN đánh đuổi quân đô hộ Đông Hán, giành lại độc lập cho non sông và xưng vương.",
+    "contentVi": "Căm thù ách thống trị tàn bạo của thái thú Tô Định và nợ nước thù nhà (chồng bà Trưng Trắc là Thi Sách bị sát hại), vào mùa xuân năm 40 SCN tại cửa sông Hát, Hai Bà Trưng đã phất cờ khởi nghĩa ('Một xin rửa sạch nước thù / Hai xin dựng lại nghiệp xưa họ Hùng'). Cuộc khởi nghĩa được nhân dân và các nữ tướng khắp nơi hưởng ứng nhiệt liệt, nhanh chóng hạ được 65 thành trì, quét sạch quân giặc và lập nên nền độc lập tự chủ đầu tiên thời kỳ Bắc thuộc."
   },
   {
     "slug": "ngo-quyen",
@@ -471,7 +671,11 @@
     "occupations": "King, General, Restorer of Independence",
     "civilizationSlug": "vietnam",
     "summary": "Vietnamese general and king whose decisive victory at the Battle of Bach Dang in 938 brought an end to a millennium of Chinese imperial rule.",
-    "content": "Ngo Quyen was a native of Duong Lam (Son Tay). In late 938, confronted by the Southern Han invasion fleet on the Bach Dang River, he devised the tactical stratagem of planting iron-tipped timber stakes into the riverbed. By luring the enemy armada inland at high tide and counter-attacking as the tide ebbed, he annihilated the Southern Han fleet. In 939, Ngo Quyen established his royal capital at Co Loa, founding an independent sovereign state and terminating over a millennium of Northern domination (Bac thuoc)."
+    "content": "Ngo Quyen was a native of Duong Lam (Son Tay). In late 938, confronted by the Southern Han invasion fleet on the Bach Dang River, he devised the tactical stratagem of planting iron-tipped timber stakes into the riverbed. By luring the enemy armada inland at high tide and counter-attacking as the tide ebbed, he annihilated the Southern Han fleet. In 939, Ngo Quyen established his royal capital at Co Loa, founding an independent sovereign state and terminating over a millennium of Northern domination (Bac thuoc).",
+    "nameVi": "Ngô Quyền (Tiền Ngô Vương)",
+    "occupationsVi": "Quốc vương, Danh tướng",
+    "summaryVi": "Vị anh hùng dân tộc với chiến thắng Bạch Đằng lịch sử năm 938 đập tan quân Nam Hán, chấm dứt hơn một nghìn năm Bắc thuộc và mở ra kỷ nguyên độc lập lâu dài.",
+    "contentVi": "Ngô Quyền (897–944), người Đường Lâm, là vị tướng tài đức vẹn toàn dưới trướng Tiết độ sứ Dương Đình Nghệ. Sau khi giết chết kẻ phản bội Kiều Công Hãn, ông đã dự liệu thiên thời địa lợi, sáng tạo chiến thuật cắm cọc vạt nhọn bọc sắt dưới lòng sông Bạch Đằng. Khi thủy triều rút, thuyền giặc bị cọc nhọn đâm thủng và vướng kẹt, quân dân ta nhất tề xông lên tiêu diệt toàn bộ thủy quân Nam Hán, giết chết chủ tướng Hoằng Tháo. Năm 939, ông xưng vương, định đô ở Cổ Loa, đặt nền tảng cho quốc gia độc lập."
   },
   {
     "slug": "ly-thuong-kiet",
@@ -481,7 +685,11 @@
     "occupations": "Grand Marshal, Military Strategist, Statesman, Poet",
     "civilizationSlug": "vietnam",
     "summary": "Grand Marshal of the Ly dynasty who repulsed Song invasions and authored Nam Quoc Son Ha, Vietnam's first declaration of independence.",
-    "content": "Ly Thuong Kiet served the Ly court across four reigns. Confronting impending Song invasion, he launched a preemptive strike across the northern frontier against Yongzhou in 1075 to dismantle enemy offensive preparations, followed by a masterful defensive campaign along the Nhu Nguyet River in 1077. To galvanize his troops, he authored the immortal four-line poem Nam Quoc Son Ha (\"Nam quoc son ha Nam de cu...\"), which asserted that Vietnam's territorial sovereignty is eternally decreed by the Mandate of Heaven."
+    "content": "Ly Thuong Kiet served the Ly court across four reigns. Confronting impending Song invasion, he launched a preemptive strike across the northern frontier against Yongzhou in 1075 to dismantle enemy offensive preparations, followed by a masterful defensive campaign along the Nhu Nguyet River in 1077. To galvanize his troops, he authored the immortal four-line poem Nam Quoc Son Ha (\"Nam quoc son ha Nam de cu...\"), which asserted that Vietnam's territorial sovereignty is eternally decreed by the Mandate of Heaven.",
+    "nameVi": "Lý Thường Kiệt",
+    "occupationsVi": "Thái úy, Danh tướng, Nhà thơ",
+    "summaryVi": "Thái úy triều Lý, danh tướng kiệt xuất với chiến dịch phòng thủ sông Như Nguyệt và tác giả bài thơ thần 'Nam quốc sơn hà'—bản Tuyên ngôn Độc lập đầu tiên của Việt Nam.",
+    "contentVi": "Lý Thường Kiệt (1019–1105) phục vụ triều đình nhà Lý qua bốn đời vua. Đứng trước âm mưu xâm lược của nhà Tống, ông đã chủ động tiến công phá tan căn cứ chuẩn bị của địch tại Ung Châu năm 1075 ('Ngồi yên đợi giặc không bằng đem quân đánh trước để chặn mũi nhọn của giặc'), sau đó lập phòng tuyến hiểm trở trên sông Như Nguyệt năm 1077. Đêm đêm trên dòng sông Như Nguyệt vang lên bài thơ thần Nam quốc sơn hà khẳng định chủ quyền lãnh thổ thiêng liêng, làm nao núng ý chí quân thù và đánh bại hoàn toàn cuộc xâm lược của nhà Tống."
   },
   {
     "slug": "tran-hung-dao",
@@ -491,7 +699,11 @@
     "occupations": "Supreme Commander, Grand Prince, Military Strategist, Author",
     "civilizationSlug": "vietnam",
     "summary": "Supreme military commander who defeated three Mongol-Yuan invasions and authored the proclamation Hich Tuong Si.",
-    "content": "Tran Quoc Tuan (Hung Dao Dai Vuong) served as Supreme Commander of Dai Viet armed forces during the second and third Mongol invasions (1285 and 1288). Advocating total national solidarity (\"Vua toi dong tam, anh em hoa muc, ca nuoc gop suc\"), he penned the fiery proclamation Hich Tuong Si (Call to the Officers and Soldiers) and the military manual Binh Thu Yeu Luoc. His victory at Bach Dang in 1288 destroyed the Yuan navy, securing Vietnam's sovereignty against the largest empire in world history."
+    "content": "Tran Quoc Tuan (Hung Dao Dai Vuong) served as Supreme Commander of Dai Viet armed forces during the second and third Mongol invasions (1285 and 1288). Advocating total national solidarity (\"Vua toi dong tam, anh em hoa muc, ca nuoc gop suc\"), he penned the fiery proclamation Hich Tuong Si (Call to the Officers and Soldiers) and the military manual Binh Thu Yeu Luoc. His victory at Bach Dang in 1288 destroyed the Yuan navy, securing Vietnam's sovereignty against the largest empire in world history.",
+    "nameVi": "Trần Hưng Đạo (Hưng Đạo Đại Vương Trần Quốc Tuấn)",
+    "occupationsVi": "Tiết chế Quốc công, Danh tướng, Danh nhân quân sự",
+    "summaryVi": "Tổng chỉ huy quân đội Đại Việt trong hai cuộc kháng chiến chống quân xâm lược Nguyên Mông (1285, 1288), tác giả Hịch tướng sĩ và Binh thư yếu lược bất hủ.",
+    "contentVi": "Trần Quốc Tuấn (1228–1300) là vị danh tướng lỗi lạc kiệt xuất của dân tộc Việt Nam. Đề cao sức mạnh đoàn kết toàn dân ('Vua tôi đồng tâm, anh em hòa mục, cả nước góp sức'), ông đã khuyên vua Trần mở Hội nghị Bình Than và Hội nghị Diên Hồng tập hợp ý chí muôn dân. Trong Hịch tướng sĩ, lời hịch rực lửa của ông đã thôi thúc tướng sĩ thích chữ 'Sát Thát' vào cánh tay quyết tử cứu nước. Dưới sự chỉ huy thiên tài của ông, quân dân Đại Việt đã lập nên các chiến công hiển hách tại Chương Dương, Hàm Tử, Vạn Kiếp và đỉnh cao là trận thủy chiến Bạch Đằng năm 1288 tiêu diệt toàn bộ đạo thủy binh Nguyên Mông."
   },
   {
     "slug": "chu-van-an",
@@ -501,7 +713,11 @@
     "occupations": "Educator, Confucian Scholar, Chancellor of Quoc Tu Giam",
     "civilizationSlug": "vietnam",
     "summary": "Revered as the Teacher of Ten Thousand Generations in Vietnam, paragon of pedagogical devotion and uncompromising moral courage.",
-    "content": "Chu Van An dedicated his life to education and ethical governance. Appointed head of the Imperial Academy (Quoc Tu Giam), he trained royal heirs and senior bureaucrats. Dismayed by corruption during King Tran Du Tong's reign, he submitted the That Tram So (Seven Beheadings Memorial) demanding the execution of seven corrupt officials. When his petition was ignored, he resigned his post to establish a private school on Mount Phuong Hoang, embodying the pure integrity of the scholar-official."
+    "content": "Chu Van An dedicated his life to education and ethical governance. Appointed head of the Imperial Academy (Quoc Tu Giam), he trained royal heirs and senior bureaucrats. Dismayed by corruption during King Tran Du Tong's reign, he submitted the That Tram So (Seven Beheadings Memorial) demanding the execution of seven corrupt officials. When his petition was ignored, he resigned his post to establish a private school on Mount Phuong Hoang, embodying the pure integrity of the scholar-official.",
+    "nameVi": "Chu Văn An",
+    "occupationsVi": "Tư nghiệp Quốc Tử Giám, Nhà giáo mẫu mực",
+    "summaryVi": "Được tôn vinh là 'Vạn thế sư biểu' (Người thầy của muôn đời) của Việt Nam, tấm gương sáng ngời về đạo làm thầy thanh liêm, chính trực và dũng khí can gián vua.",
+    "contentVi": "Chu Văn An (1292–1370), tự Linh Triệt, người Thanh Trì (Hà Nội). Ông mở trường Huỳnh Cung dạy học, đào tạo nhiều nhân tài đỗ đạt giúp nước. Thời vua Trần Minh Tông, ông được mời làm Tư nghiệp Quốc Tử Giám, dạy dỗ thái tử và học trò cả nước. Thời vua Trần Dụ Tông chính sự mục nát, ông dâng 'Thất trảm sớ' xin chém bảy tên gian thần lộng hành. Khi sớ không được chấp thuận, ông thanh thản treo mũ từ quan về núi Phượng Hoàng (Chí Linh) ở ẩn, giữ trọn nhân cách thanh cao."
   },
   {
     "slug": "nguyen-trai",
@@ -511,7 +727,11 @@
     "occupations": "Grand Strategist, Statesman, Scholar, Poet, National Hero",
     "civilizationSlug": "vietnam",
     "summary": "Chief strategist of the Lam Son Uprising, UNESCO cultural luminary, and author of Binh Ngo Dai Cao.",
-    "content": "Nguyen Trai (Uc Trai) was the intellectual architect of the ten-year Lam Son resistance against Ming Chinese occupation. Grounding his military doctrine in profound humanism (\"Nhan nghia chi cu tai an dan\"), he employed psychological warfare (Binh ngo sach) to surrender dozens of Ming garrisons without bloodshed. In 1428, he authored the declaration Binh Ngo Dai Cao, declaring the enduring political equality and cultural identity of Dai Viet alongside northern dynasties."
+    "content": "Nguyen Trai (Uc Trai) was the intellectual architect of the ten-year Lam Son resistance against Ming Chinese occupation. Grounding his military doctrine in profound humanism (\"Nhan nghia chi cu tai an dan\"), he employed psychological warfare (Binh ngo sach) to surrender dozens of Ming garrisons without bloodshed. In 1428, he authored the declaration Binh Ngo Dai Cao, declaring the enduring political equality and cultural identity of Dai Viet alongside northern dynasties.",
+    "nameVi": "Nguyễn Trãi (Ức Trai)",
+    "occupationsVi": "Khai quốc công thần, Danh nhân văn hóa thế giới, Nhà thơ",
+    "summaryVi": "Mưu sĩ lỗi lạc trong khởi nghĩa Lam Sơn, tác giả Bình Ngô đại cáo—bản Tuyên ngôn Độc lập thứ hai của dân tộc, Danh nhân Văn hóa thế giới được UNESCO vinh danh.",
+    "contentVi": "Nguyễn Trãi (1380–1442) dâng cho Lê Lợi bản sách lược Bình Ngô sách với tư tưởng đánh vào lòng người ('Tâm công'). Lấy lý tưởng nhân nghĩa vì dân làm cốt lõi ('Việc nhân nghĩa cốt ở yên dân / Quân điếu phạt trước lo trừ bạo'), ông đã viết hàng chục bức thư dụ hàng các tướng giặc và soạn thảo bản thiên cổ hùng văn Bình Ngô đại cáo năm 1428 tổng kết mười năm kháng chiến gian khổ thắng lợi vẻ vang. Ông cũng để lại tập thơ Nôm Quốc âm thi tập mở đường cho thơ ca tiếng Việt."
   },
   {
     "slug": "le-thanh-tong",
@@ -521,7 +741,11 @@
     "occupations": "Emperor, Lawgiver, Poet, Administrative Reformer",
     "civilizationSlug": "vietnam",
     "summary": "Monarch of the Early Le dynasty whose Hong Duc era marked the apex of Dai Viet administration, jurisprudence, culture, and power.",
-    "content": "Reigning from 1460 to 1497, King Le Thanh Tong reorganized the country into 13 circuits, compiled the Hong Duc national cadastral map, fostered education, and founded the Tao Dan literary academy. His crowning institutional legacy was the Quoc Trieu Hinh Luat (Hong Duc Code), a sophisticated legal compilation that protected communal land, safeguarded women's property and inheritance rights, and established equitable penal standards far ahead of contemporary legal systems."
+    "content": "Reigning from 1460 to 1497, King Le Thanh Tong reorganized the country into 13 circuits, compiled the Hong Duc national cadastral map, fostered education, and founded the Tao Dan literary academy. His crowning institutional legacy was the Quoc Trieu Hinh Luat (Hong Duc Code), a sophisticated legal compilation that protected communal land, safeguarded women's property and inheritance rights, and established equitable penal standards far ahead of contemporary legal systems.",
+    "nameVi": "Lê Thánh Tông",
+    "occupationsVi": "Hoàng đế Đại Việt",
+    "summaryVi": "Vị hoàng đế anh minh đưa quốc gia Đại Việt phát triển rực rỡ nhất thời phong kiến, ban hành Bộ luật Hồng Đức tiến bộ và lập hội Tao Đàn tao nhã.",
+    "contentVi": "Trị vì gần bốn thập kỷ (1460–1497) với niên hiệu Quang Thuận và Hồng Đức, Lê Thánh Tông đã tiến hành cuộc cải cách hành chính quy mô nhất lịch sử phong kiến, chia nước thành 13 thừa tuyên, định kỳ vẽ bản đồ Hồng Đức, mở rộng khoa cử tuyển dụng hiền tài ('Hiền tài là nguyên khí quốc gia'). Ông chủ trì biên soạn Bộ luật Quốc triều hình luật (Luật Hồng Đức) bảo vệ quyền lợi của phụ nữ và nhân dân, đồng thời sáng lập Hội Tao Đàn gồm 28 vị văn thần xướng họa thi ca."
   },
   {
     "slug": "tue-tinh",
@@ -531,7 +755,11 @@
     "occupations": "Zen Buddhist Monk, Physician, Founder of Southern Herbal Medicine",
     "civilizationSlug": "vietnam",
     "summary": "Father of traditional Vietnamese herbal medicine who formulated the foundational principle \"Southern herbs to treat Southern people\".",
-    "content": "Zen Master Tue Tinh (Nguyen Ba Tinh) transformed Buddhist pagodas into public dispensaries and herbal gardens. He rejected exclusive reliance on expensive Chinese medicines, arguing that the tropical climate of Vietnam produces ideal natural remedies for its inhabitants. In his medical treatises Nam Duoc Than Hieu and Hong Nghia Giac Tu Y Thu, he cataloged over 500 indigenous medicinal plants and thousands of therapeutic formulas."
+    "content": "Zen Master Tue Tinh (Nguyen Ba Tinh) transformed Buddhist pagodas into public dispensaries and herbal gardens. He rejected exclusive reliance on expensive Chinese medicines, arguing that the tropical climate of Vietnam produces ideal natural remedies for its inhabitants. In his medical treatises Nam Duoc Than Hieu and Hong Nghia Giac Tu Y Thu, he cataloged over 500 indigenous medicinal plants and thousands of therapeutic formulas.",
+    "nameVi": "Tuệ Tĩnh (Đại danh y Thiền sư)",
+    "occupationsVi": "Thầy thuốc, Thiền sư",
+    "summaryVi": "Ông tổ của nền thuốc Nam truyền thống Việt Nam, người khởi xướng phương châm y học vĩ đại 'Nam dược trị Nam nhân' (Thuốc Nam chữa bệnh cho người Nam).",
+    "contentVi": "Thiền sư Tuệ Tĩnh (Nguyễn Bá Tĩnh, thế kỷ 14) đã biến các ngôi chùa thành nơi khám chữa bệnh và vườn trồng dược liệu cứu giúp nhân dân. Ông phản đối việc phụ thuộc vào thuốc Bắc đắt đỏ, khảo cứu tỉ mỉ đặc điểm khí hậu và thảm thực vật nhiệt đới để đúc kết hàng trăm bài thuốc dân tộc hiệu nghiệm. Hai bộ sách Nam dược thần hiệu và Hồng nghĩa giác tư y thư của ông đã đặt nền tảng khoa học vững chắc cho nền y học cổ truyền Việt Nam."
   },
   {
     "slug": "nguyen-du",
@@ -541,7 +769,11 @@
     "occupations": "Great National Poet, Diplomat, Statesman",
     "civilizationSlug": "vietnam",
     "summary": "Vietnam's supreme literary master and UNESCO cultural figure, author of the national epic The Tale of Kieu.",
-    "content": "Nguyen Du (To Nhu) lived through the turbulent decades of civil strife between the Trinh, Nguyen, and Tay Son factions. His poetic tour de force, Truyen Kieu (The Tale of Kieu / Doan Truong Tan Thanh), comprised of 3,254 six-eight (luc bat) lines, tells the tragic plight of Thuy Kieu. The epic explores profound themes of karmic retribution, human agency, filial sacrifice, and compassion, establishing the standard of classical Vietnamese vernacular literature."
+    "content": "Nguyen Du (To Nhu) lived through the turbulent decades of civil strife between the Trinh, Nguyen, and Tay Son factions. His poetic tour de force, Truyen Kieu (The Tale of Kieu / Doan Truong Tan Thanh), comprised of 3,254 six-eight (luc bat) lines, tells the tragic plight of Thuy Kieu. The epic explores profound themes of karmic retribution, human agency, filial sacrifice, and compassion, establishing the standard of classical Vietnamese vernacular literature.",
+    "nameVi": "Nguyễn Du (Tố Như)",
+    "occupationsVi": "Đại thi hào dân tộc, Danh nhân văn hóa thế giới",
+    "summaryVi": "Đại thi hào văn học Việt Nam, tác giả kiệt tác Đoạn trường tân thanh (Truyện Kiều)—đỉnh cao chói lọi của ngôn ngữ và tâm hồn dân tộc được UNESCO vinh danh.",
+    "contentVi": "Nguyễn Du (1765–1820) đã sống qua những năm tháng dâu bể đầy biến động lịch sử cuối thế kỷ 18 đầu thế kỷ 19. Với trái tim nhân đạo sâu sắc 'thương người như thể thương thân' và tài năng sử dụng tiếng Việt bậc thầy ở thể thơ lục bát, kiệt tác Truyện Kiều dài 3.254 câu thơ của ông đã khắc họa số phận bi kịch của Thúy Kiều, trở thành bảo vật thi ca bất hủ trong đời sống tinh thần của nhân dân Việt Nam."
   },
   {
     "slug": "cyrus-the-great",
@@ -551,7 +783,11 @@
     "occupations": "King of Kings, Conqueror, Founder of the Achaemenid Empire",
     "civilizationSlug": "persian-empire",
     "summary": "Visionary monarch who founded the Achaemenid Persian Empire and promulgated the Cyrus Cylinder, hailed as the earliest charter of human rights and religious tolerance.",
-    "content": "Cyrus II (Kourosh-e Bozorg) united the Medes and Persians to conquer Lydia and the Neo-Babylonian Empire. Rather than burning conquered shrines or enslaving native populations, Cyrus respected local customs, funded the reconstruction of temples, and liberated Jewish exiles from Babylonian captivity, permitting them to return to Jerusalem and rebuild the Second Temple. The Cyrus Cylinder inscribed in cuneiform remains an international symbol of moral statecraft and tolerance."
+    "content": "Cyrus II (Kourosh-e Bozorg) united the Medes and Persians to conquer Lydia and the Neo-Babylonian Empire. Rather than burning conquered shrines or enslaving native populations, Cyrus respected local customs, funded the reconstruction of temples, and liberated Jewish exiles from Babylonian captivity, permitting them to return to Jerusalem and rebuild the Second Temple. The Cyrus Cylinder inscribed in cuneiform remains an international symbol of moral statecraft and tolerance.",
+    "nameVi": "Cyrus Đại đế",
+    "occupationsVi": "Hoàng đế sáng lập Đế chế Achaemenid Ba Tư",
+    "summaryVi": "Vị quân vương vĩ đại sáng lập Đế chế Ba Tư, nổi tiếng với sự khoan dung văn hóa tôn giáo và Trụ đá Cyrus được xem là tuyên ngôn nhân quyền đầu tiên của nhân loại.",
+    "contentVi": "Cyrus II (khoảng 600–530 TCN) đã hợp nhất các bộ tộc Medes và Ba Tư, chinh phục các vương quốc Lydia, Tân Babylon và lập nên đế chế rộng lớn nhất thế giới thời bấy giờ. Khi tiến vào Babylon năm 539 TCN, ông cấm quân lính cướp phá, tôn trọng các vị thần bản địa và ban chiếu chỉ phóng thích người Do Thái trở về xây dựng lại đền thờ Jerusalem."
   },
   {
     "slug": "darius-the-great",
@@ -561,7 +797,11 @@
     "occupations": "King of Kings, Administrative Reformer, Master Builder",
     "civilizationSlug": "persian-empire",
     "summary": "Achaemenid emperor who consolidated the empire into 20 satrapies, built the ceremonial capital Persepolis, engineered the Royal Road, and standardized the Daric currency.",
-    "content": "Ascending the throne in 522 BCE, Darius I transformed a loose empire into an efficiently administered world state. He divided the realm into satrapies governed by civil satraps and independent military commanders, constructed the royal ceremonial capital Persepolis, constructed the 2,700 km Royal Road from Susa to Sardis, and commissioned the trilingual Behistun Inscription, which provided the key to deciphering ancient cuneiform script."
+    "content": "Ascending the throne in 522 BCE, Darius I transformed a loose empire into an efficiently administered world state. He divided the realm into satrapies governed by civil satraps and independent military commanders, constructed the royal ceremonial capital Persepolis, constructed the 2,700 km Royal Road from Susa to Sardis, and commissioned the trilingual Behistun Inscription, which provided the key to deciphering ancient cuneiform script.",
+    "nameVi": "Darius I Đại đế",
+    "occupationsVi": "Hoàng đế Ba Tư",
+    "summaryVi": "Hoàng đế củng cố Đế chế Ba Tư, người chia đế chế thành 20 satrapy, xây dựng thủ đô Persepolis và thiết lập Đường Hoàng gia dài 2.700 km.",
+    "contentVi": "Darius I (550–486 TCN) lên ngôi và tái lập trật tự đế chế sau các cuộc nổi loạn. Ông đã thể chế hóa việc quản lý lãnh thổ rộng lớn bằng cách đặt ra các satrap (tỉnh trưởng), cử sứ giả thanh tra ('Mắt của Nhà vua'), mở Đường Hoàng gia kết nối từ Susa đến Sardis với trạm bưu chính ngựa trạm, đúc đồng tiền vàng Daric và cho khắc dòng chữ ba thứ tiếng trên vách đá Behistun."
   },
   {
     "slug": "zoroaster",
@@ -571,7 +811,11 @@
     "occupations": "Prophet, Philosopher, Founder of Zoroastrianism",
     "civilizationSlug": "persian-empire",
     "summary": "Ancient Iranian spiritual teacher whose hymns (the Gathas) founded Zoroastrianism, articulating cosmic dualism, individual free will, and ethical truth.",
-    "content": "Zoroaster (Zarathustra) reformed archaic polytheistic Iranian religion around Ahura Mazda (the Wise Lord), creator of truth and cosmic order (Asha). He framed human life as an active moral battlefield between good thoughts, good words, and good deeds (Humata, Hukhta, Huvarshta) and the destructive spirit of falsehood (Angra Mainyu/Druj), pioneering influential ideas of universal judgment, free choice, heaven, hell, and the final renovation of the cosmos (Frashokereti)."
+    "content": "Zoroaster (Zarathustra) reformed archaic polytheistic Iranian religion around Ahura Mazda (the Wise Lord), creator of truth and cosmic order (Asha). He framed human life as an active moral battlefield between good thoughts, good words, and good deeds (Humata, Hukhta, Huvarshta) and the destructive spirit of falsehood (Angra Mainyu/Druj), pioneering influential ideas of universal judgment, free choice, heaven, hell, and the final renovation of the cosmos (Frashokereti).",
+    "nameVi": "Zoroaster (Zarathustra)",
+    "occupationsVi": "Tiên tri, Nhà sáng lập tôn giáo",
+    "summaryVi": "Nhà tiên tri Ba Tư sáng lập Hỏa giáo (Zoroastrianism), một trong những tôn giáo độc thần sớm nhất thế giới với giáo lý cuộc chiến vĩnh cửu giữa Thiện và Ác.",
+    "contentVi": "Zoroaster (khoảng thế kỷ 10–6 TCN) truyền dạy rằng chỉ có một Đấng Tối cao duy nhất là Ahura Mazda (Chúa tể Trí tuệ và Chân lý) luôn đối đầu với Angra Mainyu (Hiện thân của Bóng tối và Dối trá). Con người được trao quyền tự do ý chí và phải lựa chọn qua ba phương châm vàng: Tư tưởng thiện, Lời nói thiện và Hành động thiện."
   },
   {
     "slug": "khosrow-i",
@@ -581,7 +825,11 @@
     "occupations": "Sasanian Emperor, Lawgiver, Patron of Arts and Sciences",
     "civilizationSlug": "persian-empire",
     "summary": "The most celebrated Sasanian monarch (\"Of the Immortal Soul\"), renowned for legal reforms, tax modernization, and establishing the Academy of Gundeshapur.",
-    "content": "Khosrow I presided over the zenith of the Sasanian Empire. He reorganized land taxation into an equitable cadastre, modernized military forces, and engaged in cultural exchanges with India and Byzantium. When Byzantine Emperor Justinian closed the Academy of Athens in 529 CE, Khosrow welcomed fleeing Neoplatonist philosophers to Gundeshapur, which became a premier center for medicine, translation, and chess (Shatranj)."
+    "content": "Khosrow I presided over the zenith of the Sasanian Empire. He reorganized land taxation into an equitable cadastre, modernized military forces, and engaged in cultural exchanges with India and Byzantium. When Byzantine Emperor Justinian closed the Academy of Athens in 529 CE, Khosrow welcomed fleeing Neoplatonist philosophers to Gundeshapur, which became a premier center for medicine, translation, and chess (Shatranj).",
+    "nameVi": "Khosrow I Anushirvan",
+    "occupationsVi": "Hoàng đế Đế chế Sasanian Ba Tư",
+    "summaryVi": "Hoàng đế Sasanian được ca ngợi là 'Kẻ có linh hồn bất tử', người cải cách thuế khóa, quân đội và thành lập Viện Hàn lâm Gundeshapur bảo tồn tri thức Hy Lạp - Ấn Độ.",
+    "contentVi": "Khosrow I (trị vì 531–579 SCN) đưa Đế quốc Sasanian lên đỉnh cao thịnh trị. Ông cải cách hành chính công bằng, đẩy lùi quân Đông La Mã và bảo trợ học thuật rực rỡ. Khi Hoàng đế La Mã Justinian đóng cửa Học viện Athens năm 529, Khosrow I đã đón nhận các triết gia Hy Lạp tị nạn về Viện Hàn lâm Gundeshapur để cùng các học giả Ba Tư, Ấn Độ dịch thuật và nghiên cứu y học, triết học."
   },
   {
     "slug": "prophet-muhammad",
@@ -591,7 +839,11 @@
     "occupations": "Prophet of Islam, Statesman, Jurist, Religious and Political Leader",
     "civilizationSlug": "islamic-civilization",
     "summary": "The founder and central prophet of Islam who unified the Arabian Peninsula into a single religious polity based on the Quran.",
-    "content": "Born in Mecca in the Banu Hashim clan, Muhammad received the revelations of the Quran beginning in 610 CE at Mount Hira. Facing persecution from Meccan oligarchs, he undertook the Hijra (migration) to Medina in 622 CE, drafting the Constitution of Medina and establishing a unified socio-political commonwealth. Through moral preaching, military defense, and political diplomacy, he eradicated tribal blood-feuds and established monotheistic justice across Arabia before his death in 632 CE."
+    "content": "Born in Mecca in the Banu Hashim clan, Muhammad received the revelations of the Quran beginning in 610 CE at Mount Hira. Facing persecution from Meccan oligarchs, he undertook the Hijra (migration) to Medina in 622 CE, drafting the Constitution of Medina and establishing a unified socio-political commonwealth. Through moral preaching, military defense, and political diplomacy, he eradicated tribal blood-feuds and established monotheistic justice across Arabia before his death in 632 CE.",
+    "nameVi": "Tiên tri Muhammad",
+    "occupationsVi": "Sứ giả của Allah, Nhà sáng lập Hồi giáo",
+    "summaryVi": "Nhà tiên tri nhận mặc khải Kinh Quran thiêng liêng, người đã hợp nhất các bộ lạc Ả Rập và sáng lập cộng đồng Hồi giáo toàn cầu (Ummah).",
+    "contentVi": "Muhammad ibn Abdullah (khoảng 570–632 SCN) sinh tại Mecca. Vào năm 610 SCN trên núi Hira, ông nhận được mặc khải đầu tiên từ Thượng đế thông qua Thiên thần Gabriel. Trước sự bức hại của tầng lớp quý tộc Quraysh, ông và các tín đồ đã thực hiện cuộc di cư Hijra tới Medina năm 622 SCN (năm bắt đầu lịch Hồi giáo), thiết lập bản Hiến pháp Medina bảo đảm quyền lợi chung và hợp nhất bán đảo Ả Rập dưới ngọn cờ đức tin độc thần."
   },
   {
     "slug": "al-khwarizmi",
@@ -601,7 +853,11 @@
     "occupations": "Mathematician, Astronomer, Geographer, Scholar of the House of Wisdom",
     "civilizationSlug": "islamic-civilization",
     "summary": "Persian polymath at Baghdad's House of Wisdom whose seminal treatises gave rise to the words \"algebra\" and \"algorithm\", revolutionizing mathematics.",
-    "content": "Working at the House of Wisdom under Abbasid Caliph Al-Ma'mun, Al-Khwarizmi authored Kitab al-Jabr wa-l-Muqabala, establishing algebra as an independent mathematical discipline for solving linear and quadratic equations. His treatise on Hindu-Arabic numerals introduced the decimal place-value system and zero to the Islamic world and medieval Europe (where his Latinized name Algoritmi became \"algorithm\")."
+    "content": "Working at the House of Wisdom under Abbasid Caliph Al-Ma'mun, Al-Khwarizmi authored Kitab al-Jabr wa-l-Muqabala, establishing algebra as an independent mathematical discipline for solving linear and quadratic equations. His treatise on Hindu-Arabic numerals introduced the decimal place-value system and zero to the Islamic world and medieval Europe (where his Latinized name Algoritmi became \"algorithm\").",
+    "nameVi": "Muhammad ibn Musa al-Khwarizmi",
+    "occupationsVi": "Nhà toán học, Nhà thiên văn học",
+    "summaryVi": "Nhà khoa học bách khoa tại Viện Trí tuệ Baghdad, 'Cha đẻ của Đại số học' (Algebra) và người truyền bá hệ chữ số thập phân vị trí vào thế giới phương Tây.",
+    "contentVi": "Al-Khwarizmi (khoảng 780–850 SCN) làm việc tại Viện Trí tuệ (Bayt al-Hikma) ở Baghdad. Cuốn sách Al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala của ông đã khai sinh ra môn Đại số (Algebra bắt nguồn từ 'Al-Jabr'). Tên của ông cũng là nguồn gốc của thuật ngữ 'Thuật toán' (Algorithm), đặt nền móng cho toàn bộ ngành toán học và khoa học máy tính hiện đại."
   },
   {
     "slug": "ibn-sina",
@@ -611,7 +867,11 @@
     "occupations": "Polymath, Physician, Philosopher, Astronomer",
     "civilizationSlug": "islamic-civilization",
     "summary": "The \"Prince of Physicians\" whose The Canon of Medicine and philosophical compendium The Book of Healing shaped medicine and philosophy across the medieval world.",
-    "content": "Born near Bukhara, Ibn Sina was a prodigious intellect who mastered medicine and metaphysics by age 18. His five-volume encyclopedia, Al-Qanun fi al-Tibb (The Canon of Medicine), codified pharmacology, clinical diagnosis, contagion theory, and quarantine principles, serving as the standard university medical textbook in Europe and the Islamic world for over 500 years. In philosophy, his synthesis of Aristotelian logic and Islamic theology introduced the famous Floating Man thought experiment and proofs of the Necessary Existent."
+    "content": "Born near Bukhara, Ibn Sina was a prodigious intellect who mastered medicine and metaphysics by age 18. His five-volume encyclopedia, Al-Qanun fi al-Tibb (The Canon of Medicine), codified pharmacology, clinical diagnosis, contagion theory, and quarantine principles, serving as the standard university medical textbook in Europe and the Islamic world for over 500 years. In philosophy, his synthesis of Aristotelian logic and Islamic theology introduced the famous Floating Man thought experiment and proofs of the Necessary Existent.",
+    "nameVi": "Ibn Sina (Avicenna)",
+    "occupationsVi": "Bác sĩ, Triết gia, Nhà bác học",
+    "summaryVi": "Một trong những nhà tư tưởng vĩ đại nhất của Thời kỳ Hoàng kim Hồi giáo, tác giả cuốn The Canon of Medicine (Quy kinh Y học) làm sách giáo khoa y khoa suốt 600 năm.",
+    "contentVi": "Ibn Sina (khoảng 980–1037 SCN) sinh tại Bukhara. Ông là thần đồng thông thạo triết học Aristotle từ thuở thiếu niên. Tác phẩm đồ sộ của ông gồm Quy kinh Y học (The Canon of Medicine)—bộ bách khoa toàn thư hệ thống hóa toàn bộ kiến thức y học cổ đại và bổ sung các phát hiện giải phẫu, dược học mới, cùng cuốn Sách Chữa lành (The Book of Healing) về logic, khoa học và siêu hình học."
   },
   {
     "slug": "ibn-al-haytham",
@@ -621,7 +881,11 @@
     "occupations": "Physicist, Mathematician, Astronomer, Optical Pioneer",
     "civilizationSlug": "islamic-civilization",
     "summary": "The \"Father of Modern Optics\" whose Book of Optics overthrew ancient emission theories of vision and established systematic experimental scientific methodology.",
-    "content": "Flourishing in Cairo under the Fatimid Caliphate, Ibn al-Haytham composed the groundbreaking Kitab al-Manazir (Book of Optics). He proved experimentally that vision occurs when light rays bounce off objects into the eye (intromission), disproving the emission theories of Euclid and Ptolemy. He designed camera obscura experiments, investigated refraction and spherical aberration, and pioneered the modern scientific method based on rigorous empirical experimentation and mathematical verification."
+    "content": "Flourishing in Cairo under the Fatimid Caliphate, Ibn al-Haytham composed the groundbreaking Kitab al-Manazir (Book of Optics). He proved experimentally that vision occurs when light rays bounce off objects into the eye (intromission), disproving the emission theories of Euclid and Ptolemy. He designed camera obscura experiments, investigated refraction and spherical aberration, and pioneered the modern scientific method based on rigorous empirical experimentation and mathematical verification.",
+    "nameVi": "Ibn al-Haytham (Alhazen)",
+    "occupationsVi": "Nhà vật lý học, Nhà toán học, Nhà quang học",
+    "summaryVi": "Người sáng lập ngành quang học hiện đại và phương pháp thực nghiệm khoa học, tác giả cuốn Sách Quang học (Kitab al-Manazir) chứng minh mắt nhìn thấy nhờ ánh sáng phản xạ.",
+    "contentVi": "Ibn al-Haytham (khoảng 965–1040 SCN) làm việc tại Cairo. Ông đã đập tan giả thuyết cổ xưa của Ptolemy và Euclid cho rằng mắt phát ra tia nhìn, bằng việc dùng thực nghiệm buồng tối (camera obscura) chứng minh rằng thị giác là do tia sáng từ vật thể đi vào mắt. Phương pháp kiểm chứng giả thuyết bằng thí nghiệm lặp lại nghiêm ngặt của ông chính là nền tảng của phương pháp khoa học hiện đại."
   },
   {
     "slug": "ibn-rushd",
@@ -631,7 +895,11 @@
     "occupations": "Master Philosopher, Chief Qadi, Jurist, Physician",
     "civilizationSlug": "islamic-civilization",
     "summary": "Foremost Islamic philosopher of Al-Andalus, revered in Europe as \"The Commentator\" on Aristotle, who defended rational philosophy against theological anti-intellectualism.",
-    "content": "Serving as Chief Judge (Qadi) in Seville and Córdoba, Ibn Rushd wrote comprehensive commentaries on Aristotle that revived Western philosophical thought. In his masterwork Tahafut al-Tahafut (The Incoherence of the Incoherence) and Fasl al-Maqal (The Decisive Treatise), he argued passionately that reason and religious revelation cannot contradict one another because truth does not oppose truth, advocating for philosophical interpretation (ta'wil) of religious allegories."
+    "content": "Serving as Chief Judge (Qadi) in Seville and Córdoba, Ibn Rushd wrote comprehensive commentaries on Aristotle that revived Western philosophical thought. In his masterwork Tahafut al-Tahafut (The Incoherence of the Incoherence) and Fasl al-Maqal (The Decisive Treatise), he argued passionately that reason and religious revelation cannot contradict one another because truth does not oppose truth, advocating for philosophical interpretation (ta'wil) of religious allegories.",
+    "nameVi": "Ibn Rushd (Averroes)",
+    "occupationsVi": "Triết gia, Thẩm phán, Bác sĩ",
+    "summaryVi": "Đại học giả Hồi giáo xứ Al-Andalus (Tây Ban Nha), người chú giải vĩ đại nhất về triết học Aristotle, người bắc nhịp cầu tư tưởng phục hưng cho châu Âu thời Trung cổ.",
+    "contentVi": "Ibn Rushd (1126–1198) sinh tại Córdoba. Ông là quan chánh án tối cao và ngự y triều đình. Các công trình bình chú sâu sắc của ông về Aristotle (được dịch sang tiếng Latinh và Hebrew) đã cứu triết học duy lý khỏi sự lãng quên, khơi mào cho phong trào Averroism tại các đại học châu Âu như Paris và Padua, thúc đẩy trực tiếp thời kỳ Phục hưng phương Tây."
   },
   {
     "slug": "harun-al-rashid",
@@ -641,7 +909,11 @@
     "occupations": "Fifth Abbasid Caliph, Patron of Learning and Culture",
     "civilizationSlug": "islamic-civilization",
     "summary": "Fifth Abbasid caliph whose reign represents the dazzling scientific and economic zenith of Baghdad, immortalized in One Thousand and One Nights.",
-    "content": "Under Harun al-Rashid, Baghdad grew into the wealthiest and most populous metropolis in the world. He founded the legendary Bayt al-Hikma (House of Wisdom), established public hospitals, dispatched diplomatic embassies with diplomatic gifts (including a water clock and an elephant) to Holy Roman Emperor Charlemagne, and presided over a vibrant international marketplace connecting Tang China, India, Byzantium, and the Mediterranean."
+    "content": "Under Harun al-Rashid, Baghdad grew into the wealthiest and most populous metropolis in the world. He founded the legendary Bayt al-Hikma (House of Wisdom), established public hospitals, dispatched diplomatic embassies with diplomatic gifts (including a water clock and an elephant) to Holy Roman Emperor Charlemagne, and presided over a vibrant international marketplace connecting Tang China, India, Byzantium, and the Mediterranean.",
+    "nameVi": "Harun al-Rashid",
+    "occupationsVi": "Khalip triều đại Abbasid",
+    "summaryVi": "Vị khalip thứ năm của triều Abbasid, người đưa Baghdad lên đỉnh cao thịnh vượng khoa học nghệ thuật, gắn liền với các câu chuyện trong Nghìn lẻ một đêm.",
+    "contentVi": "Trị vì từ năm 786 đến 809 SCN, Harun al-Rashid đã biến Baghdad thành kinh đô tráng lệ bậc nhất thế giới với hàng triệu dân. Ông sáng lập thư viện Bayt al-Hikma (Viện Trí tuệ), thiết lập quan hệ ngoại giao với Hoàng đế Charlemagne của Tây Âu và Hoàng đế nhà Đường, bảo trợ hào phóng cho các học giả, thi sĩ và nghệ sĩ khắp nơi."
   },
   {
     "slug": "pakal-the-great",
@@ -651,7 +923,11 @@
     "occupations": "Ajaw (Ruler) of Palenque, Master Architect, Astronomer-King",
     "civilizationSlug": "maya-civilization",
     "summary": "Longest-reigning Maya monarch (68 years) who elevated Palenque into an architectural and artistic jewel of the Classic Maya world.",
-    "content": "Ascending the throne of Palenque (B'aakal) at age twelve, Pakal presided over 68 years of unprecedented political stability and architectural innovation. He commissioned the grand Palace and the monumental Temple of the Inscriptions, where he was entombed in 683 CE inside a carved monolithic limestone sarcophagus weighing over 15 tons. His jade death mask and sarcophagus lid—depicting him at the center of the World Tree being reborn from the jaws of the underworld—remain masterpieces of world archaeology."
+    "content": "Ascending the throne of Palenque (B'aakal) at age twelve, Pakal presided over 68 years of unprecedented political stability and architectural innovation. He commissioned the grand Palace and the monumental Temple of the Inscriptions, where he was entombed in 683 CE inside a carved monolithic limestone sarcophagus weighing over 15 tons. His jade death mask and sarcophagus lid—depicting him at the center of the World Tree being reborn from the jaws of the underworld—remain masterpieces of world archaeology.",
+    "nameVi": "K'inich Janaab Pakal I (Pakal Đại đế)",
+    "occupationsVi": "Quốc vương (Ajaw) thành bang Palenque Maya",
+    "summaryVi": "Vị quân vương trị vì lâu nhất trong lịch sử văn minh Maya (68 năm), người xây dựng Đền Chữ khắc kỳ vĩ và đưa Palenque lên đỉnh cao kiến trúc điêu khắc.",
+    "contentVi": "Lên ngôi năm 615 SCN khi mới 12 tuổi và trị vì đến năm 683 SCN, Pakal I đã khôi phục Palenque sau các cuộc tàn phá chiến tranh. Ông đã cho xây dựng Cung điện Palenque tráng lệ và ngôi Đền Chữ khắc (Temple of the Inscriptions) làm lăng mộ cho chính mình. Năm 1952, nhà khảo cổ học Alberto Ruz Lhuillier đã phát hiện ra quan tài đá nguyên khối của ông cùng chiếc mặt nạ ngọc bích tuyệt mỹ nguyên vẹn dưới lòng đền thờ."
   },
   {
     "slug": "jasaw-chan-kawiil-i",
@@ -661,7 +937,11 @@
     "occupations": "Ajaw of Tikal, Military Commander, Imperial Restorer",
     "civilizationSlug": "maya-civilization",
     "summary": "Heroic 26th ruler of Tikal who shattered Calakmul's military hegemony in 695 CE, ending Tikal's dark age and initiating its grand building era.",
-    "content": "Following a century-long military eclipse (the \"Hiatus\") imposed by rival superpower Calakmul, Jasaw Chan K'awiil I took the throne in 682 CE. On August 8, 695 CE, he routed the Calakmul armies in open battle, capturing their patron deity effigy and king. He celebrated this triumph by constructing Tikal's iconic soaring limestone Temple I (Temple of the Great Jaguar), re-establishing Tikal as the undisputed political and cultural capital of the southern Maya lowlands."
+    "content": "Following a century-long military eclipse (the \"Hiatus\") imposed by rival superpower Calakmul, Jasaw Chan K'awiil I took the throne in 682 CE. On August 8, 695 CE, he routed the Calakmul armies in open battle, capturing their patron deity effigy and king. He celebrated this triumph by constructing Tikal's iconic soaring limestone Temple I (Temple of the Great Jaguar), re-establishing Tikal as the undisputed political and cultural capital of the southern Maya lowlands.",
+    "nameVi": "Jasaw Chan K'awiil I",
+    "occupationsVi": "Quốc vương (Ajaw) thành bang Tikal Maya",
+    "summaryVi": "Vị vua đã phục hưng thành bang Tikal vĩ đại, đánh bại đối thủ truyền kiếp Calakmul vào năm 695 SCN và cho xây dựng Kim tự tháp Đền I biểu tượng.",
+    "contentVi": "Jasaw Chan K'awiil I (trị vì 682–734 SCN) đã chấm dứt thời kỳ suy thoái kéo dài hơn một thế kỷ của Tikal. Bằng chiến thắng vang dội bắt sống vua Calakmul năm 695, ông đã tái lập vị thế siêu cường của Tikal trên khắp vùng đất thấp Maya, đồng thời cho xây dựng Đền I (Đền Báo Đốm Khổng Lồ) sừng sững giữa quảng trường trung tâm."
   },
   {
     "slug": "lady-xoc",
@@ -671,7 +951,11 @@
     "occupations": "Queen of Yaxchilan, High Priestess, Patron of Classic Maya Art",
     "civilizationSlug": "maya-civilization",
     "summary": "Powerful principal queen of Yaxchilan whose famous carved stone lintels depict royal bloodletting rituals and the conjuring of Vision Serpents.",
-    "content": "Lady Xoc was the principal wife of King Itzamnaaj B'alam II (Shield Jaguar III) of Yaxchilan. Her political influence and priestly authority are immortalized on the magnificent carved stone lintels (Lintels 24, 25, and 26) of Structure 23. The carvings show her performing auto-sacrifice by pulling a barbed rope through her tongue to communicate with ancestral spirits, exemplifying the spiritual and political power wielded by aristocratic women in Classic Maya dynastic politics."
+    "content": "Lady Xoc was the principal wife of King Itzamnaaj B'alam II (Shield Jaguar III) of Yaxchilan. Her political influence and priestly authority are immortalized on the magnificent carved stone lintels (Lintels 24, 25, and 26) of Structure 23. The carvings show her performing auto-sacrifice by pulling a barbed rope through her tongue to communicate with ancestral spirits, exemplifying the spiritual and political power wielded by aristocratic women in Classic Maya dynastic politics.",
+    "nameVi": "Lady K'abal Xook (Nữ hoàng Xoc)",
+    "occupationsVi": "Vương hậu Maya, Nhà bảo trợ tôn giáo nghệ thuật",
+    "summaryVi": "Vương hậu quyền lực của thành bang Yaxchilan, nổi tiếng với các tấm phù điêu đá miêu tả nghi lễ rạch lưỡi hiến tế máu tiếp xúc với tổ tiên thần linh.",
+    "contentVi": "Sống vào cuối thế kỷ 7 và đầu thế kỷ 8 SCN, Lady Xoc là chính thất của Vua Itzamnaaj B'alam II tại Yaxchilan. Bà giữ vai trò tâm linh và chính trị then chốt trong triều đình. Các bức phù điêu chạm khắc đá tinh xảo trên xà cửa đền Đền 23 (hiện lưu giữ tại Bảo tàng Anh) mô tả bà đang dũng cảm thực hiện nghi lễ hiến tế máu linh thiêng để cầu xin thần linh ban chiến thắng cho nhà vua."
   },
   {
     "slug": "ur-nammu",
@@ -681,7 +965,11 @@
     "occupations": "King of Ur, Lawgiver, Architect",
     "civilizationSlug": "mesopotamia",
     "summary": "Sumerian king who founded the Third Dynasty of Ur, promulgated the Code of Ur-Nammu, and constructed the Great Ziggurat of Ur.",
-    "content": "Ur-Nammu revitalized Sumerian culture after Gutian dominance. He established the Third Dynasty of Ur, instituted standardized weights, and promulgated the Code of Ur-Nammu—the oldest surviving legal code in human history, preceding Hammurabi by three centuries. His monumental stepped temple, the Great Ziggurat of Ur, stands as a masterpiece of ancient Mesopotamian mudbrick architecture."
+    "content": "Ur-Nammu revitalized Sumerian culture after Gutian dominance. He established the Third Dynasty of Ur, instituted standardized weights, and promulgated the Code of Ur-Nammu—the oldest surviving legal code in human history, preceding Hammurabi by three centuries. His monumental stepped temple, the Great Ziggurat of Ur, stands as a masterpiece of ancient Mesopotamian mudbrick architecture.",
+    "nameVi": "Ur-Nammu",
+    "occupationsVi": "Quốc vương, Nhà lập pháp Sumer",
+    "summaryVi": "Vua sáng lập Vương triều thứ ba của Ur (Phục hưng Sumer), người cho xây dựng Đại Ziggurat xứ Ur và ban hành bộ luật thành văn sớm nhất được biết đến của nhân loại.",
+    "contentVi": "Trị vì Ur từ năm 2112 đến 2095 TCN, Ur-Nammu đã đánh đuổi người Gutian man tộc, tái lập nền hòa bình và phục hưng nền văn hóa Sumer rực rỡ. Ông ban hành Bộ luật Ur-Nammu khoảng 300 năm trước bộ luật Hammurabi, trừng phạt tội phạm bằng bồi thường tiền bạc thay vì nhục hình bạo lực; đồng thời cho xây dựng Đại Ziggurat bằng gạch bùn sừng sững thờ thần mặt trăng Nanna."
   },
   {
     "slug": "nebuchadnezzar-ii",
@@ -691,7 +979,11 @@
     "occupations": "King of Babylon, Conqueror, Master Builder",
     "civilizationSlug": "mesopotamia",
     "summary": "Greatest monarch of the Neo-Babylonian Empire who constructed the Ishtar Gate, rebuilt Babylon, and created the legendary Hanging Gardens.",
-    "content": "Reigning for 43 years, Nebuchadnezzar II transformed Babylon into the cultural and architectural wonder of the ancient Near East. He fortified the city with double walls, paved the Processional Way, and erected the dazzling blue-glazed Ishtar Gate. He expanded Babylonian hegemony across the Levant and commissioned the legendary Hanging Gardens of Babylon, one of the Seven Wonders of the Ancient World."
+    "content": "Reigning for 43 years, Nebuchadnezzar II transformed Babylon into the cultural and architectural wonder of the ancient Near East. He fortified the city with double walls, paved the Processional Way, and erected the dazzling blue-glazed Ishtar Gate. He expanded Babylonian hegemony across the Levant and commissioned the legendary Hanging Gardens of Babylon, one of the Seven Wonders of the Ancient World.",
+    "nameVi": "Nebuchadnezzar II",
+    "occupationsVi": "Hoàng đế Đế quốc Tân Babylon",
+    "summaryVi": "Vị vua hùng mạnh nhất của Tân Babylon, người xây dựng Vườn treo Babylon kỳ quan thế giới, Cổng Ishtar và cuộc lưu đày Babylon của người Do Thái.",
+    "contentVi": "Trị vì từ năm 605 đến 562 TCN, Nebuchadnezzar II đã biến Babylon thành đô thị tráng lệ nhất thế giới cổ đại. Ông cho xây dựng Cổng Ishtar bằng gạch men xanh rực rỡ, phục dựng Đền Etemenanki (nguyên mẫu của Tháp Babel), và theo truyền thuyết Hy Lạp đã tạo nên Vườn treo Babylon kỳ quan cho người vợ Amytis đỡ nhớ quê hương cao nguyên tươi mát."
   },
   {
     "slug": "narmer",
@@ -701,7 +993,11 @@
     "occupations": "First Pharaoh, Unifier of Egypt",
     "civilizationSlug": "ancient-egypt",
     "summary": "First King of the First Dynasty of Egypt who unified Upper and Lower Egypt into a single kingdom, commemorated on the Narmer Palette.",
-    "content": "King Narmer united the rival kingdoms of the Nile Delta (Lower Egypt) and Nile Valley (Upper Egypt) around 3100 BCE, establishing the First Dynasty and founding the white-walled capital of Memphis. The famous Narmer Palette discovered at Hierakonpolis depicts him wearing both the White Crown of Upper Egypt and the Red Crown of Lower Egypt, marking the dawn of dynastic Egyptian civilization."
+    "content": "King Narmer united the rival kingdoms of the Nile Delta (Lower Egypt) and Nile Valley (Upper Egypt) around 3100 BCE, establishing the First Dynasty and founding the white-walled capital of Memphis. The famous Narmer Palette discovered at Hierakonpolis depicts him wearing both the White Crown of Upper Egypt and the Red Crown of Lower Egypt, marking the dawn of dynastic Egyptian civilization.",
+    "nameVi": "Narmer (Menes)",
+    "occupationsVi": "Pharaoh đầu tiên của Ai Cập",
+    "summaryVi": "Vị pharaoh sáng lập Vương triều thứ nhất, người có công thống nhất hai miền Thượng và Hạ Ai Cập thành một quốc gia tập quyền duy nhất khoảng năm 3100 TCN.",
+    "contentVi": "Narmer được đồng nhất với vị vua Menes huyền thoại trong sử biên niên Ai Cập. Tấm đá phiến Narmer (Narmer Palette) nổi tiếng khai quật tại Hierakonpolis đã khắc họa hình ảnh nhà vua đội cả vương miện trắng của Thượng Ai Cập và vương miện đỏ của Hạ Ai Cập, ghi dấu khoảnh khắc khai sinh của nền quân chủ pharaoh vĩ đại bậc nhất thế giới cổ đại."
   },
   {
     "slug": "khufu",
@@ -711,7 +1007,11 @@
     "occupations": "Pharaoh of the Fourth Dynasty, Master Builder",
     "civilizationSlug": "ancient-egypt",
     "summary": "Fourth Dynasty pharaoh who commissioned the Great Pyramid of Giza, the oldest and only surviving monument of the Seven Wonders of the Ancient World.",
-    "content": "Son of Sneferu, Khufu mobilized thousands of skilled artisans, surveyors, and seasonal workers to construct the Great Pyramid on the Giza plateau. Requiring over 2.3 million precisely cut limestone blocks, the monumental tomb represented the pinnacle of Old Kingdom central mobilization, solar theology, and astronomical alignment."
+    "content": "Son of Sneferu, Khufu mobilized thousands of skilled artisans, surveyors, and seasonal workers to construct the Great Pyramid on the Giza plateau. Requiring over 2.3 million precisely cut limestone blocks, the monumental tomb represented the pinnacle of Old Kingdom central mobilization, solar theology, and astronomical alignment.",
+    "nameVi": "Khufu (Cheops)",
+    "occupationsVi": "Pharaoh Vương triều thứ Tư",
+    "summaryVi": "Pharaoh Ai Cập đã ra lệnh xây dựng Đại Kim tự tháp Giza—công trình nhân tạo cao nhất thế giới suốt gần bốn nghìn năm và là kỳ quan cổ đại duy nhất còn tồn tại.",
+    "contentVi": "Trị vì vào thế kỷ 26 TCN thời kỳ Cổ Vương quốc, Khufu đã huy động hàng vạn thợ xây dựng và kiến trúc sư tài ba để dựng nên Đại Kim tự tháp Giza từ hơn 2,3 triệu khối đá vôi nặng hàng tấn. Công trình thể hiện đỉnh cao phi thường về trắc địa học, toán học và tổ chức xã hội của nền văn minh sông Nile."
   },
   {
     "slug": "archimedes",
@@ -721,7 +1021,11 @@
     "occupations": "Mathematician, Physicist, Engineer, Inventor",
     "civilizationSlug": "ancient-greece",
     "summary": "Foremost mathematician and inventor of antiquity who discovered the principle of buoyancy, levers, the Archimedean screw, and early infinitesimal calculus.",
-    "content": "Living in the Magna Graecia city of Syracuse, Archimedes formulated foundational principles of hydrostatics (Archimedes' Principle: \"Eureka!\") and static mechanics. He calculated accurate approximations of pi, derived surface areas and volumes of spheres and cylinders, and designed revolutionary defensive war machines during the Roman siege of Syracuse."
+    "content": "Living in the Magna Graecia city of Syracuse, Archimedes formulated foundational principles of hydrostatics (Archimedes' Principle: \"Eureka!\") and static mechanics. He calculated accurate approximations of pi, derived surface areas and volumes of spheres and cylinders, and designed revolutionary defensive war machines during the Roman siege of Syracuse.",
+    "nameVi": "Archimedes xứ Syracuse",
+    "occupationsVi": "Nhà toán học, Nhà vật lý học, Nhà phát minh",
+    "summaryVi": "Bộ óc khoa học vĩ đại nhất thời cổ đại, người phát hiện ra Định luật sức nâng chất lỏng (Nguyên lý Archimedes), nguyên lý đòn bẩy và máy bơm trục vít.",
+    "contentVi": "Archimedes (khoảng 287–212 TCN) sống tại Syracuse (Sicily). Ông nổi tiếng với lời reo 'Eureka!' khi tìm ra nguyên lý sức nâng của nước trong bồn tắm, và câu nói bất hủ về đòn bẩy: 'Hãy cho tôi một điểm tựa, tôi sẽ nhấc bổng cả Trái đất'. Ông đã tính xấp xỉ chính xác số Pi, tính diện tích hình parabol, và chế tạo nhiều vũ khí cơ học lợi hại bảo vệ thành Syracuse trước các cuộc công thành của hạm đội La Mã."
   },
   {
     "slug": "euclid",
@@ -731,7 +1035,11 @@
     "occupations": "Mathematician, Geometer, Logician",
     "civilizationSlug": "ancient-greece",
     "summary": "The \"Father of Geometry\" whose monumental mathematical treatise Elements established the axiomatic-deductive method for over two millennia.",
-    "content": "Working at the Great Library of Alexandria during the reign of Ptolemy I, Euclid compiled the Elements (Cơ sở Hình học). Consisting of 13 books, the work deduced hundreds of geometric propositions, prime number theorems, and the Euclidean algorithm from just five basic axioms, serving as the textbook model for rigorous mathematical and logical proof across the globe."
+    "content": "Working at the Great Library of Alexandria during the reign of Ptolemy I, Euclid compiled the Elements (Cơ sở Hình học). Consisting of 13 books, the work deduced hundreds of geometric propositions, prime number theorems, and the Euclidean algorithm from just five basic axioms, serving as the textbook model for rigorous mathematical and logical proof across the globe.",
+    "nameVi": "Euclid xứ Alexandria",
+    "occupationsVi": "Nhà toán học",
+    "summaryVi": "Được mệnh danh là 'Cha đẻ của Hình học', tác giả bộ sách Cơ sở (Elements)—cuốn sách toán học thành công và có ảnh hưởng sâu sắc nhất trong lịch sử nhân loại.",
+    "contentVi": "Euclid (khoảng 300 TCN) giảng dạy tại Thư viện Alexandria dưới thời vua Ptolemy I. Bộ sách Cơ sở (Elements) gồm 13 tập của ông đã xây dựng toàn bộ hệ thống hình học và số học từ một tập hợp nhỏ các tiên đề và định đề thông qua phép chứng minh suy diễn logic nghiêm ngặt. Cuốn sách đã trở thành sách giáo khoa hình học chuẩn mực suốt hơn 2.000 năm."
   },
   {
     "slug": "hippocrates",
@@ -741,7 +1049,11 @@
     "occupations": "Physician, Medical Educator, Ethical Theorist",
     "civilizationSlug": "ancient-greece",
     "summary": "The \"Father of Medicine\" who separated medicine from superstitious magic and established the ethical foundation of medical practice in the Hippocratic Oath.",
-    "content": "Founding the medical school on the island of Kos, Hippocrates revolutionized ancient healing by viewing diseases as natural biological phenomena rather than divine punishments. He emphasized clinical observation, empirical prognosis, dietetics, and the ethical responsibility of doctors to act exclusively for the patient's benefit (\"First, do no harm\")."
+    "content": "Founding the medical school on the island of Kos, Hippocrates revolutionized ancient healing by viewing diseases as natural biological phenomena rather than divine punishments. He emphasized clinical observation, empirical prognosis, dietetics, and the ethical responsibility of doctors to act exclusively for the patient's benefit (\"First, do no harm\").",
+    "nameVi": "Hippocrates xứ Kos",
+    "occupationsVi": "Thầy thuốc, 'Người cha của Y học phương Tây'",
+    "summaryVi": "Bác sĩ Hy Lạp đã tách y học khỏi mê tín dị đoan, lập nên trường phái y học lâm sàng và tác giả của Lời thề Hippocrates về đạo đức người thầy thuốc.",
+    "contentVi": "Hippocrates (khoảng 460–370 TCN) đã cách mạng hóa y học khi khẳng định bệnh tật phát sinh từ các nguyên nhân tự nhiên, lối sống và môi trường chứ không phải do thần phạt. Ông đề xướng thuyết Tứ thể dịch và tinh thần đạo đức y khoa thiêng liêng được đúc kết trong Lời thề Hippocrates ('Trước hết, không làm hại bệnh nhân'), bản tuyên ngôn đạo đức trường tồn của mọi thầy thuốc."
   },
   {
     "slug": "sophocles",
@@ -751,7 +1063,11 @@
     "occupations": "Tragic Dramatist, Statesman, General",
     "civilizationSlug": "ancient-greece",
     "summary": "One of classical Athens' supreme tragic playwrights, author of Oedipus Rex and Antigone, renowned for adding the third actor to drama.",
-    "content": "Writing during the Golden Age of Athens, Sophocles won more victories at the Dionysia festival than Aeschylus and Euripides combined. He introduced a third actor to theatrical performance, deepened character psychology, and explored timeless conflicts between divine moral law, human pride (hubris), and tragic destiny in masterpieces such as Oedipus Rex, Antigone, and Electra."
+    "content": "Writing during the Golden Age of Athens, Sophocles won more victories at the Dionysia festival than Aeschylus and Euripides combined. He introduced a third actor to theatrical performance, deepened character psychology, and explored timeless conflicts between divine moral law, human pride (hubris), and tragic destiny in masterpieces such as Oedipus Rex, Antigone, and Electra.",
+    "nameVi": "Sophocles",
+    "occupationsVi": "Nhà soạn bi kịch",
+    "summaryVi": "Một trong ba bậc thầy bi kịch vĩ đại của Hy Lạp cổ đại, tác giả của vở kịch Oedipus Rex (Oedipus làm vua) và Antigone kiệt tác thi ca sân khấu.",
+    "contentVi": "Sophocles (khoảng 497–406 TCN) đã đoạt hơn 20 giải nhất tại các hội thi kịch Dionysia của Athens. Ông đã đổi mới sân khấu Hy Lạp khi đưa diễn viên thứ ba vào kịch bản, cho phép phát triển xung đột tâm lý nhân vật sâu sắc. Vở bi kịch Oedipus Rex của ông được Aristotle tôn vinh là hình mẫu bi kịch cổ điển hoàn hảo nhất."
   },
   {
     "slug": "scipio-africanus",
@@ -761,7 +1077,11 @@
     "occupations": "Roman General, Statesman, Consul",
     "civilizationSlug": "roman-empire",
     "summary": "Brilliant Roman general who defeated Hannibal Barca at the Battle of Zama in 202 BCE, securing Roman supremacy over Carthage in the Mediterranean.",
-    "content": "Publius Cornelius Scipio Africanus adapted Hannibal's own tactical maneuvers against him. After liberating Roman Hispania, he launched a daring amphibious invasion of North Africa. At the Battle of Zama, his clever battlefield formations neutralized Carthaginian war elephants and annihilated Hannibal's forces, elevating Rome to unquestioned dominance over the western Mediterranean."
+    "content": "Publius Cornelius Scipio Africanus adapted Hannibal's own tactical maneuvers against him. After liberating Roman Hispania, he launched a daring amphibious invasion of North Africa. At the Battle of Zama, his clever battlefield formations neutralized Carthaginian war elephants and annihilated Hannibal's forces, elevating Rome to unquestioned dominance over the western Mediterranean.",
+    "nameVi": "Scipio Africanus",
+    "occupationsVi": "Tướng lĩnh La Mã, Quan chấp chính",
+    "summaryVi": "Danh tướng La Mã đã đánh bại thiên tài quân sự Hannibal xứ Carthage trong Trận Zama quyết định (202 TCN), kết thúc Chiến tranh Punic lần thứ hai.",
+    "contentVi": "Publius Cornelius Scipio Africanus (236–183 TCN) là bậc thầy chiến thuật quân sự. Sau khi giải phóng Hispania khỏi tay Carthage, ông đã táo bạo đưa quân đổ bộ trực tiếp lên Bắc Phi, buộc Hannibal phải rút quân khỏi bán đảo Ý. Tại Trận Zama năm 202 TCN, Scipio đã vô hiệu hóa đội hình voi chiến của Hannibal và đập tan quân đội Carthage, xác lập vị thế bá chủ Địa Trung Hải của La Mã."
   },
   {
     "slug": "hadrian",
@@ -771,7 +1091,11 @@
     "occupations": "Roman Emperor, Philhellene, Architect",
     "civilizationSlug": "roman-empire",
     "summary": "One of the \"Five Good Emperors\" who consolidated Roman borders, constructed Hadrian's Wall in Britain, and rebuilt the Pantheon with its unreinforced dome.",
-    "content": "Succeeding Trajan, Hadrian abandoned aggressive territorial expansion to focus on imperial consolidation and cultural revitalization. Traveling to almost every province, he oversaw the construction of defensive frontiers (Hadrian's Wall) and transformed Rome's cityscape, personally supervising the rebuilding of the Pantheon with the world's largest unreinforced concrete dome."
+    "content": "Succeeding Trajan, Hadrian abandoned aggressive territorial expansion to focus on imperial consolidation and cultural revitalization. Traveling to almost every province, he oversaw the construction of defensive frontiers (Hadrian's Wall) and transformed Rome's cityscape, personally supervising the rebuilding of the Pantheon with the world's largest unreinforced concrete dome.",
+    "nameVi": "Hadrian",
+    "occupationsVi": "Hoàng đế La Mã",
+    "summaryVi": "Một trong Ngũ hiền đế của La Mã, người cho xây dựng Bức tường Hadrian tại Anh, tái thiết Đền Pantheon vĩ đại và chu du khắp đế quốc để củng cố biên giới.",
+    "contentVi": "Publius Aelius Hadrianus (76–138 SCN) trị vì từ năm 117 đến 138 SCN. Khác với người tiền nhiệm Trajan ham mở rộng lãnh thổ, Hadrian chủ trương củng cố hòa bình và phòng thủ kiên cố biên cương đế chế. Ông cho xây dựng Bức tường Hadrian dài 117 km tại Anh, phục dựng Đền Pantheon ở Rome với mái vòm bê tông không cốt thép lớn nhất thế giới, và bảo trợ cuồng nhiệt cho văn hóa nghệ thuật Hy Lạp."
   },
   {
     "slug": "justinian-i",
@@ -781,7 +1105,11 @@
     "occupations": "Eastern Roman Emperor, Lawgiver, Master Builder",
     "civilizationSlug": "roman-empire",
     "summary": "Byzantine emperor who reconquered Italy and North Africa, built the monumental Hagia Sophia, and codified the Corpus Juris Civilis.",
-    "content": "Reigning from Constantinople, Justinian sought to restore the grandeur of the Roman Empire (Renovatio Imperii). Under his command, General Belisarius reclaimed Rome, Italy, and Carthage. His enduring triumph was commissioning the Corpus Juris Civilis (Civil Law Code), which organized a millennium of Roman jurisprudence into a coherent system that became the basis for modern continental European civil law."
+    "content": "Reigning from Constantinople, Justinian sought to restore the grandeur of the Roman Empire (Renovatio Imperii). Under his command, General Belisarius reclaimed Rome, Italy, and Carthage. His enduring triumph was commissioning the Corpus Juris Civilis (Civil Law Code), which organized a millennium of Roman jurisprudence into a coherent system that became the basis for modern continental European civil law.",
+    "nameVi": "Justinian I Đại đế",
+    "occupationsVi": "Hoàng đế Đông La Mã (Byzantine)",
+    "summaryVi": "Hoàng đế Byzantine đã ban hành Bộ luật Dân sự Corpus Juris Civilis nền tảng của luật học hiện đại và xây dựng Thánh đường Hagia Sophia kỳ vĩ tại Constantinople.",
+    "contentVi": "Justinian I (trị vì 527–565 SCN) nuôi khát vọng phục hưng lại toàn bộ cương thổ Đế quốc La Mã cổ đại thông qua các chiến dịch thu hồi Bắc Phi, Ý và nam Tây Ban Nha của tướng Belisarius. Di sản vĩ đại nhất của ông là việc tổng hợp toàn bộ các bộ luật La Mã thành bộ Corpus Juris Civilis (Bộ luật Justinian)—nguồn gốc của hệ thống Dân luật (Civil Law) hiện đại khắp thế giới, cùng kiệt tác kiến trúc Hagia Sophia với mái vòm bay bổng kỳ ảo."
   },
   {
     "slug": "zhuang-zhou",
@@ -791,7 +1119,11 @@
     "occupations": "Taoist Philosopher, Sceptic, Writer",
     "civilizationSlug": "ancient-china",
     "summary": "Major Taoist thinker alongside Laozi, famed for philosophical parables, the Butterfly Dream, and skepticism of rigid social constructs.",
-    "content": "Living during the Warring States period, Zhuang Zhou articulated a philosophy of spontaneous spiritual liberation, cognitive flexibility, and natural harmony. Through iconic allegories like Cook Ding carving the ox and dreaming he was a butterfly, he questioned the certainty of conventional language, moral dogmas, and the fear of death, inspiring centuries of Chinese aesthetics and Zen Buddhism."
+    "content": "Living during the Warring States period, Zhuang Zhou articulated a philosophy of spontaneous spiritual liberation, cognitive flexibility, and natural harmony. Through iconic allegories like Cook Ding carving the ox and dreaming he was a butterfly, he questioned the certainty of conventional language, moral dogmas, and the fear of death, inspiring centuries of Chinese aesthetics and Zen Buddhism.",
+    "nameVi": "Trang Tử (Trang Chu)",
+    "occupationsVi": "Triết gia Đạo gia",
+    "summaryVi": "Đại biểu xuất sắc của Đạo gia thời Chiến Quốc sau Lão Tử, tác giả tập Nam Hoa Kinh đầy ngụ ngôn phóng khoáng và triết lý tiêu dao giải thoát.",
+    "contentVi": "Trang Chu (khoảng 369–286 TCN), người nước Tống. Triết học của ông vượt thoát khỏi mọi khuôn mẫu thế tục, hướng con người tới cảnh giới 'Tiêu dao du'—hòa nhập hoàn toàn bản ngã vào dòng chảy vô tận của Đạo tự nhiên. Câu chuyện ngụ ngôn nổi tiếng 'Trang Chu mộng hồ điệp' (Trang Chu mơ thấy mình hóa bướm rồi tỉnh dậy không biết mình là Trang Chu mơ hóa bướm hay bướm mơ hóa Trang Chu) thể hiện chiều sâu nhận thức luận tinh tế về sự vô phân biệt của vạn vật."
   },
   {
     "slug": "shang-yang",
@@ -801,7 +1133,11 @@
     "occupations": "Statesman, Legalist Reformer, Chancellor of Qin",
     "civilizationSlug": "ancient-china",
     "summary": "Qin chancellor whose radical Legalist reforms instituted strict meritocracy, codified laws, and military organization, paving the way for Chinese unification.",
-    "content": "Serving Duke Xiao of Qin, Shang Yang dismantled hereditary feudal privileges, dividing the state into direct administrative counties, rewarding military valor with aristocratic rank regardless of birth, and enforcing harsh, universal penal laws. His reforms transformed Qin from a backward western frontier into an unstoppable military and economic engine."
+    "content": "Serving Duke Xiao of Qin, Shang Yang dismantled hereditary feudal privileges, dividing the state into direct administrative counties, rewarding military valor with aristocratic rank regardless of birth, and enforcing harsh, universal penal laws. His reforms transformed Qin from a backward western frontier into an unstoppable military and economic engine.",
+    "nameVi": "Thương Ưởng (Vệ Ưởng)",
+    "occupationsVi": "Thừa tướng, Nhà cải cách Pháp gia",
+    "summaryVi": "Nhà cải cách Pháp gia kiệt xuất của nước Tần, người ban hành Biến pháp Thương Ưởng biến nước Tần từ chư hầu lạc hậu thành cỗ máy chiến tranh hùng mạnh nhất thời Chiến Quốc.",
+    "contentVi": "Thương Ưởng (khoảng 390–338 TCN) được Tần Hiếu Công tin dùng làm Tả thứ trưởng. Ông đã thực hiện hai đợt biến pháp triệt để: bãi bỏ đặc quyền của quý tộc tông thất, thiết lập chế độ quân công (ban thưởng tước vị theo số đầu giặc chém được), khuyến khích canh nông dệt vải, chia đất cho nông dân và áp dụng pháp luật nghiêm ngặt không phân biệt sang hèn ('Lập mộc vi tín'). Biến pháp của ông đã đặt nền móng sức mạnh tuyệt đối giúp Tần Thủy Hoàng thống nhất thiên hạ sau này."
   },
   {
     "slug": "li-si",
@@ -811,7 +1147,11 @@
     "occupations": "Chancellor of Qin, Calligrapher, Legalist Architect",
     "civilizationSlug": "ancient-china",
     "summary": "Chief Chancellor to Qin Shi Huang who standardized Chinese characters, weights, and measures, creating the administrative apparatus of imperial China.",
-    "content": "A disciple of Xunzi, Li Si became the premier administrative architect of the unified Qin Empire. He abolished feudal fiefdoms in favor of 36 centralized commanderies, standardized the small seal script (Tiểu triện) for universal communication, and standardized axle widths and coinage across China."
+    "content": "A disciple of Xunzi, Li Si became the premier administrative architect of the unified Qin Empire. He abolished feudal fiefdoms in favor of 36 centralized commanderies, standardized the small seal script (Tiểu triện) for universal communication, and standardized axle widths and coinage across China.",
+    "nameVi": "Lý Tư",
+    "occupationsVi": "Thừa tướng nhà Tần",
+    "summaryVi": "Thừa tướng đắc lực của Tần Thủy Hoàng, người phò tá thống nhất sáu nước, thiết lập chế độ quận huyện và chuẩn hóa chữ viết Tiểu triện trên toàn cõi Trung Hoa.",
+    "contentVi": "Lý Tư (khoảng 280–208 TCN), người nước Sở, học trò xuất sắc của Tuân Tử. Đến nước Tần phò tá Doanh Chính, ông đã hiến kế li gián các chư hầu và tiêu diệt sáu nước. Sau khi thống nhất, ông kiên quyết bãi bỏ chế độ phân phong để lập chế độ quận huyện tập quyền, đồng thời chuẩn hóa hệ thống văn tự chữ Tiểu triện giúp đồng nhất văn hóa ngôn ngữ Trung Hoa suốt hàng nghìn năm."
   },
   {
     "slug": "qu-yuan",
@@ -821,7 +1161,11 @@
     "occupations": "Patriotic Poet, Statesman of Chu",
     "civilizationSlug": "ancient-china",
     "summary": "Legendary patriotic poet of the State of Chu, author of Li Sao (The Lament), in whose memory the Dragon Boat Festival is celebrated.",
-    "content": "Qu Yuan was a noble minister of the southern kingdom of Chu during the Warring States period. Falsely slandered by corrupt courtiers and exiled, he poured his grief, moral purity, and patriotism into romantic poetry characterized by shamanic visions, mythical journeys, and rich floral symbolism. Upon learning of Chu's capital falling to Qin, he drowned himself in the Miluo River."
+    "content": "Qu Yuan was a noble minister of the southern kingdom of Chu during the Warring States period. Falsely slandered by corrupt courtiers and exiled, he poured his grief, moral purity, and patriotism into romantic poetry characterized by shamanic visions, mythical journeys, and rich floral symbolism. Upon learning of Chu's capital falling to Qin, he drowned himself in the Miluo River.",
+    "nameVi": "Khuất Nguyên",
+    "occupationsVi": "Đại thi hào, Chính khách nước Sở",
+    "summaryVi": "Nhà thơ lãng mạn vĩ đại đầu tiên của Trung Hoa, tác giả khúc Ly Tao bất hủ và nguồn gốc ngày Tết Đoan Ngọ truyền thống của văn hóa Đông Á.",
+    "contentVi": "Khuất Nguyên (khoảng 340–278 TCN) là đại phu nước Sở thời Chiến Quốc. Trung can nghĩa khí chủ trương liên minh chống Tần nhưng bị gian thần gièm pha lưu đày, ông đã gieo mình xuống sông Mịch La tự vẫn vào ngày mùng 5 tháng 5 âm lịch để bảo toàn khí tiết trong sạch trước cảnh nước mất nhà tan. Tập thơ Sở Từ và kiệt tác Ly Tao của ông đã mở đầu cho dòng văn học lãng mạn trữ tình rực rỡ của phương Đông."
   },
   {
     "slug": "panini",
@@ -831,7 +1175,11 @@
     "occupations": "Sanskrit Grammarian, Linguist, Logician",
     "civilizationSlug": "ancient-india",
     "summary": "Ancient Indian linguist whose Astadhyayi formulated a generative grammar of 3,959 rules, anticipating modern computer programming syntax.",
-    "content": "Flourishing in Gandhara, Panini composed the Astadhyayi (Eight Chapters), an exhaustive formal grammar of Classical Sanskrit. Using auxiliary symbols, algebraic meta-rules, transformations, and recursive rule systems, his work represents the world's first formal deductive linguistic generative system, directly influencing modern linguistics (Noam Chomsky) and Backus-Naur form in computer science."
+    "content": "Flourishing in Gandhara, Panini composed the Astadhyayi (Eight Chapters), an exhaustive formal grammar of Classical Sanskrit. Using auxiliary symbols, algebraic meta-rules, transformations, and recursive rule systems, his work represents the world's first formal deductive linguistic generative system, directly influencing modern linguistics (Noam Chomsky) and Backus-Naur form in computer science.",
+    "nameVi": "Panini",
+    "occupationsVi": "Nhà ngôn ngữ học, Nhà ngữ pháp học",
+    "summaryVi": "Nhà ngôn ngữ học Ấn Độ cổ đại, tác giả của bộ ngữ pháp Ashtadhyayi—hệ thống ngữ pháp hình thức sinh tạo hoàn chỉnh và chính xác đầu tiên trong lịch sử nhân loại.",
+    "contentVi": "Panini (khoảng thế kỷ 6–4 TCN) sống tại Gandhara (vùng tây bắc Ấn Độ cổ đại). Bộ sách Ashtadhyayi (Tám chương) gồm gần 4.000 quy tắc (sutra) tinh tế của ông đã miêu tả và chuẩn hóa toàn bộ cấu trúc ngữ âm, hình thái học và cú pháp của tiếng Phạn cổ điển. Hệ thống logic sinh tạo của Panini đi trước thời đại hàng nghìn năm, được các nhà ngôn ngữ học hiện đại như Ferdinand de Saussure và Noam Chomsky tôn vinh như hình mẫu của ngôn ngữ học hình thức."
   },
   {
     "slug": "varahamihira",
@@ -841,7 +1189,11 @@
     "occupations": "Astronomer, Mathematician, Polymath of Ujjain",
     "civilizationSlug": "ancient-india",
     "summary": "Eminent astronomer and mathematician of the Gupta Golden Age who compiled the Panchasiddhantika and developed early trigonometry formulas.",
-    "content": "Living in Ujjain, Varahamihira was one of the \"Nine Gems\" at the court of King Yashodharman. In his magnum opus Panchasiddhantika, he synthesized ancient Indian, Greek, and Roman astronomical systems, formulated early trigonometric identities (such as sin^2 + cos^2 = 1), and made pioneering contributions to combinatorics and Pascal's triangle."
+    "content": "Living in Ujjain, Varahamihira was one of the \"Nine Gems\" at the court of King Yashodharman. In his magnum opus Panchasiddhantika, he synthesized ancient Indian, Greek, and Roman astronomical systems, formulated early trigonometric identities (such as sin^2 + cos^2 = 1), and made pioneering contributions to combinatorics and Pascal's triangle.",
+    "nameVi": "Varahamihira",
+    "occupationsVi": "Nhà thiên văn học, Nhà toán học, Nhà bác học",
+    "summaryVi": "Học giả kiệt xuất tại thành Ujjain thời Gupta, tác giả cuốn Panchasiddhantika tổng hợp thiên văn học Ấn Độ, Hy Lạp và Ai Cập cổ đại.",
+    "contentVi": "Varahamihira (505–587 SCN) là một trong 'Chín viên ngọc' (Navaratnas) tại triều đình Hoàng đế Yashodharman xứ Malwa. Tác phẩm bách khoa Panchasiddhantika của ông đã bảo tồn năm hệ thống thiên văn học cổ điển, tính toán chính xác chu kỳ các hành tinh, hiện tượng tiến trình điểm phân, và đưa ra các công thức lượng giác nền tảng (như $\\sin^2 x + \\cos^2 x = 1$)."
   },
   {
     "slug": "harsha",
@@ -851,7 +1203,11 @@
     "occupations": "Emperor of Northern India, Patron of Nalanda, Playwright",
     "civilizationSlug": "ancient-india",
     "summary": "Ruler of Kanauj who unified northern India after the Gupta collapse, patronized Nalanda University, and hosted Chinese pilgrim Xuanzang.",
-    "content": "King Harsha reunited fragmented northern India into an empire spanning from the Punjab to Bengal. A devout patron of Buddhism and the arts, he funded thousands of scholars at Nalanda Mahavihara, organized massive multi-faith assemblies at Prayag, and authored classical Sanskrit plays such as Ratnavali and Nagananda."
+    "content": "King Harsha reunited fragmented northern India into an empire spanning from the Punjab to Bengal. A devout patron of Buddhism and the arts, he funded thousands of scholars at Nalanda Mahavihara, organized massive multi-faith assemblies at Prayag, and authored classical Sanskrit plays such as Ratnavali and Nagananda.",
+    "nameVi": "Vua Harsha (Harshavardhana)",
+    "occupationsVi": "Hoàng đế Bắc Ấn Độ, Nhà soạn kịch",
+    "summaryVi": "Vị hoàng đế cuối cùng thống nhất miền Bắc Ấn Độ thời kỳ cổ điển, người bảo trợ hào phóng cho Đại học Phật giáo Nalanda và Huyền Trang (Đường Tăng).",
+    "contentVi": "Trị vì từ năm 606 đến 647 SCN từ kinh đô Kannauj, Harsha đã khôi phục hòa bình sau sự suy tàn của nhà Gupta. Ông là vị minh quân mộ đạo Phật, thường xuyên tổ chức đại hội bố thí tại Prayag. Ông đã tiếp đón nhà sư Trung Hoa Huyền Trang vô cùng nồng hậu và bản thân cũng là tác giả của ba vở kịch tiếng Phạn nổi tiếng gồm Ratnavali, Priyadarsika và Nagananda."
   },
   {
     "slug": "phung-hung",
@@ -861,7 +1217,11 @@
     "occupations": "National Hero, Insurgent Leader, Ruler",
     "civilizationSlug": "vietnam",
     "summary": "Leader of an eighth-century national uprising that expelled Tang Chinese imperial administrators and established autonomy for seven years.",
-    "content": "Hailing from Duong Lam (Son Tay), Phung Hung possessed renowned strength and military charisma. In 791 CE, enraged by heavy Tang taxation and labor conscription, he launched a massive rebellion, besieged the fortress of Tong Binh (Hanoi), and expelled the Tang military governor. He governed the liberated realm with benevolence, honored by the people as Bố Cái Đại Vương (Great Father and Mother King)."
+    "content": "Hailing from Duong Lam (Son Tay), Phung Hung possessed renowned strength and military charisma. In 791 CE, enraged by heavy Tang taxation and labor conscription, he launched a massive rebellion, besieged the fortress of Tong Binh (Hanoi), and expelled the Tang military governor. He governed the liberated realm with benevolence, honored by the people as Bố Cái Đại Vương (Great Father and Mother King).",
+    "nameVi": "Phùng Hưng (Bố Cái Đại Vương)",
+    "occupationsVi": "Thủ lĩnh khởi nghĩa, Anh hùng dân tộc",
+    "summaryVi": "Thủ lĩnh hào kiệt Đường Lâm đã lãnh đạo nhân dân khởi nghĩa đánh chiếm phủ thành Tống Bình, lật đổ ách đô hộ của nhà Đường và tự chủ đất nước trong nhiều năm.",
+    "contentVi": "Phùng Hưng (thế kỷ 8), xuất thân hào trưởng Đường Lâm (Hà Nội ngày nay), nổi tiếng sức khỏe phi thường, mưu lược và có tài vật hổ. Trước chính sách thuế khóa bóc lột hà khắc của viên đô hộ Cao Chính Bình, ông cùng hai em phát động nhân dân nổi dậy khởi nghĩa vào khoảng năm 776 SCN. Nghĩa quân vây hãm và giải phóng thành Tống Bình, ông lên nắm quyền cai trị đất nước, chăm lo cuộc sống nhân dân, được nhân dân tôn kính gọi là 'Bố Cái Đại Vương' (Đấng cha mẹ lớn của muôn dân)."
   },
   {
     "slug": "dinh-bo-linh",
@@ -871,7 +1231,11 @@
     "occupations": "First Emperor of Dai Co Viet, Military Unifier",
     "civilizationSlug": "vietnam",
     "summary": "Founding emperor of the Dinh dynasty who suppressed the Anarchy of the 12 Warlords, established the capital at Hoa Lu, and founded Dai Co Viet.",
-    "content": "Growing up in the karst valleys of Ninh Binh, Dinh Bo Linh rallied local forces with brilliant military tactics to defeat twelve rival warlords (Loạn 12 sứ quân) by 968 CE. Refusing the subordinate title of King, he proclaimed himself Emperor (Đinh Tiên Hoàng Đế), named the country Đại Cồ Việt, established court ranks, and minted Vietnam's first indigenous currency (Thái Bình hưng bảo)."
+    "content": "Growing up in the karst valleys of Ninh Binh, Dinh Bo Linh rallied local forces with brilliant military tactics to defeat twelve rival warlords (Loạn 12 sứ quân) by 968 CE. Refusing the subordinate title of King, he proclaimed himself Emperor (Đinh Tiên Hoàng Đế), named the country Đại Cồ Việt, established court ranks, and minted Vietnam's first indigenous currency (Thái Bình hưng bảo).",
+    "nameVi": "Đinh Bộ Lĩnh (Đinh Tiên Hoàng)",
+    "occupationsVi": "Hoàng đế sáng lập triều Đinh",
+    "summaryVi": "Vạn Thắng Vương có công dẹp loạn 12 sứ quân, thống nhất non sông, xưng Hoàng đế và đặt tên nước là Đại Cồ Việt năm 968, mở đầu kỷ nguyên quân chủ tập quyền.",
+    "contentVi": "Đinh Bộ Lĩnh (924–979), lớn lên tại vùng thung lũng Hoa Lư (Ninh Bình), từ thuở thiếu thời đã bày trò cờ lau tập trận làm tướng lĩnh cho chúng bạn. Với tài thao lược quân sự kiệt xuất, ông đã lần lượt đánh bại và thu phục 12 sứ quân cát cứ, thống nhất giang sơn vào năm 968. Khẳng định vị thế độc lập ngang hàng với các hoàng đế phương Bắc, ông xưng Hoàng đế (Đinh Tiên Hoàng Đế), đặt tên nước là Đại Cồ Việt, định đô tại Hoa Lư hiểm trở và cho đúc đồng tiền Thái Bình hưng bảo—đồng tiền đầu tiên của Việt Nam."
   },
   {
     "slug": "le-huu-trac",
@@ -881,7 +1245,11 @@
     "occupations": "Great Physician, Medical Ethicist, Writer, Herbalist",
     "civilizationSlug": "vietnam",
     "summary": "Vietnam's greatest traditional medical scholar, author of the 28-volume encyclopedia Hai Thuong Y Tong Tam Linh and founder of Vietnamese medical ethics.",
-    "content": "Originating from Hai Duong and practicing in Huong Son (Ha Tinh), Le Huu Trac dedicated three decades to treating the sick regardless of wealth. In his monumental 28-volume encyclopedia Hải Thượng Y Tông Tâm Lĩnh (Treatise on the Medical Heritage of Hai Thuong), he codified clinical diagnoses, pharmacology of indigenous Southern herbs, and established the Nine Medical Precepts embodying the highest humanist compassion."
+    "content": "Originating from Hai Duong and practicing in Huong Son (Ha Tinh), Le Huu Trac dedicated three decades to treating the sick regardless of wealth. In his monumental 28-volume encyclopedia Hải Thượng Y Tông Tâm Lĩnh (Treatise on the Medical Heritage of Hai Thuong), he codified clinical diagnoses, pharmacology of indigenous Southern herbs, and established the Nine Medical Precepts embodying the highest humanist compassion.",
+    "nameVi": "Lê Hữu Trác (Hải Thượng Lãn Ông)",
+    "occupationsVi": "Đại danh y, Nhà văn hóa",
+    "summaryVi": "Đại danh y vĩ đại của Việt Nam, tác giả bộ bách khoa toàn thư y học 28 tập Hải Thượng y tông tâm lĩnh và tấm gương sáng ngời về y đức 'Lương y như từ mẫu'.",
+    "contentVi": "Lê Hữu Trác (1724–1791), hiệu Hải Thượng Lãn Ông, người làng Liêu Xá (Hưng Yên) nhưng dành phần lớn cuộc đời bốc thuốc tại Hương Sơn (Hà Tĩnh). Sau hơn 30 năm nghiên cứu thực nghiệm lâm sàng, ông hoàn thành bộ Hải Thượng y tông tâm lĩnh gồm 66 quyển bao quát từ lý luận, chẩn đoán, điều trị bệnh, dược học thuốc Nam đến y đức (Y huấn cách ngôn). Ông luôn tâm niệm người thầy thuốc phải biết chia sẻ nỗi đau với người bệnh nghèo và chữa bệnh không màng tư lợi."
   },
   {
     "slug": "xerxes-i",
@@ -891,7 +1259,11 @@
     "occupations": "Achaemenid King of Kings, Monumental Builder",
     "civilizationSlug": "persian-empire",
     "summary": "Son of Darius I who completed the magnificent palaces of Persepolis, including the Gate of All Nations and the Hall of a Hundred Columns.",
-    "content": "Succeeding Darius the Great, Xerxes I ruled over the vast Achaemenid Empire from Egypt to the Indus. Known for constructing monumental bridges across the Hellespont during the Greco-Persian wars, his greatest historical legacy lies at Persepolis, where he completed the Apadana, erected the iconic Gate of All Nations guarded by winged bulls (Lamassu), and carved the imperial Palace of Xerxes (Hadish)."
+    "content": "Succeeding Darius the Great, Xerxes I ruled over the vast Achaemenid Empire from Egypt to the Indus. Known for constructing monumental bridges across the Hellespont during the Greco-Persian wars, his greatest historical legacy lies at Persepolis, where he completed the Apadana, erected the iconic Gate of All Nations guarded by winged bulls (Lamassu), and carved the imperial Palace of Xerxes (Hadish).",
+    "nameVi": "Xerxes I Đại đế",
+    "occupationsVi": "Hoàng đế Đế chế Ba Tư Achaemenid",
+    "summaryVi": "Vua Ba Tư con trai của Darius I, người đã chỉ huy cuộc viễn chinh xâm lược Hy Lạp quy mô khổng lồ gắn liền với Trận Thermopylae và Trận Salamis.",
+    "contentVi": "Xerxes I (518–465 TCN) kế vị ngai vàng Ba Tư năm 486 TCN. Năm 480 TCN, ông bắc cầu phao vĩ đại qua eo biển Hellespont, dẫn đại quân hàng chục vạn người tiến đánh Hy Lạp. Sau khi vượt qua sự phòng ngự dũng cảm của 300 chiến binh Sparta tại Thermopylae và thiêu rụi thành Athens, hạm đội của ông đã bị hạm đội Hy Lạp của Themistocles đánh bại trong Trận hải chiến Salamis lịch sử."
   },
   {
     "slug": "shapur-i",
@@ -901,7 +1273,11 @@
     "occupations": "Sasanian King of Kings, Conqueror, Builder",
     "civilizationSlug": "persian-empire",
     "summary": "Second Sasanian monarch who defeated three Roman emperors (Gordian III, Philip the Arab, Valerian) and founded the Academy of Gundeshapur.",
-    "content": "Son of Ardashir I, Shapur I cemented Sasanian Persia as a superpower rival to Rome. At the Battle of Edessa (260 CE), he captured Roman Emperor Valerian alive—an event immortalized in massive rock reliefs at Naqsh-e Rustam. Using captured Roman engineers, he built the monumental bridge-weir Band-e Kaisar and founded Gundeshapur, which grew into antiquity's greatest university hospital."
+    "content": "Son of Ardashir I, Shapur I cemented Sasanian Persia as a superpower rival to Rome. At the Battle of Edessa (260 CE), he captured Roman Emperor Valerian alive—an event immortalized in massive rock reliefs at Naqsh-e Rustam. Using captured Roman engineers, he built the monumental bridge-weir Band-e Kaisar and founded Gundeshapur, which grew into antiquity's greatest university hospital.",
+    "nameVi": "Shapur I Đại đế",
+    "occupationsVi": "Hoàng đế Sasanian Ba Tư",
+    "summaryVi": "Vị vua Sasanian kiệt xuất đã đánh bại ba hoàng đế La Mã liên tiếp và bắt sống Hoàng đế Valerian làm tù binh trong Trận Edessa năm 260 SCN.",
+    "contentVi": "Shapur I (trị vì 240–270 SCN) đưa Đế quốc Sasanian thành một siêu cường quân sự đối trọng ngang ngửa với Rome. Các bức phù điêu chạm khắc đá khổng lồ tại Naqsh-e Rostam vẫn còn lưu giữ hình ảnh Hoàng đế La Mã Valerian phải quỳ gối xin tha trước vó ngựa của Shapur I sau Trận Edessa. Ông cũng cho xây dựng đập nước Band-e Kaisar kiệt tác thủy lợi bằng sức lao động của các tù binh công binh La Mã."
   },
   {
     "slug": "mani",
@@ -911,7 +1287,11 @@
     "occupations": "Prophet, Painter, Mystic, Founder of Manichaeism",
     "civilizationSlug": "persian-empire",
     "summary": "Iranian spiritual prophet who synthesized Zoroastrianism, Christianity, and Buddhism into the global religion of Manichaeism.",
-    "content": "Born near Ctesiphon in Babylonia, Mani founded Manichaeism, preaching that the cosmos is a battleground between Light and Darkness. Translating his teachings into multiple languages and illustrating his scriptures with exquisite paintings, his syncretic faith spread along the Silk Road from the Roman Empire to Tang China for over a millennium."
+    "content": "Born near Ctesiphon in Babylonia, Mani founded Manichaeism, preaching that the cosmos is a battleground between Light and Darkness. Translating his teachings into multiple languages and illustrating his scriptures with exquisite paintings, his syncretic faith spread along the Silk Road from the Roman Empire to Tang China for over a millennium.",
+    "nameVi": "Mani",
+    "occupationsVi": "Nhà tiên tri, Nhà sáng lập tôn giáo",
+    "summaryVi": "Nhà tư tưởng người Ba Tư sáng lập Ma Ni giáo (Manichaeism), tôn giáo nhị nguyên đối lập giữa Ánh sáng và Bóng tối từng lan rộng từ La Mã đến tận Trung Hoa.",
+    "contentVi": "Mani (216–274 SCN) sinh ra tại Lưỡng Hà. Ông tự nhận mình là đấng an ủi (Paraclete) tiếp nối sứ mệnh của Zoroaster, Phật Thích Ca và Chúa Jesus. Giáo lý của ông cho rằng vũ trụ là một cuộc giao tranh không dứt giữa vương quốc Ánh sáng (tinh thần thánh thiện) và Bóng tối (vật chất ô trọc). Tôn giáo này từng có tầm ảnh hưởng cạnh tranh dữ dội với Kitô giáo và Phật giáo suốt nhiều thế kỷ."
   },
   {
     "slug": "al-biruni",
@@ -921,7 +1301,11 @@
     "occupations": "Polymath, Geodesist, Astronomer, Father of Indology",
     "civilizationSlug": "islamic-civilization",
     "summary": "Supreme Islamic scholar who calculated the Earth's radius with 99% accuracy using trigonometry and authored the pioneering anthropological study of India.",
-    "content": "Born in Khwarazm, Al-Biruni was a master of Persian, Arabic, Sanskrit, Greek, and Syriac. Using an innovative trigonometric method from a hill in Nandana, he calculated the radius of the Earth to within 1% of modern satellite measurements. His Kitab al-Hind (Book on India) represents humanity's first objective, rigorous anthropological analysis of another culture's religion, philosophy, and customs."
+    "content": "Born in Khwarazm, Al-Biruni was a master of Persian, Arabic, Sanskrit, Greek, and Syriac. Using an innovative trigonometric method from a hill in Nandana, he calculated the radius of the Earth to within 1% of modern satellite measurements. His Kitab al-Hind (Book on India) represents humanity's first objective, rigorous anthropological analysis of another culture's religion, philosophy, and customs.",
+    "nameVi": "Abu Rayhan al-Biruni",
+    "occupationsVi": "Nhà bác học, Nhà thiên văn học, Nhà toán học",
+    "summaryVi": "Học giả toàn năng của Thời kỳ Hoàng kim Hồi giáo, 'Người cha của Khoa học trắc địa', người đã tính toán bán kính Trái đất với sai số chưa đầy 1% vào thế kỷ 11.",
+    "contentVi": "Al-Biruni (973–khoảng 1050 SCN) sinh tại Khwarazm. Với phương pháp trắc địa lượng giác tinh vi từ đỉnh một ngọn núi tại Nandana (nay thuộc Pakistan), ông đã đo được bán kính Trái đất là 6.335,7 km (chỉ lệch chưa đầy 1% so với số đo vệ tinh hiện đại). Cuốn sách Khảo cứu Ấn Độ (Kitab Tarikh al-Hind) của ông là công trình khảo cứu nhân chủng học và tôn giáo Ấn Độ khách quan, chuẩn xác đầu tiên trên thế giới."
   },
   {
     "slug": "ibn-battuta",
@@ -931,7 +1315,11 @@
     "occupations": "Explorer, Jurist, Scholar, Author of the Rihla",
     "civilizationSlug": "islamic-civilization",
     "summary": "Moroccan scholar who traveled over 117,000 kilometers across Africa, the Middle East, India, Southeast Asia, and China over three decades.",
-    "content": "Setting out from Tangier on a pilgrimage to Mecca at age 21, Ibn Battuta embarked on a 30-year odyssey traversing virtually the entire Islamic world and beyond—reaching Timbuktu, the Golden Horde, the Delhi Sultanate, the Maldives, Java, and Quanzhou in Yuan China. His travelogue, the Rihla, provides unparalleled primary sociological records of medieval global trade and culture."
+    "content": "Setting out from Tangier on a pilgrimage to Mecca at age 21, Ibn Battuta embarked on a 30-year odyssey traversing virtually the entire Islamic world and beyond—reaching Timbuktu, the Golden Horde, the Delhi Sultanate, the Maldives, Java, and Quanzhou in Yuan China. His travelogue, the Rihla, provides unparalleled primary sociological records of medieval global trade and culture.",
+    "nameVi": "Ibn Battuta",
+    "occupationsVi": "Nhà thám hiểm, Học giả địa lý",
+    "summaryVi": "Nhà du hành vĩ đại nhất thời Trung cổ, người đã vượt qua hơn 117.000 km qua khắp thế giới Hồi giáo, châu Phi, Trung Đông, Trung Á, Ấn Độ, Đông Nam Á và Trung Quốc.",
+    "contentVi": "Ibn Battuta (1304–1368/1369) rời quê hương Tangier (Morocco) năm 21 tuổi để hành hương đến Mecca. Cuộc hành trình kéo dài gần ba mươi năm đưa ông qua hơn 40 quốc gia hiện đại ngày nay. Cuốn du ký Rihla (Hành trình) kỳ thú của ông là nguồn tài liệu lịch sử, văn hóa và địa lý vô giá về đời sống của toàn bộ thế giới Á-Phi thời Trung cổ."
   },
   {
     "slug": "spearthrower-owl",
@@ -941,7 +1329,11 @@
     "occupations": "Ruler of Teotihuacan, Overseer of the Maya Entrada",
     "civilizationSlug": "maya-civilization",
     "summary": "Lord of Teotihuacan whose general Siyaj K'ak' orchestrated the 378 CE Entrada into the Maya lowlands, installing dynasties at Tikal and Copan.",
-    "content": "Ruling the central Mexican metropolis of Teotihuacan for six decades, Spearthrower Owl directed military and commercial expeditions into the Maya lowlands. In January 378 CE, his warlord Siyaj K'ak' arrived at Tikal, deposed its local ruler, and installed Spearthrower Owl's young son Yax Nuun Ahyiin I as king, introducing Teotihuacan talud-tablero architecture and feather-serpent warrior iconography to the Classic Maya."
+    "content": "Ruling the central Mexican metropolis of Teotihuacan for six decades, Spearthrower Owl directed military and commercial expeditions into the Maya lowlands. In January 378 CE, his warlord Siyaj K'ak' arrived at Tikal, deposed its local ruler, and installed Spearthrower Owl's young son Yax Nuun Ahyiin I as king, introducing Teotihuacan talud-tablero architecture and feather-serpent warrior iconography to the Classic Maya.",
+    "nameVi": "Spearthrower Owl (Cú Ném Giáo - Atlatl Cauac)",
+    "occupationsVi": "Hoàng đế / Chúa tể Teotihuacan",
+    "summaryVi": "Nhà lãnh đạo quyền lực của siêu đô thị Teotihuacan, người đã cử tướng Sihyaj K'ahk' tiến vào vùng đất Maya năm 378 SCN, đưa con trai lên ngôi vua Tikal.",
+    "contentVi": "Spearthrower Owl trị vì tại siêu đô thị vùng cao Teotihuacan (Mexico) từ năm 374 đến 439 SCN. Sự kiện 'Đến nơi' (Arrival) ngày 15 tháng 1 năm 378 SCN dưới sự chỉ huy của tướng Sihyaj K'ahk' đã lật đổ triều đình cũ của Tikal và đưa con trai của Spearthrower Owl là Yax Nuun Ahiin I lên ngôi, mở ra thời kỳ ảnh hưởng sâu rộng của văn hóa và quân sự Teotihuacan lên toàn bộ thế giới Maya Cổ điển."
   },
   {
     "slug": "yuknoom-the-great",
@@ -951,7 +1343,11 @@
     "occupations": "Ajaw of Calakmul, Imperial Hegemon of the Maya Lowlands",
     "civilizationSlug": "maya-civilization",
     "summary": "Supreme monarch of the Kan (Snake) Kingdom of Calakmul who orchestrated an empire-wide alliance that dominated the Maya lowlands for fifty years.",
-    "content": "Ruling Calakmul during its golden zenith, Yuknoom the Great forged a web of vassal alliances connecting Dos Pilas, El Peru, Naranjo, and Caracol to encircle and suppress rival superpower Tikal. Known for his diplomatic finesse and monument construction, his fifty-year reign represents the apex of Classic Maya geopolitical hegemony."
+    "content": "Ruling Calakmul during its golden zenith, Yuknoom the Great forged a web of vassal alliances connecting Dos Pilas, El Peru, Naranjo, and Caracol to encircle and suppress rival superpower Tikal. Known for his diplomatic finesse and monument construction, his fifty-year reign represents the apex of Classic Maya geopolitical hegemony.",
+    "nameVi": "Yuknoom Ch'een II (Yuknoom Đại đế)",
+    "occupationsVi": "Quốc vương (K'uhul Ajaw) thành bang Calakmul Maya",
+    "summaryVi": "Vị vua quyền lực nhất của Đế chế Đầu Rắn Calakmul, người đã xây dựng mạng lưới đồng minh chi phối toàn bộ thế giới Maya trong suốt nửa thế kỷ.",
+    "contentVi": "Trị vì Calakmul từ năm 636 đến 686 SCN suốt 50 năm, Yuknoom Ch'een II là nhà chiến lược chính trị và quân sự lỗi lạc nhất của văn minh Maya. Ông đã thiết lập mạng lưới liên minh chư hầu rộng lớn vây hãm Tikal, đặt các vua thân Calakmul lên ngai vàng tại Dos Pilas, Cancuén, Naranjo và El Peru, đưa Vương triều Đầu Rắn (Kanul) lên đỉnh cao bá chủ tuyệt đối."
   },
   {
     "slug": "yax-ehb-xook",
@@ -961,6 +1357,10 @@
     "occupations": "Founding King of Tikal, Dynastic Patriarch",
     "civilizationSlug": "maya-civilization",
     "summary": "The revered first monarch and founding ancestor of the royal dynasty of Tikal in the Petén jungle.",
-    "content": "Flourishing in the 1st century CE at the dawn of the Classic period, Yax Ehb Xook founded the dynastic seat of Mutul at Tikal. All subsequent 33 royal rulers of Tikal—including Jasaw Chan K'awiil I—traced their sacred lineage and royal right to rule back to Yax Ehb Xook as their divine dynastic progenitor."
+    "content": "Flourishing in the 1st century CE at the dawn of the Classic period, Yax Ehb Xook founded the dynastic seat of Mutul at Tikal. All subsequent 33 royal rulers of Tikal—including Jasaw Chan K'awiil I—traced their sacred lineage and royal right to rule back to Yax Ehb Xook as their divine dynastic progenitor.",
+    "nameVi": "Yax Ehb Xook (Xook Thứ Nhất)",
+    "occupationsVi": "Vua sáng lập triều đại Tikal",
+    "summaryVi": "Vị vua sáng lập triều đại hoàng gia Tikal vào khoảng năm 90 SCN, tổ tiên khai sáng của một trong những thành bang vĩ đại nhất lịch sử Maya.",
+    "contentVi": "Yax Ehb Xook được các bản khắc chữ tượng hình cổ tại Tikal tôn vinh là vị tổ phụ sáng lập (Vị vua thứ nhất) của vương triều Tikal vào cuối thời kỳ Tiền Cổ điển (khoảng 90 SCN). Trải qua hơn tám thế kỷ với hơn ba mươi đời vua nối tiếp, vương triều do ông đặt nền móng đã đưa Tikal thành trung tâm quyền lực, nghệ thuật và kiến trúc rực rỡ bậc nhất vùng Trung Bộ châu Mỹ."
   }
 ]

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { entityHref } from "@/repositories/relationships";
+import { entityHref } from "@/lib/routes";
 import type { RelationGroup } from "@/types/relationships";
 
 export function RelationList({ relations }: { relations: RelationGroup[] }) {

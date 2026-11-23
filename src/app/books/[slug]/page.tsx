@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { RelationList } from "@/components/entity/RelationList";
 import { formatYear } from "@/lib/utils";
 import { listBookSlugs } from "@/repositories/books";
 import { getBook } from "@/services/books";
+import { BilingualEntityDetail } from "@/components/entity/BilingualEntityDetail";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -18,70 +18,59 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const book = await getBook((await params).slug);
   if (!book) return { title: "Book not found" };
+  const title = book.titleVi ? `${book.titleVi} (${book.title})` : book.title;
   return {
-    title: `${book.title} | Human Civilization Atlas`,
-    description: book.summary ?? `Explore the classic work ${book.title}.`,
+    title: `${title} | Human Civilization Atlas`,
+    description: book.summaryVi ?? book.summary ?? `Explore the classic work ${book.title}.`,
   };
+}
+
+function formatBookTag(year: number | null, isVi = false) {
+  if (year === null) return isVi ? "Tác phẩm Cổ điển" : "Classic Work";
+  const yearText = (y: number) => {
+    if (!isVi) return formatYear(y);
+    return y < 0 ? `${Math.abs(y)} TCN` : `${y} SCN`;
+  };
+  return isVi ? `Xuất bản khoảng năm ${yearText(year)}` : `Published c. ${formatYear(year)}`;
 }
 
 export default async function BookPage({ params }: Props) {
   const book = await getBook((await params).slug);
   if (!book) notFound();
 
-  const paragraphs = book.content?.split(/\n\s*\n/).map((text) => text.trim()).filter(Boolean) ?? [];
+  const authorSubtitleEn = book.author ? (
+    <span>
+      Author: <span className="font-semibold text-amber-900">{book.author}</span>
+    </span>
+  ) : null;
+
+  const authorSubtitleVi = (book.authorVi ?? book.author) ? (
+    <span>
+      Tác giả: <span className="font-semibold text-amber-900">{book.authorVi ?? book.author}</span>
+    </span>
+  ) : null;
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
-      <Link
-        href="/books"
-        className="text-sm font-semibold text-amber-800 hover:underline focus-visible:outline-2 focus-visible:outline-amber-600"
-      >
-        ← Classic Books
-      </Link>
-      <header className="mt-8 border-b border-stone-200 pb-8">
-        <p className="text-sm font-semibold uppercase tracking-widest text-amber-800">
-          {book.publicationYear !== null ? `Published c. ${formatYear(book.publicationYear)}` : "Classic Work"}
-        </p>
-        <h1 className="mt-2 text-4xl font-bold tracking-tight text-slate-900">{book.title}</h1>
-        {book.author && (
-          <p className="mt-4 text-lg font-medium text-slate-700">
-            Author: <span className="text-amber-900">{book.author}</span>
-          </p>
-        )}
-      </header>
-
-      {book.summary && (
-        <section aria-labelledby="overview-heading" className="mt-10">
-          <h2 id="overview-heading" className="text-2xl font-bold text-slate-900">
-            Overview
-          </h2>
-          <p className="mt-4 text-lg leading-8 text-slate-700">{book.summary}</p>
-        </section>
-      )}
-
-      {paragraphs.length > 0 && (
-        <section aria-labelledby="content-heading" className="mt-10">
-          <h2 id="content-heading" className="text-2xl font-bold text-slate-900">
-            Content and Historical Significance
-          </h2>
-          <div className="mt-4 space-y-4 leading-8 text-slate-700">
-            {paragraphs.map((text, index) => (
-              <p key={index}>{text}</p>
-            ))}
-          </div>
-        </section>
-      )}
-
+    <BilingualEntityDetail
+      backHref="/books"
+      backTextEn="Classic Books"
+      backTextVi="Tác phẩm Kinh điển"
+      tagEn={formatBookTag(book.publicationYear, false)}
+      tagVi={formatBookTag(book.publicationYear, true)}
+      titleEn={book.title}
+      titleVi={book.titleVi}
+      subtitleEn={authorSubtitleEn}
+      subtitleVi={authorSubtitleVi}
+      summaryEn={book.summary}
+      summaryVi={book.summaryVi}
+      contentEn={book.content}
+      contentVi={book.contentVi}
+      overviewHeadingEn="Overview"
+      overviewHeadingVi="Tổng quan"
+      contentHeadingEn="Content and Historical Significance"
+      contentHeadingVi="Nội dung và Giá trị Lịch sử Thời đại"
+    >
       <RelationList relations={book.relations} />
-
-      <p className="mt-12 border-t border-stone-200 pt-6">
-        <Link
-          href="/timeline"
-          className="font-semibold text-amber-800 hover:underline focus-visible:outline-2 focus-visible:outline-amber-600"
-        >
-          Explore the Timeline →
-        </Link>
-      </p>
-    </div>
+    </BilingualEntityDetail>
   );
 }

@@ -6,10 +6,14 @@ import { withDatabase } from "@/lib/seed-fallback";
 export type Book = {
   slug: string;
   title: string;
+  titleVi?: string | null;
   author: string | null;
+  authorVi?: string | null;
   publicationYear: number | null;
   summary: string | null;
+  summaryVi?: string | null;
   content: string | null;
+  contentVi?: string | null;
 };
 
 type SeedBook = Book;
@@ -20,10 +24,14 @@ async function seedBooks(): Promise<Book[]> {
   return raw.map((b) => ({
     slug: b.slug,
     title: b.title,
+    titleVi: b.titleVi ?? null,
     author: b.author ?? null,
+    authorVi: b.authorVi ?? null,
     publicationYear: b.publicationYear ?? null,
     summary: b.summary ?? null,
+    summaryVi: b.summaryVi ?? null,
     content: b.content ?? null,
+    contentVi: b.contentVi ?? null,
   }));
 }
 
@@ -37,10 +45,14 @@ function sortBooks(books: Book[]): Book[] {
 const bookSelect = {
   slug: true,
   title: true,
+  titleVi: true,
   author: true,
+  authorVi: true,
   publicationYear: true,
   summary: true,
+  summaryVi: true,
   content: true,
+  contentVi: true,
 } as const;
 
 export async function listBooks(): Promise<Book[]> {
@@ -55,7 +67,7 @@ export async function getBookBySlug(slug: string): Promise<Book | null> {
 
 export async function listBookSlugs(): Promise<string[]> {
   return withDatabase("books.slugs", async () => {
-      const rows = await prisma.book.findMany({ select: { slug: true }, orderBy: { slug: "asc" } });
-      return rows.map(({ slug }) => slug);
-  }, async () => (await seedBooks()).map(({ slug }) => slug).sort());
+    const rows = await prisma.book.findMany({ select: { slug: true }, orderBy: { slug: "asc" } });
+    return rows.map((r) => r.slug);
+  }, async () => (await seedBooks()).map((r) => r.slug));
 }

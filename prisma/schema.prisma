@@ -19,11 +19,15 @@ model Civilization {
   id          String   @id @default(cuid())
   slug        String   @unique
   name        String
+  nameVi      String?
   region      String?
+  regionVi    String?
   periodStart Int?
   periodEnd   Int?
   summary     String?
+  summaryVi   String?
   content     String?  @db.Text
+  contentVi   String?  @db.Text
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
@@ -36,11 +40,15 @@ model Person {
   id             String   @id @default(cuid())
   slug           String   @unique
   name           String
+  nameVi         String?
   birthYear      Int?
   deathYear      Int?
   occupations    String?
+  occupationsVi  String?
   summary        String?
+  summaryVi      String?
   content        String?  @db.Text
+  contentVi      String?  @db.Text
   civilizationId String?
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
@@ -55,10 +63,13 @@ model Event {
   id        String   @id @default(cuid())
   slug      String   @unique
   title     String
+  titleVi   String?
   startYear Int?
   endYear   Int?
   summary   String?
+  summaryVi String?
   content   String?  @db.Text
+  contentVi String?  @db.Text
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
@@ -66,14 +77,18 @@ model Event {
 }
 
 model Idea {
-  id        String   @id @default(cuid())
-  slug      String   @unique
-  title     String
-  category  String?
-  summary   String?
-  content   String? @db.Text
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  id         String   @id @default(cuid())
+  slug       String   @unique
+  title      String
+  titleVi    String?
+  category   String?
+  categoryVi String?
+  summary    String?
+  summaryVi  String?
+  content    String?  @db.Text
+  contentVi  String?  @db.Text
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
 
   @@index([slug])
 }
@@ -82,10 +97,14 @@ model Book {
   id              String   @id @default(cuid())
   slug            String   @unique
   title           String
+  titleVi         String?
   author          String?
+  authorVi        String?
   publicationYear Int?
   summary         String?
-  content         String? @db.Text
+  summaryVi       String?
+  content         String?  @db.Text
+  contentVi       String?  @db.Text
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 

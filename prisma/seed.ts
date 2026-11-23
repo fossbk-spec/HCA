@@ -11,25 +11,47 @@ const EntityType = {
 } as const;
 type EntityType = (typeof EntityType)[keyof typeof EntityType];
 
-type BaseSeed = { slug: string; summary?: string | null; content?: string | null };
+type BaseSeed = {
+  slug: string;
+  summary?: string | null;
+  summaryVi?: string | null;
+  content?: string | null;
+  contentVi?: string | null;
+};
 type CivilizationSeed = BaseSeed & {
   name: string;
+  nameVi?: string | null;
   region?: string | null;
+  regionVi?: string | null;
   periodStart?: number | null;
   periodEnd?: number | null;
 };
 type PersonSeed = BaseSeed & {
   name: string;
+  nameVi?: string | null;
   civilizationSlug?: string | null;
   birthYear?: number | null;
   deathYear?: number | null;
   occupations?: string | null;
+  occupationsVi?: string | null;
 };
-type EventSeed = BaseSeed & { title: string; startYear?: number | null; endYear?: number | null };
-type IdeaSeed = BaseSeed & { title: string; category?: string | null };
+type EventSeed = BaseSeed & {
+  title: string;
+  titleVi?: string | null;
+  startYear?: number | null;
+  endYear?: number | null;
+};
+type IdeaSeed = BaseSeed & {
+  title: string;
+  titleVi?: string | null;
+  category?: string | null;
+  categoryVi?: string | null;
+};
 type BookSeed = BaseSeed & {
   title: string;
+  titleVi?: string | null;
   author?: string | null;
+  authorVi?: string | null;
   publicationYear?: number | null;
 };
 type RelationshipSeed = {
@@ -65,11 +87,15 @@ async function main(): Promise<void> {
   for (const row of civilizations) {
     const data = {
       name: row.name,
+      nameVi: row.nameVi ?? null,
       region: row.region ?? null,
+      regionVi: row.regionVi ?? null,
       periodStart: row.periodStart ?? null,
       periodEnd: row.periodEnd ?? null,
       summary: row.summary ?? null,
+      summaryVi: row.summaryVi ?? null,
       content: row.content ?? null,
+      contentVi: row.contentVi ?? null,
     };
     const entity = await prisma.civilization.upsert({
       where: { slug: row.slug },
@@ -93,12 +119,16 @@ async function main(): Promise<void> {
     }
     const data = {
       name: row.name,
+      nameVi: row.nameVi ?? null,
       civilizationId,
       birthYear: row.birthYear ?? null,
       deathYear: row.deathYear ?? null,
       occupations: row.occupations ?? null,
+      occupationsVi: row.occupationsVi ?? null,
       summary: row.summary ?? null,
+      summaryVi: row.summaryVi ?? null,
       content: row.content ?? null,
+      contentVi: row.contentVi ?? null,
     };
     const entity = await prisma.person.upsert({
       where: { slug: row.slug },
@@ -113,10 +143,13 @@ async function main(): Promise<void> {
   for (const row of events) {
     const data = {
       title: row.title,
+      titleVi: row.titleVi ?? null,
       startYear: row.startYear ?? null,
       endYear: row.endYear ?? null,
       summary: row.summary ?? null,
+      summaryVi: row.summaryVi ?? null,
       content: row.content ?? null,
+      contentVi: row.contentVi ?? null,
     };
     const entity = await prisma.event.upsert({
       where: { slug: row.slug },
@@ -131,9 +164,13 @@ async function main(): Promise<void> {
   for (const row of ideas) {
     const data = {
       title: row.title,
+      titleVi: row.titleVi ?? null,
       category: row.category ?? null,
+      categoryVi: row.categoryVi ?? null,
       summary: row.summary ?? null,
+      summaryVi: row.summaryVi ?? null,
       content: row.content ?? null,
+      contentVi: row.contentVi ?? null,
     };
     const entity = await prisma.idea.upsert({
       where: { slug: row.slug },
@@ -148,10 +185,14 @@ async function main(): Promise<void> {
   for (const row of books) {
     const data = {
       title: row.title,
+      titleVi: row.titleVi ?? null,
       author: row.author ?? null,
+      authorVi: row.authorVi ?? null,
       publicationYear: row.publicationYear ?? null,
       summary: row.summary ?? null,
+      summaryVi: row.summaryVi ?? null,
       content: row.content ?? null,
+      contentVi: row.contentVi ?? null,
     };
     const entity = await prisma.book.upsert({
       where: { slug: row.slug },
