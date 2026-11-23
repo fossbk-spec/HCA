@@ -8,6 +8,7 @@ const navigation = [
   ["Ideas", "/ideas"],
   ["Books", "/books"],
   ["Events", "/events"],
+  ["Graph", "/graph"],
   ["Search", "/search"],
 ] as const;
 
