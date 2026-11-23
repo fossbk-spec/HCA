@@ -96,9 +96,9 @@ Optional
 
 | # | Feature | Routes | Trạng thái (2026-11-23) |
 |---|---|---|---|
-| F1 | Database Layer | – | Xong trên CI: migration, seed hai lần và `db:smoke` chạy trên PostgreSQL 16 (job `integration`); **chưa có DB production** |
-| F2 | Homepage | `/` | Xong (PR #21): dải 8 bước và Featured theo Plan §5; Featured ideas hiện 3/5 vì seed chưa có Money và Printing |
-| F3 | Timeline Explorer | `/timeline` | Xong (PR #21): 9 giai đoạn; 5 giai đoạn chưa có mục vì thiếu dữ liệu (xem mục 12) |
+| F1 | Database Layer | – | Xong trên CI: migration, seed hai lần và `db:smoke` chạy trên PostgreSQL 16 (job `integration`); **DB production trên Neon** (xem mục 12) |
+| F2 | Homepage | `/` | Xong (PR #21): dải 8 bước và Featured theo Plan §5; Featured ideas đủ 5/5 trên `main` sau khi seed có Money và Printing (PR #23); production vẫn 3/5 cho tới khi seed lại Neon |
+| F3 | Timeline Explorer | `/timeline` | Xong (PR #21): 9 giai đoạn; Human Evolution, Information Age và AI Age đã có mục trên `main` (PR #23, mỗi giai đoạn 3 sự kiện) |
 | F4 | Civilization Atlas | `/civilizations`, `/civilizations/[slug]` | Một phần: thiếu Related Books, References |
 | F5 | People | `/people`, `/people/[slug]` | Xong (PR #9) |
 | F6 | Ideas | `/ideas`, `/ideas/[slug]` | Xong (PR #10) |
@@ -223,7 +223,7 @@ Avoid premature optimization.
 
 # 12. CURRENT PROJECT STATE
 
-Cập nhật: 2026-11-23, `main` sau PR #21.
+Cập nhật: 2026-11-24, `main` sau PR #24.
 
 ```text
 MVP DEVELOPMENT IN PROGRESS
@@ -231,13 +231,13 @@ MVP DEVELOPMENT IN PROGRESS
 
 Đã có:
 
-- Tài liệu: Blueprint v1–v6, Ontology 1.0 + 1.1, PRD, ERD, API Spec, Execution Plan, review và quyết định (`docs/Reviews/`)
+- Tài liệu: Blueprint v1–v6, Ontology 1.0 + 1.1, PRD, ERD, API Spec, Execution Plan, review và quyết định (`docs/Reviews/`), handoff v2.0 để tiếp tục trên máy khác (`docs/Reviews/HCA_Handoff_2026-11-23_v2.0.md`)
 - F1 (đã kiểm trên PostgreSQL 16 ở CI và trên Neon production), F2, F3, F4, F5, F6, F7, F8, F9, Events, About
-- Seed: 269 thực thể (10 civilizations, 100 people, 57 events, 50 ideas, 52 books), 235 quan hệ (45 loại đang dùng trong 55 loại của ontology 1.1)
+- Seed: 280 thực thể (10 civilizations, 100 people, 66 events, 52 ideas, 52 books), 259 quan hệ (45 loại đang dùng trong 55 loại của ontology 1.1), 0 thực thể chưa có quan hệ
 - CI GitHub Actions (`.github/workflows/ci.yml`): job `verify` (typecheck, test, verify:seed, build không DB) và job `integration` (PostgreSQL 16: migrate, seed hai lần, `db:smoke`, test, build)
 - Unit test (`npm test`, `node:test` + `tsx`) trong `tests/unit/`
 - Chính sách seed fallback (`ALLOW_SEED_FALLBACK`, mục 7)
-- **Production đang chạy:** Vercel project `hca` tại https://hca-ruddy.vercel.app, PostgreSQL trên Neon (qua Vercel Marketplace), kết nối GitHub (`main` tự deploy production, mỗi PR có bản preview). Production không bật fallback. `npm run db:smoke` đã đạt trên Neon (10/100/57/50/52 thực thể, 235 quan hệ hai chiều).
+- **Production đang chạy:** Vercel project `hca` tại https://hca-ruddy.vercel.app, PostgreSQL trên Neon (qua Vercel Marketplace), kết nối GitHub (`main` tự deploy production, mỗi PR có bản preview). Production không bật fallback. `npm run db:smoke` đã đạt trên Neon với seed cũ (10/100/57/50/52 thực thể, 235 quan hệ hai chiều); sau khi seed lại batch 5, `db:smoke` phải báo 10/100/66/52/52 thực thể, 259 quan hệ (xem handoff v2.0 §3).
 
 Chưa có:
 
@@ -251,7 +251,7 @@ Quy trình deploy và dữ liệu (quan trọng):
 - Ứng dụng dùng `DATABASE_URL` có pooling. Preview của PR hiện dùng chung database production (Neon nối cả ba môi trường), nên PR sửa seed hoặc schema cần một nhánh Neon riêng cho Preview.
 - Lệnh `vercel link` và `vercel integration add` tự thêm `.env*` vào `.gitignore`; hoàn tác bằng `git checkout .gitignore`. Chạy Vercel CLI bằng `npx vercel@66.6.0`.
 
-Vấn đề dữ liệu mở: 4/269 thực thể chưa có quan hệ (3 events, 1 book); seed không có mục nào cho Human Evolution, Information Age, AI Age (sự kiện sau 1760) và thiếu hai ý tưởng Money, Printing nên 5/9 giai đoạn timeline trống và Featured ideas hiện 3/5. Big Bang và Origin of Life là giai đoạn mô tả cố định, không lưu thành sự kiện được vì năm là `Int` 32-bit; 'Classical Era' gộp 500 TCN–1760 vì Plan không có giai đoạn Trung cổ; nội dung `content` chưa kiểm độ chính xác lịch sử (batch 4, PR #17, chưa có người kiểm).
+Vấn đề dữ liệu mở: 0/280 thực thể chưa có quan hệ (PR #23). Seed đã có mục cho Human Evolution, Information Age, AI Age (mỗi giai đoạn 3 sự kiện) và hai ý tưởng Money, Printing, nên Featured ideas đủ 5/5 trên `main`. Big Bang và Origin of Life vẫn là giai đoạn mô tả cố định, không lưu thành sự kiện được vì năm là `Int` 32-bit; Classical Era gộp 500 TCN–1760 vì Plan không có giai đoạn Trung cổ; nội dung `content` chưa kiểm độ chính xác lịch sử (batch 4, PR #17, và batch 5, PR #23, chưa có người kiểm). Lưu ý: Neon production vẫn giữ seed 269 thực thể / 235 quan hệ cho tới khi seed lại batch 5 (handoff v2.0 §1, §3); trên production hiện các giai đoạn mới còn trống và Featured ideas chỉ 3/5.
 
 Current priority: **Working MVP**, not production optimization.
 
@@ -370,10 +370,10 @@ Hai nguồn đang lệch nhau: Execution Plan §14 và PRD đặt mục tiêu **
 
 - 10 Civilizations (đạt)
 - 100 People (đạt, 100)
-- 200 Events (hiện 57)
-- 50 Ideas (đạt, 50)
+- 200 Events (hiện 66)
+- 50 Ideas (đạt, 52)
 - 50 Books (đạt, 52)
-- Tổng ≥ 500 đối tượng (hiện 269); mọi thực thể có ít nhất một quan hệ (hiện còn 4 chưa có)
+- Tổng ≥ 500 đối tượng (hiện 280); mọi thực thể có ít nhất một quan hệ (đạt, 0 chưa có)
 
 ### Features
 
@@ -397,12 +397,12 @@ Hai nguồn đang lệch nhau: Execution Plan §14 và PRD đặt mục tiêu **
 
 The objective is not to create the perfect architecture. The objective is:
 
-```text
+```
 Deploy the first working public MVP
 as quickly as possible.
 ```
 
-```text
+```
 Working software > Perfect architecture
 Useful content   > Complex infrastructure
 Incremental delivery > Large rewrites
