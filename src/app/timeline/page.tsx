@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { TimelineExplorer } from "@/components/timeline/TimelineExplorer";
-import { formatYear } from "@/lib/utils";
 import { getTimelineGroups } from "@/services/timeline";
 
 export const revalidate = 3600;
@@ -26,9 +25,10 @@ export default async function TimelinePage() {
       {groups.map(({ epoch, items }) => <section key={epoch.id} id={epoch.id} aria-labelledby={`${epoch.id}-heading`} className="scroll-mt-8">
         <div className="mb-8">
           <h2 id={`${epoch.id}-heading`} className="text-3xl font-bold text-slate-900">{epoch.label}</h2>
-          <p className="mt-1 text-sm text-slate-500">{epoch.id === "prehistory" ? `Before ${formatYear(epoch.endYear)}` : epoch.id === "modern" ? `Since ${formatYear(epoch.startYear)}` : `${formatYear(epoch.startYear)} to ${formatYear(epoch.endYear)}`}</p>
+          <p className="mt-1 text-sm text-slate-500">{epoch.rangeLabel}</p>
+          <p className="mt-3 max-w-3xl text-slate-600">{epoch.description}</p>
         </div>
-        <TimelineExplorer items={items} />
+        {items.length > 0 ? <TimelineExplorer items={items} /> : <p className="text-slate-500">No entries for this phase yet.</p>}
       </section>)}
     </div>
   </div>;
