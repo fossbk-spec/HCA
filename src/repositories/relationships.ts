@@ -2,12 +2,11 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { EntityType } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
+import { withDatabase } from "@/lib/seed-fallback";
+import { matchSeedRelations, type SeedRelationship } from "@/repositories/relationship-matching";
+import type { Relation } from "@/types/relationships";
 
-export type Relation = {
-  direction: "out" | "in";
-  relationshipType: string;
-  other: { slug: string; type: EntityType; title: string };
-};
+export type { Relation } from "@/types/relationships";
 
 const entityTypes = ["CIVILIZATION", "PERSON", "EVENT", "IDEA", "BOOK"] as const;
 const routes: Record<EntityType, string> = {
@@ -54,14 +53,9 @@ export function relationLabel(relationshipType: string, direction: Relation["dir
   return direction === "out" ? phrase : `is target of ${phrase}`;
 }
 
-type SeedRelationship = {
-  sourceSlug: string; sourceType: EntityType;
-  targetSlug: string; targetType: EntityType;
-  relationshipType: string;
-};
 type SeedEntity = { slug: string; name?: string; title?: string };
 
-async function seedRelationsFor(slug: string): Promise<Relation[]> {
+async function seedRelationsFor(entityType: EntityType, slug: string): Promise<Relation[]> {
   const files: Record<EntityType, string> = {
     CIVILIZATION: "civilizations", PERSON: "people", EVENT: "events", IDEA: "ideas", BOOK: "books",
   };
@@ -75,35 +69,27 @@ async function seedRelationsFor(slug: string): Promise<Relation[]> {
       titles.set(`${type}:${entity.slug}`, entity.name ?? entity.title ?? entity.slug);
     }
   });
-  const relations: Relation[] = [];
-  for (const row of JSON.parse(relationshipText) as SeedRelationship[]) {
-    if (row.sourceSlug !== slug && row.targetSlug !== slug) continue;
-    const direction = row.sourceSlug === slug ? "out" : "in";
-    const type = direction === "out" ? row.targetType : row.sourceType;
-    const otherSlug = direction === "out" ? row.targetSlug : row.sourceSlug;
-    const title = titles.get(`${type}:${otherSlug}`);
-    if (title) relations.push({ direction, relationshipType: row.relationshipType, other: { slug: otherSlug, type, title } });
-  }
-  return relations;
+  return matchSeedRelations(entityType, slug, JSON.parse(relationshipText) as SeedRelationship[], titles);
 }
 
-async function dbRelationsFor(slug: string): Promise<Relation[]> {
-  const identities = await Promise.all([
-    prisma.civilization.findUnique({ where: { slug }, select: { id: true } }),
-    prisma.person.findUnique({ where: { slug }, select: { id: true } }),
-    prisma.event.findUnique({ where: { slug }, select: { id: true } }),
-    prisma.idea.findUnique({ where: { slug }, select: { id: true } }),
-    prisma.book.findUnique({ where: { slug }, select: { id: true } }),
-  ]);
-  const ids = identities.flatMap((entity) => entity ? [entity.id] : []);
-  if (ids.length === 0) return [];
+async function dbRelationsFor(entityType: EntityType, slug: string): Promise<Relation[]> {
+  let entity: { id: string } | null;
+  switch (entityType) {
+    case "CIVILIZATION": entity = await prisma.civilization.findUnique({ where: { slug }, select: { id: true } }); break;
+    case "PERSON": entity = await prisma.person.findUnique({ where: { slug }, select: { id: true } }); break;
+    case "EVENT": entity = await prisma.event.findUnique({ where: { slug }, select: { id: true } }); break;
+    case "IDEA": entity = await prisma.idea.findUnique({ where: { slug }, select: { id: true } }); break;
+    case "BOOK": entity = await prisma.book.findUnique({ where: { slug }, select: { id: true } }); break;
+  }
+  if (!entity) return [];
+  const entityId = entity.id;
   const rows = await prisma.relationship.findMany({
-    where: { OR: [{ sourceId: { in: ids } }, { targetId: { in: ids } }] },
+    where: { OR: [{ sourceId: entityId, sourceType: entityType }, { targetId: entityId, targetType: entityType }] },
     select: { sourceId: true, sourceType: true, targetId: true, targetType: true, relationshipType: true },
   });
   const others = new Map<EntityType, Set<string>>(entityTypes.map((type) => [type, new Set<string>()]));
   const directed = rows.map((row) => {
-    const direction: Relation["direction"] = ids.includes(row.sourceId) ? "out" : "in";
+    const direction: Relation["direction"] = row.sourceId === entityId && row.sourceType === entityType ? "out" : "in";
     const type = direction === "out" ? row.targetType : row.sourceType;
     const id = direction === "out" ? row.targetId : row.sourceId;
     others.get(type)!.add(id);
@@ -117,21 +103,17 @@ async function dbRelationsFor(slug: string): Promise<Relation[]> {
     prisma.book.findMany({ where: { id: { in: [...others.get("BOOK")!] } }, select: { id: true, slug: true, title: true } }),
   ]);
   const byId = new Map<string, { slug: string; title: string }>();
-  for (const entity of [...civilizations, ...people]) byId.set(entity.id, { slug: entity.slug, title: entity.name });
-  for (const entity of [...events, ...ideas, ...books]) byId.set(entity.id, { slug: entity.slug, title: entity.title });
+  for (const entity of civilizations) byId.set(`CIVILIZATION:${entity.id}`, { slug: entity.slug, title: entity.name });
+  for (const entity of people) byId.set(`PERSON:${entity.id}`, { slug: entity.slug, title: entity.name });
+  for (const entity of events) byId.set(`EVENT:${entity.id}`, { slug: entity.slug, title: entity.title });
+  for (const entity of ideas) byId.set(`IDEA:${entity.id}`, { slug: entity.slug, title: entity.title });
+  for (const entity of books) byId.set(`BOOK:${entity.id}`, { slug: entity.slug, title: entity.title });
   return directed.flatMap(({ direction, relationshipType, type, id }) => {
-    const other = byId.get(id);
+    const other = byId.get(`${type}:${id}`);
     return other ? [{ direction, relationshipType, other: { ...other, type } }] : [];
   });
 }
 
-export async function listRelationsFor(slug: string): Promise<Relation[]> {
-  if (process.env.DATABASE_URL) {
-    try {
-      return await dbRelationsFor(slug);
-    } catch (error) {
-      console.warn("Relationship query failed; using seed data.", error);
-    }
-  }
-  return seedRelationsFor(slug);
+export async function listRelationsFor(entityType: EntityType, slug: string): Promise<Relation[]> {
+  return withDatabase("relationships.list", () => dbRelationsFor(entityType, slug), () => seedRelationsFor(entityType, slug));
 }

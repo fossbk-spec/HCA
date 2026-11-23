@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { prisma } from "@/lib/prisma";
+import { withDatabase } from "@/lib/seed-fallback";
 
 export type Idea = {
   slug: string;
@@ -39,51 +40,29 @@ const ideaSelect = {
 } as const;
 
 export async function listFeaturedIdeas(limit = 5): Promise<IdeaSummary[]> {
-  if (process.env.DATABASE_URL) {
-    try {
-      return await prisma.idea.findMany({
+  return withDatabase("ideas.featured", () => prisma.idea.findMany({
         take: limit,
         orderBy: { createdAt: "asc" },
         select: { slug: true, title: true, category: true, summary: true },
-      });
-    } catch (error) {
-      console.warn("Idea query failed; using seed data.", error);
-    }
-  }
+      }), async () => {
   const all = await seedIdeas();
   return all.slice(0, limit).map(({ slug, title, category, summary }) => ({ slug, title, category, summary }));
+  });
 }
 
 export async function listIdeas(): Promise<Idea[]> {
-  if (process.env.DATABASE_URL) {
-    try {
-      return sortIdeas(await prisma.idea.findMany({ select: ideaSelect }));
-    } catch (error) {
-      console.warn("Ideas query failed; using seed data.", error);
-    }
-  }
-  return sortIdeas(await seedIdeas());
+  return withDatabase("ideas.list", async () => sortIdeas(await prisma.idea.findMany({ select: ideaSelect })),
+    async () => sortIdeas(await seedIdeas()));
 }
 
 export async function getIdeaBySlug(slug: string): Promise<Idea | null> {
-  if (process.env.DATABASE_URL) {
-    try {
-      return await prisma.idea.findUnique({ where: { slug }, select: ideaSelect });
-    } catch (error) {
-      console.warn("Idea query failed; using seed data.", error);
-    }
-  }
-  return (await seedIdeas()).find((i) => i.slug === slug) ?? null;
+  return withDatabase("ideas.detail", () => prisma.idea.findUnique({ where: { slug }, select: ideaSelect }),
+    async () => (await seedIdeas()).find((i) => i.slug === slug) ?? null);
 }
 
 export async function listIdeaSlugs(): Promise<string[]> {
-  if (process.env.DATABASE_URL) {
-    try {
+  return withDatabase("ideas.slugs", async () => {
       const rows = await prisma.idea.findMany({ select: { slug: true }, orderBy: { slug: "asc" } });
       return rows.map(({ slug }) => slug);
-    } catch (error) {
-      console.warn("Idea slugs query failed; using seed data.", error);
-    }
-  }
-  return (await seedIdeas()).map(({ slug }) => slug).sort();
+  }, async () => (await seedIdeas()).map(({ slug }) => slug).sort());
 }

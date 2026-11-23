@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { prisma } from "@/lib/prisma";
+import { withDatabase } from "@/lib/seed-fallback";
 import { listAllCivilizations, type CivilizationSummary } from "@/repositories/civilizations";
 
 export type TimelineItem = {
@@ -41,21 +42,11 @@ export async function listTimeline(): Promise<TimelineDetailItem[]> {
       kind: "civilization",
     }));
 
-  let eventRows: SeedEvent[];
-  if (process.env.DATABASE_URL) {
-    try {
-      eventRows = await prisma.event.findMany({
+  const eventRows: SeedEvent[] = await withDatabase("timeline.list", () => prisma.event.findMany({
         where: { startYear: { not: null } },
         orderBy: { startYear: "asc" },
         select: { slug: true, title: true, startYear: true, endYear: true, summary: true },
-      });
-    } catch (error) {
-      console.warn("Timeline query failed; using seed data.", error);
-      eventRows = await seedEvents();
-    }
-  } else {
-    eventRows = await seedEvents();
-  }
+      }), seedEvents);
 
   const events: TimelineDetailItem[] = eventRows
     .filter((row) => row.startYear !== null)
@@ -84,16 +75,14 @@ export async function listTimelinePreview(civilizations: CivilizationSummary[]):
       kind: "civilization",
     }));
 
-  let events: TimelineItem[] = [];
-  if (process.env.DATABASE_URL) {
-    try {
+  const events: TimelineItem[] = await withDatabase("timeline.preview", async () => {
       const rows = await prisma.event.findMany({
         where: { startYear: { not: null } },
         orderBy: { startYear: "asc" },
         take: 8,
         select: { slug: true, title: true, startYear: true, endYear: true },
       });
-      events = rows.filter((row) => row.startYear !== null).map((row) => ({
+      return rows.filter((row) => row.startYear !== null).map((row) => ({
         slug: row.slug,
         title: row.title,
         year: row.startYear!,
@@ -101,9 +90,6 @@ export async function listTimelinePreview(civilizations: CivilizationSummary[]):
         href: `/events/${row.slug}`,
         kind: "event",
       }));
-    } catch (error) {
-      console.warn("Timeline query failed; using civilization periods.", error);
-    }
-  }
+  }, async () => []);
   return [...periods, ...events].sort((a, b) => a.year - b.year).slice(0, 10);
 }

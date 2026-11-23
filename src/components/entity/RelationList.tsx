@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { entityHref } from "@/repositories/relationships";
-import type { RelationGroup } from "@/services/people";
+import type { RelationGroup } from "@/types/relationships";
 
 export function RelationList({ relations }: { relations: RelationGroup[] }) {
   if (relations.length === 0) return null;

@@ -1,6 +1,7 @@
 import { getIdeaBySlug, listIdeas, type Idea } from "@/repositories/ideas";
-import { listRelationsFor, relationLabel, type Relation } from "@/repositories/relationships";
-import type { RelationGroup } from "@/services/people";
+import { listRelationsFor } from "@/repositories/relationships";
+import { groupRelations } from "@/services/relations";
+import type { RelationGroup } from "@/types/relationships";
 
 export type IdeaCategoryGroup = { category: string; ideas: Idea[] };
 
@@ -27,18 +28,7 @@ export async function getIdea(slug: string): Promise<(Idea & { relations: Relati
   const idea = await getIdeaBySlug(slug);
   if (!idea) return null;
 
-  const groups = new Map<string, Relation[]>();
-  for (const relation of await listRelationsFor(slug)) {
-    const label = relationLabel(relation.relationshipType, relation.direction);
-    const group = groups.get(label) ?? [];
-    group.push(relation);
-    groups.set(label, group);
-  }
-
-  const relations = [...groups].map(([label, items]) => ({
-    label,
-    relations: items.sort((a, b) => a.other.title.localeCompare(b.other.title)),
-  }));
+  const relations = groupRelations(await listRelationsFor("IDEA", slug));
 
   return { ...idea, relations };
 }

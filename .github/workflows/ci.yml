@@ -20,7 +20,46 @@ jobs:
           DATABASE_URL: postgresql://hca:hca@localhost:5432/hca
       - run: npx prisma generate
       - run: npm run typecheck
+      - run: npm test
       - run: npm run verify:seed
       - run: env -u DATABASE_URL npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
+          ALLOW_SEED_FALLBACK: "true"
+
+  integration:
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: postgresql://hca:hca@localhost:5432/hca
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: hca
+          POSTGRES_PASSWORD: hca
+          POSTGRES_DB: hca
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U hca -d hca"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx prisma validate
+      - run: npm run db:deploy
+      - run: npm run seed
+      - run: npm run seed
+      - run: npm run db:smoke
+      - run: npm test
+      - run: npm run typecheck
+      - run: npm run verify:seed
+      - run: npm run build
         env:
           NEXT_TELEMETRY_DISABLED: "1"
