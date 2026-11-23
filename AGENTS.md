@@ -96,7 +96,7 @@ Optional
 
 | # | Feature | Routes | Trạng thái (2026-11-23) |
 |---|---|---|---|
-| F1 | Database Layer | – | Gần xong: schema, migration, `seed.ts`; **chưa chạy trên PostgreSQL thật** |
+| F1 | Database Layer | – | Xong trên CI: migration, seed hai lần và `db:smoke` chạy trên PostgreSQL 16 (job `integration`); **chưa có DB production** |
 | F2 | Homepage | `/` | Xong; Featured chưa theo Plan §5 |
 | F3 | Timeline Explorer | `/timeline` | Một phần: 5 epoch, cần 9 giai đoạn |
 | F4 | Civilization Atlas | `/civilizations`, `/civilizations/[slug]` | Một phần: thiếu Related Books, References |
@@ -104,7 +104,7 @@ Optional
 | F6 | Ideas | `/ideas`, `/ideas/[slug]` | Xong (PR #10) |
 | F7 | Books | `/books`, `/books/[slug]` | Xong (PR #10) |
 | – | Events | `/events`, `/events/[slug]` | Xong (PR #10) |
-| F8 | Search | `/search`, `/api/search` | Chưa làm |
+| F8 | Search | `/search`, `/api/search` | Xong (PR #13); đường DB đọc hết dòng rồi xếp hạng ở phía ứng dụng, cần tối ưu khi dữ liệu lớn |
 | F9 | Knowledge Graph Lite | `/graph` | Chưa làm (có thể dùng React Flow, bảng quan hệ) |
 | – | About | `/about` | Chưa làm |
 
@@ -134,7 +134,8 @@ Không ghi trực tiếp vào thư mục làm việc của `main`; luôn tạo n
 - Avoid premature optimization.
 - Keep components reusable.
 - Create service layer and repository layer.
-- Use Prisma for data access; khi `DATABASE_URL` trống hoặc truy vấn lỗi thì fallback đọc `data/seed/*.json` (quyết định tắt fallback ở production còn chờ chủ dự án).
+- Use Prisma for data access, luôn qua `withDatabase` (`src/lib/seed-fallback.ts`). Fallback đọc `data/seed/*.json` mặc định bật khi chạy local và tắt ở production; đặt `ALLOW_SEED_FALLBACK=true` hoặc `false` để chỉ định rõ. Production không có DB thì `next build` lỗi (cố ý). Chủ dự án vẫn cần xác nhận cách đặt biến này khi deploy.
+- Quan hệ định danh theo `entityType + slug` (slug chỉ duy nhất trong từng bảng): `listRelationsFor(entityType, slug)`.
 - Mỗi trang chỉ có một `<h1>`; `layout.tsx` đã cung cấp `<main>`, các trang không được render `<main>` nữa.
 - Không sửa `data/` và `docs/` trừ khi task nói rõ.
 
@@ -222,7 +223,7 @@ Avoid premature optimization.
 
 # 12. CURRENT PROJECT STATE
 
-Cập nhật: 2026-11-23, `main` sau PR #10.
+Cập nhật: 2026-11-23, `main` sau PR #17.
 
 ```text
 MVP DEVELOPMENT IN PROGRESS
@@ -231,18 +232,21 @@ MVP DEVELOPMENT IN PROGRESS
 Đã có:
 
 - Tài liệu: Blueprint v1–v6, Ontology 1.0 + 1.1, PRD, ERD, API Spec, Execution Plan, review và quyết định (`docs/Reviews/`)
-- F1 (chưa chạy trên DB thật), F2, F3, F4, F5, F6, F7, Events
-- Seed: 225 thực thể (10 civilizations, 72 people, 57 events, 38 ideas, 48 books), 144 quan hệ, 55 loại quan hệ (ontology 1.1)
-- CI GitHub Actions (`.github/workflows/ci.yml`)
+- F1 (đã kiểm trên PostgreSQL 16 ở CI), F2, F3, F4, F5, F6, F7, F8, Events
+- Seed: 269 thực thể (10 civilizations, 100 people, 57 events, 50 ideas, 52 books), 235 quan hệ (45 loại đang dùng trong 55 loại của ontology 1.1)
+- CI GitHub Actions (`.github/workflows/ci.yml`): job `verify` (typecheck, test, verify:seed, build không DB) và job `integration` (PostgreSQL 16: migrate, seed hai lần, `db:smoke`, test, build)
+- Unit test (`npm test`, `node:test` + `tsx`) trong `tests/unit/`
+- Chính sách seed fallback (`ALLOW_SEED_FALLBACK`, mục 7)
 
 Chưa có:
 
-- F8 Search, F9 Knowledge Graph Lite, `/about`
+- F9 Knowledge Graph Lite, `/about`
 - Timeline 9 giai đoạn; Featured đúng Plan; Related Books và References trên trang nền văn minh
-- PostgreSQL thật, project Vercel, quy trình `migrate deploy`
-- Lint (ESLint chưa cấu hình), tests
+- PostgreSQL production, project Vercel, quy trình `migrate deploy` trên production
+- Lint (ESLint chưa cấu hình)
+- Kiểm tra trình duyệt mốc M1 (mục 21)
 
-Vấn đề dữ liệu mở: 53/225 thực thể chưa có quan hệ; seed thiếu Big Bang, Origin of Life, Human Evolution và sự kiện sau 1760; nội dung `content` chưa kiểm độ chính xác lịch sử.
+Vấn đề dữ liệu mở: 4/269 thực thể chưa có quan hệ (3 events, 1 book); seed thiếu Big Bang, Origin of Life, Human Evolution và sự kiện sau 1760; nội dung `content` chưa kiểm độ chính xác lịch sử (batch 4, PR #17, chưa có người kiểm).
 
 Current priority: **Working MVP**, not production optimization.
 
@@ -258,16 +262,18 @@ src/
 ├── components/
 ├── repositories/
 ├── services/
+├── types/
 └── lib/
+tests/unit/         (npm test)
 prisma/
 data/               (seed/, ontology/)
 docs/
 briefs/             (brief giao việc cho agent)
-scripts/            (verify_integrity.js)
+scripts/            (verify_integrity.js, db-smoke.ts)
 .github/workflows/
 ```
 
-Thư mục `features/`, `hooks/`, `types/`, `tests/` có trong cấu trúc mục tiêu; chỉ tạo khi cần. Không tạo cấu trúc thay thế.
+Thư mục `features/`, `hooks/` có trong cấu trúc mục tiêu; chỉ tạo khi cần. Không tạo cấu trúc thay thế.
 
 ---
 
@@ -277,13 +283,15 @@ Mỗi task mã nguồn phải qua các kiểm tra phù hợp (đúng tên script
 
 ```bash
 npm run typecheck          # tsc --noEmit
+npm test                   # unit test (node:test)
 npm run verify:seed        # khi đụng dữ liệu, ontology hoặc seed.ts
 npm run build              # chạy với DATABASE_URL trống để chắc fallback hoạt động
 npx prisma validate        # khi đụng schema
 npx prisma generate
+npm run db:smoke           # khi đụng DB, seed hoặc repository; cần DATABASE_URL đã migrate và seed (CI job `integration` chạy sẵn)
 ```
 
-`npm run lint` chỉ bắt buộc sau khi ESLint được cấu hình (chưa có). Task chỉ sửa tài liệu kiểm tra nội dung và đường dẫn, không cần chạy các lệnh build. CI chạy cả năm lệnh trên cho mọi Pull Request, kể cả khi local chỉ cần các lệnh có điều kiện.
+`npm run lint` chỉ bắt buộc sau khi ESLint được cấu hình (chưa có). Task chỉ sửa tài liệu kiểm tra nội dung và đường dẫn, không cần chạy các lệnh build. CI chạy các lệnh trên cho mọi Pull Request, kể cả khi local chỉ cần các lệnh có điều kiện.
 
 ---
 
@@ -356,11 +364,11 @@ Hai nguồn đang lệch nhau: Execution Plan §14 và PRD đặt mục tiêu **
 ### Content
 
 - 10 Civilizations (đạt)
-- 100 People (hiện 72)
+- 100 People (đạt, 100)
 - 200 Events (hiện 57)
-- 50 Ideas (hiện 38)
-- 50 Books (hiện 48)
-- Tổng ≥ 500 đối tượng (hiện 225); mọi thực thể có ít nhất một quan hệ
+- 50 Ideas (đạt, 50)
+- 50 Books (đạt, 52)
+- Tổng ≥ 500 đối tượng (hiện 269); mọi thực thể có ít nhất một quan hệ (hiện còn 4 chưa có)
 
 ### Features
 
