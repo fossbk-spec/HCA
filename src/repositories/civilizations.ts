@@ -7,14 +7,18 @@ import { featuredCivilizationSlugs, pickBySlugs } from "@/lib/featured";
 export type CivilizationSummary = {
   slug: string;
   name: string;
+  nameVi?: string | null;
   region: string | null;
+  regionVi?: string | null;
   periodStart: number | null;
   periodEnd: number | null;
   summary: string | null;
+  summaryVi?: string | null;
 };
 
 export type CivilizationPerson = {
   name: string;
+  nameVi?: string | null;
   slug: string;
   birthYear: number | null;
   deathYear: number | null;
@@ -22,10 +26,11 @@ export type CivilizationPerson = {
 
 export type CivilizationDetail = CivilizationSummary & {
   content: string | null;
+  contentVi?: string | null;
   people: CivilizationPerson[];
 };
 
-type SeedCivilization = CivilizationSummary & { content?: string | null };
+type SeedCivilization = CivilizationSummary & { content?: string | null; contentVi?: string | null };
 type SeedPerson = CivilizationPerson & { civilizationSlug?: string | null };
 
 async function seedCivilizationRows(): Promise<SeedCivilization[]> {
@@ -38,10 +43,13 @@ async function seedCivilizations(): Promise<CivilizationSummary[]> {
   return rows.map((row) => ({
     slug: row.slug,
     name: row.name,
+    nameVi: row.nameVi ?? null,
     region: row.region ?? null,
+    regionVi: row.regionVi ?? null,
     periodStart: row.periodStart ?? null,
     periodEnd: row.periodEnd ?? null,
     summary: row.summary ?? null,
+    summaryVi: row.summaryVi ?? null,
   }));
 }
 
@@ -49,7 +57,17 @@ export async function listFeaturedCivilizations(): Promise<CivilizationSummary[]
   return withDatabase("civilizations.featured", async () => {
       const rows = await prisma.civilization.findMany({
         where: { slug: { in: [...featuredCivilizationSlugs] } },
-        select: { slug: true, name: true, region: true, periodStart: true, periodEnd: true, summary: true },
+        select: {
+          slug: true,
+          name: true,
+          nameVi: true,
+          region: true,
+          regionVi: true,
+          periodStart: true,
+          periodEnd: true,
+          summary: true,
+          summaryVi: true,
+        },
       });
       return pickBySlugs(rows, featuredCivilizationSlugs);
   }, async () => pickBySlugs(await seedCivilizations(), featuredCivilizationSlugs));
@@ -58,7 +76,17 @@ export async function listFeaturedCivilizations(): Promise<CivilizationSummary[]
 export async function listAllCivilizations(): Promise<CivilizationSummary[]> {
   return withDatabase("civilizations.list", () => prisma.civilization.findMany({
         orderBy: { periodStart: "asc" },
-        select: { slug: true, name: true, region: true, periodStart: true, periodEnd: true, summary: true },
+        select: {
+          slug: true,
+          name: true,
+          nameVi: true,
+          region: true,
+          regionVi: true,
+          periodStart: true,
+          periodEnd: true,
+          summary: true,
+          summaryVi: true,
+        },
       }), seedCivilizations);
 }
 
@@ -73,9 +101,21 @@ export async function getCivilizationBySlug(slug: string): Promise<CivilizationD
   return withDatabase("civilizations.detail", () => prisma.civilization.findUnique({
         where: { slug },
         select: {
-          slug: true, name: true, region: true, periodStart: true, periodEnd: true,
-          summary: true, content: true,
-          people: { select: { name: true, slug: true, birthYear: true, deathYear: true }, orderBy: { name: "asc" } },
+          slug: true,
+          name: true,
+          nameVi: true,
+          region: true,
+          regionVi: true,
+          periodStart: true,
+          periodEnd: true,
+          summary: true,
+          summaryVi: true,
+          content: true,
+          contentVi: true,
+          people: {
+            select: { name: true, nameVi: true, slug: true, birthYear: true, deathYear: true },
+            orderBy: { name: "asc" },
+          },
         },
       }), async () => {
   const civilization = (await seedCivilizationRows()).find((row) => row.slug === slug);
@@ -86,14 +126,22 @@ export async function getCivilizationBySlug(slug: string): Promise<CivilizationD
   return {
     slug: civilization.slug,
     name: civilization.name,
+    nameVi: civilization.nameVi ?? null,
     region: civilization.region ?? null,
+    regionVi: civilization.regionVi ?? null,
     periodStart: civilization.periodStart ?? null,
     periodEnd: civilization.periodEnd ?? null,
     summary: civilization.summary ?? null,
+    summaryVi: civilization.summaryVi ?? null,
     content: civilization.content ?? null,
+    contentVi: civilization.contentVi ?? null,
     people: people.filter((person) => person.civilizationSlug === slug)
-      .map(({ name, slug: personSlug, birthYear, deathYear }) => ({
-        name, slug: personSlug, birthYear: birthYear ?? null, deathYear: deathYear ?? null,
+      .map(({ name, nameVi, slug: personSlug, birthYear, deathYear }) => ({
+        name,
+        nameVi: nameVi ?? null,
+        slug: personSlug,
+        birthYear: birthYear ?? null,
+        deathYear: deathYear ?? null,
       }))
       .sort((a, b) => a.name.localeCompare(b.name)),
   };

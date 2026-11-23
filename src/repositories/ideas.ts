@@ -7,12 +7,16 @@ import { featuredIdeaSlugs, pickBySlugs } from "@/lib/featured";
 export type Idea = {
   slug: string;
   title: string;
+  titleVi: string | null;
   category: string | null;
+  categoryVi: string | null;
   summary: string | null;
+  summaryVi: string | null;
   content: string | null;
+  contentVi: string | null;
 };
 
-export type IdeaSummary = Omit<Idea, "content">;
+export type IdeaSummary = Omit<Idea, "content" | "contentVi">;
 
 type SeedIdea = Idea;
 
@@ -22,9 +26,13 @@ async function seedIdeas(): Promise<Idea[]> {
   return raw.map((i) => ({
     slug: i.slug,
     title: i.title,
+    titleVi: i.titleVi ?? null,
     category: i.category ?? null,
+    categoryVi: i.categoryVi ?? null,
     summary: i.summary ?? null,
+    summaryVi: i.summaryVi ?? null,
     content: i.content ?? null,
+    contentVi: i.contentVi ?? null,
   }));
 }
 
@@ -35,16 +43,28 @@ function sortIdeas(ideas: Idea[]): Idea[] {
 const ideaSelect = {
   slug: true,
   title: true,
+  titleVi: true,
   category: true,
+  categoryVi: true,
   summary: true,
+  summaryVi: true,
   content: true,
+  contentVi: true,
 } as const;
 
 export async function listFeaturedIdeas(): Promise<IdeaSummary[]> {
   return withDatabase("ideas.featured", async () => {
       const rows = await prisma.idea.findMany({
         where: { slug: { in: [...featuredIdeaSlugs] } },
-        select: { slug: true, title: true, category: true, summary: true },
+        select: {
+          slug: true,
+          title: true,
+          titleVi: true,
+          category: true,
+          categoryVi: true,
+          summary: true,
+          summaryVi: true,
+        },
       });
       return pickBySlugs(rows, featuredIdeaSlugs);
   }, async () => pickBySlugs(await seedIdeas(), featuredIdeaSlugs));

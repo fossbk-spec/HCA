@@ -6,31 +6,45 @@ import { withDatabase } from "@/lib/seed-fallback";
 export type Person = {
   slug: string;
   name: string;
+  nameVi: string | null;
   birthYear: number | null;
   deathYear: number | null;
   occupations: string | null;
+  occupationsVi: string | null;
   summary: string | null;
+  summaryVi: string | null;
   content: string | null;
-  civilization: { slug: string; name: string } | null;
+  contentVi: string | null;
+  civilization: { slug: string; name: string; nameVi: string | null } | null;
 };
 
-type SeedPerson = Omit<Person, "civilization"> & { civilizationSlug?: string | null };
-type SeedCivilization = { slug: string; name: string };
+type SeedPerson = Omit<Person, "civilization"> & {
+  civilizationSlug?: string | null;
+  nameVi?: string | null;
+  occupationsVi?: string | null;
+  summaryVi?: string | null;
+  contentVi?: string | null;
+};
+type SeedCivilization = { slug: string; name: string; nameVi?: string | null };
 
 async function seedPeople(): Promise<Person[]> {
   const [people, civilizations] = await Promise.all([
     readFile(path.join(process.cwd(), "data", "seed", "people.json"), "utf8"),
     readFile(path.join(process.cwd(), "data", "seed", "civilizations.json"), "utf8"),
   ]);
-  const civilizationBySlug = new Map((JSON.parse(civilizations) as SeedCivilization[]).map(({ slug, name }) => [slug, { slug, name }]));
+  const civilizationBySlug = new Map((JSON.parse(civilizations) as SeedCivilization[]).map(({ slug, name, nameVi }) => [slug, { slug, name, nameVi: nameVi ?? null }]));
   return (JSON.parse(people) as SeedPerson[]).map((row) => ({
     slug: row.slug,
     name: row.name,
+    nameVi: row.nameVi ?? null,
     birthYear: row.birthYear ?? null,
     deathYear: row.deathYear ?? null,
     occupations: row.occupations ?? null,
+    occupationsVi: row.occupationsVi ?? null,
     summary: row.summary ?? null,
+    summaryVi: row.summaryVi ?? null,
     content: row.content ?? null,
+    contentVi: row.contentVi ?? null,
     civilization: row.civilizationSlug ? civilizationBySlug.get(row.civilizationSlug) ?? null : null,
   }));
 }
@@ -42,8 +56,18 @@ function sortPeople(people: Person[]): Person[] {
 }
 
 const personSelect = {
-  slug: true, name: true, birthYear: true, deathYear: true, occupations: true,
-  summary: true, content: true, civilization: { select: { slug: true, name: true } },
+  slug: true,
+  name: true,
+  nameVi: true,
+  birthYear: true,
+  deathYear: true,
+  occupations: true,
+  occupationsVi: true,
+  summary: true,
+  summaryVi: true,
+  content: true,
+  contentVi: true,
+  civilization: { select: { slug: true, name: true, nameVi: true } },
 } as const;
 
 export async function listPeople(): Promise<Person[]> {

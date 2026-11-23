@@ -9,13 +9,8 @@ import type { Relation } from "@/types/relationships";
 export type { Relation } from "@/types/relationships";
 
 const entityTypes = ["CIVILIZATION", "PERSON", "EVENT", "IDEA", "BOOK"] as const;
-const routes: Record<EntityType, string> = {
-  CIVILIZATION: "civilizations", PERSON: "people", EVENT: "events", IDEA: "ideas", BOOK: "books",
-};
-
-export function entityHref(type: EntityType, slug: string): string {
-  return `/${routes[type]}/${slug}`;
-}
+import { entityHref, routes } from "@/lib/routes";
+export { entityHref, routes };
 
 const labels: Record<string, [string, string]> = {
   WROTE: ["wrote", "written by"],
