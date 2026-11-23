@@ -1698,7 +1698,7 @@
     "sourceType": "CIVILIZATION",
     "targetSlug": "money",
     "targetType": "IDEA",
-    "relationshipType": "ORIGINATED"
+    "relationshipType": "DEVELOPED"
   },
   {
     "sourceSlug": "ancient-china",
@@ -1740,20 +1740,6 @@
     "sourceType": "EVENT",
     "targetSlug": "emergence-of-homo-sapiens",
     "targetType": "EVENT",
-    "relationshipType": "INFLUENCED"
-  },
-  {
-    "sourceSlug": "charles-darwin",
-    "sourceType": "PERSON",
-    "targetSlug": "emergence-of-homo-sapiens",
-    "targetType": "EVENT",
-    "relationshipType": "INFLUENCED"
-  },
-  {
-    "sourceSlug": "emergence-of-homo-sapiens",
-    "sourceType": "EVENT",
-    "targetSlug": "evolution",
-    "targetType": "IDEA",
     "relationshipType": "INFLUENCED"
   },
   {
