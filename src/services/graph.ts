@@ -5,26 +5,33 @@ import { getCivilizationBySlug } from "@/repositories/civilizations";
 import { getEventBySlug } from "@/repositories/events";
 import { getIdeaBySlug } from "@/repositories/ideas";
 import { getPersonBySlug } from "@/repositories/people";
-import { listRelationsFor, relationLabel } from "@/repositories/relationships";
+import { listRelationsFor, relationLabel, relationLabelVi } from "@/repositories/relationships";
 import type { Relation, RelationGroup } from "@/types/relationships";
 import { groupRelations } from "@/services/relations";
 
 export type GraphNodeData = {
   label: string;
+  labelVi?: string | null;
   type: EntityType;
   slug: string;
+  isCenter?: boolean;
+};
+
+export type EgoGraphEdge = Edge & {
+  labelVi?: string;
+  relationshipType?: string;
 };
 
 export type EgoGraph = {
-  center: { id: string; type: EntityType; slug: string; title: string };
+  center: { id: string; type: EntityType; slug: string; title: string; titleVi?: string | null };
   nodes: Node<GraphNodeData>[];
-  edges: Edge[];
+  edges: EgoGraphEdge[];
   relations: RelationGroup[];
   truncated: boolean;
   totalNeighbours: number;
 };
 
-type GraphCenter = { id: string; type: EntityType; slug: string; title: string };
+export type GraphCenter = { id: string; type: EntityType; slug: string; title: string; titleVi?: string | null };
 
 const MAX_NEIGHBOURS = 40;
 const entityTypes: readonly EntityType[] = ["CIVILIZATION", "PERSON", "EVENT", "IDEA", "BOOK"];
@@ -71,11 +78,17 @@ export function buildEgoGraph(center: GraphCenter, relations: Relation[], maxNei
 
   const visibleNeighbourIds = new Set(neighbours.slice(0, maxNeighbours));
   const visibleRelations = orderedRelations.filter((relation) => visibleNeighbourIds.has(nodeId(relation.other.type, relation.other.slug)));
-  const radius = Math.max(180, 110 + visibleNeighbourIds.size * 8);
+  const radius = Math.max(200, 130 + visibleNeighbourIds.size * 10);
   const nodes: Node<GraphNodeData>[] = [{
     id: nodeId(center.type, center.slug),
     position: { x: 0, y: 0 },
-    data: { label: center.title, type: center.type, slug: center.slug },
+    data: {
+      label: center.title,
+      labelVi: center.titleVi ?? null,
+      type: center.type,
+      slug: center.slug,
+      isCenter: true,
+    },
     sourcePosition: "right" as Position,
     targetPosition: "left" as Position,
   }];
@@ -86,20 +99,28 @@ export function buildEgoGraph(center: GraphCenter, relations: Relation[], maxNei
     nodes.push({
       id,
       position: { x: Math.round(Math.cos(angle) * radius), y: Math.round(Math.sin(angle) * radius) },
-      data: { label: other.title, type: other.type, slug: other.slug },
+      data: {
+        label: other.title,
+        labelVi: other.titleVi ?? null,
+        type: other.type,
+        slug: other.slug,
+        isCenter: false,
+      },
       sourcePosition: "left" as Position,
       targetPosition: "right" as Position,
     });
   });
 
   const centerId = nodeId(center.type, center.slug);
-  const edges = visibleRelations.map((relation, index) => {
+  const edges: EgoGraphEdge[] = visibleRelations.map((relation, index) => {
     const otherId = nodeId(relation.other.type, relation.other.slug);
     return {
       id: `${centerId}-${relation.direction}-${otherId}-${index}`,
       source: relation.direction === "out" ? centerId : otherId,
       target: relation.direction === "out" ? otherId : centerId,
       label: relationLabel(relation.relationshipType, relation.direction),
+      labelVi: relationLabelVi(relation.relationshipType, relation.direction),
+      relationshipType: relation.relationshipType,
       animated: false,
     };
   });
@@ -113,22 +134,43 @@ export function buildEgoGraph(center: GraphCenter, relations: Relation[], maxNei
   };
 }
 
-async function getEntityTitle(type: EntityType, slug: string): Promise<string | null> {
+async function getEntityDetails(type: EntityType, slug: string): Promise<{ title: string; titleVi: string | null } | null> {
   switch (type) {
-    case "CIVILIZATION": return (await getCivilizationBySlug(slug))?.name ?? null;
-    case "PERSON": return (await getPersonBySlug(slug))?.name ?? null;
-    case "EVENT": return (await getEventBySlug(slug))?.title ?? null;
-    case "IDEA": return (await getIdeaBySlug(slug))?.title ?? null;
-    case "BOOK": return (await getBookBySlug(slug))?.title ?? null;
+    case "CIVILIZATION": {
+      const civ = await getCivilizationBySlug(slug);
+      return civ ? { title: civ.name, titleVi: civ.nameVi ?? null } : null;
+    }
+    case "PERSON": {
+      const p = await getPersonBySlug(slug);
+      return p ? { title: p.name, titleVi: p.nameVi ?? null } : null;
+    }
+    case "EVENT": {
+      const e = await getEventBySlug(slug);
+      return e ? { title: e.title, titleVi: e.titleVi ?? null } : null;
+    }
+    case "IDEA": {
+      const i = await getIdeaBySlug(slug);
+      return i ? { title: i.title, titleVi: i.titleVi ?? null } : null;
+    }
+    case "BOOK": {
+      const b = await getBookBySlug(slug);
+      return b ? { title: b.title, titleVi: b.titleVi ?? null } : null;
+    }
   }
 }
 
 export async function getEgoGraph(type: EntityType, slug: string): Promise<EgoGraph | null> {
   if (!entityTypes.includes(type)) return null;
-  const title = await getEntityTitle(type, slug);
-  if (!title) return null;
+  const details = await getEntityDetails(type, slug);
+  if (!details) return null;
 
-  const center = { id: nodeId(type, slug), type, slug, title };
+  const center: GraphCenter = {
+    id: nodeId(type, slug),
+    type,
+    slug,
+    title: details.title,
+    titleVi: details.titleVi,
+  };
   const graph = buildEgoGraph(center, await listRelationsFor(type, slug));
   return { center, ...graph };
 }
