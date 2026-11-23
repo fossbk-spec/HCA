@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { prisma } from "@/lib/prisma";
 import { withDatabase } from "@/lib/seed-fallback";
+import { featuredIdeaSlugs, pickBySlugs } from "@/lib/featured";
 
 export type Idea = {
   slug: string;
@@ -39,15 +40,14 @@ const ideaSelect = {
   content: true,
 } as const;
 
-export async function listFeaturedIdeas(limit = 5): Promise<IdeaSummary[]> {
-  return withDatabase("ideas.featured", () => prisma.idea.findMany({
-        take: limit,
-        orderBy: { createdAt: "asc" },
+export async function listFeaturedIdeas(): Promise<IdeaSummary[]> {
+  return withDatabase("ideas.featured", async () => {
+      const rows = await prisma.idea.findMany({
+        where: { slug: { in: [...featuredIdeaSlugs] } },
         select: { slug: true, title: true, category: true, summary: true },
-      }), async () => {
-  const all = await seedIdeas();
-  return all.slice(0, limit).map(({ slug, title, category, summary }) => ({ slug, title, category, summary }));
-  });
+      });
+      return pickBySlugs(rows, featuredIdeaSlugs);
+  }, async () => pickBySlugs(await seedIdeas(), featuredIdeaSlugs));
 }
 
 export async function listIdeas(): Promise<Idea[]> {

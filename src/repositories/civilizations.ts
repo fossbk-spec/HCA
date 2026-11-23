@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { prisma } from "@/lib/prisma";
 import { withDatabase } from "@/lib/seed-fallback";
+import { featuredCivilizationSlugs, pickBySlugs } from "@/lib/featured";
 
 export type CivilizationSummary = {
   slug: string;
@@ -44,15 +45,14 @@ async function seedCivilizations(): Promise<CivilizationSummary[]> {
   }));
 }
 
-export async function listFeaturedCivilizations(limit = 10): Promise<CivilizationSummary[]> {
+export async function listFeaturedCivilizations(): Promise<CivilizationSummary[]> {
   return withDatabase("civilizations.featured", async () => {
       const rows = await prisma.civilization.findMany({
-        take: limit,
-        orderBy: { createdAt: "asc" },
+        where: { slug: { in: [...featuredCivilizationSlugs] } },
         select: { slug: true, name: true, region: true, periodStart: true, periodEnd: true, summary: true },
       });
-      return rows;
-  }, async () => (await seedCivilizations()).slice(0, limit));
+      return pickBySlugs(rows, featuredCivilizationSlugs);
+  }, async () => pickBySlugs(await seedCivilizations(), featuredCivilizationSlugs));
 }
 
 export async function listAllCivilizations(): Promise<CivilizationSummary[]> {
