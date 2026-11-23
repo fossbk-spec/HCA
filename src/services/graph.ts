@@ -33,9 +33,21 @@ function nodeId(type: EntityType, slug: string): string {
   return `${type}:${slug}`;
 }
 
+const compareText = (a: string, b: string) => (a < b ? -1 : a > b ? 1 : 0);
+
+// Repositories return rows in no guaranteed order; sort so layout and truncation are deterministic.
+function sortRelations(relations: Relation[]): Relation[] {
+  return [...relations].sort((a, b) =>
+    compareText(a.other.type, b.other.type)
+    || compareText(a.other.slug, b.other.slug)
+    || compareText(a.relationshipType, b.relationshipType)
+    || compareText(a.direction, b.direction));
+}
+
 function interleaveRelations(relations: Relation[]): Relation[] {
-  const outgoing = relations.filter((relation) => relation.direction === "out");
-  const incoming = relations.filter((relation) => relation.direction === "in");
+  const sorted = sortRelations(relations);
+  const outgoing = sorted.filter((relation) => relation.direction === "out");
+  const incoming = sorted.filter((relation) => relation.direction === "in");
   const result: Relation[] = [];
   const length = Math.max(outgoing.length, incoming.length);
   for (let index = 0; index < length; index += 1) {

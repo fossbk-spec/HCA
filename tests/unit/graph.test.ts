@@ -41,3 +41,12 @@ test("uses typed node ids for identical slugs across entity types", () => {
   assert.ok(graph.nodes.some((node) => node.id === "PERSON:shared"));
   assert.ok(graph.nodes.some((node) => node.id === "BOOK:shared"));
 });
+
+test("layout and truncation do not depend on input order", () => {
+  const relations = Array.from({ length: 45 }, (_, index) => relation(index % 2 ? "in" : "out", "PERSON", `person-${String(index).padStart(2, "0")}`));
+  const forward = buildEgoGraph(center, relations);
+  const reversed = buildEgoGraph(center, [...relations].reverse());
+  assert.deepEqual(forward.nodes.map(({ id, position }) => [id, position]), reversed.nodes.map(({ id, position }) => [id, position]));
+  assert.deepEqual(forward.edges.map(({ source, target, label }) => [source, target, label]), reversed.edges.map(({ source, target, label }) => [source, target, label]));
+  assert.equal(forward.truncated, true);
+});
