@@ -66,6 +66,17 @@ function verify() {
   register(ideas, 'IDEA');
   register(books, 'BOOK');
 
+  const ideaCategories = new Set([
+    'Politics', 'Law', 'Philosophy', 'Religion', 'Science', 'Mathematics',
+    'Astronomy', 'Medicine', 'Technology', 'Economics', 'Linguistics'
+  ]);
+  ideas.forEach(idea => {
+    if (!ideaCategories.has(idea.category)) {
+      console.error(`[ERROR] Idea "${idea.slug}" has invalid category: ${JSON.stringify(idea.category)}`);
+      errors++;
+    }
+  });
+
   const checkYearRange = (arr, startKey, endKey, type) => {
     arr.forEach(item => {
       if (item[startKey] != null && item[endKey] != null && item[startKey] > item[endKey]) {
