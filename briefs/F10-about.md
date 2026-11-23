@@ -1,0 +1,9 @@
+# F10 About (branch feature/about)
+Read only: AGENTS.md §7, §12; src/app/layout.tsx; src/components/layout/Footer.tsx; src/app/events/page.tsx (page pattern); src/repositories/civilizations.ts, people.ts, events.ts, ideas.ts, books.ts (exported list functions only).
+Do NOT modify data/ or docs/. Do not install anything. Do not touch Header.tsx (another branch edits it). No browser/dev server. Do not commit.
+
+Tasks
+1. src/app/about/page.tsx: Server Component, `export const metadata = { title: "About" }`, exactly one <h1>, NO <main> (layout provides it). Sections (h2): "Mission" (open knowledge platform helping learners understand human history through civilizations, people, events, ideas and books); "What you can explore" (links to /timeline, /civilizations, /people, /events, /ideas, /books, /search); "The dataset" with live counts of civilizations, people, events, ideas, books via the existing list repositories (revalidate 3600; use Promise.all; DB with seed fallback is already handled inside them); "How to read this content" (honest limitation: entries are an early seed dataset, summaries are condensed, historical accuracy has not yet been verified by subject-matter experts, report errors); "Roadmap" (one short paragraph: more entities, maps, knowledge graph, semantic search). Plain, neutral English. Do not mention AI tools or authorship.
+2. src/components/layout/Footer.tsx: add a link to /about next to "Back to top" (keep layout responsive, accessible link text "About").
+3. Responsive, accessible (heading order, link focus), reuse existing Tailwind patterns/classes from other pages.
+Gates (report pass/fail): `npm run typecheck`, `npm test`, `npm run verify:seed`, `env -u DATABASE_URL ALLOW_SEED_FALLBACK=true NEXT_TELEMETRY_DISABLED=1 npm run build` (/about must appear as a route). Final answer <8 lines.
