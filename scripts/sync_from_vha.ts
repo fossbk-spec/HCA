@@ -20,7 +20,7 @@ interface Relationship {
 }
 
 const HCA_ROOT = path.resolve(__dirname, "..");
-const VHA_EXPORT_DIR = path.resolve(HCA_ROOT, "..", "vietnam-history-atlas", "out", "hca-export");
+const VHA_EXPORT_DIR = process.env.VHA_EXPORT_DIR || path.resolve(HCA_ROOT, "..", "vietnam-history-atlas", "out", "hca-export");
 const FEDERATED_DIR = path.join(HCA_ROOT, "data", "federated", "vha");
 const REPORTS_DIR = path.join(HCA_ROOT, "reports");
 
@@ -28,8 +28,11 @@ console.log("========================================================");
 console.log("       VHA -> HCA KNOWLEDGE FEDERATION BRIDGE           ");
 console.log("========================================================\n");
 
-if (!fs.existsSync(VHA_EXPORT_DIR)) {
-  console.error(`[ERROR] VHA export directory not found at: ${VHA_EXPORT_DIR}`);
+const hasSourceExport = fs.existsSync(VHA_EXPORT_DIR);
+const hasFederatedCache = fs.existsSync(FEDERATED_DIR) && fs.existsSync(path.join(FEDERATED_DIR, "export-report.json"));
+
+if (!hasSourceExport && !hasFederatedCache) {
+  console.error(`[ERROR] Neither VHA export directory (${VHA_EXPORT_DIR}) nor federated cache (${FEDERATED_DIR}) was found.`);
   console.error("Please run `npm run export:hca` in the vietnam-history-atlas directory first.");
   process.exit(1);
 }
@@ -50,16 +53,32 @@ const files = [
 
 const dataset: Record<string, any> = {};
 
-for (const file of files) {
-  const src = path.join(VHA_EXPORT_DIR, file);
-  const dest = path.join(FEDERATED_DIR, file);
-  if (fs.existsSync(src)) {
-    const raw = fs.readFileSync(src, "utf-8");
-    fs.writeFileSync(dest, raw, "utf-8");
-    dataset[file.replace(".json", "")] = JSON.parse(raw);
-    console.log(`✓ Ingested ${file} (${fs.statSync(src).size} bytes)`);
-  } else {
-    console.warn(`[WARN] Missing ${file} in source export.`);
+if (hasSourceExport) {
+  console.log(`[INFO] Syncing from live VHA export directory: ${VHA_EXPORT_DIR}`);
+  for (const file of files) {
+    const src = path.join(VHA_EXPORT_DIR, file);
+    const dest = path.join(FEDERATED_DIR, file);
+    if (fs.existsSync(src)) {
+      const raw = fs.readFileSync(src, "utf-8");
+      fs.writeFileSync(dest, raw, "utf-8");
+      dataset[file.replace(".json", "")] = JSON.parse(raw);
+      console.log(`✓ Ingested ${file} (${fs.statSync(src).size} bytes)`);
+    } else {
+      console.warn(`[WARN] Missing ${file} in source export.`);
+    }
+  }
+} else {
+  console.log(`[INFO] Source export directory not found (standalone CI runner).`);
+  console.log(`[INFO] Using existing cached dataset in: ${FEDERATED_DIR}`);
+  for (const file of files) {
+    const cached = path.join(FEDERATED_DIR, file);
+    if (fs.existsSync(cached)) {
+      const raw = fs.readFileSync(cached, "utf-8");
+      dataset[file.replace(".json", "")] = JSON.parse(raw);
+      console.log(`✓ Loaded cached ${file} (${fs.statSync(cached).size} bytes)`);
+    } else {
+      console.warn(`[WARN] Missing ${file} in federated cache.`);
+    }
   }
 }
 
