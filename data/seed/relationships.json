@@ -1874,5 +1874,61 @@
     "targetSlug": "citizenship",
     "targetType": "IDEA",
     "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "dam-san",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "epic-of-king-gesar",
+    "sourceType": "BOOK",
+    "targetSlug": "dharma",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "epic-of-king-gesar",
+    "sourceType": "BOOK",
+    "targetSlug": "buddhist-middle-way",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "epic-of-manas",
+    "sourceType": "BOOK",
+    "targetSlug": "rule-of-law",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "kalevala",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-song-of-the-nibelungs",
+    "sourceType": "BOOK",
+    "targetSlug": "rule-of-law",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "cantar-de-mio-cid",
+    "sourceType": "BOOK",
+    "targetSlug": "citizenship",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "cantar-de-mio-cid",
+    "sourceType": "BOOK",
+    "targetSlug": "rule-of-law",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
   }
 ]
