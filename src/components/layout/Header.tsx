@@ -5,6 +5,7 @@ import { Compass, Globe } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 const navigationItems = [
+  { href: "/map", en: "Map", vi: "Bản đồ" },
   { href: "/timeline", en: "Timeline", vi: "Dòng thời gian" },
   { href: "/civilizations", en: "Civilizations", vi: "Nền văn minh" },
   { href: "/people", en: "People", vi: "Nhân vật" },
