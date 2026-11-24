@@ -2280,5 +2280,89 @@
     "targetSlug": "scientific-method",
     "targetType": "IDEA",
     "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "kalila-wa-dimna",
+    "sourceType": "BOOK",
+    "targetSlug": "philosophical-reconciliation-ijtihad",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "kalila-wa-dimna",
+    "sourceType": "BOOK",
+    "targetSlug": "monotheism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "taketori-monogatari",
+    "sourceType": "BOOK",
+    "targetSlug": "buddhist-middle-way",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "taketori-monogatari",
+    "sourceType": "BOOK",
+    "targetSlug": "cyclical-cosmic-time-and-long-count",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "meghaduta",
+    "sourceType": "BOOK",
+    "targetSlug": "dharma",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "meghaduta",
+    "sourceType": "BOOK",
+    "targetSlug": "karma-and-samsara",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-canterbury-tales",
+    "sourceType": "BOOK",
+    "targetSlug": "monotheism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-canterbury-tales",
+    "sourceType": "BOOK",
+    "targetSlug": "human-rights",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-prince",
+    "sourceType": "BOOK",
+    "targetSlug": "republic",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-prince",
+    "sourceType": "BOOK",
+    "targetSlug": "legalism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "utopia",
+    "sourceType": "BOOK",
+    "targetSlug": "platonism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "utopia",
+    "sourceType": "BOOK",
+    "targetSlug": "constitutionalism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
   }
 ]
