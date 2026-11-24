@@ -2364,5 +2364,89 @@
     "targetSlug": "constitutionalism",
     "targetType": "IDEA",
     "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "metamorphoses",
+    "sourceType": "BOOK",
+    "targetSlug": "cyclical-cosmic-time-and-long-count",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "metamorphoses",
+    "sourceType": "BOOK",
+    "targetSlug": "platonism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "de-rerum-natura",
+    "sourceType": "BOOK",
+    "targetSlug": "scientific-method",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "de-rerum-natura",
+    "sourceType": "BOOK",
+    "targetSlug": "stoicism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "wen-xin-diao-long",
+    "sourceType": "BOOK",
+    "targetSlug": "confucianism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "wen-xin-diao-long",
+    "sourceType": "BOOK",
+    "targetSlug": "tao-and-wu-wei",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "don-quixote",
+    "sourceType": "BOOK",
+    "targetSlug": "human-rights",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "don-quixote",
+    "sourceType": "BOOK",
+    "targetSlug": "republic",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "panchatantra",
+    "sourceType": "BOOK",
+    "targetSlug": "dharma",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "panchatantra",
+    "sourceType": "BOOK",
+    "targetSlug": "ahimsa",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "gullivers-travels",
+    "sourceType": "BOOK",
+    "targetSlug": "rule-of-law",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "gullivers-travels",
+    "sourceType": "BOOK",
+    "targetSlug": "democracy",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
   }
 ]
