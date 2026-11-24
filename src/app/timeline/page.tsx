@@ -1,44 +1,35 @@
 import type { Metadata } from "next";
-import { TimelineExplorer } from "@/components/timeline/TimelineExplorer";
-import { EpochSectionHeader, EpochNav } from "@/components/timeline/EpochSectionHeader";
+import { TimelineInteractiveContainer } from "@/components/timeline/TimelineInteractiveContainer";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { getTimelineGroups } from "@/services/timeline";
+import { getTimelinePageData } from "@/services/timeline";
 
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "Timeline Explorer | Dòng thời gian Lịch sử",
-  description: "Explore the events and civilizations that shaped human history. Khám phá các sự kiện và nền văn minh định hình lịch sử nhân loại.",
+  title: "Timeline Explorer | Dòng thời gian Văn minh Tương tác",
+  description:
+    "Interactive journey across human history - explore epochs, civilizations, and turning-point events with zoomable views and dynamic filters.",
 };
 
 export default async function TimelinePage() {
-  const groups = await getTimelineGroups();
-  const epochsList = groups.map((g) => g.epoch);
+  const { groups, civilizations } = await getTimelinePageData();
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <PageHeader
         badgeEn="Explore history"
         badgeVi="Khám phá lịch sử"
-        titleEn="Timeline Explorer"
-        titleVi="Khám phá Dòng thời gian"
-        descriptionEn="Move through the ages and select a milestone to learn more."
-        descriptionVi="Du hành qua các thời đại lịch sử và chọn từng cột mốc để tìm hiểu chi tiết."
+        titleEn="Interactive Civilization Timeline"
+        titleVi="Dòng thời gian Văn minh Tương tác"
+        descriptionEn="Move through the ages from the dawn of humanity to the AI era. Filter by epoch, civilization, or zoom into specific milestones."
+        descriptionVi="Du hành qua các thời đại từ buổi bình minh của nhân loại đến kỷ nguyên AI. Lọc theo kỷ nguyên, nền văn minh, hoặc phóng to/thu nhỏ dải thời gian theo nhu cầu."
       />
 
-      <EpochNav epochsList={epochsList} />
-
-      <div className="mt-12 space-y-16">
-        {groups.map(({ epoch, items }) => (
-          <section key={epoch.id} id={epoch.id} aria-labelledby={`${epoch.id}-heading`} className="scroll-mt-8">
-            <EpochSectionHeader epoch={epoch} />
-            {items.length > 0 ? (
-              <TimelineExplorer items={items} />
-            ) : (
-              <p className="text-slate-500">No entries for this phase yet. / Chưa có mục nào cho giai đoạn này.</p>
-            )}
-          </section>
-        ))}
+      <div className="mt-8">
+        <TimelineInteractiveContainer
+          groups={groups}
+          civilizations={civilizations}
+        />
       </div>
     </div>
   );
