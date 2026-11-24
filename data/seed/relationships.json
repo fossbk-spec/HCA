@@ -2112,5 +2112,89 @@
     "targetSlug": "human-rights",
     "targetType": "IDEA",
     "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "secret-history-of-the-mongols",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "secret-history-of-the-mongols",
+    "sourceType": "BOOK",
+    "targetSlug": "satrapy-governance-model",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "kebra-nagast",
+    "sourceType": "BOOK",
+    "targetSlug": "monotheism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "kebra-nagast",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "conference-of-the-birds",
+    "sourceType": "BOOK",
+    "targetSlug": "philosophical-reconciliation-ijtihad",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "conference-of-the-birds",
+    "sourceType": "BOOK",
+    "targetSlug": "monotheism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "sir-gawain-and-the-green-knight",
+    "sourceType": "BOOK",
+    "targetSlug": "human-rights",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "sir-gawain-and-the-green-knight",
+    "sourceType": "BOOK",
+    "targetSlug": "rule-of-law",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "kojiki",
+    "sourceType": "BOOK",
+    "targetSlug": "cyclical-cosmic-time-and-long-count",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "kojiki",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "epic-of-alpamysh",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "epic-of-alpamysh",
+    "sourceType": "BOOK",
+    "targetSlug": "karma-and-samsara",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
   }
 ]
