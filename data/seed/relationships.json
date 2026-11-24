@@ -1811,5 +1811,68 @@
     "targetSlug": "artificial-intelligence",
     "targetType": "IDEA",
     "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "mahabharata",
+    "sourceType": "BOOK",
+    "targetSlug": "dharma",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "mahabharata",
+    "sourceType": "BOOK",
+    "targetSlug": "karma-and-samsara",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "ramayana",
+    "sourceType": "BOOK",
+    "targetSlug": "dharma",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "ramayana",
+    "sourceType": "BOOK",
+    "targetSlug": "ahimsa",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "shakuntala",
+    "sourceType": "BOOK",
+    "targetSlug": "dharma",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "beowulf",
+    "sourceType": "BOOK",
+    "targetSlug": "rule-of-law",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "song-of-roland",
+    "sourceType": "BOOK",
+    "targetSlug": "rule-of-law",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "divine-comedy",
+    "sourceType": "BOOK",
+    "targetSlug": "monotheism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "divine-comedy",
+    "sourceType": "BOOK",
+    "targetSlug": "citizenship",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
   }
 ]
