@@ -1,0 +1,1644 @@
+{
+  "timestamp": "2026-11-24T23:03:31.550Z",
+  "mode": "all_including_drafts",
+  "summary": {
+    "civilizations": 16,
+    "people": 28,
+    "events": 15,
+    "ideas": 3,
+    "books": 10,
+    "totalEntitiesExported": 72,
+    "mappedRelationships": 53,
+    "droppedRelationships": 148
+  },
+  "droppedRelationships": [
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "bach-dang-938",
+        "type": "OCCURRED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "bach-dang-river",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "bach-dang-938",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-tu-chu",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "nam-quoc-son-ha",
+        "type": "RELATED_TO",
+        "targetType": "THEME",
+        "targetSlug": "sovereignty-and-defense",
+        "note": "Bài thơ thường được dùng làm tư liệu cho chủ đề chủ quyền."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-bac-thuoc",
+        "type": "SUCCEEDED",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-tien-su-va-so-su",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-tu-chu",
+        "type": "SUCCEEDED",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-bac-thuoc",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-dau-doc-lap",
+        "type": "SUCCEEDED",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-tu-chu",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-ly-tran",
+        "type": "SUCCEEDED",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-dau-doc-lap",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-le-so",
+        "type": "SUCCEEDED",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-ly-tran",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-nam-bac-trieu-va-trinh-nguyen",
+        "type": "SUCCEEDED",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-le-so",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-tay-son-va-nha-nguyen",
+        "type": "SUCCEEDED",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-nam-bac-trieu-va-trinh-nguyen",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-can-hien-dai",
+        "type": "SUCCEEDED",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-tay-son-va-nha-nguyen",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-nuoc-van-lang",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-tien-su-va-so-su",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-nuoc-au-lac",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-tien-su-va-so-su",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-nuoc-van-xuan",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-bac-thuoc",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "chinh-quyen-khuc-thi",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-tu-chu",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-ngo",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-dau-doc-lap",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-dinh",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-dau-doc-lap",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-tien-le",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-dau-doc-lap",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-ly",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-ly-tran",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-tran",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-ly-tran",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-tu-chu",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "sovereignty-and-defense",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-dau-doc-lap",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "sovereignty-and-defense",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-ly-tran",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "sovereignty-and-defense",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khang-chien-chong-tan",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-tien-su-va-so-su",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khoi-nghia-hai-ba-trung",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-bac-thuoc",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khoi-nghia-ly-bi-lap-nuoc-van-xuan",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-bac-thuoc",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "cai-cach-khuc-hao",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-tu-chu",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "dep-loan-12-su-quan",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-dau-doc-lap",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khang-chien-chong-tong-981",
+        "type": "OCCURRED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "bach-dang-river",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khang-chien-chong-tong-981",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-dau-doc-lap",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "doi-do-ve-thang-long",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-ly-tran",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "tran-nhu-nguyet-1077",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-ly-tran",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "ly-thuong-kiet",
+        "type": "RELATED_TO",
+        "targetType": "POLITY",
+        "targetSlug": "nha-ly",
+        "note": "Thái úy phụ quốc triều Lý."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "ly-thai-to",
+        "type": "AUTHORED",
+        "targetType": "DOCUMENT",
+        "targetSlug": "chieu-doi-do",
+        "note": null
+      },
+      "reason": "Relationship type AUTHORED has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "tran-hung-dao",
+        "type": "AUTHORED",
+        "targetType": "DOCUMENT",
+        "targetSlug": "hich-tuong-si",
+        "note": null
+      },
+      "reason": "Relationship type AUTHORED has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "nguyen-trai",
+        "type": "AUTHORED",
+        "targetType": "DOCUMENT",
+        "targetSlug": "binh-ngo-dai-cao",
+        "note": null
+      },
+      "reason": "Relationship type AUTHORED has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-nuoc-au-lac",
+        "type": "LOCATED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "thanh-co-loa",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-ngo",
+        "type": "LOCATED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "thanh-co-loa",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-dinh",
+        "type": "LOCATED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "co-do-hoa-lu",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-tien-le",
+        "type": "LOCATED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "co-do-hoa-lu",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-ly",
+        "type": "LOCATED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "hoang-thanh-thang-long",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-tran",
+        "type": "LOCATED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "hoang-thanh-thang-long",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "doi-do-ve-thang-long",
+        "type": "OCCURRED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "hoang-thanh-thang-long",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "tran-nhu-nguyet-1077",
+        "type": "OCCURRED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "phong-tuyen-nhu-nguyet",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "thanh-co-loa",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-tien-su-va-so-su",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "co-do-hoa-lu",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-dau-doc-lap",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "hoang-thanh-thang-long",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-ly-tran",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "phong-tuyen-nhu-nguyet",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-ly-tran",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "co-do-hoa-lu",
+        "type": "MENTIONED_IN",
+        "targetType": "DOCUMENT",
+        "targetSlug": "chieu-doi-do",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-dinh",
+        "type": "MENTIONED_IN",
+        "targetType": "DOCUMENT",
+        "targetSlug": "binh-ngo-dai-cao",
+        "note": null
+      },
+      "reason": "Relationship type MENTIONED_IN has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-ly",
+        "type": "MENTIONED_IN",
+        "targetType": "DOCUMENT",
+        "targetSlug": "binh-ngo-dai-cao",
+        "note": null
+      },
+      "reason": "Relationship type MENTIONED_IN has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-tran",
+        "type": "MENTIONED_IN",
+        "targetType": "DOCUMENT",
+        "targetSlug": "binh-ngo-dai-cao",
+        "note": null
+      },
+      "reason": "Relationship type MENTIONED_IN has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-le-so",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "state-governance-and-law",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-tu-chu",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "state-governance-and-law",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-ly-tran",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "culture-and-thought",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-can-hien-dai",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "sovereignty-and-defense",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "quoc-trieu-hinh-luat",
+        "type": "RELATED_TO",
+        "targetType": "THEME",
+        "targetSlug": "state-governance-and-law",
+        "note": "Bộ luật tiêu biểu cho chủ đề quản trị nhà nước và pháp luật thời phong kiến."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "binh-ngo-dai-cao",
+        "type": "RELATED_TO",
+        "targetType": "THEME",
+        "targetSlug": "sovereignty-and-defense",
+        "note": "Bản đại cáo khẳng định vững chắc chủ quyền quốc gia Đại Việt."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "hich-tuong-si",
+        "type": "RELATED_TO",
+        "targetType": "THEME",
+        "targetSlug": "sovereignty-and-defense",
+        "note": "Văn kiện động viên tinh thần bảo vệ chủ quyền tổ quốc thời Trần."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "tran-hung-dao",
+        "type": "RELATED_TO",
+        "targetType": "POLITY",
+        "targetSlug": "nha-tran",
+        "note": "Quốc công Tiết chế thống lĩnh quân sự triều Trần."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "nguyen-trai",
+        "type": "RELATED_TO",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-le-so",
+        "note": "Khai quốc công thần và đại thần phụ chính thời Lê sơ."
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "chinh-quyen-chua-trinh",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-nam-bac-trieu-va-trinh-nguyen",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "chinh-quyen-chua-nguyen",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-nam-bac-trieu-va-trinh-nguyen",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-tay-son",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-tay-son-va-nha-nguyen",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-nguyen",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-tay-son-va-nha-nguyen",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "chien-thang-ngoc-hoi-dong-da",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-tay-son-va-nha-nguyen",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "chien-thang-ngoc-hoi-dong-da",
+        "type": "OCCURRED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "hoang-thanh-thang-long",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "kinh-do-hue",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-tay-son-va-nha-nguyen",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-tay-son",
+        "type": "LOCATED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "kinh-do-hue",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-nguyen",
+        "type": "LOCATED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "kinh-do-hue",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "nguyen-hue",
+        "type": "AUTHORED",
+        "targetType": "DOCUMENT",
+        "targetSlug": "chieu-cau-hien",
+        "note": null
+      },
+      "reason": "Relationship type AUTHORED has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-nam-bac-trieu-va-trinh-nguyen",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "state-governance-and-law",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERIOD",
+        "sourceSlug": "thoi-ky-tay-son-va-nha-nguyen",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "sovereignty-and-defense",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "chieu-cau-hien",
+        "type": "RELATED_TO",
+        "targetType": "THEME",
+        "targetSlug": "culture-and-thought",
+        "note": "Văn kiện tiêu biểu cho tư tưởng trọng dụng hiền tài thời Quang Trung."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "vuong-quoc-phu-nam",
+        "type": "LOCATED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "khu-di-tich-oc-eo",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "vuong-quoc-phu-nam",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-bac-thuoc",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "khu-di-tich-oc-eo",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "culture-and-thought",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "vuong-quoc-champa",
+        "type": "LOCATED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "thanh-dia-my-son",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "vuong-quoc-champa",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-bac-thuoc",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "thanh-dia-my-son",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "culture-and-thought",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khang-chien-chong-mong-nguyen",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-ly-tran",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khang-chien-chong-mong-nguyen",
+        "type": "OCCURRED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "bach-dang-river",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khang-chien-chong-mong-nguyen",
+        "type": "OCCURRED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "hoang-thanh-thang-long",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khang-chien-chong-mong-nguyen",
+        "type": "MENTIONED_IN",
+        "targetType": "DOCUMENT",
+        "targetSlug": "hich-tuong-si",
+        "note": null
+      },
+      "reason": "Relationship type MENTIONED_IN has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khoi-nghia-lam-son",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-le-so",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khoi-nghia-lam-son",
+        "type": "MENTIONED_IN",
+        "targetType": "DOCUMENT",
+        "targetSlug": "binh-ngo-dai-cao",
+        "note": null
+      },
+      "reason": "Relationship type MENTIONED_IN has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-le-so",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-le-so",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "POLITY",
+        "sourceSlug": "nha-le-so",
+        "type": "LOCATED_IN",
+        "targetType": "PLACE",
+        "targetSlug": "hoang-thanh-thang-long",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "le-loi",
+        "type": "MENTIONED_IN",
+        "targetType": "DOCUMENT",
+        "targetSlug": "binh-ngo-dai-cao",
+        "note": null
+      },
+      "reason": "Relationship type MENTIONED_IN has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "quoc-trieu-hinh-luat",
+        "type": "RELATED_TO",
+        "targetType": "POLITY",
+        "targetSlug": "nha-le-so",
+        "note": "Bộ luật pháp điển hóa cao nhất của triều đại Lê sơ."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "dai-viet-su-ky-toan-thu",
+        "type": "RELATED_TO",
+        "targetType": "THEME",
+        "targetSlug": "culture-and-thought",
+        "note": "Bộ quốc sử biên niên mẫu mực xác lập chính thống và ý thức lịch sử Đại Việt."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "dai-viet-su-ky-toan-thu",
+        "type": "RELATED_TO",
+        "targetType": "POLITY",
+        "targetSlug": "nha-le-so",
+        "note": "Bộ sử được Ngô Sĩ Liên và Sử quán triều Hậu Lê biên soạn và đệ trình."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "linh-nam-chich-quai",
+        "type": "RELATED_TO",
+        "targetType": "THEME",
+        "targetSlug": "culture-and-thought",
+        "note": "Tập hợp các huyền tích và thần thoại cội nguồn dân tộc Việt."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "linh-nam-chich-quai",
+        "type": "RELATED_TO",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-tien-su-va-so-su",
+        "note": "Lưu giữ ký ức thời kỳ Hồng Bàng, dựng nước Văn Lang và Âu Lạc."
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "viet-dien-u-linh-tap",
+        "type": "RELATED_TO",
+        "targetType": "THEME",
+        "targetSlug": "culture-and-thought",
+        "note": "Ghi chép hệ thống thần tích và anh linh hộ quốc an dân của Đại Việt."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "viet-dien-u-linh-tap",
+        "type": "RELATED_TO",
+        "targetType": "POLITY",
+        "targetSlug": "nha-tran",
+        "note": "Lý Tế Xuyên hoàn thành tác phẩm vào năm 1329 dưới triều vua Trần Hiến Tông."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "truyen-kieu",
+        "type": "RELATED_TO",
+        "targetType": "THEME",
+        "targetSlug": "culture-and-thought",
+        "note": "Đỉnh cao tuyệt bích của thi pháp truyện thơ Nôm và ngôn ngữ văn học tiếng Việt."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "DOCUMENT",
+        "sourceSlug": "truyen-kieu",
+        "type": "RELATED_TO",
+        "targetType": "POLITY",
+        "targetSlug": "nha-nguyen",
+        "note": "Sáng tác vào đầu triều đại nhà Nguyễn dưới thời vua Gia Long."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "tran-nhan-tong",
+        "type": "RELATED_TO",
+        "targetType": "PLACE",
+        "targetSlug": "yen-tu",
+        "note": "Phật hoàng Trần Nhân Tông xuất gia tu hành tại núi Yên Tử và khai sáng Thiền phái Trúc Lâm."
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "le-thanh-tong",
+        "type": "RELATED_TO",
+        "targetType": "DOCUMENT",
+        "targetSlug": "quoc-trieu-hinh-luat",
+        "note": "Lê Thánh Tông chỉ đạo san định và ban hành bộ Quốc triều hình luật (Luật Hồng Đức)."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "nguyen-du",
+        "type": "AUTHORED",
+        "targetType": "DOCUMENT",
+        "targetSlug": "truyen-kieu",
+        "note": null
+      },
+      "reason": "Relationship type AUTHORED has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "nguyen-du",
+        "type": "RELATED_TO",
+        "targetType": "POLITY",
+        "targetSlug": "nha-nguyen",
+        "note": "Nguyễn Du ra làm quan triều Nguyễn dưới thời vua Gia Long và đi sứ sang nhà Thanh."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "hai-thuong-lan-ong",
+        "type": "RELATED_TO",
+        "targetType": "POLITY",
+        "targetSlug": "chinh-quyen-chua-trinh",
+        "note": "Lê Hữu Trác từng được triệu vào phủ chúa Trịnh tại Thăng Long chữa bệnh, để lại tác phẩm Thượng kinh ký sự."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "hai-thuong-lan-ong",
+        "type": "RELATED_TO",
+        "targetType": "THEME",
+        "targetSlug": "culture-and-thought",
+        "note": "Đại danh y đặt nền móng y học cổ truyền và y đức nhân đạo dân tộc."
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "yen-tu",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "culture-and-thought",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "yen-tu",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-ly-tran",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "thanh-nha-ho",
+        "type": "PART_OF",
+        "targetType": "THEME",
+        "targetSlug": "culture-and-thought",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "thanh-nha-ho",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-ly-tran",
+        "note": null
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "type": "PART_OF",
+        "sourceSlug": "di-chi-dong-son",
+        "targetSlug": "thoi-tien-su-va-so-su",
+        "note": "Di tích khảo cổ học trung tâm thời đại Kim khí thuộc thời kỳ tiền sử và sơ sử Việt Nam",
+        "sourceType": "PLACE",
+        "targetType": "PERIOD"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "type": "RELATED_TO",
+        "sourceSlug": "di-chi-dong-son",
+        "targetSlug": "nha-nuoc-van-lang",
+        "note": "Cái nôi văn hóa Đông Sơn tạo dựng cơ sở vật chất và văn hóa nền tảng cho nhà nước Văn Lang thời các Vua Hùng",
+        "sourceType": "PLACE",
+        "targetType": "POLITY"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "type": "PART_OF",
+        "sourceSlug": "di-chi-sa-huynh",
+        "targetSlug": "thoi-tien-su-va-so-su",
+        "note": "Quần thể di tích khảo cổ học trung tâm thời đại đồ sắt duyên hải miền Trung thời tiền sử và sơ sử",
+        "sourceType": "PLACE",
+        "targetType": "PERIOD"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "type": "RELATED_TO",
+        "sourceSlug": "di-chi-sa-huynh",
+        "targetSlug": "vuong-quoc-champa",
+        "note": "Cơ sở khảo cổ học và văn hóa tiền thân trực tiếp hình thành nên Vương quốc Lâm Ấp - Champa cổ đại",
+        "sourceType": "PLACE",
+        "targetType": "POLITY"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "type": "RELATED_TO",
+        "sourceSlug": "chu-van-an",
+        "targetSlug": "nha-tran",
+        "note": "Tư nghiệp Quốc Tử Giám mẫu mực bậc nhất dưới triều đại nhà Trần",
+        "sourceType": "PERSON",
+        "targetType": "POLITY"
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "type": "RELATED_TO",
+        "sourceSlug": "chu-van-an",
+        "targetSlug": "hoang-thanh-thang-long",
+        "note": "Dạy học và đào tạo nhân tài rường cột quốc gia tại Quốc Tử Giám Thăng Long",
+        "sourceType": "PERSON",
+        "targetType": "PLACE"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "type": "RELATED_TO",
+        "sourceSlug": "chu-van-an",
+        "targetSlug": "tran-nhan-tong",
+        "note": "Kế thừa và lan tỏa tinh thần đạo học thanh cao cùng khí phách trí thức thời Trần",
+        "sourceType": "PERSON",
+        "targetType": "PERSON"
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "type": "RELATED_TO",
+        "sourceSlug": "nguyen-binh-khiem",
+        "targetSlug": "thoi-ky-nam-bac-trieu-va-trinh-nguyen",
+        "note": "Bậc đại trí tuệ và nhà tư tưởng chiến lược hàng đầu thời kỳ Nam Bắc triều",
+        "sourceType": "PERSON",
+        "targetType": "PERIOD"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "type": "RELATED_TO",
+        "sourceSlug": "nguyen-binh-khiem",
+        "targetSlug": "chinh-quyen-chua-nguyen",
+        "note": "Lời khuyên chiến lược Hoành Sơn nhất đái vạn đại dung thân định hướng sự nghiệp chúa Nguyễn mở cõi",
+        "sourceType": "PERSON",
+        "targetType": "POLITY"
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "type": "RELATED_TO",
+        "sourceSlug": "nguyen-binh-khiem",
+        "targetSlug": "chinh-quyen-chua-trinh",
+        "note": "Lời khuyên chiến lược Giữ chùa thờ Phật thì ăn oản gửi gắm đến chúa Trịnh Kiểm",
+        "sourceType": "PERSON",
+        "targetType": "POLITY"
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "den-hung",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-tien-su-va-so-su",
+        "note": "Trung tâm không gian văn hóa cội nguồn thời kỳ tiền sử và sơ sử"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "den-hung",
+        "type": "RELATED_TO",
+        "targetType": "POLITY",
+        "targetSlug": "nha-nuoc-van-lang",
+        "note": "Trung tâm tín ngưỡng và cội nguồn của nhà nước Văn Lang thời các Vua Hùng"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "lam-kinh",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-le-so",
+        "note": "Kinh đô thứ hai và trung tâm sơn lăng hoàng gia thời Lê sơ"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "lam-kinh",
+        "type": "RELATED_TO",
+        "targetType": "POLITY",
+        "targetSlug": "nha-le-so",
+        "note": "Kinh đô thứ hai và khu sơn lăng lăng tẩm tôn nghiêm của vương triều Lê sơ"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "le-loi",
+        "type": "RELATED_TO",
+        "targetType": "PLACE",
+        "targetSlug": "lam-kinh",
+        "note": "Quê hương Lam Sơn phát tích khởi nghĩa và nơi an nghỉ Vĩnh Lăng của vua Lê Thái Tổ"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "con-son-kiep-bac",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-ly-tran",
+        "note": "Trung tâm phòng tuyến quân sự Vạn Kiếp và chốn thiền lâm thời Lý - Trần"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "tran-hung-dao",
+        "type": "RELATED_TO",
+        "targetType": "PLACE",
+        "targetSlug": "con-son-kiep-bac",
+        "note": "Đại bản doanh Vạn Kiếp và đền phụng thờ Quốc công Tiết chế Trần Hưng Đạo"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "nguyen-trai",
+        "type": "RELATED_TO",
+        "targetType": "PLACE",
+        "targetSlug": "con-son-kiep-bac",
+        "note": "Nơi gắn bó tuổi thơ, ẩn cư viết Côn Sơn ca và khu lưu niệm anh hùng Nguyễn Trãi"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "trieu-thi-trinh",
+        "type": "RELATED_TO",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-bac-thuoc",
+        "note": "Nữ anh hùng lãnh đạo cuộc khởi nghĩa năm 248 chống quân xâm lược Đông Ngô"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "trieu-thi-trinh",
+        "type": "RELATED_TO",
+        "targetType": "PERSON",
+        "targetSlug": "hai-ba-trung",
+        "note": "Tiếp nối ngọn cờ quật khởi kiên trinh bất khuất của Hai Bà Trưng trong lịch sử"
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "phung-hung",
+        "type": "RELATED_TO",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-bac-thuoc",
+        "note": "Thủ lĩnh khởi nghĩa đánh chiếm phủ thành Tống Bình lật đổ ách đô hộ nhà Đường"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "phung-hung",
+        "type": "RELATED_TO",
+        "targetType": "PLACE",
+        "targetSlug": "hoang-thanh-thang-long",
+        "note": "Đóng quân và quản lý đất nước tại khu vực phủ thành Tống Bình"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "phan-boi-chau",
+        "type": "RELATED_TO",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-can-hien-dai",
+        "note": "Chí sĩ cách mạng khởi xướng phong trào Duy Tân và phong trào Đông Du đầu thế kỷ XX"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "phan-boi-chau",
+        "type": "RELATED_TO",
+        "targetType": "PLACE",
+        "targetSlug": "kinh-do-hue",
+        "note": "Nơi nhà chí sĩ yêu nước bị an trí tại dốc Bến Ngự trong những năm tháng cuối đời"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "di-chi-hoa-binh",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-tien-su-va-so-su",
+        "note": "Cái nôi thời đại đồ đá tiêu biểu thuộc thời kỳ tiền sử và sơ sử"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "di-chi-hoa-binh",
+        "type": "RELATED_TO",
+        "targetType": "PLACE",
+        "targetSlug": "di-chi-dong-son",
+        "note": "Tiền đề phát triển kỹ nghệ công cụ đá trước khi bước sang thời đại kim khí Đông Sơn"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "ben-nha-rong",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-can-hien-dai",
+        "note": "Địa danh lịch sử gắn liền với sự kiện ra đi tìm đường cứu nước năm 1911"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "dia-dao-cu-chi",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-can-hien-dai",
+        "note": "Kỳ quan nghệ thuật quân sự ngầm trong cuộc kháng chiến chống Mỹ cứu nước"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "cot-co-ha-noi",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-tay-son-va-nha-nguyen",
+        "note": "Công trình kỳ đài xây dựng đầu thời Nguyễn tại kinh thành Thăng Long"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PLACE",
+        "sourceSlug": "cot-co-ha-noi",
+        "type": "RELATED_TO",
+        "targetType": "PLACE",
+        "targetSlug": "hoang-thanh-thang-long",
+        "note": "Kỳ đài bề thế nằm trong quần thể di sản Hoàng thành Thăng Long"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "trieu-quang-phuc",
+        "type": "RELATED_TO",
+        "targetType": "PERSON",
+        "targetSlug": "ly-bi",
+        "note": "Bộ tướng tin cậy được Lý Nam Đế trao binh quyền lãnh đạo kháng chiến chống quân Lương"
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "mai-thuc-loan",
+        "type": "RELATED_TO",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-bac-thuoc",
+        "note": "Thủ lĩnh quật khởi xưng Đế đánh đổ ách đô hộ của nhà Đường"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "khuc-thua-du",
+        "type": "RELATED_TO",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-tu-chu",
+        "note": "Người mở đầu thời kỳ tự chủ dân tộc thế kỷ X"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "phan-chau-trinh",
+        "type": "RELATED_TO",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-can-hien-dai",
+        "note": "Nhà cải cách dân chủ tiên phong lãnh đạo phong trào Duy Tân đầu thế kỷ XX"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "phan-chau-trinh",
+        "type": "RELATED_TO",
+        "targetType": "PERSON",
+        "targetSlug": "phan-boi-chau",
+        "note": "Hai linh hồn kiệt xuất đồng thời là hai khuynh hướng cứu nước bổ sung cho nhau"
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "hoang-hoa-tham",
+        "type": "RELATED_TO",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-can-hien-dai",
+        "note": "Thủ lĩnh tối cao của cuộc khởi nghĩa Yên Thế chống thực dân Pháp"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "PERSON",
+        "sourceSlug": "hoang-hoa-tham",
+        "type": "RELATED_TO",
+        "targetType": "PERSON",
+        "targetSlug": "phan-boi-chau",
+        "note": "Liên minh yêu nước che chở cán bộ phong trào Đông Du tại căn cứ Yên Thế"
+      },
+      "reason": "Relationship type RELATED_TO has no direct equivalent in HCA 1.1 ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khoi-nghia-mai-thuc-loan",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-bac-thuoc",
+        "note": "Cuộc khởi nghĩa quy mô lớn nhất thế kỷ VIII thời kỳ Bắc thuộc"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "khoi-nghia-ba-trieu",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-bac-thuoc",
+        "note": "Cuộc khởi nghĩa vũ trang oanh liệt chống quân xâm lược Đông Ngô năm 248"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    },
+    {
+      "rel": {
+        "sourceType": "EVENT",
+        "sourceSlug": "chien-dich-dien-bien-phu",
+        "type": "PART_OF",
+        "targetType": "PERIOD",
+        "targetSlug": "thoi-ky-can-hien-dai",
+        "note": "Chiến dịch quyết chiến chiến lược kết thúc thắng lợi cuộc kháng chiến chống thực dân Pháp"
+      },
+      "reason": "One or both endpoints are not exported in HCA ontology"
+    }
+  ]
+}

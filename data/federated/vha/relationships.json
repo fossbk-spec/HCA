@@ -1,0 +1,373 @@
+[
+  {
+    "sourceSlug": "vha-ngo-quyen",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-bach-dang-938",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-ngo-quyen",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-ngo",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-bach-dang-938",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-nha-nuoc-van-lang",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-nha-nuoc-au-lac",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "SUCCEEDED_BY"
+  },
+  {
+    "sourceSlug": "vha-chinh-quyen-khuc-thi",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-nha-ngo",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "SUCCEEDED_BY"
+  },
+  {
+    "sourceSlug": "vha-nha-ngo",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-nha-dinh",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "SUCCEEDED_BY"
+  },
+  {
+    "sourceSlug": "vha-nha-dinh",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-nha-tien-le",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "SUCCEEDED_BY"
+  },
+  {
+    "sourceSlug": "vha-nha-tien-le",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-nha-ly",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "SUCCEEDED_BY"
+  },
+  {
+    "sourceSlug": "vha-nha-ly",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-nha-tran",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "SUCCEEDED_BY"
+  },
+  {
+    "sourceSlug": "vha-chinh-quyen-chua-nguyen",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-nha-tay-son",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "SUCCEEDED_BY"
+  },
+  {
+    "sourceSlug": "vha-nha-tay-son",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-nha-nguyen",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "SUCCEEDED_BY"
+  },
+  {
+    "sourceSlug": "vha-an-duong-vuong",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-nuoc-au-lac",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-an-duong-vuong",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khang-chien-chong-tan",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-khang-chien-chong-tan",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-hai-ba-trung",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-hai-ba-trung",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-khoi-nghia-hai-ba-trung",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-ly-bi",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-nuoc-van-xuan",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-ly-bi",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-ly-bi-lap-nuoc-van-xuan",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-khoi-nghia-ly-bi-lap-nuoc-van-xuan",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-khuc-hao",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chinh-quyen-khuc-thi",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-khuc-hao",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-cai-cach-khuc-hao",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-dinh-tien-hoang",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-dinh",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-dinh-tien-hoang",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-dep-loan-12-su-quan",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-dep-loan-12-su-quan",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-le-dai-hanh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-tien-le",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-le-dai-hanh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khang-chien-chong-tong-981",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-khang-chien-chong-tong-981",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-ly-thai-to",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-ly",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-ly-thai-to",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-doi-do-ve-thang-long",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-ly-thuong-kiet",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-tran-nhu-nguyet-1077",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-tran-nhu-nguyet-1077",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-chien-thang-ngoc-hoi-dong-da",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-nguyen-hoang",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chinh-quyen-chua-nguyen",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-nguyen-hue",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-tay-son",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-nguyen-hue",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chien-thang-ngoc-hoi-dong-da",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-vuong-quoc-phu-nam",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-vuong-quoc-champa",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-khang-chien-chong-mong-nguyen",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-nha-tran",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-khang-chien-chong-mong-nguyen",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-tran-hung-dao",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khang-chien-chong-mong-nguyen",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-khoi-nghia-lam-son",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-le-loi",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-lam-son",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-nguyen-trai",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-lam-son",
+    "targetType": "EVENT",
+    "relationshipType": "PARTICIPATED_IN"
+  },
+  {
+    "sourceSlug": "vha-nha-tran",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-nha-le-so",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "SUCCEEDED_BY"
+  },
+  {
+    "sourceSlug": "vha-nha-le-so",
+    "sourceType": "CIVILIZATION",
+    "targetSlug": "vha-chinh-quyen-chua-trinh",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "SUCCEEDED_BY"
+  },
+  {
+    "sourceSlug": "vha-le-loi",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-le-so",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-tran-nhan-tong",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-tran",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-tran-nhan-tong",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khang-chien-chong-mong-nguyen",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-le-thanh-tong",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-le-so",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-trieu-quang-phuc",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-nuoc-van-xuan",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-mai-thuc-loan",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-mai-thuc-loan",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-khuc-thua-du",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chinh-quyen-khuc-thi",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-trieu-thi-trinh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-ba-trieu",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  }
+]
