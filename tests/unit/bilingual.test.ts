@@ -21,7 +21,7 @@ test("bilingual dataset coverage across all 5 seed files", () => {
 
   // 2. People
   const people = JSON.parse(fs.readFileSync(path.join(seedDir, "people.json"), "utf-8"));
-  assert.equal(people.length, 100);
+  assert.equal(people.length, 102);
   for (const p of people) {
     assert.ok(p.nameVi && p.nameVi.trim().length > 0, `Person ${p.slug} missing nameVi`);
     assert.ok(p.occupationsVi && p.occupationsVi.trim().length > 0, `Person ${p.slug} missing occupationsVi`);

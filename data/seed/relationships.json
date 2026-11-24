@@ -1986,5 +1986,47 @@
     "targetSlug": "human-rights",
     "targetType": "IDEA",
     "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "le-loi",
+    "sourceType": "PERSON",
+    "targetSlug": "lam-son-uprising",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "le-loi",
+    "sourceType": "PERSON",
+    "targetSlug": "binh-ngo-dai-cao",
+    "targetType": "BOOK",
+    "relationshipType": "ISSUED"
+  },
+  {
+    "sourceSlug": "le-loi",
+    "sourceType": "PERSON",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "CHAMPIONED"
+  },
+  {
+    "sourceSlug": "nguyen-trai",
+    "sourceType": "PERSON",
+    "targetSlug": "le-loi",
+    "targetType": "PERSON",
+    "relationshipType": "ADVISED"
+  },
+  {
+    "sourceSlug": "quang-trung",
+    "sourceType": "PERSON",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "CHAMPIONED"
+  },
+  {
+    "sourceSlug": "quang-trung",
+    "sourceType": "PERSON",
+    "targetSlug": "vietnam",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
   }
 ]

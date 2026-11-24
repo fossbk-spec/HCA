@@ -6,6 +6,7 @@ import { useLanguage } from "@/context/LanguageContext";
 
 const navigationItems = [
   { href: "/chat", en: "AI Guide", vi: "Trợ lý AI" },
+  { href: "/compare", en: "Compare", vi: "Đối chiếu" },
   { href: "/map", en: "Map", vi: "Bản đồ" },
   { href: "/artifacts", en: "Artifacts", vi: "Cổ vật" },
   { href: "/timeline", en: "Timeline", vi: "Dòng thời gian" },
