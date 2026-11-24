@@ -3,7 +3,12 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
-import { CIVILIZATION_MAP_DATA, type CivilizationMapItem } from "@/lib/map-data";
+import {
+  CIVILIZATION_MAP_DATA,
+  GREAT_BOOKS_MAP_DATA,
+  type CivilizationMapItem,
+  type GreatBookMapItem,
+} from "@/lib/map-data";
 import {
   MapPin,
   Globe2,
@@ -13,16 +18,26 @@ import {
   BookOpen,
   ArrowRight,
   ShieldCheck,
+  Library,
+  Landmark,
 } from "lucide-react";
+
+type ActiveSelection =
+  | { kind: "CIVILIZATION"; item: CivilizationMapItem }
+  | { kind: "BOOK"; item: GreatBookMapItem };
 
 export function WorldMapExplorer() {
   const { language, t } = useLanguage();
   const isVi = language === "vi";
 
-  const [selectedSlug, setSelectedSlug] = useState<string>("vietnam");
-  const selected =
-    CIVILIZATION_MAP_DATA.find((item) => item.slug === selectedSlug) ??
-    CIVILIZATION_MAP_DATA[0];
+  const [activeLayer, setActiveLayer] = useState<"ALL" | "CIVILIZATIONS" | "BOOKS">("ALL");
+  const [selection, setSelection] = useState<ActiveSelection>({
+    kind: "CIVILIZATION",
+    item: CIVILIZATION_MAP_DATA.find((c) => c.slug === "vietnam") ?? CIVILIZATION_MAP_DATA[0],
+  });
+
+  const showCivs = activeLayer === "ALL" || activeLayer === "CIVILIZATIONS";
+  const showBooks = activeLayer === "ALL" || activeLayer === "BOOKS";
 
   return (
     <div className="space-y-8">
@@ -33,13 +48,50 @@ export function WorldMapExplorer() {
           <div className="flex items-center gap-2">
             <span className="flex size-2 rounded-full bg-emerald-400 animate-pulse" />
             <span className="font-mono text-stone-300 uppercase tracking-widest text-[11px]">
-              {t("Global Civilization Geographic Coordinate Grid", "Hệ thống Tọa độ Địa lý Các Nền Văn minh Cổ đại")}
+              {t(
+                "Global Geocartography & Literary Heritage Grid",
+                "Hệ thống Bản đồ Địa lý Văn minh & Kiệt tác Kinh điển Thế giới"
+              )}
             </span>
           </div>
-          <div className="flex items-center gap-2 text-stone-400 font-mono text-[11px]">
-            <span>10 {t("Cradles of Civilization", "Cái nôi Văn minh")}</span>
-            <span>•</span>
-            <span className="text-amber-400">Equirectangular Proj</span>
+
+          {/* Layer Selector Switch */}
+          <div className="flex items-center gap-1 rounded-xl bg-slate-900 border border-slate-800 p-1">
+            <button
+              type="button"
+              onClick={() => setActiveLayer("ALL")}
+              className={`rounded-lg px-2.5 py-1 text-[11px] font-medium transition-colors ${
+                activeLayer === "ALL"
+                  ? "bg-amber-400 text-slate-950 font-bold"
+                  : "text-stone-400 hover:text-stone-200"
+              }`}
+            >
+              {t("All Layers", "Tất cả")}
+            </button>
+            <button
+              type="button"
+              onClick={() => setActiveLayer("CIVILIZATIONS")}
+              className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-[11px] font-medium transition-colors ${
+                activeLayer === "CIVILIZATIONS"
+                  ? "bg-amber-400 text-slate-950 font-bold"
+                  : "text-stone-400 hover:text-stone-200"
+              }`}
+            >
+              <Landmark size={12} />
+              {t("10 Cradles", "10 Cái nôi")}
+            </button>
+            <button
+              type="button"
+              onClick={() => setActiveLayer("BOOKS")}
+              className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-[11px] font-medium transition-colors ${
+                activeLayer === "BOOKS"
+                  ? "bg-amber-400 text-slate-950 font-bold"
+                  : "text-stone-400 hover:text-stone-200"
+              }`}
+            >
+              <Library size={12} />
+              {t("14 Classics & Epics", "14 Địa danh Sử thi")}
+            </button>
           </div>
         </div>
 
@@ -76,211 +128,347 @@ export function WorldMapExplorer() {
             <path d="M790 390 Q890 390 880 470 Q810 480 790 420 Z" />
           </svg>
 
-          {/* Interactive Civilization Pins */}
-          {CIVILIZATION_MAP_DATA.map((civ) => {
-            const isSelected = civ.slug === selected.slug;
-            const isVietnam = civ.slug === "vietnam";
+          {/* LAYER 1: Civilization Cradles Pins */}
+          {showCivs &&
+            CIVILIZATION_MAP_DATA.map((civ) => {
+              const isSelected = selection.kind === "CIVILIZATION" && selection.item.slug === civ.slug;
+              const isVietnam = civ.slug === "vietnam";
 
-            return (
-              <div
-                key={civ.slug}
-                style={{
-                  left: `${civ.coord.xPercent}%`,
-                  top: `${civ.coord.yPercent}%`,
-                }}
-                className="absolute -translate-x-1/2 -translate-y-1/2 group z-20 cursor-pointer"
-              >
-                {/* Sonar Pulsing Ring for Selected/Vietnam */}
-                {isSelected && (
-                  <span className="absolute -inset-3 rounded-full bg-amber-400/30 animate-ping pointer-events-none" />
-                )}
-
-                <button
-                  type="button"
-                  onClick={() => setSelectedSlug(civ.slug)}
-                  className={`relative flex items-center justify-center rounded-full transition-all transform hover:scale-125 focus:outline-none ${
-                    isSelected
-                      ? "size-8 bg-amber-400 text-slate-950 shadow-lg shadow-amber-400/50 ring-4 ring-amber-300/30 font-bold scale-110"
-                      : isVietnam
-                      ? "size-7 bg-red-600 text-amber-300 shadow-md ring-2 ring-amber-400/80 hover:bg-red-500"
-                      : "size-6 bg-slate-800 text-amber-400 border border-amber-400/50 hover:bg-amber-400 hover:text-slate-950"
-                  }`}
-                  aria-label={`${civ.nameVi} (${civ.name})`}
-                >
-                  <MapPin size={isSelected ? 16 : 13} />
-                </button>
-
-                {/* Pin Tooltip Card */}
+              return (
                 <div
-                  className={`pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 whitespace-nowrap rounded-lg px-2.5 py-1 text-xs font-semibold shadow-lg transition-opacity duration-200 z-30 ${
-                    isSelected
-                      ? "bg-amber-400 text-slate-950 opacity-100"
-                      : "bg-slate-900/90 text-stone-200 border border-slate-700 opacity-0 group-hover:opacity-100"
-                  }`}
+                  key={`civ-${civ.slug}`}
+                  style={{
+                    left: `${civ.coord.xPercent}%`,
+                    top: `${civ.coord.yPercent}%`,
+                  }}
+                  className="absolute -translate-x-1/2 -translate-y-1/2 group z-20 cursor-pointer"
                 >
-                  {isVi ? civ.nameVi : civ.name}
-                  {isVietnam && " 🇻🇳"}
+                  {isSelected && (
+                    <span className="absolute -inset-3 rounded-full bg-amber-400/30 animate-ping pointer-events-none" />
+                  )}
+
+                  <button
+                    type="button"
+                    onClick={() => setSelection({ kind: "CIVILIZATION", item: civ })}
+                    className={`relative flex items-center justify-center rounded-full transition-all transform hover:scale-125 focus:outline-none ${
+                      isSelected
+                        ? "size-8 bg-amber-400 text-slate-950 shadow-lg shadow-amber-400/50 ring-4 ring-amber-300/30 font-bold scale-110"
+                        : isVietnam
+                        ? "size-7 bg-red-600 text-amber-300 shadow-md ring-2 ring-amber-400/80 hover:bg-red-500"
+                        : "size-6 bg-slate-800 text-amber-400 border border-amber-400/50 hover:bg-amber-400 hover:text-slate-950"
+                    }`}
+                    aria-label={`${civ.nameVi} (${civ.name})`}
+                  >
+                    <Landmark size={isSelected ? 16 : 13} />
+                  </button>
+
+                  <div
+                    className={`pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 whitespace-nowrap rounded-lg px-2.5 py-1 text-xs font-semibold shadow-lg transition-opacity duration-200 z-30 ${
+                      isSelected
+                        ? "bg-amber-400 text-slate-950 opacity-100"
+                        : "bg-slate-900/90 text-stone-200 border border-slate-700 opacity-0 group-hover:opacity-100"
+                    }`}
+                  >
+                    {isVi ? civ.nameVi : civ.name}
+                    {isVietnam && " 🇻🇳"}
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+
+          {/* LAYER 2: Great Books & World Epics Pins */}
+          {showBooks &&
+            GREAT_BOOKS_MAP_DATA.map((book) => {
+              const isSelected = selection.kind === "BOOK" && selection.item.slug === book.slug;
+
+              return (
+                <div
+                  key={`book-${book.slug}`}
+                  style={{
+                    left: `${book.coord.xPercent}%`,
+                    top: `${book.coord.yPercent}%`,
+                  }}
+                  className="absolute -translate-x-1/2 -translate-y-1/2 group z-20 cursor-pointer"
+                >
+                  {isSelected && (
+                    <span className="absolute -inset-3 rounded-full bg-cyan-400/30 animate-ping pointer-events-none" />
+                  )}
+
+                  <button
+                    type="button"
+                    onClick={() => setSelection({ kind: "BOOK", item: book })}
+                    className={`relative flex items-center justify-center rounded-full transition-all transform hover:scale-125 focus:outline-none ${
+                      isSelected
+                        ? "size-8 bg-cyan-400 text-slate-950 shadow-lg shadow-cyan-400/50 ring-4 ring-cyan-300/30 font-bold scale-110"
+                        : "size-5 bg-sky-950 text-cyan-300 border border-cyan-400/60 hover:bg-cyan-400 hover:text-slate-950"
+                    }`}
+                    aria-label={`${book.titleVi} (${book.locationNameVi})`}
+                  >
+                    <BookOpen size={isSelected ? 15 : 11} />
+                  </button>
+
+                  <div
+                    className={`pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 whitespace-nowrap rounded-lg px-2.5 py-1 text-xs font-semibold shadow-lg transition-opacity duration-200 z-30 ${
+                      isSelected
+                        ? "bg-cyan-400 text-slate-950 opacity-100"
+                        : "bg-slate-900/90 text-cyan-200 border border-cyan-700/60 opacity-0 group-hover:opacity-100"
+                    }`}
+                  >
+                    📖 {isVi ? book.titleVi : book.title}
+                  </div>
+                </div>
+              );
+            })}
         </div>
 
-        {/* Quick Civilization Jump Chips */}
+        {/* Quick Jump Chips */}
         <div className="mt-4 flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
-          {CIVILIZATION_MAP_DATA.map((civ) => {
-            const isSelected = civ.slug === selected.slug;
-            const isVietnam = civ.slug === "vietnam";
+          {showCivs &&
+            CIVILIZATION_MAP_DATA.map((civ) => {
+              const isSelected = selection.kind === "CIVILIZATION" && selection.item.slug === civ.slug;
+              const isVietnam = civ.slug === "vietnam";
 
-            return (
-              <button
-                key={civ.slug}
-                type="button"
-                onClick={() => setSelectedSlug(civ.slug)}
-                className={`shrink-0 rounded-xl px-3 py-1.5 text-xs font-medium transition-all ${
-                  isSelected
-                    ? "bg-amber-400 text-slate-950 font-bold shadow-sm"
-                    : isVietnam
-                    ? "border border-red-500/50 bg-red-950/40 text-red-200 hover:bg-red-900/40"
-                    : "border border-slate-800 bg-slate-900/80 text-stone-400 hover:bg-slate-800 hover:text-stone-200"
-                }`}
-              >
-                {isVietnam && "🇻🇳 "}
-                {isVi ? civ.nameVi : civ.name}
-              </button>
-            );
-          })}
+              return (
+                <button
+                  key={civ.slug}
+                  type="button"
+                  onClick={() => setSelection({ kind: "CIVILIZATION", item: civ })}
+                  className={`shrink-0 rounded-xl px-3 py-1.5 text-xs font-medium transition-all ${
+                    isSelected
+                      ? "bg-amber-400 text-slate-950 font-bold shadow-sm"
+                      : isVietnam
+                      ? "border border-red-500/50 bg-red-950/40 text-red-200 hover:bg-red-900/40"
+                      : "border border-slate-800 bg-slate-900/80 text-stone-400 hover:bg-slate-800 hover:text-stone-200"
+                  }`}
+                >
+                  {isVietnam && "🇻🇳 "}
+                  {isVi ? civ.nameVi : civ.name}
+                </button>
+              );
+            })}
+
+          {showBooks &&
+            GREAT_BOOKS_MAP_DATA.map((book) => {
+              const isSelected = selection.kind === "BOOK" && selection.item.slug === book.slug;
+
+              return (
+                <button
+                  key={book.slug}
+                  type="button"
+                  onClick={() => setSelection({ kind: "BOOK", item: book })}
+                  className={`shrink-0 rounded-xl px-3 py-1.5 text-xs font-medium transition-all ${
+                    isSelected
+                      ? "bg-cyan-400 text-slate-950 font-bold shadow-sm"
+                      : "border border-cyan-900/50 bg-cyan-950/30 text-cyan-300 hover:bg-cyan-900/40"
+                  }`}
+                >
+                  📖 {isVi ? book.titleVi : book.title}
+                </button>
+              );
+            })}
         </div>
       </div>
 
-      {/* Selected Civilization Geographic Dossier */}
-      <section
-        aria-live="polite"
-        className="rounded-3xl border border-stone-200 bg-white p-6 shadow-sm sm:p-8"
-      >
-        <div className="flex flex-wrap items-center justify-between gap-4 border-b border-stone-200 pb-5">
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="rounded-md bg-amber-100 px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-amber-900">
-                {isVi ? selected.regionVi : selected.region}
-              </span>
-              <span className="text-stone-300">•</span>
-              <span className="text-sm font-semibold text-slate-600">
-                {selected.periodLabel}
-              </span>
-              {selected.slug === "vietnam" && (
-                <span className="rounded-full bg-red-100 text-red-800 px-2 py-0.5 text-xs font-bold">
-                  🇻🇳 Featured
+      {/* Selected Dossier Panel */}
+      {selection.kind === "CIVILIZATION" ? (
+        <section
+          aria-live="polite"
+          className="rounded-3xl border border-stone-200 bg-white p-6 shadow-sm sm:p-8"
+        >
+          <div className="flex flex-wrap items-center justify-between gap-4 border-b border-stone-200 pb-5">
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="rounded-md bg-amber-100 px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-amber-900">
+                  {isVi ? selection.item.regionVi : selection.item.region}
                 </span>
-              )}
-            </div>
-
-            <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-              {isVi ? selected.nameVi : selected.name}
-            </h2>
-            {isVi && selected.nameVi !== selected.name && (
-              <p className="mt-0.5 text-sm italic text-stone-500">{selected.name}</p>
-            )}
-          </div>
-
-          <div className="flex flex-wrap items-center gap-3">
-            <Link
-              href={`/civilizations/${selected.slug}`}
-              className="inline-flex items-center gap-1.5 rounded-xl bg-amber-800 px-4 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-amber-900 transition-colors"
-            >
-              <BookOpen size={16} />
-              {t("Explore Civilization Dossier", "Xem Hồ sơ Nền văn minh")}
-              <ArrowRight size={14} />
-            </Link>
-
-            <Link
-              href={`/graph?type=CIVILIZATION&slug=${selected.slug}`}
-              className="inline-flex items-center gap-1.5 rounded-xl border border-stone-300 bg-stone-50 px-4 py-2.5 text-sm font-semibold text-slate-800 hover:bg-stone-100 transition-colors"
-            >
-              <Layers size={16} />
-              {t("Inspect Knowledge Graph", "Khảo sát Đồ thị tri thức")}
-            </Link>
-          </div>
-        </div>
-
-        {/* Geographic & Archaeological Highlights */}
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="rounded-2xl border border-stone-100 bg-stone-50 p-5">
-            <p className="text-xs font-bold uppercase tracking-wider text-amber-800">
-              {t("Geographic Focal Basin", "Lưu vực Địa lý Trọng tâm")}
-            </p>
-            <p className="mt-2 font-semibold text-slate-900 text-base">
-              {isVi ? selected.focalRiverOrCenterVi : selected.focalRiverOrCenter}
-            </p>
-            <p className="mt-1 text-xs text-stone-500 font-mono">
-              Lat {selected.coord.lat}° N, Lng {selected.coord.lng}° E
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-stone-100 bg-stone-50 p-5">
-            <p className="text-xs font-bold uppercase tracking-wider text-amber-800">
-              {t("Historical Centers / Capitals", "Thành bang & Kinh đô Tiêu biểu")}
-            </p>
-            <p className="mt-2 font-semibold text-slate-900 text-base">
-              {isVi ? selected.capitalOrCenterVi : selected.capitalOrCenter}
-            </p>
-            <p className="mt-1 text-xs text-stone-500">
-              {t("Ancient political & religious hubs", "Trung tâm chính trị và tín ngưỡng cổ đại")}
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-stone-100 bg-stone-50 p-5 sm:col-span-2 lg:col-span-1">
-            <p className="text-xs font-bold uppercase tracking-wider text-amber-800">
-              {t("Civilizational Innovations", "Di sản & Phát minh Tiêu biểu")}
-            </p>
-            <ul className="mt-2 space-y-1">
-              {(isVi ? selected.keyContributionsVi : selected.keyContributions).map(
-                (item, idx) => (
-                  <li key={idx} className="flex items-center gap-2 text-xs font-medium text-slate-700">
-                    <span className="size-1.5 rounded-full bg-amber-600 shrink-0" />
-                    <span>{item}</span>
-                  </li>
-                )
-              )}
-            </ul>
-          </div>
-        </div>
-
-        {/* Special Vietnamese History Atlas Sister Project Banner */}
-        {selected.slug === "vietnam" && (
-          <div className="mt-8 rounded-2xl border-2 border-red-200 bg-gradient-to-r from-red-50 via-amber-50 to-red-50 p-6">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-              <div className="space-y-1">
-                <div className="flex items-center gap-2">
-                  <span className="text-xl">🇻🇳</span>
-                  <h3 className="text-lg font-bold text-red-950">
-                    {t(
-                      "Dedicated Sister Project: Vietnamese History Atlas",
-                      "Dự án Chuyên đề Song hành: Vietnamese History Atlas"
-                    )}
-                  </h3>
-                </div>
-                <p className="text-sm text-slate-700 max-w-2xl leading-relaxed">
-                  {t(
-                    "Explore an in-depth, dedicated interactive atlas of Vietnamese history across millennia—featuring comprehensive historical cartography, royal dynasties, territorial expansions, and heroic anti-invasion campaigns.",
-                    "Khám phá dự án chuyên khảo sâu sắc về dòng chảy 4.000 năm lịch sử Việt Nam—từ thời Hồng Bàng, dựng nước Văn Lang - Âu Lạc, các triều đại hưng thịnh Lý, Trần, Lê, Nguyễn đến các chiến công hiển hách bảo vệ chủ quyền non sông."
-                  )}
-                </p>
+                <span className="text-stone-300">•</span>
+                <span className="text-sm font-semibold text-slate-600">
+                  {selection.item.periodLabel}
+                </span>
+                {selection.item.slug === "vietnam" && (
+                  <span className="rounded-full bg-red-100 text-red-800 px-2 py-0.5 text-xs font-bold">
+                    🇻🇳 Featured
+                  </span>
+                )}
               </div>
 
-              <a
-                href="https://vietnam-history-atlas.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-red-700 px-5 py-3 text-sm font-bold text-white shadow-md hover:bg-red-800 transition-colors"
+              <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                {isVi ? selection.item.nameVi : selection.item.name}
+              </h2>
+              {isVi && selection.item.nameVi !== selection.item.name && (
+                <p className="mt-0.5 text-sm italic text-stone-500">{selection.item.name}</p>
+              )}
+            </div>
+
+            <div className="flex flex-wrap items-center gap-3">
+              <Link
+                href={`/civilizations/${selection.item.slug}`}
+                className="inline-flex items-center gap-1.5 rounded-xl bg-amber-800 px-4 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-amber-900 transition-colors"
               >
-                <span>{t("Launch Vietnamese History Atlas", "Mở Vietnamese History Atlas")}</span>
-                <ExternalLink size={16} />
-              </a>
+                <BookOpen size={16} />
+                {t("Explore Civilization Dossier", "Xem Hồ sơ Nền văn minh")}
+                <ArrowRight size={14} />
+              </Link>
+
+              <Link
+                href={`/graph?type=CIVILIZATION&slug=${selection.item.slug}`}
+                className="inline-flex items-center gap-1.5 rounded-xl border border-stone-300 bg-stone-50 px-4 py-2.5 text-sm font-semibold text-slate-800 hover:bg-stone-100 transition-colors"
+              >
+                <Layers size={16} />
+                {t("Inspect Knowledge Graph", "Khảo sát Đồ thị tri thức")}
+              </Link>
             </div>
           </div>
-        )}
-      </section>
+
+          <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="rounded-2xl border border-stone-100 bg-stone-50 p-5">
+              <p className="text-xs font-bold uppercase tracking-wider text-amber-800">
+                {t("Geographic Focal Basin", "Lưu vực Địa lý Trọng tâm")}
+              </p>
+              <p className="mt-2 font-semibold text-slate-900 text-base">
+                {isVi ? selection.item.focalRiverOrCenterVi : selection.item.focalRiverOrCenter}
+              </p>
+              <p className="mt-1 text-xs text-stone-500 font-mono">
+                Lat {selection.item.coord.lat}° N, Lng {selection.item.coord.lng}° E
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-stone-100 bg-stone-50 p-5">
+              <p className="text-xs font-bold uppercase tracking-wider text-amber-800">
+                {t("Historical Centers / Capitals", "Thành bang & Kinh đô Tiêu biểu")}
+              </p>
+              <p className="mt-2 font-semibold text-slate-900 text-base">
+                {isVi ? selection.item.capitalOrCenterVi : selection.item.capitalOrCenter}
+              </p>
+              <p className="mt-1 text-xs text-stone-500">
+                {t("Ancient political & religious hubs", "Trung tâm chính trị và tín ngưỡng cổ đại")}
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-stone-100 bg-stone-50 p-5 sm:col-span-2 lg:col-span-1">
+              <p className="text-xs font-bold uppercase tracking-wider text-amber-800">
+                {t("Civilizational Innovations", "Di sản & Phát minh Tiêu biểu")}
+              </p>
+              <ul className="mt-2 space-y-1">
+                {(isVi ? selection.item.keyContributionsVi : selection.item.keyContributions).map(
+                  (item, idx) => (
+                    <li key={idx} className="flex items-center gap-2 text-xs font-medium text-slate-700">
+                      <span className="size-1.5 rounded-full bg-amber-600 shrink-0" />
+                      <span>{item}</span>
+                    </li>
+                  )
+                )}
+              </ul>
+            </div>
+          </div>
+
+          {selection.item.slug === "vietnam" && (
+            <div className="mt-8 rounded-2xl border-2 border-red-200 bg-gradient-to-r from-red-50 via-amber-50 to-red-50 p-6">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div className="space-y-1">
+                  <div className="flex items-center gap-2">
+                    <span className="text-xl">🇻🇳</span>
+                    <h3 className="text-lg font-bold text-red-950">
+                      {t(
+                        "Dedicated Sister Project: Vietnamese History Atlas",
+                        "Dự án Chuyên đề Song hành: Vietnamese History Atlas"
+                      )}
+                    </h3>
+                  </div>
+                  <p className="text-sm text-slate-700 max-w-2xl leading-relaxed">
+                    {t(
+                      "Explore an in-depth, dedicated interactive atlas of Vietnamese history across millennia—featuring comprehensive historical cartography, royal dynasties, territorial expansions, and heroic anti-invasion campaigns.",
+                      "Khám phá dự án chuyên khảo sâu sắc về dòng chảy 4.000 năm lịch sử Việt Nam—từ thời Hồng Bàng, dựng nước Văn Lang - Âu Lạc, các triều đại hưng thịnh Lý, Trần, Lê, Nguyễn đến các chiến công hiển hách bảo vệ chủ quyền non sông."
+                    )}
+                  </p>
+                </div>
+
+                <a
+                  href="https://vietnam-history-atlas.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex shrink-0 items-center gap-2 rounded-xl bg-red-700 px-5 py-3 text-sm font-bold text-white shadow-md hover:bg-red-800 transition-colors"
+                >
+                  <span>{t("Launch Vietnamese History Atlas", "Mở Vietnamese History Atlas")}</span>
+                  <ExternalLink size={16} />
+                </a>
+              </div>
+            </div>
+          )}
+        </section>
+      ) : (
+        /* Great Book Geographic Dossier */
+        <section
+          aria-live="polite"
+          className="rounded-3xl border border-cyan-200 bg-gradient-to-b from-cyan-50/50 to-white p-6 shadow-sm sm:p-8"
+        >
+          <div className="flex flex-wrap items-center justify-between gap-4 border-b border-cyan-100 pb-5">
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="rounded-md bg-cyan-100 px-2.5 py-1 text-xs font-bold uppercase tracking-wider text-cyan-900">
+                  {isVi ? selection.item.locationNameVi : selection.item.locationName}
+                </span>
+                <span className="text-stone-300">•</span>
+                <span className="text-sm font-semibold text-slate-600">
+                  {selection.item.yearLabel}
+                </span>
+                <span className="rounded-full bg-emerald-100 text-emerald-800 px-2.5 py-0.5 text-xs font-bold">
+                  Great Book
+                </span>
+              </div>
+
+              <h2 className="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                {isVi ? selection.item.titleVi : selection.item.title}
+              </h2>
+              <p className="mt-0.5 text-base font-medium text-cyan-900">
+                {isVi ? selection.item.authorVi : selection.item.author}
+              </p>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-3">
+              <Link
+                href={`/books/${selection.item.bookSlug}`}
+                className="inline-flex items-center gap-1.5 rounded-xl bg-cyan-800 px-4 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-cyan-900 transition-colors"
+              >
+                <BookOpen size={16} />
+                {t("Read Great Book Dossier", "Xem Hồ sơ Tác phẩm")}
+                <ArrowRight size={14} />
+              </Link>
+
+              <Link
+                href={`/civilizations/${selection.item.civilizationSlug}`}
+                className="inline-flex items-center gap-1.5 rounded-xl border border-cyan-300 bg-white px-4 py-2.5 text-sm font-semibold text-cyan-950 hover:bg-cyan-50 transition-colors"
+              >
+                <Landmark size={16} />
+                {t("View Associated Civilization", "Xem Nền văn minh liên quan")}
+              </Link>
+            </div>
+          </div>
+
+          <div className="mt-6 grid gap-6 sm:grid-cols-2">
+            <div className="rounded-2xl border border-cyan-100 bg-white p-5 shadow-xs">
+              <p className="text-xs font-bold uppercase tracking-wider text-cyan-800">
+                {t("Geographic Origin & Historical Setting", "Cái nôi Sáng tác & Bối cảnh Lịch sử")}
+              </p>
+              <p className="mt-2 font-semibold text-slate-900 text-base">
+                {isVi ? selection.item.locationNameVi : selection.item.locationName}
+              </p>
+              <p className="mt-1 text-xs text-stone-500 font-mono">
+                Lat {selection.item.coord.lat}° N, Lng {selection.item.coord.lng}° E
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-cyan-100 bg-white p-5 shadow-xs">
+              <p className="text-xs font-bold uppercase tracking-wider text-cyan-800">
+                {t("Civilizational Significance", "Ý nghĩa Văn minh & Tầm vóc Toàn cầu")}
+              </p>
+              <p className="mt-2 text-sm text-slate-700 leading-relaxed">
+                {isVi ? selection.item.significanceVi : selection.item.significanceEn}
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
     </div>
   );
 }
