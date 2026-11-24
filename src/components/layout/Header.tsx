@@ -6,6 +6,7 @@ import { useLanguage } from "@/context/LanguageContext";
 
 const navigationItems = [
   { href: "/map", en: "Map", vi: "Bản đồ" },
+  { href: "/artifacts", en: "Artifacts", vi: "Cổ vật" },
   { href: "/timeline", en: "Timeline", vi: "Dòng thời gian" },
   { href: "/civilizations", en: "Civilizations", vi: "Nền văn minh" },
   { href: "/people", en: "People", vi: "Nhân vật" },
