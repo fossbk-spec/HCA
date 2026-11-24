@@ -2028,5 +2028,89 @@
     "targetSlug": "vietnam",
     "targetType": "CIVILIZATION",
     "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "the-tale-of-genji",
+    "sourceType": "BOOK",
+    "targetSlug": "buddhist-middle-way",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-tale-of-genji",
+    "sourceType": "BOOK",
+    "targetSlug": "karma-and-samsara",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-knight-in-the-panthers-skin",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-knight-in-the-panthers-skin",
+    "sourceType": "BOOK",
+    "targetSlug": "human-rights",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-masnavi",
+    "sourceType": "BOOK",
+    "targetSlug": "philosophical-reconciliation-ijtihad",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-masnavi",
+    "sourceType": "BOOK",
+    "targetSlug": "monotheism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "silappatikaram",
+    "sourceType": "BOOK",
+    "targetSlug": "dharma",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "silappatikaram",
+    "sourceType": "BOOK",
+    "targetSlug": "rule-of-law",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "os-lusiadas",
+    "sourceType": "BOOK",
+    "targetSlug": "scientific-method",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "os-lusiadas",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "paradise-lost",
+    "sourceType": "BOOK",
+    "targetSlug": "monotheism",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "paradise-lost",
+    "sourceType": "BOOK",
+    "targetSlug": "human-rights",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
   }
 ]
