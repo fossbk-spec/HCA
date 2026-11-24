@@ -2196,5 +2196,89 @@
     "targetSlug": "karma-and-samsara",
     "targetType": "IDEA",
     "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "enuma-elish",
+    "sourceType": "BOOK",
+    "targetSlug": "cuneiform-writing",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "enuma-elish",
+    "sourceType": "BOOK",
+    "targetSlug": "cyclical-cosmic-time-and-long-count",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "tale-of-sinuhe",
+    "sourceType": "BOOK",
+    "targetSlug": "ma-at",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "tale-of-sinuhe",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "layla-and-majnun",
+    "sourceType": "BOOK",
+    "targetSlug": "philosophical-reconciliation-ijtihad",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "layla-and-majnun",
+    "sourceType": "BOOK",
+    "targetSlug": "human-rights",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "epic-of-lianja",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "epic-of-lianja",
+    "sourceType": "BOOK",
+    "targetSlug": "cyclical-cosmic-time-and-long-count",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "lay-of-igors-campaign",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "lay-of-igors-campaign",
+    "sourceType": "BOOK",
+    "targetSlug": "rule-of-law",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "orlando-furioso",
+    "sourceType": "BOOK",
+    "targetSlug": "human-rights",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "orlando-furioso",
+    "sourceType": "BOOK",
+    "targetSlug": "scientific-method",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
   }
 ]
