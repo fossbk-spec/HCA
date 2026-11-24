@@ -600,5 +600,71 @@
     "authorVi": "Abu Rayhan al-Biruni",
     "summaryVi": "Bách khoa toàn thư thiên văn học và toán học đồ sộ của Al-Biruni dành tặng Quốc vương Mas'ud triều Ghaznavid, tổng kết và phát triển các bảng sao thiên văn.",
     "contentVi": "Tác phẩm chứa đựng các phát kiến lượng giác vượt bậc, tính toán quỹ đạo hành tinh, độ nghiêng của hoàng đạo và nghiên cứu sự tự quay của Trái Đất quanh trục, là một trong những cột mốc thiên văn vĩ đại nhất thời Hoàng kim Hồi giáo."
+  },
+  {
+    "slug": "mahabharata",
+    "title": "The Mahabharata",
+    "titleVi": "Sử thi Mahabharata",
+    "author": "Vyasa (Attributed)",
+    "authorVi": "Vyasa (Tương truyền)",
+    "publicationYear": -400,
+    "summary": "One of the two major Sanskrit epics of ancient India; the longest epic poem in world literature, narrating the Kurukshetra War and the philosophical dialogue of the Bhagavad Gita.",
+    "summaryVi": "Một trong hai đại sử thi tiếng Phạn vĩ đại của Ấn Độ cổ đại; bản trường ca dài nhất thế giới thuật lại cuộc chiến Kurukshetra bi hùng và chứa đựng triết lý thâm sâu của Bhagavad Gita.",
+    "contentVi": "Với hơn 100.000 câu thơ (sloka), Mahabharata dài gấp bốn lần cả Iliad và Odyssey cộng lại. Tác phẩm kể về cuộc tranh giành quyền lực giữa hai nhánh hoàng tộc anh em họ Pandava và Kaurava, đỉnh điểm là trận đại chiến Kurukshetra kéo dài 18 ngày. Không đơn thuần là sử thi chiến trận, Mahabharata là một bộ bách khoa toàn thư về bốn mục tiêu đời người (Purusharthas: Dharma - Bổn phận đạo đức, Artha - Thịnh vượng, Kama - Khát vọng, và Moksha - Giải thoát), trong đó chương 23 đến 40 của tập 6 chính là bản kinh triết học bất hủ Bhagavad Gita."
+  },
+  {
+    "slug": "ramayana",
+    "title": "The Ramayana",
+    "titleVi": "Sử thi Ramayana",
+    "author": "Valmiki (Attributed)",
+    "authorVi": "Valmiki (Tương truyền)",
+    "publicationYear": -500,
+    "summary": "Ancient Indian Sanskrit epic narrating the life of Prince Rama of Ayodhya, his exile, the abduction of Sita by Ravana, and the victory of Dharma over Adharma.",
+    "summaryVi": "Đại sử thi Phạn ngữ của hiền triết Valmiki kể về cuộc đời Hoàng tử Rama thành Ayodhya, sự lưu đày hiểm nguy, cuộc giải cứu nàng Sita khỏi quỷ vương Ravana và sự chiến thắng của Đạo pháp Dharma.",
+    "contentVi": "Ramayana gồm 24.000 câu thơ chia làm 7 tập (kanda), tôn vinh những phẩm hạnh đạo đức mẫu mực: người con hiếu thảo, người anh gương mẫu, người vợ thủy chung son sắt và vị minh quân nhân từ (thể chế Ramrajya). Hành trình vượt biển cứu Sita với sự giúp đỡ của đội quân người khỉ do thần tướng Hanuman chỉ huy đã trở thành biểu tượng tinh thần vĩ đại, lan tỏa sâu rộng khắp Đông Nam Á từ Champa, Phù Nam, Xiêm La (Ramakien) đến Campuchia (Reamker) và Indonesia (Kakawin Ramayana)."
+  },
+  {
+    "slug": "shakuntala",
+    "title": "Abhijnanashakuntala (The Recognition of Shakuntala)",
+    "titleVi": "Vở kịch Shakuntala",
+    "author": "Kalidasa",
+    "authorVi": "Kalidasa",
+    "publicationYear": 400,
+    "summary": "Masterpiece of classical Sanskrit dramatic literature by Kalidasa, dramatizing the romance, separation, forgotten ring, and joyous reunion of King Dushyanta and Shakuntala.",
+    "summaryVi": "Kiệt tác sân khấu kịch thơ tiếng Phạn của đại văn hào Kalidasa, kể về mối tình trắc trở, chiếc nhẫn định mệnh bị lãng quên và sự đoàn tụ cảm động giữa vua Dushyanta và nàng Shakuntala.",
+    "contentVi": "Được sáng tác vào thời kỳ Hoàng kim của Đế chế Gupta, Shakuntala là đỉnh cao của nghệ thuật thi ca và mỹ học Ấn Độ (Rasa). Vở kịch khắc họa tình yêu trong sáng nơi núi rừng thanh tịnh, sự chia ly đau đớn do lời nguyền và phép quên lãng, trước khi chiếc nhẫn thất lạc được tìm thấy đưa họ trở về bên nhau. Tác phẩm đã làm say đắm thi hào người Đức Goethe khi được dịch sang phương Tây vào thế kỷ 18, đặt nền móng cho sự ngưỡng mộ văn học Sanskrit trên toàn cầu."
+  },
+  {
+    "slug": "beowulf",
+    "title": "Beowulf",
+    "titleVi": "Sử thi Beowulf",
+    "author": "Anonymous Anglo-Saxon Poet",
+    "authorVi": "Thi sĩ Anglo-Saxon khuyết danh",
+    "publicationYear": 750,
+    "summary": "Old English alliterative epic poem recounting the heroic deeds of the Geatish warrior Beowulf defeating the monster Grendel, Grendel's mother, and a fire-breathing dragon.",
+    "summaryVi": "Kiệt tác sử thi cổ tiếng Anh kể về người dũng sĩ Geatish Beowulf tiêu diệt thủy quái Grendel, mẹ quái vật và con rồng phun lửa bảo vệ vương quốc.",
+    "contentVi": "Gồm 3.182 câu thơ gieo vần đầu (alliterative verse), Beowulf là di sản văn học cổ xưa nhất của truyền thống văn chương Anh ngữ. Bản trường ca phản ánh thế giới quan Bắc Âu thời kỳ chuyển giao giữa thần thoại Pagan và Cơ Đốc giáo, tôn vinh lòng quả cảm phi thường, danh dự người chiến binh (lof) và sự bất khuất của con người khi đối diện với số phận hữu hạn (wyrd)."
+  },
+  {
+    "slug": "song-of-roland",
+    "title": "The Song of Roland (La Chanson de Roland)",
+    "titleVi": "Bài ca Roland",
+    "author": "Turold (Attributed)",
+    "authorVi": "Turold (Tương truyền)",
+    "publicationYear": 1100,
+    "summary": "The oldest major surviving work of French literature; an 11th-century chanson de geste narrating the heroic last stand of Count Roland at the Battle of Roncevaux Pass.",
+    "summaryVi": "Tác phẩm văn học lớn cổ nhất còn bảo tồn của nước Pháp; khúc ca chiến trận (chanson de geste) thế kỷ 11 ca ngợi cuộc tử thủ kiên cường của Bá tước Roland tại đèo Roncevaux.",
+    "contentVi": "Thuật lại chiến dịch của Hoàng đế Charlemagne tại bán đảo Iberia năm 778, Bài ca Roland là đỉnh cao của văn học hiệp sĩ thời Trung Cổ châu Âu. Với thanh gươm thần Durendal và chiếc tù và Olifant bằng ngà voi, Roland đã chiến đấu đến hơi thở cuối cùng để bảo vệ đạo quân phía sau, trở thành hình mẫu bất tử cho lòng trung thành phong kiến, tinh thần quả cảm và đức tin hiệp sĩ."
+  },
+  {
+    "slug": "divine-comedy",
+    "title": "The Divine Comedy (La Divina Commedia)",
+    "titleVi": "Thần khúc (La Divina Commedia)",
+    "author": "Dante Alighieri",
+    "authorVi": "Dante Alighieri",
+    "publicationYear": 1320,
+    "summary": "Monumental Italian narrative poem in terza rima depicting Dante's allegorical pilgrimage through Hell (Inferno), Purgatory (Purgatorio), and Paradise (Paradiso).",
+    "summaryVi": "Đại thi phẩm xuất chúng thời kỳ Tiền Phục Hưng của Dante Alighieri, khắc họa cuộc hành trình biểu tượng qua Địa ngục (Inferno), Luyện ngục (Purgatorio) và Thiên đường (Paradiso).",
+    "contentVi": "Được viết bằng phương ngữ Tuscan bản địa thay vì tiếng Latinh hàn lâm, Thần khúc đã khai sinh nền văn học và ngôn ngữ chuẩn của nước Ý hiện đại. Được nhà thơ La Mã Virgil và nàng thơ Beatrice dẫn lối, tác phẩm tổng hòa trọn vẹn triết học thần học Kitô giáo thời Trung Cổ (St. Thomas Aquinas) với nhân sinh quan nhân văn chủ nghĩa thời Phục Hưng, đưa linh hồn con người vượt qua tội lỗi để đạt tới ánh sáng thiêng liêng."
   }
 ]
