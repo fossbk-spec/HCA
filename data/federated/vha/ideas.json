@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "vha-culture-and-thought",
+    "externalId": "vha:theme:culture-and-thought",
+    "name": "Văn hóa, tư tưởng và tôn giáo",
+    "summary": "Chủ đề nghiên cứu tiến trình hình thành và phát triển của đời sống văn hóa, các hệ tư tưởng, tôn giáo và tín ngưỡng dân gian trên lãnh thổ Việt Nam từ thời cổ đại đến cận đại.",
+    "content": "Chủ đề bao quát: tín ngưỡng thờ cúng tổ tiên, thờ nữ thần mẹ (Đạo Mẫu) và thờ các anh hùng dân tộc từ thời Đông Sơn; thời kỳ 'Tam giáo đồng nguyên' (Phật, Đạo, Nho hòa quyện) đạt đỉnh cao thời Lý - Trần; sự ra đời của Thiền phái Trúc Lâm Yên Tử thuần Việt do Phật hoàng Trần Nhân Tông sáng lập; sự vươn lên giữ vị thế độc tôn của Nho giáo với chế độ khoa cử thời Lê sơ; và sự xuất hiện của chữ Nôm như ý thức tự tôn ngôn ngữ văn tự dân tộc."
+  },
+  {
+    "slug": "vha-sovereignty-and-defense",
+    "externalId": "vha:theme:sovereignty-and-defense",
+    "name": "Hình thành và bảo vệ chủ quyền",
+    "summary": "Chủ đề theo dõi cách các nhà nước và cộng đồng trên lãnh thổ Việt Nam hình thành, khẳng định và bảo vệ quyền tự chủ qua nhiều thời kỳ.",
+    "content": "Chủ đề này gom các sự kiện, nhân vật và văn bản có liên quan, đồng thời tách việc mô tả sự kiện khỏi các diễn giải sau này về dân tộc và lãnh thổ."
+  },
+  {
+    "slug": "vha-state-governance-and-law",
+    "externalId": "vha:theme:state-governance-and-law",
+    "name": "Quản trị nhà nước và thiết chế pháp luật",
+    "summary": "Chủ đề theo dõi sự phát triển của bộ máy nhà nước, các mô hình phân cấp hành chính, hệ thống tuyển chọn quan lại và sự hoàn thiện của các bộ luật thành văn trong lịch sử Việt Nam.",
+    "content": "Chủ đề phản ánh các mốc son thể chế: chính sách 'khoan giản an dân' và tổ chức lộ-phủ-châu-giáp-xã của Khúc Hạo; sự định hình triều nghi và phẩm phục thời Ngô; việc xưng Đế và phân chia thập đạo quân thời Đinh; bộ luật thành văn sớm Hình thư thời Lý (1042); chế độ phụ chính lưỡng đầu Thái thượng hoàng và Hội nghị Diên Hồng thời Trần; cùng cuộc cải cách hành chính bãi bỏ chức tể tướng, phân chia 13 đạo thừa tuyên và bộ Quốc triều hình luật (Luật Hồng Đức) thời vua Lê Thánh Tông."
+  }
+]
