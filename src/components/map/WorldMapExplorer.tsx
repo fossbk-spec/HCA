@@ -6,8 +6,10 @@ import { useLanguage } from "@/context/LanguageContext";
 import {
   CIVILIZATION_MAP_DATA,
   GREAT_BOOKS_MAP_DATA,
+  HISTORY_ERAS,
   type CivilizationMapItem,
   type GreatBookMapItem,
+  type HistoryEra,
 } from "@/lib/map-data";
 import {
   MapPin,
@@ -20,6 +22,9 @@ import {
   ShieldCheck,
   Library,
   Landmark,
+  Clock,
+  History,
+  Waypoints,
 } from "lucide-react";
 
 type ActiveSelection =
@@ -31,6 +36,7 @@ export function WorldMapExplorer() {
   const isVi = language === "vi";
 
   const [activeLayer, setActiveLayer] = useState<"ALL" | "CIVILIZATIONS" | "BOOKS">("ALL");
+  const [activeEra, setActiveEra] = useState<HistoryEra>("ALL");
   const [selection, setSelection] = useState<ActiveSelection>({
     kind: "CIVILIZATION",
     item: CIVILIZATION_MAP_DATA.find((c) => c.slug === "vietnam") ?? CIVILIZATION_MAP_DATA[0],
@@ -39,59 +45,153 @@ export function WorldMapExplorer() {
   const showCivs = activeLayer === "ALL" || activeLayer === "CIVILIZATIONS";
   const showBooks = activeLayer === "ALL" || activeLayer === "BOOKS";
 
+  // Filtered collections based on layer and era
+  const filteredCivs = showCivs
+    ? CIVILIZATION_MAP_DATA.filter(
+        (civ) => activeEra === "ALL" || civ.eras.includes(activeEra)
+      )
+    : [];
+
+  const filteredBooks = showBooks
+    ? GREAT_BOOKS_MAP_DATA.filter(
+        (book) => activeEra === "ALL" || book.era === activeEra
+      )
+    : [];
+
+  // Active era info
+  const currentEraInfo = HISTORY_ERAS.find((e) => e.id === activeEra) ?? HISTORY_ERAS[0];
+
+  // Connection calculations for cultural lineage vectors
+  const connectionArcs = (() => {
+    if (selection.kind === "BOOK") {
+      const parentCiv = CIVILIZATION_MAP_DATA.find(
+        (c) => c.slug === selection.item.civilizationSlug
+      );
+      if (!parentCiv) return [];
+      return [
+        {
+          key: `arc-${parentCiv.slug}-${selection.item.slug}`,
+          x1: parentCiv.coord.xPercent * 10,
+          y1: parentCiv.coord.yPercent * 5,
+          x2: selection.item.coord.xPercent * 10,
+          y2: selection.item.coord.yPercent * 5,
+          color: "#38bdf8", // cyan
+          label: isVi
+            ? `Cội nguồn: ${parentCiv.nameVi}`
+            : `Origin: ${parentCiv.name}`,
+        },
+      ];
+    } else {
+      // For Civilization: find all associated books
+      const relatedBooks = GREAT_BOOKS_MAP_DATA.filter(
+        (b) => b.civilizationSlug === selection.item.slug
+      );
+      return relatedBooks.map((b) => ({
+        key: `arc-${selection.item.slug}-${b.slug}`,
+        x1: selection.item.coord.xPercent * 10,
+        y1: selection.item.coord.yPercent * 5,
+        x2: b.coord.xPercent * 10,
+        y2: b.coord.yPercent * 5,
+        color: "#fbbf24", // amber
+        label: isVi ? b.titleVi : b.title,
+      }));
+    }
+  })();
+
   return (
     <div className="space-y-8">
       {/* Interactive SVG World Map Viewport */}
       <div className="relative overflow-hidden rounded-3xl border border-stone-800 bg-slate-950 p-4 shadow-2xl sm:p-6">
-        {/* Header HUD inside map */}
-        <div className="mb-4 flex flex-wrap items-center justify-between gap-3 border-b border-slate-800/80 pb-3 text-xs">
-          <div className="flex items-center gap-2">
-            <span className="flex size-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span className="font-mono text-stone-300 uppercase tracking-widest text-[11px]">
-              {t(
-                "Global Geocartography & Literary Heritage Grid",
-                "Hệ thống Bản đồ Địa lý Văn minh & Kiệt tác Kinh điển Thế giới"
-              )}
-            </span>
+        {/* Header HUD inside map: Controls & Filters */}
+        <div className="mb-4 space-y-3 border-b border-slate-800/80 pb-3">
+          <div className="flex flex-wrap items-center justify-between gap-3 text-xs">
+            <div className="flex items-center gap-2">
+              <span className="flex size-2 rounded-full bg-emerald-400 animate-pulse" />
+              <span className="font-mono text-stone-300 uppercase tracking-widest text-[11px]">
+                {t(
+                  "Global Geocartography & Literary Heritage Grid",
+                  "Hệ thống Bản đồ Địa lý Văn minh & Kiệt tác Kinh điển Thế giới"
+                )}
+              </span>
+            </div>
+
+            {/* Layer Selector Switch */}
+            <div className="flex items-center gap-1 rounded-xl bg-slate-900 border border-slate-800 p-1">
+              <button
+                type="button"
+                onClick={() => setActiveLayer("ALL")}
+                className={`rounded-lg px-2.5 py-1 text-[11px] font-medium transition-colors ${
+                  activeLayer === "ALL"
+                    ? "bg-amber-400 text-slate-950 font-bold"
+                    : "text-stone-400 hover:text-stone-200"
+                }`}
+              >
+                {t("All Layers", "Tất cả")}
+              </button>
+              <button
+                type="button"
+                onClick={() => setActiveLayer("CIVILIZATIONS")}
+                className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-[11px] font-medium transition-colors ${
+                  activeLayer === "CIVILIZATIONS"
+                    ? "bg-amber-400 text-slate-950 font-bold"
+                    : "text-stone-400 hover:text-stone-200"
+                }`}
+              >
+                <Landmark size={12} />
+                {t("10 Cradles", "10 Cái nôi")}
+              </button>
+              <button
+                type="button"
+                onClick={() => setActiveLayer("BOOKS")}
+                className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-[11px] font-medium transition-colors ${
+                  activeLayer === "BOOKS"
+                    ? "bg-amber-400 text-slate-950 font-bold"
+                    : "text-stone-400 hover:text-stone-200"
+                }`}
+              >
+                <Library size={12} />
+                {t("14 Classics & Epics", "14 Địa danh Sử thi")}
+              </button>
+            </div>
           </div>
 
-          {/* Layer Selector Switch */}
-          <div className="flex items-center gap-1 rounded-xl bg-slate-900 border border-slate-800 p-1">
-            <button
-              type="button"
-              onClick={() => setActiveLayer("ALL")}
-              className={`rounded-lg px-2.5 py-1 text-[11px] font-medium transition-colors ${
-                activeLayer === "ALL"
-                  ? "bg-amber-400 text-slate-950 font-bold"
-                  : "text-stone-400 hover:text-stone-200"
-              }`}
-            >
-              {t("All Layers", "Tất cả")}
-            </button>
-            <button
-              type="button"
-              onClick={() => setActiveLayer("CIVILIZATIONS")}
-              className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-[11px] font-medium transition-colors ${
-                activeLayer === "CIVILIZATIONS"
-                  ? "bg-amber-400 text-slate-950 font-bold"
-                  : "text-stone-400 hover:text-stone-200"
-              }`}
-            >
-              <Landmark size={12} />
-              {t("10 Cradles", "10 Cái nôi")}
-            </button>
-            <button
-              type="button"
-              onClick={() => setActiveLayer("BOOKS")}
-              className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-[11px] font-medium transition-colors ${
-                activeLayer === "BOOKS"
-                  ? "bg-amber-400 text-slate-950 font-bold"
-                  : "text-stone-400 hover:text-stone-200"
-              }`}
-            >
-              <Library size={12} />
-              {t("14 Classics & Epics", "14 Địa danh Sử thi")}
-            </button>
+          {/* Era / Epoch Filter Toolbar */}
+          <div className="flex flex-wrap items-center justify-between gap-2 pt-1">
+            <div className="flex items-center gap-1.5 text-xs text-stone-400 font-medium">
+              <Clock size={13} className="text-amber-400" />
+              <span>{t("Historical Era:", "Kỷ nguyên Lịch sử:")}</span>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-1 rounded-xl bg-slate-900/90 border border-slate-800 p-1 text-[11px]">
+              {HISTORY_ERAS.map((era) => {
+                const isActive = activeEra === era.id;
+                return (
+                  <button
+                    key={era.id}
+                    type="button"
+                    onClick={() => setActiveEra(era.id)}
+                    className={`rounded-lg px-2.5 py-1 font-medium transition-all ${
+                      isActive
+                        ? "bg-gradient-to-r from-amber-500 to-amber-400 text-slate-950 font-bold shadow-xs"
+                        : "text-stone-400 hover:text-stone-200 hover:bg-slate-800"
+                    }`}
+                  >
+                    {isVi ? era.labelVi : era.labelEn}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Current Era Status Subbar */}
+          <div className="flex items-center justify-between text-[11px] text-stone-400 bg-slate-900/40 rounded-lg px-3 py-1.5 border border-slate-800/40 font-mono">
+            <span>
+              {isVi ? currentEraInfo.descriptionVi : currentEraInfo.timeRangeEn}
+            </span>
+            <span className="text-amber-300">
+              {filteredCivs.length} {t("civilizations", "văn minh")} •{" "}
+              {filteredBooks.length} {t("classics", "tác phẩm")}
+            </span>
           </div>
         </div>
 
@@ -128,144 +228,198 @@ export function WorldMapExplorer() {
             <path d="M790 390 Q890 390 880 470 Q810 480 790 420 Z" />
           </svg>
 
-          {/* LAYER 1: Civilization Cradles Pins */}
-          {showCivs &&
-            CIVILIZATION_MAP_DATA.map((civ) => {
-              const isSelected = selection.kind === "CIVILIZATION" && selection.item.slug === civ.slug;
-              const isVietnam = civ.slug === "vietnam";
+          {/* SVG Overlay: Cultural Lineage Connection Vectors */}
+          <svg
+            viewBox="0 0 1000 500"
+            className="absolute inset-0 h-full w-full pointer-events-none z-10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient id="cyanArcGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#38bdf8" stopOpacity="0.8" />
+                <stop offset="100%" stopColor="#818cf8" stopOpacity="0.8" />
+              </linearGradient>
+              <linearGradient id="amberArcGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#fbbf24" stopOpacity="0.8" />
+                <stop offset="100%" stopColor="#f59e0b" stopOpacity="0.8" />
+              </linearGradient>
+            </defs>
+
+            {connectionArcs.map((arc) => {
+              const dx = arc.x2 - arc.x1;
+              const dy = arc.y2 - arc.y1;
+              const dist = Math.sqrt(dx * dx + dy * dy);
+              // Elevate curve according to distance
+              const lift = Math.min(60, Math.max(25, dist * 0.25));
+              const cx = (arc.x1 + arc.x2) / 2;
+              const cy = Math.min(arc.y1, arc.y2) - lift;
 
               return (
-                <div
-                  key={`civ-${civ.slug}`}
-                  style={{
-                    left: `${civ.coord.xPercent}%`,
-                    top: `${civ.coord.yPercent}%`,
-                  }}
-                  className="absolute -translate-x-1/2 -translate-y-1/2 group z-20 cursor-pointer"
-                >
-                  {isSelected && (
-                    <span className="absolute -inset-3 rounded-full bg-amber-400/30 animate-ping pointer-events-none" />
-                  )}
-
-                  <button
-                    type="button"
-                    onClick={() => setSelection({ kind: "CIVILIZATION", item: civ })}
-                    className={`relative flex items-center justify-center rounded-full transition-all transform hover:scale-125 focus:outline-none ${
-                      isSelected
-                        ? "size-8 bg-amber-400 text-slate-950 shadow-lg shadow-amber-400/50 ring-4 ring-amber-300/30 font-bold scale-110"
-                        : isVietnam
-                        ? "size-7 bg-red-600 text-amber-300 shadow-md ring-2 ring-amber-400/80 hover:bg-red-500"
-                        : "size-6 bg-slate-800 text-amber-400 border border-amber-400/50 hover:bg-amber-400 hover:text-slate-950"
-                    }`}
-                    aria-label={`${civ.nameVi} (${civ.name})`}
-                  >
-                    <Landmark size={isSelected ? 16 : 13} />
-                  </button>
-
-                  <div
-                    className={`pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 whitespace-nowrap rounded-lg px-2.5 py-1 text-xs font-semibold shadow-lg transition-opacity duration-200 z-30 ${
-                      isSelected
-                        ? "bg-amber-400 text-slate-950 opacity-100"
-                        : "bg-slate-900/90 text-stone-200 border border-slate-700 opacity-0 group-hover:opacity-100"
-                    }`}
-                  >
-                    {isVi ? civ.nameVi : civ.name}
-                    {isVietnam && " 🇻🇳"}
-                  </div>
-                </div>
+                <g key={arc.key} className="transition-all duration-300">
+                  {/* Glowing Background Path */}
+                  <path
+                    d={`M ${arc.x1} ${arc.y1} Q ${cx} ${cy} ${arc.x2} ${arc.y2}`}
+                    fill="none"
+                    stroke={arc.color}
+                    strokeWidth="3.5"
+                    strokeOpacity="0.3"
+                  />
+                  {/* Dashed Animated Path */}
+                  <path
+                    d={`M ${arc.x1} ${arc.y1} Q ${cx} ${cy} ${arc.x2} ${arc.y2}`}
+                    fill="none"
+                    stroke={arc.color}
+                    strokeWidth="2"
+                    strokeDasharray="5 4"
+                    strokeLinecap="round"
+                    className="animate-pulse"
+                  />
+                  {/* Connection Node Rings */}
+                  <circle cx={arc.x1} cy={arc.y1} r="4" fill={arc.color} opacity="0.9" />
+                  <circle cx={arc.x2} cy={arc.y2} r="4" fill={arc.color} opacity="0.9" />
+                </g>
               );
             })}
+          </svg>
+
+          {/* LAYER 1: Civilization Cradles Pins */}
+          {filteredCivs.map((civ) => {
+            const isSelected =
+              selection.kind === "CIVILIZATION" && selection.item.slug === civ.slug;
+            const isVietnam = civ.slug === "vietnam";
+
+            return (
+              <div
+                key={`civ-${civ.slug}`}
+                style={{
+                  left: `${civ.coord.xPercent}%`,
+                  top: `${civ.coord.yPercent}%`,
+                }}
+                className="absolute -translate-x-1/2 -translate-y-1/2 group z-20 cursor-pointer"
+              >
+                {isSelected && (
+                  <span className="absolute -inset-3 rounded-full bg-amber-400/30 animate-ping pointer-events-none" />
+                )}
+
+                <button
+                  type="button"
+                  onClick={() => setSelection({ kind: "CIVILIZATION", item: civ })}
+                  className={`relative flex items-center justify-center rounded-full transition-all transform hover:scale-125 focus:outline-none ${
+                    isSelected
+                      ? "size-8 bg-amber-400 text-slate-950 shadow-lg shadow-amber-400/50 ring-4 ring-amber-300/30 font-bold scale-110"
+                      : isVietnam
+                      ? "size-7 bg-red-600 text-amber-300 shadow-md ring-2 ring-amber-400/80 hover:bg-red-500"
+                      : "size-6 bg-slate-800 text-amber-400 border border-amber-400/50 hover:bg-amber-400 hover:text-slate-950"
+                  }`}
+                  aria-label={`${civ.nameVi} (${civ.name})`}
+                >
+                  <Landmark size={isSelected ? 16 : 13} />
+                </button>
+
+                <div
+                  className={`pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 whitespace-nowrap rounded-lg px-2.5 py-1 text-xs font-semibold shadow-lg transition-opacity duration-200 z-30 ${
+                    isSelected
+                      ? "bg-amber-400 text-slate-950 opacity-100"
+                      : "bg-slate-900/90 text-stone-200 border border-slate-700 opacity-0 group-hover:opacity-100"
+                  }`}
+                >
+                  {isVi ? civ.nameVi : civ.name}
+                  {isVietnam && " 🇻🇳"}
+                </div>
+              </div>
+            );
+          })}
 
           {/* LAYER 2: Great Books & World Epics Pins */}
-          {showBooks &&
-            GREAT_BOOKS_MAP_DATA.map((book) => {
-              const isSelected = selection.kind === "BOOK" && selection.item.slug === book.slug;
+          {filteredBooks.map((book) => {
+            const isSelected =
+              selection.kind === "BOOK" && selection.item.slug === book.slug;
 
-              return (
-                <div
-                  key={`book-${book.slug}`}
-                  style={{
-                    left: `${book.coord.xPercent}%`,
-                    top: `${book.coord.yPercent}%`,
-                  }}
-                  className="absolute -translate-x-1/2 -translate-y-1/2 group z-20 cursor-pointer"
+            return (
+              <div
+                key={`book-${book.slug}`}
+                style={{
+                  left: `${book.coord.xPercent}%`,
+                  top: `${book.coord.yPercent}%`,
+                }}
+                className="absolute -translate-x-1/2 -translate-y-1/2 group z-20 cursor-pointer"
+              >
+                {isSelected && (
+                  <span className="absolute -inset-3 rounded-full bg-cyan-400/30 animate-ping pointer-events-none" />
+                )}
+
+                <button
+                  type="button"
+                  onClick={() => setSelection({ kind: "BOOK", item: book })}
+                  className={`relative flex items-center justify-center rounded-full transition-all transform hover:scale-125 focus:outline-none ${
+                    isSelected
+                      ? "size-8 bg-cyan-400 text-slate-950 shadow-lg shadow-cyan-400/50 ring-4 ring-cyan-300/30 font-bold scale-110"
+                      : "size-5 bg-sky-950 text-cyan-300 border border-cyan-400/60 hover:bg-cyan-400 hover:text-slate-950"
+                  }`}
+                  aria-label={`${book.titleVi} (${book.locationNameVi})`}
                 >
-                  {isSelected && (
-                    <span className="absolute -inset-3 rounded-full bg-cyan-400/30 animate-ping pointer-events-none" />
-                  )}
+                  <BookOpen size={isSelected ? 15 : 11} />
+                </button>
 
-                  <button
-                    type="button"
-                    onClick={() => setSelection({ kind: "BOOK", item: book })}
-                    className={`relative flex items-center justify-center rounded-full transition-all transform hover:scale-125 focus:outline-none ${
-                      isSelected
-                        ? "size-8 bg-cyan-400 text-slate-950 shadow-lg shadow-cyan-400/50 ring-4 ring-cyan-300/30 font-bold scale-110"
-                        : "size-5 bg-sky-950 text-cyan-300 border border-cyan-400/60 hover:bg-cyan-400 hover:text-slate-950"
-                    }`}
-                    aria-label={`${book.titleVi} (${book.locationNameVi})`}
-                  >
-                    <BookOpen size={isSelected ? 15 : 11} />
-                  </button>
-
-                  <div
-                    className={`pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 whitespace-nowrap rounded-lg px-2.5 py-1 text-xs font-semibold shadow-lg transition-opacity duration-200 z-30 ${
-                      isSelected
-                        ? "bg-cyan-400 text-slate-950 opacity-100"
-                        : "bg-slate-900/90 text-cyan-200 border border-cyan-700/60 opacity-0 group-hover:opacity-100"
-                    }`}
-                  >
-                    📖 {isVi ? book.titleVi : book.title}
-                  </div>
+                <div
+                  className={`pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 whitespace-nowrap rounded-lg px-2.5 py-1 text-xs font-semibold shadow-lg transition-opacity duration-200 z-30 ${
+                    isSelected
+                      ? "bg-cyan-400 text-slate-950 opacity-100"
+                      : "bg-slate-900/90 text-cyan-200 border border-cyan-700/60 opacity-0 group-hover:opacity-100"
+                  }`}
+                >
+                  📖 {isVi ? book.titleVi : book.title}
                 </div>
-              );
-            })}
+              </div>
+            );
+          })}
         </div>
 
         {/* Quick Jump Chips */}
         <div className="mt-4 flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
-          {showCivs &&
-            CIVILIZATION_MAP_DATA.map((civ) => {
-              const isSelected = selection.kind === "CIVILIZATION" && selection.item.slug === civ.slug;
-              const isVietnam = civ.slug === "vietnam";
+          {filteredCivs.map((civ) => {
+            const isSelected =
+              selection.kind === "CIVILIZATION" && selection.item.slug === civ.slug;
+            const isVietnam = civ.slug === "vietnam";
 
-              return (
-                <button
-                  key={civ.slug}
-                  type="button"
-                  onClick={() => setSelection({ kind: "CIVILIZATION", item: civ })}
-                  className={`shrink-0 rounded-xl px-3 py-1.5 text-xs font-medium transition-all ${
-                    isSelected
-                      ? "bg-amber-400 text-slate-950 font-bold shadow-sm"
-                      : isVietnam
-                      ? "border border-red-500/50 bg-red-950/40 text-red-200 hover:bg-red-900/40"
-                      : "border border-slate-800 bg-slate-900/80 text-stone-400 hover:bg-slate-800 hover:text-stone-200"
-                  }`}
-                >
-                  {isVietnam && "🇻🇳 "}
-                  {isVi ? civ.nameVi : civ.name}
-                </button>
-              );
-            })}
+            return (
+              <button
+                key={civ.slug}
+                type="button"
+                onClick={() => setSelection({ kind: "CIVILIZATION", item: civ })}
+                className={`shrink-0 rounded-xl px-3 py-1.5 text-xs font-medium transition-all ${
+                  isSelected
+                    ? "bg-amber-400 text-slate-950 font-bold shadow-sm"
+                    : isVietnam
+                    ? "border border-red-500/50 bg-red-950/40 text-red-200 hover:bg-red-900/40"
+                    : "border border-slate-800 bg-slate-900/80 text-stone-400 hover:bg-slate-800 hover:text-stone-200"
+                }`}
+              >
+                {isVietnam && "🇻🇳 "}
+                {isVi ? civ.nameVi : civ.name}
+              </button>
+            );
+          })}
 
-          {showBooks &&
-            GREAT_BOOKS_MAP_DATA.map((book) => {
-              const isSelected = selection.kind === "BOOK" && selection.item.slug === book.slug;
+          {filteredBooks.map((book) => {
+            const isSelected =
+              selection.kind === "BOOK" && selection.item.slug === book.slug;
 
-              return (
-                <button
-                  key={book.slug}
-                  type="button"
-                  onClick={() => setSelection({ kind: "BOOK", item: book })}
-                  className={`shrink-0 rounded-xl px-3 py-1.5 text-xs font-medium transition-all ${
-                    isSelected
-                      ? "bg-cyan-400 text-slate-950 font-bold shadow-sm"
-                      : "border border-cyan-900/50 bg-cyan-950/30 text-cyan-300 hover:bg-cyan-900/40"
-                  }`}
-                >
-                  📖 {isVi ? book.titleVi : book.title}
-                </button>
-              );
-            })}
+            return (
+              <button
+                key={book.slug}
+                type="button"
+                onClick={() => setSelection({ kind: "BOOK", item: book })}
+                className={`shrink-0 rounded-xl px-3 py-1.5 text-xs font-medium transition-all ${
+                  isSelected
+                    ? "bg-cyan-400 text-slate-950 font-bold shadow-sm"
+                    : "border border-cyan-900/50 bg-cyan-950/30 text-cyan-300 hover:bg-cyan-900/40"
+                }`}
+              >
+                📖 {isVi ? book.titleVi : book.title}
+              </button>
+            );
+          })}
         </div>
       </div>
 

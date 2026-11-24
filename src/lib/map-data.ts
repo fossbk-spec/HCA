@@ -5,7 +5,62 @@ export interface GeoCoord {
   yPercent: number; // 0% to 100% on Equirectangular map projection
 }
 
+export type HistoryEra = "ALL" | "ANCIENT" | "CLASSICAL" | "MEDIEVAL" | "MODERN";
+
+export interface EraFilterItem {
+  id: HistoryEra;
+  labelEn: string;
+  labelVi: string;
+  timeRangeEn: string;
+  timeRangeVi: string;
+  descriptionVi: string;
+}
+
+export const HISTORY_ERAS: EraFilterItem[] = [
+  {
+    id: "ALL",
+    labelEn: "All Epochs",
+    labelVi: "Tất cả thời kỳ",
+    timeRangeEn: "3500 BCE – Present",
+    timeRangeVi: "3500 TCN – Nay",
+    descriptionVi: "Toàn cảnh địa lý các nền văn minh và kiệt tác văn học xuyên suốt lịch sử nhân loại.",
+  },
+  {
+    id: "ANCIENT",
+    labelEn: "Ancient World",
+    labelVi: "Thời Cổ đại",
+    timeRangeEn: "Before 500 BCE",
+    timeRangeVi: "Trước 500 TCN",
+    descriptionVi: "Thời kỳ bình minh văn minh sơ khai: Lưỡng Hà, Ai Cập cổ đại, Hy Lạp sơ khởi và Văn minh sông Ấn.",
+  },
+  {
+    id: "CLASSICAL",
+    labelEn: "Classical Era",
+    labelVi: "Thời Cổ điển",
+    timeRangeEn: "500 BCE – 500 CE",
+    timeRangeVi: "500 TCN – 500 SCN",
+    descriptionVi: "Thời đại triết học trục thời gian: Hy Lạp cổ điển, La Mã, Ba Tư, Trung Hoa và Ấn Độ cổ đại.",
+  },
+  {
+    id: "MEDIEVAL",
+    labelEn: "Medieval Era",
+    labelVi: "Thời Trung đại",
+    timeRangeEn: "500 – 1500 CE",
+    timeRangeVi: "500 – 1500 SCN",
+    descriptionVi: "Thời đại hoàng kim Hồi giáo, Đại Việt Lý - Trần, châu Âu thời Trung Cổ và Nhật Bản Heian.",
+  },
+  {
+    id: "MODERN",
+    labelEn: "Early Modern & Beyond",
+    labelVi: "Thời Cận - Hiện đại",
+    timeRangeEn: "1500 CE – Present",
+    timeRangeVi: "Từ 1500 SCN đến nay",
+    descriptionVi: "Thời kỳ Phục hưng, Khai sáng toàn cầu, văn học hiện đại và Truyện Kiều Đại Việt.",
+  },
+];
+
 export interface CivilizationMapItem {
+  eras: HistoryEra[];
   slug: string;
   name: string;
   nameVi: string;
@@ -30,6 +85,7 @@ export interface CivilizationMapItem {
 export const CIVILIZATION_MAP_DATA: CivilizationMapItem[] = [
   {
     slug: "mesopotamia",
+    eras: ["ANCIENT", "CLASSICAL"],
     name: "Mesopotamia",
     nameVi: "Lưỡng Hà",
     region: "Middle East",
@@ -45,6 +101,7 @@ export const CIVILIZATION_MAP_DATA: CivilizationMapItem[] = [
   },
   {
     slug: "ancient-egypt",
+    eras: ["ANCIENT", "CLASSICAL"],
     name: "Ancient Egypt",
     nameVi: "Ai Cập cổ đại",
     region: "North Africa",
@@ -60,6 +117,7 @@ export const CIVILIZATION_MAP_DATA: CivilizationMapItem[] = [
   },
   {
     slug: "ancient-greece",
+    eras: ["ANCIENT", "CLASSICAL"],
     name: "Ancient Greece",
     nameVi: "Hy Lạp cổ đại",
     region: "Mediterranean Europe",
@@ -75,6 +133,7 @@ export const CIVILIZATION_MAP_DATA: CivilizationMapItem[] = [
   },
   {
     slug: "roman-empire",
+    eras: ["CLASSICAL"],
     name: "Roman Empire",
     nameVi: "Đế quốc La Mã",
     region: "Mediterranean & Europe",
@@ -90,6 +149,7 @@ export const CIVILIZATION_MAP_DATA: CivilizationMapItem[] = [
   },
   {
     slug: "ancient-china",
+    eras: ["ANCIENT", "CLASSICAL", "MEDIEVAL"],
     name: "Ancient China",
     nameVi: "Trung Hoa cổ đại",
     region: "East Asia",
@@ -105,6 +165,7 @@ export const CIVILIZATION_MAP_DATA: CivilizationMapItem[] = [
   },
   {
     slug: "ancient-india",
+    eras: ["ANCIENT", "CLASSICAL", "MEDIEVAL"],
     name: "Ancient India",
     nameVi: "Ấn Độ cổ đại",
     region: "South Asia",
@@ -120,6 +181,7 @@ export const CIVILIZATION_MAP_DATA: CivilizationMapItem[] = [
   },
   {
     slug: "vietnam",
+    eras: ["ANCIENT", "CLASSICAL", "MEDIEVAL", "MODERN"],
     name: "Đại Việt (Vietnam)",
     nameVi: "Đại Việt (Việt Nam)",
     region: "Southeast Asia",
@@ -135,6 +197,7 @@ export const CIVILIZATION_MAP_DATA: CivilizationMapItem[] = [
   },
   {
     slug: "persian-empire",
+    eras: ["CLASSICAL"],
     name: "Persian Empire",
     nameVi: "Đế quốc Ba Tư",
     region: "Near East & Central Asia",
@@ -150,6 +213,7 @@ export const CIVILIZATION_MAP_DATA: CivilizationMapItem[] = [
   },
   {
     slug: "islamic-civilization",
+    eras: ["MEDIEVAL"],
     name: "Islamic Golden Age",
     nameVi: "Thời kỳ Hoàng kim Hồi giáo",
     region: "Middle East, North Africa & Al-Andalus",
@@ -165,6 +229,7 @@ export const CIVILIZATION_MAP_DATA: CivilizationMapItem[] = [
   },
   {
     slug: "maya-civilization",
+    eras: ["ANCIENT", "CLASSICAL", "MEDIEVAL"],
     name: "Maya Civilization",
     nameVi: "Văn minh Maya",
     region: "Mesoamerica",
@@ -181,6 +246,7 @@ export const CIVILIZATION_MAP_DATA: CivilizationMapItem[] = [
 ];
 
 export interface GreatBookMapItem {
+  era: HistoryEra;
   slug: string;
   bookSlug: string;
   title: string;
@@ -199,6 +265,7 @@ export interface GreatBookMapItem {
 export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   {
     slug: "uruk-gilgamesh",
+    era: "ANCIENT",
     bookSlug: "epic-of-gilgamesh",
     title: "Epic of Gilgamesh",
     titleVi: "Sử thi Gilgamesh",
@@ -214,6 +281,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "thebes-sinuhe",
+    era: "ANCIENT",
     bookSlug: "tale-of-sinuhe",
     title: "Tale of Sinuhe",
     titleVi: "Câu chuyện của Sinuhe",
@@ -229,6 +297,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "aegean-iliad",
+    era: "ANCIENT",
     bookSlug: "iliad",
     title: "The Iliad and The Odyssey",
     titleVi: "Sử thi Iliad và Odyssey",
@@ -244,6 +313,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "rome-aeneid",
+    era: "CLASSICAL",
     bookSlug: "aeneid",
     title: "The Aeneid",
     titleVi: "Sử thi Aeneid",
@@ -259,6 +329,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "kurukshetra-mahabharata",
+    era: "CLASSICAL",
     bookSlug: "mahabharata",
     title: "The Mahabharata and Bhagavad Gita",
     titleVi: "Sử thi Mahabharata và Chí Tôn Ca",
@@ -274,6 +345,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "qufu-analects",
+    era: "CLASSICAL",
     bookSlug: "analects",
     title: "The Analects (Lunyu)",
     titleVi: "Luận ngữ",
@@ -289,6 +361,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "thanglong-truyenkieu",
+    era: "MODERN",
     bookSlug: "truyen-kieu",
     title: "The Tale of Kieu",
     titleVi: "Truyện Kiều (Đoạn trường tân thanh)",
@@ -304,6 +377,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "baghdad-kalila",
+    era: "MEDIEVAL",
     bookSlug: "kalila-wa-dimna",
     title: "Kalila and Dimna",
     titleVi: "Kalila và Dimna",
@@ -319,6 +393,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "kyoto-genji",
+    era: "MEDIEVAL",
     bookSlug: "the-tale-of-genji",
     title: "The Tale of Genji",
     titleVi: "Truyện kể Genji (Genji Monogatari)",
@@ -334,6 +409,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "florence-divine-comedy",
+    era: "MEDIEVAL",
     bookSlug: "divine-comedy",
     title: "The Divine Comedy and The Prince",
     titleVi: "Thần khúc và Quân vương",
@@ -349,6 +425,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "lamancha-don-quixote",
+    era: "MODERN",
     bookSlug: "don-quixote",
     title: "Don Quixote",
     titleVi: "Đôn Kihôtê",
@@ -364,6 +441,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "london-canterbury",
+    era: "MEDIEVAL",
     bookSlug: "the-canterbury-tales",
     title: "The Canterbury Tales",
     titleVi: "Những câu chuyện Canterbury",
@@ -379,6 +457,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "highlands-popol-vuh",
+    era: "MODERN",
     bookSlug: "popol-vuh",
     title: "Popol Vuh",
     titleVi: "Popol Vuh (Kinh thi K'iche')",
@@ -394,6 +473,7 @@ export const GREAT_BOOKS_MAP_DATA: GreatBookMapItem[] = [
   },
   {
     slug: "tus-shahnameh",
+    era: "MEDIEVAL",
     bookSlug: "shahnameh",
     title: "Shahnameh and The Masnavi",
     titleVi: "Sử thi Shahnameh và Khúc ngâm Masnavi",
