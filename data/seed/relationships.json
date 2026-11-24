@@ -1930,5 +1930,61 @@
     "targetSlug": "rule-of-law",
     "targetType": "IDEA",
     "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "de-dat-de-nuoc",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "epic-of-sundiata",
+    "sourceType": "BOOK",
+    "targetSlug": "human-rights",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "epic-of-sundiata",
+    "sourceType": "BOOK",
+    "targetSlug": "rule-of-law",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-prose-edda",
+    "sourceType": "BOOK",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "epic-of-kumarasambhava",
+    "sourceType": "BOOK",
+    "targetSlug": "dharma",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-tale-of-the-heike",
+    "sourceType": "BOOK",
+    "targetSlug": "karma-and-samsara",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "the-tale-of-the-heike",
+    "sourceType": "BOOK",
+    "targetSlug": "buddhist-middle-way",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "orunmila-ifa-corpus",
+    "sourceType": "BOOK",
+    "targetSlug": "human-rights",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
   }
 ]
