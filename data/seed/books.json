@@ -1191,5 +1191,18 @@
     "contentVi": "Sách chia làm 3 mục chính: Nhân quân (các vị vua sáng lập như Sĩ Nhiếp, Phùng Hưng, Ngô Quyền, Đinh Tiên Hoàng), Nhân thần (các anh hùng trung nghĩa như Lý Thường Kiệt, Tô Hiến Thành, Trần Hưng Đạo), và Dị thần (các vị thần sông núi linh thiêng như Thần Long Đỗ, Thần Sông Tô Lịch, Thần Núi Tản Viên). Mỗi truyện đều ghi rõ lai lịch hiển linh, các lần phong tặng sắc phong của các triều đại Lý - Trần để biểu thị lòng tri ân công đức bảo vệ giang sơn.",
     "civilizationSlug": "vietnam",
     "sourceExternalId": "vha:document:viet-dien-u-linh-tap"
+  },
+  {
+    "slug": "vha-tuyen-ngon-doc-lap-1945",
+    "title": "Declaration of Independence of the Democratic Republic of Vietnam (1945)",
+    "author": "Ho Chi Minh",
+    "publicationYear": 1945,
+    "summary": "Proclaimed by President Ho Chi Minh at Ba Dinh Square in Hanoi on September 2, 1945, this historic document cites universal human rights principles to declare Vietnam's national independence.",
+    "titleVi": "Tuyên ngôn Độc lập (1945)",
+    "authorVi": "Hồ Chí Minh",
+    "summaryVi": "Văn kiện lịch sử trọng đại do Chủ tịch Hồ Chí Minh soạn thảo và tuyên đọc ngày 2/9/1945 tại Quảng trường Ba Đình (Hà Nội), long trọng tuyên bố trước quốc dân và toàn thế giới về nền độc lập, tự do của dân tộc Việt Nam và sự ra đời của nước Việt Nam Dân chủ Cộng hòa.",
+    "contentVi": "Bản Tuyên ngôn mở đầu bằng một thủ pháp chính luận sắc bén và chuẩn mực: trích dẫn Tuyên ngôn Độc lập năm 1776 của nước Mỹ ('Tất cả mọi người đều sinh ra có quyền bình đẳng...') và Tuyên ngôn Nhân quyền và Dân quyền năm 1789 của Cách mạng Pháp ('Người ta sinh ra tự do và bình đẳng về quyền lợi...'). Từ quyền tự nhiên của con người, Người suy rộng ra quyền độc lập tự quyết thiêng liêng của các dân tộc trên thế giới.\n\nTiếp đó, bản Tuyên ngôn đanh thép tố cáo tội ác toàn diện của thực dân Pháp đối với nhân dân Việt Nam trong hơn 80 năm trên cả các phương diện chính trị, kinh tế, giáo dục và tư pháp; vạch trần hành động hèn nhát quỳ gối dâng Đông Dương cho phát xít Nhật hai lần, và khẳng định nhân dân Việt Nam đã đứng lên giành lại chính quyền từ tay Nhật chứ không phải từ tay Pháp.\n\nKết luận bản Tuyên ngôn khẳng định ý chí sắt đá không lay chuyển của toàn thể dân tộc: 'Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do độc lập. Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy!'.",
+    "civilizationSlug": "vietnam",
+    "sourceExternalId": "vha:document:tuyen-ngon-doc-lap-1945"
   }
 ]

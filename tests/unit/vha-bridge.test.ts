@@ -18,11 +18,11 @@ test("VHA to HCA knowledge federation bridge works seamlessly", () => {
 
   const peopleFile = path.join(fedDir, "people.json");
   const people = JSON.parse(fs.readFileSync(peopleFile, "utf-8"));
-  assert.equal(people.length, 28);
+  assert.equal(people.length, 30);
 
   const eventsFile = path.join(fedDir, "events.json");
   const events = JSON.parse(fs.readFileSync(eventsFile, "utf-8"));
-  assert.equal(events.length, 15);
+  assert.equal(events.length, 18);
 
   const ideasFile = path.join(fedDir, "ideas.json");
   const ideas = JSON.parse(fs.readFileSync(ideasFile, "utf-8"));
@@ -30,17 +30,17 @@ test("VHA to HCA knowledge federation bridge works seamlessly", () => {
 
   const booksFile = path.join(fedDir, "books.json");
   const books = JSON.parse(fs.readFileSync(booksFile, "utf-8"));
-  assert.equal(books.length, 10);
+  assert.equal(books.length, 11);
 
   const relsFile = path.join(fedDir, "relationships.json");
   const rels = JSON.parse(fs.readFileSync(relsFile, "utf-8"));
-  assert.equal(rels.length, 53);
+  assert.equal(rels.length, 94);
 
   const reportFile = path.join(root, "reports", "vha-hca-bridge-report.json");
   assert.ok(fs.existsSync(reportFile), "vha-hca-bridge-report.json should exist");
   const report = JSON.parse(fs.readFileSync(reportFile, "utf-8"));
-  assert.equal(report.summary.totalFederatedEntities, 72);
-  assert.equal(report.summary.crossEntityMatches, 11);
+  assert.equal(report.summary.totalFederatedEntities, 78);
+  assert.equal(report.summary.crossEntityMatches, 12);
 
   // Check Truyen Kieu in HCA seed
   const hcaBooks = JSON.parse(fs.readFileSync(path.join(root, "data", "seed", "books.json"), "utf-8"));
