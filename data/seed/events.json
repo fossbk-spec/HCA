@@ -753,5 +753,38 @@
     "summaryVi": "Trận quyết chiến chiến lược diễn ra vào mùa xuân năm 1077 trên phòng tuyến sông Như Nguyệt (sông Cầu), dưới sự chỉ huy của Thái úy Lý Thường Kiệt, đẩy lui cuộc tiến công của quân Tống do Quách Quỳ và Triệu Tiết chỉ huy; các con số quân đội trong sử liệu còn khó kiểm chứng.",
     "civilizationSlug": "vietnam",
     "sourceExternalId": "vha:event:tran-nhu-nguyet-1077"
+  },
+  {
+    "slug": "vha-cach-mang-thang-tam-1945",
+    "title": "August Revolution (1945)",
+    "startYear": 1945,
+    "endYear": 1945,
+    "summary": "In August 1945, the Viet Minh led a nationwide general insurrection following Japan's surrender in World War II, ending French colonial and Japanese wartime control and establishing the Democratic Republic of Vietnam.",
+    "titleVi": "Cách mạng Tháng Tám (1945)",
+    "summaryVi": "Cuộc tổng khởi nghĩa lịch sử vào tháng 8 năm 1945 do Mặt trận Việt Minh lãnh đạo, xóa bỏ ách thống trị hơn 80 năm của thực dân Pháp và ách chiếm đóng của phát xít Nhật, lật đổ chế độ quân chủ ngót ngàn năm, khai sinh nước Việt Nam Dân chủ Cộng hòa.",
+    "civilizationSlug": "vietnam",
+    "sourceExternalId": "vha:event:cach-mang-thang-tam-1945"
+  },
+  {
+    "slug": "vha-chien-dich-ho-chi-minh",
+    "title": "Ho Chi Minh Campaign (1975)",
+    "startYear": 1975,
+    "endYear": 1975,
+    "summary": "The final strategic offensive of April 1975 that ended the Vietnam War with the fall of Saigon on April 30, 1975, leading to the national reunification of Vietnam.",
+    "titleVi": "Chiến dịch Hồ Chí Minh (1975)",
+    "summaryVi": "Chiến dịch quân sự hiệp đồng binh chủng quy mô lớn nhất trong lịch sử chiến tranh Việt Nam, diễn ra từ ngày 26 đến 30/4/1975, đập tan tuyến phòng thủ cuối cùng của chính quyền Việt Nam Cộng hòa, giải phóng hoàn toàn miền Nam và thống nhất non sông.",
+    "civilizationSlug": "vietnam",
+    "sourceExternalId": "vha:event:chien-dich-ho-chi-minh"
+  },
+  {
+    "slug": "vha-phong-trao-can-vuong",
+    "title": "Can Vuong Movement (1885–1896)",
+    "startYear": 1885,
+    "endYear": 1896,
+    "summary": "Launched in 1885 in the name of young Emperor Ham Nghi and regent Ton That Thuyet, this royalist scholar-gentry resistance movement mobilized regional uprisings across Vietnam against French colonial rule.",
+    "titleVi": "Phong trào Cần Vương (1885–1896)",
+    "summaryVi": "Phong trào khởi nghĩa vũ trang yêu nước quy mô lớn dưới ngọn cờ phò vua giúp nước do Tôn Thất Thuyết nhân danh Vua Hàm Nghi hạ chiếu Cần Vương, lôi cuốn đông đảo văn thân, sĩ phu và nhân dân cả nước kháng chiến chống thực dân Pháp cuối thế kỷ XIX.",
+    "civilizationSlug": "vietnam",
+    "sourceExternalId": "vha:event:phong-trao-can-vuong"
   }
 ]

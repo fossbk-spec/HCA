@@ -21,6 +21,13 @@
     "relationshipType": "PART_OF"
   },
   {
+    "sourceSlug": "vha-nam-quoc-son-ha",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
     "sourceSlug": "vha-nha-nuoc-van-lang",
     "sourceType": "CIVILIZATION",
     "targetSlug": "vha-nha-nuoc-au-lac",
@@ -217,6 +224,41 @@
     "relationshipType": "PART_OF"
   },
   {
+    "sourceSlug": "vha-ly-thuong-kiet",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-ly",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-quoc-trieu-hinh-luat",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-state-governance-and-law",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-binh-ngo-dai-cao",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-hich-tuong-si",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-tran-hung-dao",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-tran",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "LED"
+  },
+  {
     "sourceSlug": "vha-chien-thang-ngoc-hoi-dong-da",
     "sourceType": "EVENT",
     "targetSlug": "vha-sovereignty-and-defense",
@@ -243,6 +285,13 @@
     "targetSlug": "vha-chien-thang-ngoc-hoi-dong-da",
     "targetType": "EVENT",
     "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-chieu-cau-hien",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
   },
   {
     "sourceSlug": "vha-vuong-quoc-phu-nam",
@@ -322,6 +371,34 @@
     "relationshipType": "RULED"
   },
   {
+    "sourceSlug": "vha-dai-viet-su-ky-toan-thu",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-linh-nam-chich-quai",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-viet-dien-u-linh-tap",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-truyen-kieu",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
     "sourceSlug": "vha-tran-nhan-tong",
     "sourceType": "PERSON",
     "targetSlug": "vha-nha-tran",
@@ -343,11 +420,53 @@
     "relationshipType": "RULED"
   },
   {
+    "sourceSlug": "vha-nguyen-du",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-nguyen",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-hai-thuong-lan-ong",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-chu-van-an",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-nha-tran",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-tran-nhan-tong",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chu-van-an",
+    "targetType": "PERSON",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-hai-ba-trung",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-trieu-thi-trinh",
+    "targetType": "PERSON",
+    "relationshipType": "INFLUENCED"
+  },
+  {
     "sourceSlug": "vha-trieu-quang-phuc",
     "sourceType": "PERSON",
     "targetSlug": "vha-nha-nuoc-van-xuan",
     "targetType": "CIVILIZATION",
     "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "vha-ly-bi",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-trieu-quang-phuc",
+    "targetType": "PERSON",
+    "relationshipType": "INFLUENCED"
   },
   {
     "sourceSlug": "vha-mai-thuc-loan",
@@ -364,10 +483,178 @@
     "relationshipType": "RULED"
   },
   {
+    "sourceSlug": "vha-phan-chau-trinh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-phan-boi-chau",
+    "targetType": "PERSON",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-hoang-hoa-tham",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-phan-boi-chau",
+    "targetType": "PERSON",
+    "relationshipType": "INFLUENCED"
+  },
+  {
     "sourceSlug": "vha-trieu-thi-trinh",
     "sourceType": "PERSON",
     "targetSlug": "vha-khoi-nghia-ba-trieu",
     "targetType": "EVENT",
     "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-cach-mang-thang-tam-1945",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-chien-dich-ho-chi-minh",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-phong-trao-can-vuong",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-ho-chi-minh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-cach-mang-thang-tam-1945",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-ho-chi-minh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-cach-mang-thang-tam-1945",
+    "targetType": "EVENT",
+    "relationshipType": "PARTICIPATED_IN"
+  },
+  {
+    "sourceSlug": "vha-ho-chi-minh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-vo-nguyen-giap",
+    "targetType": "PERSON",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-ho-chi-minh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-vo-nguyen-giap",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chien-dich-dien-bien-phu",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-vo-nguyen-giap",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chien-dich-dien-bien-phu",
+    "targetType": "EVENT",
+    "relationshipType": "PARTICIPATED_IN"
+  },
+  {
+    "sourceSlug": "vha-vo-nguyen-giap",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chien-dich-ho-chi-minh",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-vo-nguyen-giap",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chien-dich-ho-chi-minh",
+    "targetType": "EVENT",
+    "relationshipType": "PARTICIPATED_IN"
+  },
+  {
+    "sourceSlug": "vha-tuyen-ngon-doc-lap-1945",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-state-governance-and-law",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-tuyen-ngon-doc-lap-1945",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-hoang-hoa-tham",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-phong-trao-can-vuong",
+    "targetType": "EVENT",
+    "relationshipType": "PARTICIPATED_IN"
+  },
+  {
+    "sourceSlug": "vha-ho-chi-minh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-vo-nguyen-giap",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-chien-dich-dien-bien-phu",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-phong-trao-can-vuong",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-cach-mang-thang-tam-1945",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-cach-mang-thang-tam-1945",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-tuyen-ngon-doc-lap-1945",
+    "targetType": "BOOK",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-cach-mang-thang-tam-1945",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-chien-dich-dien-bien-phu",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-chien-dich-dien-bien-phu",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-chien-dich-ho-chi-minh",
+    "targetType": "EVENT",
+    "relationshipType": "INFLUENCED"
+  },
+  {
+    "sourceSlug": "vha-phan-boi-chau",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-ho-chi-minh",
+    "targetType": "PERSON",
+    "relationshipType": "INFLUENCED"
   }
 ]

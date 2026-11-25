@@ -2651,5 +2651,47 @@
     "targetSlug": "vha-dep-loan-12-su-quan",
     "targetType": "EVENT",
     "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "ho-chi-minh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-tuyen-ngon-doc-lap-1945",
+    "targetType": "BOOK",
+    "relationshipType": "WROTE"
+  },
+  {
+    "sourceSlug": "ho-chi-minh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-cach-mang-thang-tam-1945",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-tuyen-ngon-doc-lap-1945",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "vha-cach-mang-thang-tam-1945",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-chien-dich-ho-chi-minh",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-phong-trao-can-vuong",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
   }
 ]
