@@ -2448,5 +2448,124 @@
     "targetSlug": "democracy",
     "targetType": "IDEA",
     "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "ngo-quyen",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-bach-dang-938",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-bach-dang-938",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "an-duong-vuong",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khang-chien-chong-tan",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-khang-chien-chong-tan",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "hai-ba-trung",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-hai-ba-trung",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-khoi-nghia-hai-ba-trung",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-khoi-nghia-ly-bi-lap-nuoc-van-xuan",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-dep-loan-12-su-quan",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-khang-chien-chong-tong-981",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "ly-thuong-kiet",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-tran-nhu-nguyet-1077",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-tran-nhu-nguyet-1077",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-chien-thang-ngoc-hoi-dong-da",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "vha-khang-chien-chong-mong-nguyen",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "tran-hung-dao",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khang-chien-chong-mong-nguyen",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "vha-khoi-nghia-lam-son",
+    "sourceType": "EVENT",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "le-loi",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-lam-son",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "nguyen-trai",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-lam-son",
+    "targetType": "EVENT",
+    "relationshipType": "PARTICIPATED_IN"
   }
 ]
