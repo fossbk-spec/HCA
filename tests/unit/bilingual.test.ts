@@ -31,7 +31,7 @@ test("bilingual dataset coverage across all 5 seed files", () => {
 
   // 3. Events
   const events = JSON.parse(fs.readFileSync(path.join(seedDir, "events.json"), "utf-8"));
-  assert.equal(events.length, 81); // 66 original + 15 from VHA (Vietnam)
+  assert.equal(events.length, 76); // 66 original + 10 net-new VHA events (5 reconciled)
   for (const e of events) {
     assert.ok(e.titleVi && e.titleVi.trim().length > 0, `Event ${e.slug} missing titleVi`);
     assert.ok(e.summaryVi && e.summaryVi.trim().length > 0, `Event ${e.slug} missing summaryVi`);
@@ -52,7 +52,7 @@ test("bilingual dataset coverage across all 5 seed files", () => {
 
   // 5. Books
   const books = JSON.parse(fs.readFileSync(path.join(seedDir, "books.json"), "utf-8"));
-  assert.equal(books.length, 109); // 100 original + 9 from VHA (Vietnam)
+  assert.equal(books.length, 104); // 100 original + 4 net-new VHA books (5 reconciled)
   for (const b of books) {
     assert.ok(b.titleVi && b.titleVi.trim().length > 0, `Book ${b.slug} missing titleVi`);
     assert.ok(b.authorVi && b.authorVi.trim().length > 0, `Book ${b.slug} missing authorVi`);

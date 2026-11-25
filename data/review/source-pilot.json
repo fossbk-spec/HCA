@@ -1,0 +1,452 @@
+[
+  {
+    "entityType": "PERSON",
+    "slug": "confucius",
+    "sources": [
+      {
+        "title": "The Analects of Confucius",
+        "authors": ["Confucius", "Simon Leys (trans.)"],
+        "year": 1997,
+        "publisher": "W. W. Norton & Company",
+        "type": "primary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      },
+      {
+        "title": "Confucius",
+        "authors": ["Jeffrey Riegel"],
+        "year": null,
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "reference",
+        "locator": null,
+        "supports": "date",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "plato",
+    "sources": [
+      {
+        "title": "Plato: Complete Works",
+        "authors": ["Plato", "John M. Cooper (ed.)"],
+        "year": 1997,
+        "publisher": "Hackett Publishing",
+        "type": "primary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      },
+      {
+        "title": "Plato",
+        "authors": ["Richard Kraut"],
+        "year": null,
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "reference",
+        "locator": null,
+        "supports": "date",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "aristotle",
+    "sources": [
+      {
+        "title": "The Complete Works of Aristotle: The Revised Oxford Translation",
+        "authors": ["Aristotle", "Jonathan Barnes (ed.)"],
+        "year": 1984,
+        "publisher": "Princeton University Press",
+        "type": "primary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      },
+      {
+        "title": "Aristotle",
+        "authors": ["Christopher Shields"],
+        "year": null,
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "reference",
+        "locator": null,
+        "supports": "date",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "qin-shi-huang",
+    "sources": [
+      {
+        "title": "Records of the Grand Historian: Qin Dynasty (Shiji)",
+        "authors": ["Sima Qian", "Burton Watson (trans.)"],
+        "year": 1993,
+        "publisher": "Columbia University Press",
+        "type": "primary",
+        "locator": "Basic Annals of the First Emperor of the Qin",
+        "supports": "date",
+        "verification": "unverified"
+      },
+      {
+        "title": "The Cambridge History of China, Vol. 1: The Ch'in and Han Empires, 221 B.C.–A.D. 220",
+        "authors": ["Denis Twitchett", "Michael Loewe (eds.)"],
+        "year": 1986,
+        "publisher": "Cambridge University Press",
+        "type": "secondary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "kautilya",
+    "sources": [
+      {
+        "title": "King, Governance, and Law in Ancient India: Kautilya's Arthashastra",
+        "authors": ["Patrick Olivelle (trans.)"],
+        "year": 2013,
+        "publisher": "Oxford University Press",
+        "type": "primary",
+        "locator": "Introduction",
+        "supports": "date",
+        "verification": "unverified"
+      },
+      {
+        "title": "A History of India, Vol. 1",
+        "authors": ["Romila Thapar"],
+        "year": 1990,
+        "publisher": "Penguin Books",
+        "type": "secondary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "ho-chi-minh",
+    "sources": [
+      {
+        "title": "Ho Chi Minh: A Life",
+        "authors": ["William J. Duiker"],
+        "year": 2000,
+        "publisher": "Hyperion",
+        "type": "secondary",
+        "locator": null,
+        "supports": "date",
+        "verification": "unverified"
+      },
+      {
+        "title": "Ho Chi Minh: Selected Writings, 1920–1969",
+        "authors": ["Ho Chi Minh"],
+        "year": 1973,
+        "publisher": "Foreign Languages Publishing House (Hanoi)",
+        "type": "primary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "IDEA",
+    "slug": "rule-of-law",
+    "sources": [
+      {
+        "title": "The Rule of Law",
+        "authors": ["Jeremy Waldron"],
+        "year": null,
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "reference",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      },
+      {
+        "title": "The Rule of Law",
+        "authors": ["Tom Bingham"],
+        "year": 2010,
+        "publisher": "Allen Lane",
+        "type": "secondary",
+        "locator": null,
+        "supports": "interpretation",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "IDEA",
+    "slug": "republic",
+    "sources": [
+      {
+        "title": "Republicanism",
+        "authors": ["Frank Lovett"],
+        "year": null,
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "reference",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      },
+      {
+        "title": "The Machiavellian Moment: Florentine Political Thought and the Atlantic Republican Tradition",
+        "authors": ["J. G. A. Pocock"],
+        "year": 1975,
+        "publisher": "Princeton University Press",
+        "type": "secondary",
+        "locator": null,
+        "supports": "interpretation",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "IDEA",
+    "slug": "ahimsa",
+    "sources": [
+      {
+        "title": "Early Buddhism",
+        "authors": ["Richard Gombrich"],
+        "year": null,
+        "publisher": "Oxford Bibliographies / Routledge",
+        "type": "secondary",
+        "locator": null,
+        "supports": "interpretation",
+        "verification": "unverified"
+      },
+      {
+        "title": "Nonviolence (Ahimsa)",
+        "authors": ["Christopher Key Chapple"],
+        "year": 1993,
+        "publisher": "State University of New York Press",
+        "type": "secondary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "the-republic",
+    "sources": [
+      {
+        "title": "Plato: Republic",
+        "authors": ["Plato", "G. M. A. Grube (trans.)", "C. D. C. Reeve (rev.)"],
+        "year": 1992,
+        "publisher": "Hackett Publishing",
+        "type": "primary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      },
+      {
+        "title": "Plato's Ethics and Politics in The Republic",
+        "authors": ["Eric Brown"],
+        "year": null,
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "type": "reference",
+        "locator": null,
+        "supports": "interpretation",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "art-of-war",
+    "sources": [
+      {
+        "title": "The Art of War",
+        "authors": ["Sun Tzu", "Samuel B. Griffith (trans.)"],
+        "year": 1963,
+        "publisher": "Oxford University Press",
+        "type": "primary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      },
+      {
+        "title": "Sunzi bingfa",
+        "authors": ["Michael Loewe (ed.)", "Krzysztof Gawlikowski"],
+        "year": 1993,
+        "publisher": "Society for the Study of Early China (Early Chinese Texts: A Bibliographical Guide)",
+        "type": "reference",
+        "locator": null,
+        "supports": "date",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "elements",
+    "sources": [
+      {
+        "title": "The Thirteen Books of Euclid's Elements",
+        "authors": ["Euclid", "Thomas L. Heath (trans.)"],
+        "year": 1956,
+        "publisher": "Dover Publications",
+        "type": "primary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "wealth-of-nations",
+    "sources": [
+      {
+        "title": "An Inquiry into the Nature and Causes of the Wealth of Nations (Glasgow Edition)",
+        "authors": ["Adam Smith", "R. H. Campbell", "A. S. Skinner (eds.)"],
+        "year": 1976,
+        "publisher": "Oxford University Press",
+        "type": "primary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "binh-ngo-dai-cao",
+    "sources": [
+      {
+        "title": "A History of the Vietnamese",
+        "authors": ["K. W. Taylor"],
+        "year": 2013,
+        "publisher": "Cambridge University Press",
+        "type": "secondary",
+        "locator": null,
+        "supports": "date",
+        "verification": "unverified"
+      },
+      {
+        "title": "Nguyen Trai Toan Tap",
+        "authors": ["Nguyen Trai", "Dao Duy Anh (ed.)"],
+        "year": 1976,
+        "publisher": "Nha xuat ban Khoa hoc Xa hoi (Hanoi)",
+        "type": "primary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "arthashastra",
+    "sources": [
+      {
+        "title": "King, Governance, and Law in Ancient India: Kautilya's Arthashastra",
+        "authors": ["Patrick Olivelle (trans.)"],
+        "year": 2013,
+        "publisher": "Oxford University Press",
+        "type": "primary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "dhammapada",
+    "sources": [
+      {
+        "title": "The Word of the Doctrine (Dhammapada)",
+        "authors": ["K. R. Norman (trans.)"],
+        "year": 1997,
+        "publisher": "Pali Text Society",
+        "type": "primary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "cyrus-cylinder",
+    "sources": [
+      {
+        "title": "The Cyrus Cylinder: The King of Persia's Proclamation from Ancient Babylon",
+        "authors": ["Irving Finkel (ed.)"],
+        "year": 2013,
+        "publisher": "I.B. Tauris",
+        "type": "secondary",
+        "locator": null,
+        "supports": "date",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "EVENT",
+    "slug": "fall-of-rome",
+    "sources": [
+      {
+        "title": "The Fall of the Roman Empire: A New History of Rome and the Barbarians",
+        "authors": ["Peter Heather"],
+        "year": 2005,
+        "publisher": "Oxford University Press",
+        "type": "secondary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      },
+      {
+        "title": "The Fall of Rome and the End of Civilization",
+        "authors": ["Bryan Ward-Perkins"],
+        "year": 2005,
+        "publisher": "Oxford University Press",
+        "type": "secondary",
+        "locator": null,
+        "supports": "interpretation",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "EVENT",
+    "slug": "keju-examination-system",
+    "sources": [
+      {
+        "title": "A Cultural History of Civil Examinations in Late Imperial China",
+        "authors": ["Benjamin A. Elman"],
+        "year": 2000,
+        "publisher": "University of California Press",
+        "type": "secondary",
+        "locator": null,
+        "supports": "summary",
+        "verification": "unverified"
+      }
+    ]
+  },
+  {
+    "entityType": "EVENT",
+    "slug": "warring-states-period",
+    "sources": [
+      {
+        "title": "The Cambridge History of Ancient China: From the Origins of Civilization to 221 B.C.",
+        "authors": ["Michael Loewe", "Edward L. Shaughnessy (eds.)"],
+        "year": 1999,
+        "publisher": "Cambridge University Press",
+        "type": "secondary",
+        "locator": null,
+        "supports": "date",
+        "verification": "unverified"
+      }
+    ]
+  }
+]
