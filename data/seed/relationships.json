@@ -2452,12 +2452,12 @@
   {
     "sourceSlug": "ngo-quyen",
     "sourceType": "PERSON",
-    "targetSlug": "vha-bach-dang-938",
+    "targetSlug": "battle-of-bach-dang-938",
     "targetType": "EVENT",
     "relationshipType": "LED"
   },
   {
-    "sourceSlug": "vha-bach-dang-938",
+    "sourceSlug": "battle-of-bach-dang-938",
     "sourceType": "EVENT",
     "targetSlug": "vha-sovereignty-and-defense",
     "targetType": "IDEA",
@@ -2478,14 +2478,7 @@
     "relationshipType": "PART_OF"
   },
   {
-    "sourceSlug": "hai-ba-trung",
-    "sourceType": "PERSON",
-    "targetSlug": "vha-khoi-nghia-hai-ba-trung",
-    "targetType": "EVENT",
-    "relationshipType": "LED"
-  },
-  {
-    "sourceSlug": "vha-khoi-nghia-hai-ba-trung",
+    "sourceSlug": "hai-ba-trung-uprising",
     "sourceType": "EVENT",
     "targetSlug": "vha-sovereignty-and-defense",
     "targetType": "IDEA",
@@ -2534,7 +2527,7 @@
     "relationshipType": "PART_OF"
   },
   {
-    "sourceSlug": "vha-khang-chien-chong-mong-nguyen",
+    "sourceSlug": "mongol-invasions-of-vietnam",
     "sourceType": "EVENT",
     "targetSlug": "vha-sovereignty-and-defense",
     "targetType": "IDEA",
@@ -2543,29 +2536,120 @@
   {
     "sourceSlug": "tran-hung-dao",
     "sourceType": "PERSON",
-    "targetSlug": "vha-khang-chien-chong-mong-nguyen",
+    "targetSlug": "mongol-invasions-of-vietnam",
     "targetType": "EVENT",
     "relationshipType": "LED"
   },
   {
-    "sourceSlug": "vha-khoi-nghia-lam-son",
+    "sourceSlug": "lam-son-uprising",
     "sourceType": "EVENT",
     "targetSlug": "vha-sovereignty-and-defense",
     "targetType": "IDEA",
     "relationshipType": "PART_OF"
   },
   {
+    "sourceSlug": "nguyen-trai",
+    "sourceType": "PERSON",
+    "targetSlug": "lam-son-uprising",
+    "targetType": "EVENT",
+    "relationshipType": "PARTICIPATED_IN"
+  },
+  {
     "sourceSlug": "le-loi",
     "sourceType": "PERSON",
-    "targetSlug": "vha-khoi-nghia-lam-son",
+    "targetSlug": "binh-ngo-dai-cao",
+    "targetType": "BOOK",
+    "relationshipType": "PROCLAIMED"
+  },
+  {
+    "sourceSlug": "le-thanh-tong",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-quoc-trieu-hinh-luat",
+    "targetType": "BOOK",
+    "relationshipType": "PROMULGATED"
+  },
+  {
+    "sourceSlug": "quang-trung",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chieu-cau-hien",
+    "targetType": "BOOK",
+    "relationshipType": "PROCLAIMED"
+  },
+  {
+    "sourceSlug": "binh-ngo-dai-cao",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "nam-quoc-son-ha",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "hich-tuong-si",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "AFFIRMED"
+  },
+  {
+    "sourceSlug": "chieu-doi-do",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-state-governance-and-law",
+    "targetType": "IDEA",
+    "relationshipType": "ARTICULATED"
+  },
+  {
+    "sourceSlug": "vha-quoc-trieu-hinh-luat",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-state-governance-and-law",
+    "targetType": "IDEA",
+    "relationshipType": "ARTICULATED"
+  },
+  {
+    "sourceSlug": "vha-chieu-cau-hien",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-state-governance-and-law",
+    "targetType": "IDEA",
+    "relationshipType": "ARTICULATED"
+  },
+  {
+    "sourceSlug": "dai-viet-su-ky-toan-thu",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "ARTICULATED"
+  },
+  {
+    "sourceSlug": "vha-linh-nam-chich-quai",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "ARTICULATED"
+  },
+  {
+    "sourceSlug": "vha-viet-dien-u-linh-tap",
+    "sourceType": "BOOK",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "ARTICULATED"
+  },
+  {
+    "sourceSlug": "quang-trung",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chien-thang-ngoc-hoi-dong-da",
     "targetType": "EVENT",
     "relationshipType": "LED"
   },
   {
-    "sourceSlug": "nguyen-trai",
+    "sourceSlug": "dinh-bo-linh",
     "sourceType": "PERSON",
-    "targetSlug": "vha-khoi-nghia-lam-son",
+    "targetSlug": "vha-dep-loan-12-su-quan",
     "targetType": "EVENT",
-    "relationshipType": "PARTICIPATED_IN"
+    "relationshipType": "LED"
   }
 ]

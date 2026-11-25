@@ -342,7 +342,9 @@
     "summary": "The Trung Sisters spearheaded a national revolt that expelled Han imperial forces, establishing an independent Vietnamese realm for three years.",
     "content": "In 40 CE, outraged by the brutal execution of Thi Sach and Han exactions, Trung Trac and Trung Nhi rallied regional chieftains and the populace of Giao Chi, Cuu Chan, and Nhat Nam. Overrunning 65 forts, they expelled the Han governor To Dinh. Trung Trac was crowned monarch at Me Linh, inaugurating the first recorded sovereign administration led by Vietnamese women.",
     "titleVi": "Khởi nghĩa Hai Bà Trưng",
-    "summaryVi": "Hai Bà Trưng phất cờ khởi nghĩa tại Hát Môn đánh đuổi thái thú Tô Định, giải phóng 65 thành trì và giành lại nền độc lập tự chủ đầu tiên thời kỳ Bắc thuộc."
+    "summaryVi": "Hai Bà Trưng phất cờ khởi nghĩa tại Hát Môn đánh đuổi thái thú Tô Định, giải phóng 65 thành trì và giành lại nền độc lập tự chủ đầu tiên thời kỳ Bắc thuộc.",
+    "civilizationSlug": "vietnam",
+    "sourceExternalId": "vha:event:khoi-nghia-hai-ba-trung"
   },
   {
     "slug": "battle-of-bach-dang-938",
@@ -352,7 +354,9 @@
     "summary": "Ngo Quyen defeated the Southern Han navy on the Bach Dang River, terminating over 1,000 years of Chinese domination and restoring independence.",
     "content": "In late 938, Southern Han prince Liu Hongcao sailed a naval invasion fleet into the Bach Dang estuary. Ngo Quyen ordered heavy wooden stakes tipped with iron embedded in the riverbed. As high tide receded, Vietnamese warcraft counter-attacked, impaling the fleeing enemy ships upon the exposed stakes. The victory ended the thousand-year Northern Domination (Bac thuoc) era, inaugurating continuous national sovereignty.",
     "titleVi": "Chiến thắng Bạch Đằng năm 938 của Ngô Quyền",
-    "summaryVi": "Ngô Quyền vận dụng chiến thuật cắm cọc nhọn bọc sắt tiêu diệt đạo thủy quân Nam Hán trên sông Bạch Đằng, chấm dứt vĩnh viễn hơn 1.000 năm Bắc thuộc của dân tộc Việt Nam."
+    "summaryVi": "Ngô Quyền vận dụng chiến thuật cắm cọc nhọn bọc sắt tiêu diệt đạo thủy quân Nam Hán trên sông Bạch Đằng, chấm dứt vĩnh viễn hơn 1.000 năm Bắc thuộc của dân tộc Việt Nam.",
+    "civilizationSlug": "vietnam",
+    "sourceExternalId": "vha:event:bach-dang-938"
   },
   {
     "slug": "relocation-of-capital-to-thang-long",
@@ -362,7 +366,9 @@
     "summary": "King Ly Thai To transferred the capital from mountainous Hoa Lu to Thang Long (Hanoi), laying the urban foundation for a prosperous millennium.",
     "content": "In autumn 1010, King Ly Thai To issued the historic Chiếu dời đô (Edict on the Transfer of the Capital), arguing that mountainous Hoa Lu was too restrictive for a growing empire. Choosing the fertile Red River floodplain where he reportedly witnessed a rising golden dragon (Thang Long), the move positioned the capital at the geopolitical heart of the country, triggering centuries of economic, administrative, and cultural expansion.",
     "titleVi": "Chiếu dời đô về Thăng Long năm 1010 của Lý Thái Tổ",
-    "summaryVi": "Vua Lý Thái Tổ ban Chiếu dời đô từ Hoa Lư về thành Đại La (Thăng Long - Hà Nội), mở ra thời kỳ định hình kinh đô phồn thịnh ngàn năm của quốc gia Đại Việt."
+    "summaryVi": "Vua Lý Thái Tổ ban Chiếu dời đô từ Hoa Lư về thành Đại La (Thăng Long - Hà Nội), mở ra thời kỳ định hình kinh đô phồn thịnh ngàn năm của quốc gia Đại Việt.",
+    "civilizationSlug": "vietnam",
+    "sourceExternalId": "vha:event:doi-do-ve-thang-long"
   },
   {
     "slug": "song-dynasty-resistance-1077",
@@ -382,7 +388,9 @@
     "summary": "Dai Viet forces under the Tran dynasty and General Tran Hung Dao thrice repelled massive Mongol-Yuan armies, culminating in the 1288 Bach Dang victory.",
     "content": "Between 1258 and 1288, the Mongol Empire launched three major campaigns to subjugate Dai Viet and clear a southern flank against Song China and Champa. Utilizing the scorched-earth strategy (\"Thanh da\"), national congresses (Hoi nghi Dien Hong), and river ambushes, Tran Hung Dao orchestrated the decisive victory at Bach Dang River in 1288, capturing Yuan admiral Omar and safeguarding Southeast Asian independence.",
     "titleVi": "Ba lần kháng chiến chống quân xâm lược Nguyên Mông (1258, 1285, 1288)",
-    "summaryVi": "Dưới sự lãnh đạo của triều Trần và Tiết chế Quốc công Trần Hưng Đạo, toàn dân Đại Việt đồng lòng đánh bại đạo quân viễn chinh Mông Cổ bách chiến bách thắng khắp Á - Âu."
+    "summaryVi": "Dưới sự lãnh đạo của triều Trần và Tiết chế Quốc công Trần Hưng Đạo, toàn dân Đại Việt đồng lòng đánh bại đạo quân viễn chinh Mông Cổ bách chiến bách thắng khắp Á - Âu.",
+    "civilizationSlug": "vietnam",
+    "sourceExternalId": "vha:event:khang-chien-chong-mong-nguyen"
   },
   {
     "slug": "lam-son-uprising",
@@ -392,7 +400,9 @@
     "summary": "A ten-year war of national liberation led by Le Loi and Nguyen Trai that expelled Ming occupiers and founded the Later Le dynasty.",
     "content": "Following the Ming conquest in 1407, Le Loi gathered patriots in Thanh Hoa to launch the Lam Son insurrection in 1418. Guided by Nguyen Trai's military and psychological statecraft, the insurgents grew from guerrilla fighters into a nationwide army. After crushing Ming relief columns at Tot Dong-Chuc Dong (1426) and Chi Lang-Xuong Giang (1427), Le Loi permitted the remaining Ming forces to repatriate safely, restoring peace and sovereignty.",
     "titleVi": "Khởi nghĩa Lam Sơn và bản Tuyên ngôn Bình Ngô đại cáo (1418–1428)",
-    "summaryVi": "Lê Lợi và Nguyễn Trãi lãnh đạo cuộc khởi nghĩa Lam Sơn mười năm gian khổ đánh đuổi quân Minh xâm lược, ban bố bản thiên cổ hùng văn Bình Ngô đại cáo phục hồi nền độc lập."
+    "summaryVi": "Lê Lợi và Nguyễn Trãi lãnh đạo cuộc khởi nghĩa Lam Sơn mười năm gian khổ đánh đuổi quân Minh xâm lược, ban bố bản thiên cổ hùng văn Bình Ngô đại cáo phục hồi nền độc lập.",
+    "civilizationSlug": "vietnam",
+    "sourceExternalId": "vha:event:khoi-nghia-lam-son"
   },
   {
     "slug": "promulgation-of-hong-duc-code",
@@ -635,22 +645,11 @@
     "summaryVi": "Kiến trúc Transformer và các mô hình ngôn ngữ lớn (LLM) mở ra kỷ nguyên trí tuệ nhân tạo tạo sinh có khả năng hiểu, lập luận và sáng tạo ngôn ngữ tự nhiên ở quy mô toàn cầu."
   },
   {
-    "slug": "vha-bach-dang-938",
-    "title": "Trận Bạch Đằng năm 938",
-    "startYear": 938,
-    "endYear": 938,
-    "summary": "Năm 938, Ngô Quyền đánh bại đạo thủy quân của nước Nam Hán trên sông Bạch Đằng, chặn âm mưu tái lập quyền cai trị trực tiếp ở vùng đất người Việt.",
-    "titleVi": "Trận Bạch Đằng năm 938",
-    "summaryVi": "Năm 938, Ngô Quyền đánh bại đạo thủy quân của nước Nam Hán trên sông Bạch Đằng, chặn âm mưu tái lập quyền cai trị trực tiếp ở vùng đất người Việt.",
-    "civilizationSlug": "vietnam",
-    "sourceExternalId": "vha:event:bach-dang-938"
-  },
-  {
     "slug": "vha-cai-cach-khuc-hao",
-    "title": "Cuộc cải cách hành chính của Khúc Hạo",
+    "title": "Administrative Reforms of Khuc Hao",
     "startYear": 907,
     "endYear": 923,
-    "summary": "Cuộc cải cách toàn diện về phân cấp hành chính, quản lý nhân khẩu và điều chỉnh thuế khóa do Tiết độ sứ Khúc Hạo khởi xướng tại Tĩnh Hải quân trong những năm 907–917, đặt nền móng quản trị cho nhà nước tự chủ.",
+    "summary": "Following 907 CE, Khuc Hao instituted administrative reforms under the principle of 'leniency, simplicity, and peace for the people,' reorganizing local governance into lo, phu, chau, giap, and xa.",
     "titleVi": "Cuộc cải cách hành chính của Khúc Hạo",
     "summaryVi": "Cuộc cải cách toàn diện về phân cấp hành chính, quản lý nhân khẩu và điều chỉnh thuế khóa do Tiết độ sứ Khúc Hạo khởi xướng tại Tĩnh Hải quân trong những năm 907–917, đặt nền móng quản trị cho nhà nước tự chủ.",
     "civilizationSlug": "vietnam",
@@ -658,10 +657,10 @@
   },
   {
     "slug": "vha-chien-dich-dien-bien-phu",
-    "title": "Chiến dịch Điện Biên Phủ (1954)",
+    "title": "Battle of Dien Bien Phu (1954)",
     "startYear": 1954,
     "endYear": 1954,
-    "summary": "Trận quyết chiến chiến lược đỉnh cao 56 ngày đêm của Quân đội Nhân dân Việt Nam đập tan tập đoàn cứ điểm quân sự mạnh nhất Đông Dương của thực dân Pháp, 'lừng lẫy năm châu, chấn động địa cầu'.",
+    "summary": "The decisive 1954 military campaign in northwestern Vietnam in which Viet Minh forces defeated the French Union garrison, leading to the Geneva Accords and the end of French colonial rule in Indochina.",
     "titleVi": "Chiến dịch Điện Biên Phủ (1954)",
     "summaryVi": "Trận quyết chiến chiến lược đỉnh cao 56 ngày đêm của Quân đội Nhân dân Việt Nam đập tan tập đoàn cứ điểm quân sự mạnh nhất Đông Dương của thực dân Pháp, 'lừng lẫy năm châu, chấn động địa cầu'.",
     "civilizationSlug": "vietnam",
@@ -669,10 +668,10 @@
   },
   {
     "slug": "vha-chien-thang-ngoc-hoi-dong-da",
-    "title": "Chiến thắng Ngọc Hồi - Đống Đa (1789)",
+    "title": "Victory of Ngoc Hoi - Dong Da (1789)",
     "startYear": 1789,
     "endYear": 1789,
-    "summary": "Chiến công quân sự hiển hách bậc nhất trong lịch sử chống ngoại xâm của dân tộc Việt Nam, diễn ra vào dịp Tết Kỷ Dậu (1789), khi quân Tây Sơn dưới sự chỉ huy thần tốc của vua Quang Trung đã quét sạch 29 vạn quân Mãn Thanh xâm lược, giải phóng hoàn toàn kinh thành Thăng Long.",
+    "summary": "During the Lunar New Year of 1789, Emperor Quang Trung (Nguyen Hue) led the Tay Son army in a rapid surprise offensive that routed Qing expeditionary forces near Thang Long.",
     "titleVi": "Chiến thắng Ngọc Hồi - Đống Đa (1789)",
     "summaryVi": "Chiến công quân sự hiển hách bậc nhất trong lịch sử chống ngoại xâm của dân tộc Việt Nam, diễn ra vào dịp Tết Kỷ Dậu (1789), khi quân Tây Sơn dưới sự chỉ huy thần tốc của vua Quang Trung đã quét sạch 29 vạn quân Mãn Thanh xâm lược, giải phóng hoàn toàn kinh thành Thăng Long.",
     "civilizationSlug": "vietnam",
@@ -680,43 +679,21 @@
   },
   {
     "slug": "vha-dep-loan-12-su-quan",
-    "title": "Công cuộc dẹp loạn 12 sứ quân",
+    "title": "Unification of the Twelve Warlords",
     "startYear": 965,
     "endYear": 968,
-    "summary": "Chiến dịch quân sự và chính trị do Đinh Bộ Lĩnh chỉ huy từ căn cứ Hoa Lư trong giai đoạn 965–968, lần lượt đánh dẹp và thu phục các sứ quân cát cứ, thống nhất giang sơn và lập nên nhà nước Đại Cồ Việt.",
+    "summary": "Between 965 and 968 CE, Dinh Bo Linh subdued twelve competing regional warlords, reunifying the country and establishing the Dai Co Viet state at Hoa Lu.",
     "titleVi": "Công cuộc dẹp loạn 12 sứ quân",
     "summaryVi": "Chiến dịch quân sự và chính trị do Đinh Bộ Lĩnh chỉ huy từ căn cứ Hoa Lư trong giai đoạn 965–968, lần lượt đánh dẹp và thu phục các sứ quân cát cứ, thống nhất giang sơn và lập nên nhà nước Đại Cồ Việt.",
     "civilizationSlug": "vietnam",
     "sourceExternalId": "vha:event:dep-loan-12-su-quan"
   },
   {
-    "slug": "vha-doi-do-ve-thang-long",
-    "title": "Quyết định Dời đô về Thăng Long (năm 1010)",
-    "startYear": 1010,
-    "endYear": 1010,
-    "summary": "Sự kiện lịch sử có tầm vóc thiên niên kỷ diễn ra mùa thu năm Canh Tuất 1010, khi vua Lý Thái Tổ ban Chiếu dời đô chuyển trung tâm chính trị của Đại Cồ Việt từ kinh đô Hoa Lư về thành Đại La và đổi tên là Thăng Long.",
-    "titleVi": "Quyết định Dời đô về Thăng Long (năm 1010)",
-    "summaryVi": "Sự kiện lịch sử có tầm vóc thiên niên kỷ diễn ra mùa thu năm Canh Tuất 1010, khi vua Lý Thái Tổ ban Chiếu dời đô chuyển trung tâm chính trị của Đại Cồ Việt từ kinh đô Hoa Lư về thành Đại La và đổi tên là Thăng Long.",
-    "civilizationSlug": "vietnam",
-    "sourceExternalId": "vha:event:doi-do-ve-thang-long"
-  },
-  {
-    "slug": "vha-khang-chien-chong-mong-nguyen",
-    "title": "Ba cuộc kháng chiến chống quân xâm lược Mông - Nguyên",
-    "startYear": 1258,
-    "endYear": 1288,
-    "summary": "Chuỗi ba cuộc kháng chiến vĩ đại của quân dân Đại Việt dưới thời nhà Trần vào các năm 1258, 1285 và 1287–1288, liên tiếp đánh bại các đạo quân xâm lược hùng mạnh bậc nhất thế giới thời bấy giờ của đế quốc Mông Cổ và nhà Nguyên.",
-    "titleVi": "Ba cuộc kháng chiến chống quân xâm lược Mông - Nguyên",
-    "summaryVi": "Chuỗi ba cuộc kháng chiến vĩ đại của quân dân Đại Việt dưới thời nhà Trần vào các năm 1258, 1285 và 1287–1288, liên tiếp đánh bại các đạo quân xâm lược hùng mạnh bậc nhất thế giới thời bấy giờ của đế quốc Mông Cổ và nhà Nguyên.",
-    "civilizationSlug": "vietnam",
-    "sourceExternalId": "vha:event:khang-chien-chong-mong-nguyen"
-  },
-  {
     "slug": "vha-khang-chien-chong-tan",
-    "title": "Kháng chiến chống quân Tần",
+    "title": "Resistance Against the Qin Invasions",
     "startYear": -214,
     "endYear": -214,
-    "summary": "Cuộc kháng chiến được sử liệu truyền thống mô tả là của cộng đồng cư dân Tây Âu và Lạc Việt chống quân Tần, mở đường cho sự hình thành nhà nước Âu Lạc; quy mô quân số được ghi chép còn khó kiểm chứng.",
+    "summary": "In the late 3rd century BCE (traditionally c. 214–208 BCE), Lac Viet and Au Viet communities resisted Qin southern expansion before An Duong Vuong consolidated the Au Lac polity at Co Loa.",
     "titleVi": "Kháng chiến chống quân Tần",
     "summaryVi": "Cuộc kháng chiến được sử liệu truyền thống mô tả là của cộng đồng cư dân Tây Âu và Lạc Việt chống quân Tần, mở đường cho sự hình thành nhà nước Âu Lạc; quy mô quân số được ghi chép còn khó kiểm chứng.",
     "civilizationSlug": "vietnam",
@@ -724,10 +701,10 @@
   },
   {
     "slug": "vha-khang-chien-chong-tong-981",
-    "title": "Kháng chiến chống Tống lần thứ nhất (năm 981)",
+    "title": "First Resistance Against the Song Dynasty (981)",
     "startYear": 981,
     "endYear": 982,
-    "summary": "Cuộc kháng chiến năm 981 chống cuộc tiến quân thủy bộ của nhà Tống, do Lê Hoàn (Lê Đại Hành) lãnh đạo; theo sử cũ quân Tống bị chặn lại, nhưng chi tiết chỉ huy và diễn biến khác nhau giữa các nguồn.",
+    "summary": "In 981 CE, Le Hoan (Emperor Le Dai Hanh) led Dai Co Viet forces to defeat a Song expeditionary invasion on land and river, safeguarding newly won independence.",
     "titleVi": "Kháng chiến chống Tống lần thứ nhất (năm 981)",
     "summaryVi": "Cuộc kháng chiến năm 981 chống cuộc tiến quân thủy bộ của nhà Tống, do Lê Hoàn (Lê Đại Hành) lãnh đạo; theo sử cũ quân Tống bị chặn lại, nhưng chi tiết chỉ huy và diễn biến khác nhau giữa các nguồn.",
     "civilizationSlug": "vietnam",
@@ -735,43 +712,21 @@
   },
   {
     "slug": "vha-khoi-nghia-ba-trieu",
-    "title": "Khởi nghĩa Bà Triệu (248)",
+    "title": "Uprising of Lady Trieu (248 CE)",
     "startYear": 248,
     "endYear": 248,
-    "summary": "Cuộc nổi dậy vũ trang oanh liệt năm 248 do Bà Triệu lãnh đạo đánh đuổi thứ sử quan lại nhà Đông Ngô, chấn động toàn bộ miền đất Giao Châu.",
+    "summary": "In 248 CE, Trieu Thi Trinh (Ba Trieu) led an armed uprising in Cuu Chan against Eastern Wu rule, becoming an enduring symbol of resistance and female leadership in Vietnamese history.",
     "titleVi": "Khởi nghĩa Bà Triệu (248)",
     "summaryVi": "Cuộc nổi dậy vũ trang oanh liệt năm 248 do Bà Triệu lãnh đạo đánh đuổi thứ sử quan lại nhà Đông Ngô, chấn động toàn bộ miền đất Giao Châu.",
     "civilizationSlug": "vietnam",
     "sourceExternalId": "vha:event:khoi-nghia-ba-trieu"
   },
   {
-    "slug": "vha-khoi-nghia-hai-ba-trung",
-    "title": "Khởi nghĩa Hai Bà Trưng",
-    "startYear": 40,
-    "endYear": 43,
-    "summary": "Cuộc khởi nghĩa vũ trang bùng nổ mùa xuân năm 40 do Trưng Trắc và Trưng Nhị lãnh đạo, đánh đuổi thái thú Tô Định của nhà Đông Hán; theo sử liệu truyền thống, nghĩa quân thu phục 65 thành trì và giành lại quyền tự chủ.",
-    "titleVi": "Khởi nghĩa Hai Bà Trưng",
-    "summaryVi": "Cuộc khởi nghĩa vũ trang bùng nổ mùa xuân năm 40 do Trưng Trắc và Trưng Nhị lãnh đạo, đánh đuổi thái thú Tô Định của nhà Đông Hán; theo sử liệu truyền thống, nghĩa quân thu phục 65 thành trì và giành lại quyền tự chủ.",
-    "civilizationSlug": "vietnam",
-    "sourceExternalId": "vha:event:khoi-nghia-hai-ba-trung"
-  },
-  {
-    "slug": "vha-khoi-nghia-lam-son",
-    "title": "Khởi nghĩa Lam Sơn",
-    "startYear": 1418,
-    "endYear": 1428,
-    "summary": "Cuộc khởi nghĩa giải phóng dân tộc kéo dài mười năm (1418–1427) do Lê Lợi dấy binh từ căn cứ Lam Sơn (Thanh Hóa), đánh đuổi hoàn toàn ách đô hộ tàn bạo của nhà Minh, tái lập nền độc lập cho Đại Việt và mở ra triều đại Lê sơ.",
-    "titleVi": "Khởi nghĩa Lam Sơn",
-    "summaryVi": "Cuộc khởi nghĩa giải phóng dân tộc kéo dài mười năm (1418–1427) do Lê Lợi dấy binh từ căn cứ Lam Sơn (Thanh Hóa), đánh đuổi hoàn toàn ách đô hộ tàn bạo của nhà Minh, tái lập nền độc lập cho Đại Việt và mở ra triều đại Lê sơ.",
-    "civilizationSlug": "vietnam",
-    "sourceExternalId": "vha:event:khoi-nghia-lam-son"
-  },
-  {
     "slug": "vha-khoi-nghia-ly-bi-lap-nuoc-van-xuan",
-    "title": "Khởi nghĩa Lý Bí và thành lập nước Vạn Xuân",
+    "title": "Ly Bi Uprising and Founding of Van Xuan (542–602)",
     "startYear": 542,
     "endYear": 603,
-    "summary": "Phong trào giải phóng dân tộc bùng nổ cuối năm 541 đầu năm 542 do Lý Bí lãnh đạo, lật đổ chính quyền đô hộ nhà Lương, dẫn tới sự kiện lịch sử mùa xuân năm 544 khi Lý Bí lên ngôi Hoàng đế khai sinh nhà nước Vạn Xuân.",
+    "summary": "In 542 CE, Ly Bi rose against Liang dynasty rule, proclaimed himself Emperor Ly Nam De in 544, and named the state Van Xuan (Ten Thousand Springs).",
     "titleVi": "Khởi nghĩa Lý Bí và thành lập nước Vạn Xuân",
     "summaryVi": "Phong trào giải phóng dân tộc bùng nổ cuối năm 541 đầu năm 542 do Lý Bí lãnh đạo, lật đổ chính quyền đô hộ nhà Lương, dẫn tới sự kiện lịch sử mùa xuân năm 544 khi Lý Bí lên ngôi Hoàng đế khai sinh nhà nước Vạn Xuân.",
     "civilizationSlug": "vietnam",
@@ -779,10 +734,10 @@
   },
   {
     "slug": "vha-khoi-nghia-mai-thuc-loan",
-    "title": "Khởi nghĩa Mai Thúc Loan (722)",
+    "title": "Uprising of Mai Thuc Loan (722 CE)",
     "startYear": 722,
     "endYear": 722,
-    "summary": "Cuộc khởi nghĩa quy mô lớn nhất thế kỷ VIII bùng nổ tại Hoan Châu lật đổ ách đô hộ của nhà Đường, giải phóng phủ thành Tống Bình và thành lập chính quyền tự chủ.",
+    "summary": "In 722 CE, Mai Thuc Loan (Mai Hac De) led a major rebellion in Hoan Chau against Tang taxation and forced labor, forming regional alliances before the Tang military counteroffensive.",
     "titleVi": "Khởi nghĩa Mai Thúc Loan (722)",
     "summaryVi": "Cuộc khởi nghĩa quy mô lớn nhất thế kỷ VIII bùng nổ tại Hoan Châu lật đổ ách đô hộ của nhà Đường, giải phóng phủ thành Tống Bình và thành lập chính quyền tự chủ.",
     "civilizationSlug": "vietnam",
@@ -790,10 +745,10 @@
   },
   {
     "slug": "vha-tran-nhu-nguyet-1077",
-    "title": "Trận phòng tuyến sông Như Nguyệt (năm 1077)",
+    "title": "Battle of the Nhu Nguyet River Line (1077)",
     "startYear": 1076,
     "endYear": 1077,
-    "summary": "Trận quyết chiến chiến lược diễn ra vào mùa xuân năm 1077 trên phòng tuyến sông Như Nguyệt (sông Cầu), dưới sự chỉ huy của Thái úy Lý Thường Kiệt, đẩy lui cuộc tiến công của quân Tống do Quách Quỳ và Triệu Tiết chỉ huy; các con số quân đội trong sử liệu còn khó kiểm chứng.",
+    "summary": "In 1076–1077, Grand Preceptor Ly Thuong Kiet defended the Nhu Nguyet (Cau) River line against a major Song invasion, forcing a negotiated withdrawal that preserved Dai Viet's northern frontier.",
     "titleVi": "Trận phòng tuyến sông Như Nguyệt (năm 1077)",
     "summaryVi": "Trận quyết chiến chiến lược diễn ra vào mùa xuân năm 1077 trên phòng tuyến sông Như Nguyệt (sông Cầu), dưới sự chỉ huy của Thái úy Lý Thường Kiệt, đẩy lui cuộc tiến công của quân Tống do Quách Quỳ và Triệu Tiết chỉ huy; các con số quân đội trong sử liệu còn khó kiểm chứng.",
     "civilizationSlug": "vietnam",

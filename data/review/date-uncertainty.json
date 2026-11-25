@@ -1,0 +1,281 @@
+[
+  {
+    "entityType": "PERSON",
+    "slug": "gilgamesh",
+    "field": "birthYear",
+    "value": -2800,
+    "issue": "legendary",
+    "note": "Gilgamesh is a semi-legendary Early Dynastic king of Uruk; if historical, his reign is usually placed around c. 2800–2500 BCE without firm birth or death dates.",
+    "suggestedDisplay": "c. 2800–2500 BCE (semi-legendary)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "sargon-of-akkad",
+    "field": "birthYear",
+    "value": -2334,
+    "issue": "reign-not-life",
+    "note": "2334 BCE reflects the conventional Middle Chronology start of Sargon's reign rather than his birth year; exact birth and death dates are unattested.",
+    "suggestedDisplay": "r. c. 2334–2279 BCE (Middle Chronology)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "ur-nammu",
+    "field": "birthYear",
+    "value": -2112,
+    "issue": "reign-not-life",
+    "note": "2112 BCE is the conventional Middle Chronology accession year of Ur-Nammu, founder of the Third Dynasty of Ur, not his birth year.",
+    "suggestedDisplay": "r. c. 2112–2095 BCE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "hammurabi",
+    "field": "birthYear",
+    "value": -1810,
+    "issue": "approximate",
+    "note": "Hammurabi's birth year is unrecorded and inferred from his Middle Chronology reign (c. 1792–1750 BCE); short and ultra-short chronologies differ by decades.",
+    "suggestedDisplay": "c. 1810–1750 BCE (r. 1792–1750 BCE)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "imhotep",
+    "field": "birthYear",
+    "value": -2700,
+    "issue": "approximate",
+    "note": "Imhotep served under Pharaoh Djoser in the Third Dynasty, whose reign dates vary across Egyptological chronologies (c. 27th century BCE); birth and death years are unknown.",
+    "suggestedDisplay": "fl. c. 2650 BCE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "hatshepsut",
+    "field": "birthYear",
+    "value": -1507,
+    "issue": "approximate",
+    "note": "Hatshepsut's birth year is estimated from the chronology of the Eighteenth Dynasty; her reign is dated approximately 1479–1458 BCE.",
+    "suggestedDisplay": "c. 1507–1458 BCE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "akhenaten",
+    "field": "birthYear",
+    "value": -1380,
+    "issue": "approximate",
+    "note": "Akhenaten's birth year is approximate; his 17-year reign is generally placed c. 1353–1336 BCE with minor debate over a possible coregency.",
+    "suggestedDisplay": "c. 1380–1336 BCE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "homer",
+    "field": "birthYear",
+    "value": -800,
+    "issue": "legendary",
+    "note": "Ancient traditions vary widely on Homer's date and identity; modern scholarship places the composition of the Homeric epics roughly in the late 8th or early 7th century BCE.",
+    "suggestedDisplay": "fl. c. 8th–7th century BCE (traditional)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "zoroaster",
+    "field": "birthYear",
+    "value": -628,
+    "issue": "disputed",
+    "note": "Scholars disagree sharply on Zoroaster's era, ranging from c. 1500–1000 BCE on linguistic grounds to the traditional c. 628–551 BCE.",
+    "suggestedDisplay": "c. 1200–600 BCE (disputed)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "buddha",
+    "field": "birthYear",
+    "value": -563,
+    "issue": "disputed",
+    "note": "563–483 BCE is the older scholarly convention; recent scholarship frequently places the Buddha's parinirvana closer to c. 480–400 BCE.",
+    "suggestedDisplay": "c. 563–483 BCE or c. 480–400 BCE (disputed)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "mahavira",
+    "field": "birthYear",
+    "value": -599,
+    "issue": "disputed",
+    "note": "Traditional Jain dates (599–527 BCE) are debated alongside shorter chronologies linking Mahavira's lifetime with the revised dating of the Buddha (5th century BCE).",
+    "suggestedDisplay": "c. 599–527 BCE (traditional; disputed)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "laozi",
+    "field": "birthYear",
+    "value": -571,
+    "issue": "legendary",
+    "note": "Laozi's historicity and dates are uncertain; traditional accounts make him an elder contemporary of Confucius in the 6th century BCE, while the Daodejing shows Warring States layers.",
+    "suggestedDisplay": "6th century BCE (traditional)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "sun-tzu",
+    "field": "birthYear",
+    "value": -544,
+    "issue": "traditional",
+    "note": "Birth and death years of Sun Wu are unattested in contemporary records and derived from later traditional chronologies of the late Spring and Autumn period.",
+    "suggestedDisplay": "c. 544–496 BCE (traditional)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "kautilya",
+    "field": "birthYear",
+    "value": -375,
+    "issue": "approximate",
+    "note": "Kautilya (Chanakya) is traditionally associated with Chandragupta Maurya (late 4th century BCE), but his exact lifespan is unknown and the Arthashastra shows multi-century redaction.",
+    "suggestedDisplay": "fl. c. 4th century BCE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "chandragupta-maurya",
+    "field": "birthYear",
+    "value": -340,
+    "issue": "approximate",
+    "note": "Chandragupta Maurya's reign began c. 321 BCE, but his birth year (c. 340 BCE) and exact death date are inferred from later classical and Jain sources.",
+    "suggestedDisplay": "c. 340–297 BCE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "an-duong-vuong",
+    "field": "birthYear",
+    "value": -257,
+    "issue": "traditional",
+    "note": "257–179 BCE reflects traditional Vietnamese chronicle dates for the Au Lac polity rather than attested birth and death years of Thuc Phan.",
+    "suggestedDisplay": "r. c. 257–207 BCE (traditional)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "kalidasa",
+    "field": "birthYear",
+    "value": 380,
+    "issue": "approximate",
+    "note": "Kalidasa's exact lifespan is undocumented; scholarly consensus places his floruit during the Gupta era, most commonly under Chandragupta II (c. 375–415 CE).",
+    "suggestedDisplay": "fl. c. 4th–5th century CE"
+  },
+  {
+    "entityType": "EVENT",
+    "slug": "agricultural-revolution",
+    "field": "startYear",
+    "value": -10000,
+    "issue": "approximate",
+    "note": "The Neolithic transition occurred independently across multiple regions over millennia starting roughly c. 10,000–9000 BCE in the Fertile Crescent.",
+    "suggestedDisplay": "c. 10,000–4000 BCE"
+  },
+  {
+    "entityType": "EVENT",
+    "slug": "invention-of-cuneiform",
+    "field": "startYear",
+    "value": -3400,
+    "issue": "approximate",
+    "note": "Proto-cuneiform administrative tablets from Uruk IV date approximately to c. 3400–3200 BCE based on stratigraphy and radiocarbon calibration.",
+    "suggestedDisplay": "c. 3400–3200 BCE"
+  },
+  {
+    "entityType": "EVENT",
+    "slug": "rise-of-buddhism-jainism",
+    "field": "startYear",
+    "value": -500,
+    "issue": "approximate",
+    "note": "The sramana movements in the Gangetic plain emerged broadly between the 6th and 5th centuries BCE.",
+    "suggestedDisplay": "c. 6th–5th century BCE"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "epic-of-gilgamesh",
+    "field": "publicationYear",
+    "value": -2100,
+    "issue": "approximate",
+    "note": "Early Sumerian Gilgamesh poems date to the Ur III period (c. 2100 BCE), while the Standard Babylonian Akkadian version by Sin-leqi-unninni dates to c. 1300–1000 BCE.",
+    "suggestedDisplay": "c. 2100–1200 BCE (multi-stage)"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "rigveda",
+    "field": "publicationYear",
+    "value": -1500,
+    "issue": "approximate",
+    "note": "The Rigveda was transmitted orally for centuries; linguistic dating generally places its core hymns c. 1500–1200 BCE.",
+    "suggestedDisplay": "c. 1500–1200 BCE"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "i-ching",
+    "field": "publicationYear",
+    "value": -1000,
+    "issue": "approximate",
+    "note": "The core divination text of the Zhouyi dates to the early Western Zhou period (c. 1000–750 BCE), with the Ten Wings commentaries added in the Warring States and Han eras.",
+    "suggestedDisplay": "c. 1000–750 BCE (core text)"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "iliad",
+    "field": "publicationYear",
+    "value": -750,
+    "issue": "approximate",
+    "note": "The Iliad's oral composition and textual fixation are broadly placed in the mid-to-late 8th century BCE.",
+    "suggestedDisplay": "c. 750–700 BCE"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "upanishads",
+    "field": "publicationYear",
+    "value": -700,
+    "issue": "approximate",
+    "note": "The principal early Upanishads (Brihadaranyaka, Chandogya) were composed over several centuries roughly c. 700–500 BCE.",
+    "suggestedDisplay": "c. 700–500 BCE"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "avesta",
+    "field": "publicationYear",
+    "value": -600,
+    "issue": "disputed",
+    "note": "The Old Avestan Gathas may date to c. 1200–1000 BCE, while the surviving Sasanian written redaction is much later.",
+    "suggestedDisplay": "c. 1000–600 BCE (oral layers; later redaction)"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "art-of-war",
+    "field": "publicationYear",
+    "value": -500,
+    "issue": "disputed",
+    "note": "Traditionally dated to c. 500 BCE, though many historians place the received text's compilation in the Warring States period (4th–3rd century BCE).",
+    "suggestedDisplay": "c. 5th–4th century BCE"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "tao-te-ching",
+    "field": "publicationYear",
+    "value": -400,
+    "issue": "approximate",
+    "note": "Early manuscript witnesses (Guodian bamboo slips) date to c. 300 BCE, indicating formation across the 4th century BCE or earlier.",
+    "suggestedDisplay": "c. 4th century BCE"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "arthashastra",
+    "field": "publicationYear",
+    "value": -300,
+    "issue": "disputed",
+    "note": "Traditionally attributed to Kautilya (c. 300 BCE), the extant Sanskrit text shows editorial layers extending into the early centuries CE.",
+    "suggestedDisplay": "c. 300 BCE – 300 CE (layered)"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "dhammapada",
+    "field": "publicationYear",
+    "value": -300,
+    "issue": "approximate",
+    "note": "The Pali Dhammapada verses were transmitted orally before being committed to writing in Sri Lanka in the 1st century BCE.",
+    "suggestedDisplay": "c. 3rd–1st century BCE"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "bhagavad-gita",
+    "field": "publicationYear",
+    "value": -200,
+    "issue": "approximate",
+    "note": "Embedded in the Mahabharata, the Bhagavad Gita is generally dated by scholars between the 2nd century BCE and the 2nd century CE.",
+    "suggestedDisplay": "c. 200 BCE – 200 CE"
+  }
+]
