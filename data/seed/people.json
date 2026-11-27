@@ -413,7 +413,7 @@
     "nameVi": "Isaac Newton",
     "occupationsVi": "Nhà vật lý học, Nhà toán học, Nhà thiên văn học",
     "summaryVi": "Một trong những nhà khoa học có tầm ảnh hưởng lớn nhất mọi thời đại, người phát biểu Định luật vạn vật hấp dẫn, ba định luật chuyển động và phát minh phép tính vi tích phân.",
-    "contentVi": "Sir Isaac Newton (1642–1727) đã hoàn thiện cuộc Cách mạng Khoa học với kiệt tác Các nguyên lý toán học của triết học tự nhiên (Principia Mathematica) xuất bản năm 1687. Tác phẩm đã thống nhất chuyển động trên Trái đất và chuyển động của các thiên thể dưới một hệ quy luật toán học duy nhất, đặt nền móng cho cơ học cổ điển và vật lý học hiện đại."
+    "contentVi": "Sir Isaac Newton (1643–1727 theo lịch Gregory; sinh ngày 25/12/1642 theo lịch Julius cũ tại Anh) đã hoàn thiện cuộc Cách mạng Khoa học với kiệt tác Các nguyên lý toán học của triết học tự nhiên (Principia Mathematica) xuất bản năm 1687. Tác phẩm thống nhất chuyển động trên Trái đất và chuyển động của các thiên thể dưới một hệ quy luật toán học duy nhất, đặt nền móng cho cơ học cổ điển và vật lý học hiện đại."
   },
   {
     "slug": "charles-darwin",
@@ -452,7 +452,7 @@
     "nameVi": "Alan Turing",
     "occupationsVi": "Nhà toán học, Nhà khoa học máy tính",
     "summaryVi": "Người cha đẻ của khoa học máy tính lý thuyết và trí tuệ nhân tạo, nhà giải mã cự phách đã phá cỗ máy Enigma của Đức Quốc xã trong Thế chiến thứ hai.",
-    "contentVi": "Alan Turing (1912–1954) đã đặt nền móng cho thời đại số với mô hình Máy Turing (Turing Machine) vào năm 1936. Trong Thế chiến II tại Bletchley Park, ông đã chế tạo cỗ máy Bombe giải mã thành công mật mã hải quân Enigma của phát xít Đức, cứu sống hàng triệu sinh mạng và rút ngắn cuộc chiến tranh. Ông cũng là người đề xuất Phép thử Turing (Turing Test) nổi tiếng để đánh giá trí tuệ nhân tạo."
+    "contentVi": "Alan Turing (1912–1954) đã đặt nền móng cho khoa học máy tính hiện đại với mô hình Máy Turing (1936). Trong Thế chiến II tại Bletchley Park, kế thừa thành quả của các nhà mật mã Ba Lan và phối hợp cùng Gordon Welchman, ông thiết kế cỗ máy điện cơ Bombe góp phần then chốt giải mã hệ thống Enigma của Đức Quốc xã. Ông cũng đề xuất Phép thử Turing (Turing Test) để đánh giá trí tuệ nhân tạo."
   },
   {
     "slug": "leonardo-da-vinci",
@@ -628,12 +628,12 @@
     "deathYear": 550,
     "occupations": "Mathematician, Astronomer",
     "civilizationSlug": "ancient-india",
-    "summary": "Pioneering classical Indian mathematician and astronomer who developed early trigonometry and heliocentric planetary models.",
+    "summary": "Pioneering classical Indian mathematician and astronomer who advanced trigonometry, approximated pi, and proposed a geocentric model with a rotating Earth.",
     "content": "Aryabhata composed the mathematical-astronomical treatise Aryabhatiya in 499 CE at Kusumapura (modern Patna). He approximated pi to 3.1416, formulated sine and versine tables, solved indeterminate linear equations, introduced decimal place-value notation with zero, and accurately identified that the Earth rotates daily on its axis and that lunar and solar eclipses are caused by planetary shadows rather than mythological demons.",
     "nameVi": "Aryabhata",
     "occupationsVi": "Nhà thiên văn học, Nhà toán học",
     "summaryVi": "Nhà khoa học vĩ đại thời Gupta, tác giả cuốn Aryabhatiya, người đã tính toán giá trị số Pi đến 4 chữ số thập phân và khẳng định Trái đất tự quay quanh trục.",
-    "contentVi": "Aryabhata (476–550 SCN) làm việc tại trường đại học Nalanda danh tiếng. Trong tác phẩm toán học và thiên văn học Aryabhatiya viết bằng thơ năm 499 SCN, ông đã sử dụng hệ thống số cơ số mười có số không, tính được giá trị $\\pi \\approx 3.1416$, giải các phương trình vô định bậc nhất, và giải thích hiện tượng nhật thực, nguyệt thực dựa trên cơ chế bóng tối hình học thay vì thần thoại."
+    "contentVi": "Aryabhata (476–550 SCN) làm việc tại Kusumapura (Pataliputra). Trong tác phẩm toán học và thiên văn học Aryabhatiya viết bằng thơ năm 499 SCN, ông sử dụng hệ thập phân vị trí, tính được giá trị gần đúng $\\pi \\approx 3.1416$, giải phương trình vô định bậc nhất, khẳng định Trái đất tự quay quanh trục (trong mô hình địa tâm) và giải thích nhật thực, nguyệt thực bằng cơ chế bóng tối hình học thay vì thần thoại."
   },
   {
     "slug": "an-duong-vuong",

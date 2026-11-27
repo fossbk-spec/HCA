@@ -646,5 +646,14 @@
     "issue": "disputed",
     "note": "987 CE reflects later colonial-era ethnohistoric chronicles (Books of Chilam Balam) regarding Kukulcan's arrival; radiocarbon and epigraphic evidence shows Chichen Itza's major florescence began earlier in the Terminal Classic (c. 800–1050 CE).",
     "suggestedDisplay": "c. 800–1100 CE (trad. 987–1200)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "isaac-newton",
+    "field": "birthYear",
+    "value": 1643,
+    "issue": "approximate",
+    "note": "England still used the Julian calendar when Newton was born (25 December 1642 Old Style), corresponding to 4 January 1643 New Style (Gregorian calendar).",
+    "suggestedDisplay": "1643–1727 (O.S. 25 Dec 1642)"
   }
 ]
