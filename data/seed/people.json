@@ -231,7 +231,7 @@
     "nameVi": "Pythagoras",
     "occupationsVi": "Nhà toán học, Triết gia",
     "summaryVi": "Nhà tư tưởng Hy Lạp sáng lập trường phái Pythagoras, nổi tiếng với định lý hình học mang tên ông và học thuyết 'Vạn vật đều là con số'.",
-    "contentVi": "Pythagoras xứ Samos (khoảng 570–495 TCN) đã thành lập một hội huynh đệ triết học và tôn giáo tại Crotone (nam Ý). Ông phát hiện ra mối liên hệ toán học trong hòa âm âm nhạc, phát biểu định lý hình học góc vuông bất hủ, và truyền bá niềm tin rằng trật tự hài hòa của vũ trụ được vận hành bởi các nguyên lý toán học thuần khiết."
+    "contentVi": "Pythagoras xứ Samos (khoảng 570–495 TCN) sáng lập một hội huynh đệ triết học và tôn giáo tại Crotone (nam Ý). Truyền thống cổ đại gắn tên tuổi ông với việc phát hiện tỷ lệ toán học trong hòa âm âm nhạc, học thuyết 'Vạn vật đều là con số' và định lý tam giác vuông mang tên ông—dù quan hệ cạnh tam giác vuông đã được biết từ trước tại Lưỡng Hà và Ấn Độ, còn chứng minh suy diễn gắn với truyền thống Pythagoras về sau."
   },
   {
     "slug": "solon",
@@ -1048,12 +1048,12 @@
     "deathYear": -370,
     "occupations": "Physician, Medical Educator, Ethical Theorist",
     "civilizationSlug": "ancient-greece",
-    "summary": "The \"Father of Medicine\" who separated medicine from superstitious magic and established the ethical foundation of medical practice in the Hippocratic Oath.",
-    "content": "Founding the medical school on the island of Kos, Hippocrates revolutionized ancient healing by viewing diseases as natural biological phenomena rather than divine punishments. He emphasized clinical observation, empirical prognosis, dietetics, and the ethical responsibility of doctors to act exclusively for the patient's benefit (\"First, do no harm\").",
+    "summary": "Ancient Greek physician celebrated as the \"Father of Medicine,\" who helped separate medicine from supernatural explanations and inspired the ethical tradition of the Hippocratic Corpus.",
+    "content": "Associated with the medical school on the island of Kos, Hippocrates helped transform Greek healing by treating disease as a natural phenomenon rather than divine punishment. The surviving Hippocratic Corpus—compiled by multiple physicians across the 5th and 4th centuries BCE—emphasizes clinical observation, prognosis, dietetics, and the ethical duty expressed in Epidemics (\"to help, or at least to do no harm\") alongside the Hippocratic Oath.",
     "nameVi": "Hippocrates xứ Kos",
     "occupationsVi": "Thầy thuốc, 'Người cha của Y học phương Tây'",
-    "summaryVi": "Bác sĩ Hy Lạp đã tách y học khỏi mê tín dị đoan, lập nên trường phái y học lâm sàng và tác giả của Lời thề Hippocrates về đạo đức người thầy thuốc.",
-    "contentVi": "Hippocrates (khoảng 460–370 TCN) đã cách mạng hóa y học khi khẳng định bệnh tật phát sinh từ các nguyên nhân tự nhiên, lối sống và môi trường chứ không phải do thần phạt. Ông đề xướng thuyết Tứ thể dịch và tinh thần đạo đức y khoa thiêng liêng được đúc kết trong Lời thề Hippocrates ('Trước hết, không làm hại bệnh nhân'), bản tuyên ngôn đạo đức trường tồn của mọi thầy thuốc."
+    "summaryVi": "Thầy thuốc Hy Lạp cổ đại được tôn vinh là 'Người cha của Y học phương Tây', góp phần tách y học khỏi giải thích siêu nhiên và khơi nguồn truyền thống y đức trong bộ sách Hippocrates.",
+    "contentVi": "Hippocrates (khoảng 460–370 TCN) gắn liền với trường phái y học trên đảo Kos, nơi coi bệnh tật phát sinh từ các nguyên nhân tự nhiên, lối sống và môi trường thay vì sự trừng phạt của thần linh. Tuyển tập Hippocratic Corpus—do nhiều thầy thuốc biên soạn qua các thế kỷ V–IV TCN—đề cao quan sát lâm sàng, tiên lượng bệnh và chuẩn mực y đức (như Lời thề Hippocrates và nguyên tắc trong sách Dịch tễ: 'giúp ích, hoặc ít nhất không gây hại')."
   },
   {
     "slug": "sophocles",
