@@ -1533,13 +1533,6 @@
     "relationshipType": "RULED"
   },
   {
-    "sourceSlug": "yuknoom-the-great",
-    "sourceType": "PERSON",
-    "targetSlug": "tikal-defeat-of-calakmul",
-    "targetType": "EVENT",
-    "relationshipType": "COMMANDED"
-  },
-  {
     "sourceSlug": "yax-ehb-xook",
     "sourceType": "PERSON",
     "targetSlug": "maya-civilization",
@@ -2875,5 +2868,19 @@
     "targetSlug": "nguyen-hoang",
     "targetType": "PERSON",
     "relationshipType": "ADVISED"
+  },
+  {
+    "sourceSlug": "yuknoom-the-great",
+    "sourceType": "PERSON",
+    "targetSlug": "maya-civilization",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "yuknoom-the-great",
+    "sourceType": "PERSON",
+    "targetSlug": "maya-divine-kingship-kuhul-ajaw",
+    "targetType": "IDEA",
+    "relationshipType": "EXEMPLIFIED"
   }
 ]
