@@ -40,7 +40,7 @@ test("VHA to HCA knowledge federation bridge works seamlessly", () => {
   assert.ok(fs.existsSync(reportFile), "vha-hca-bridge-report.json should exist");
   const report = JSON.parse(fs.readFileSync(reportFile, "utf-8"));
   assert.equal(report.summary.totalFederatedEntities, 78);
-  assert.equal(report.summary.crossEntityMatches, 12);
+  assert.equal(report.summary.crossEntityMatches, 27);
 
   // Check Truyen Kieu in HCA seed
   const hcaBooks = JSON.parse(fs.readFileSync(path.join(root, "data", "seed", "books.json"), "utf-8"));

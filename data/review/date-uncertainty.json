@@ -277,5 +277,77 @@
     "issue": "approximate",
     "note": "Embedded in the Mahabharata, the Bhagavad Gita is generally dated by scholars between the 2nd century BCE and the 2nd century CE.",
     "suggestedDisplay": "c. 200 BCE – 200 CE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "trieu-thi-trinh",
+    "field": "birthYear",
+    "value": 226,
+    "issue": "approximate",
+    "note": "Traditional Vietnamese sources place Trieu Thi Trinh's birth in 226 CE based on her reported age of 22 at the 248 CE uprising; contemporary Chinese records (Sanguozhi/Jinshu) do not record her birth year.",
+    "suggestedDisplay": "c. 226–248 CE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "ly-bi",
+    "field": "birthYear",
+    "value": 503,
+    "issue": "approximate",
+    "note": "503 CE is the conventional traditional birth year of Ly Bi in Vietnamese historiography; contemporary Liang chronicles focus on his 542–548 CE uprising without recording his exact birth date.",
+    "suggestedDisplay": "c. 503–548 CE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "trieu-quang-phuc",
+    "field": "birthYear",
+    "value": 525,
+    "issue": "approximate",
+    "note": "525 CE is an approximate traditional estimate; only his military leadership (545–550 CE) and death (571 CE) are firmly attested in historical chronicles.",
+    "suggestedDisplay": "c. 525–571 CE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "mai-thuc-loan",
+    "field": "birthYear",
+    "value": 670,
+    "issue": "approximate",
+    "note": "670 CE is a conventional estimate for Mai Thuc Loan's birth; Tang and Vietnamese sources primarily attest his 722 CE Hoan Chau rebellion.",
+    "suggestedDisplay": "c. 670–722 CE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "khuc-thua-du",
+    "field": "birthYear",
+    "value": 850,
+    "issue": "approximate",
+    "note": "850 CE is an approximate estimate; his 905 CE assumption of power at Dai La and 907 CE death are firmly recorded, while his exact birth year is unattested.",
+    "suggestedDisplay": "c. 850–907 CE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "khuc-hao",
+    "field": "birthYear",
+    "value": null,
+    "issue": "approximate",
+    "note": "Khuc Hao's birth year is unrecorded in surviving chronicles; his tenure as Jiedushi of Jinghai Circuit (907–917 CE) and death in 917 CE are attested.",
+    "suggestedDisplay": "?–917 CE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "le-huu-trac",
+    "field": "birthYear",
+    "value": 1724,
+    "issue": "disputed",
+    "note": "Some older compilations cite 1720 as Le Huu Trac's birth year, while modern Vietnamese scholarship and UNESCO (300th anniversary commemoration in 2024) adopt 1724.",
+    "suggestedDisplay": "1724 (or 1720)–1791"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "hoang-hoa-tham",
+    "field": "birthYear",
+    "value": 1858,
+    "issue": "disputed",
+    "note": "Hoang Hoa Tham's birth year is variously cited as 1858 or c. 1846 across modern Vietnamese archival and biographical sources.",
+    "suggestedDisplay": "c. 1858 (or 1846)–1913"
   }
 ]
