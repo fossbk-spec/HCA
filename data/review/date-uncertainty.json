@@ -349,5 +349,41 @@
     "issue": "disputed",
     "note": "Hoang Hoa Tham's birth year is variously cited as 1858 or c. 1846 across modern Vietnamese archival and biographical sources.",
     "suggestedDisplay": "c. 1858 (or 1846)–1913"
+  },
+  {
+    "entityType": "CIVILIZATION",
+    "slug": "vietnam",
+    "field": "periodStart",
+    "value": -2879,
+    "issue": "legendary",
+    "note": "2879 BCE reflects the traditional Hong Bang chronology recorded in later medieval chronicles (such as Dai Viet Su Ky Toan Thu); archaeological evidence for complex bronze-age Dong Son polities in northern Vietnam dates primarily to the 1st millennium BCE.",
+    "suggestedDisplay": "c. 2879 BCE (traditional) / 1st millennium BCE (archaeological)"
+  },
+  {
+    "entityType": "CIVILIZATION",
+    "slug": "ancient-china",
+    "field": "periodStart",
+    "value": -2070,
+    "issue": "approximate",
+    "note": "2070 BCE follows the Xia-Shang-Zhou Chronology Project convention for the start of the Xia dynasty; archaeological correlation with the Erlitou culture remains debated.",
+    "suggestedDisplay": "c. 2070 BCE (traditional Xia)"
+  },
+  {
+    "entityType": "EVENT",
+    "slug": "construction-of-co-loa",
+    "field": "startYear",
+    "value": -257,
+    "issue": "approximate",
+    "note": "257 BCE is the conventional traditional date for An Duong Vuong's founding of Au Lac and Co Loa; radiocarbon and archaeological studies of the ramparts place major construction phases around the 3rd–2nd centuries BCE.",
+    "suggestedDisplay": "c. 3rd–2nd century BCE (trad. 257 BCE)"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "quoc-trieu-hinh-luat",
+    "field": "publicationYear",
+    "value": 1483,
+    "issue": "approximate",
+    "note": "1483 CE (Hong Duc 14) is the traditional benchmark date for the code's formal revision and promulgation, though compilation and amendments spanned Le Thanh Tong's reign (1470–1497 CE) and earlier Le reigns.",
+    "suggestedDisplay": "c. 1483 CE (compiled 1470–1497)"
   }
 ]
