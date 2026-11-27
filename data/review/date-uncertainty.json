@@ -385,5 +385,140 @@
     "issue": "approximate",
     "note": "1483 CE (Hong Duc 14) is the traditional benchmark date for the code's formal revision and promulgation, though compilation and amendments spanned Le Thanh Tong's reign (1470–1497 CE) and earlier Le reigns.",
     "suggestedDisplay": "c. 1483 CE (compiled 1470–1497)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "khufu",
+    "field": "birthYear",
+    "value": -2589,
+    "issue": "reign-not-life",
+    "note": "2589–2566 BCE reflects the conventional Egyptological dating of Khufu's Fourth Dynasty reign rather than his birth and death years, which are unrecorded.",
+    "suggestedDisplay": "r. c. 2589–2566 BCE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "narmer",
+    "field": "birthYear",
+    "value": -3150,
+    "issue": "approximate",
+    "note": "Narmer's exact birth and death years are unknown; Egyptologists generally place his reign and the unification of Upper and Lower Egypt around c. 3150–3100 BCE.",
+    "suggestedDisplay": "fl. c. 3150–3100 BCE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "pythagoras",
+    "field": "birthYear",
+    "value": -570,
+    "issue": "approximate",
+    "note": "Pythagoras left no writings; both c. 570 BCE and c. 495 BCE are approximate reconstructions from later ancient biographies.",
+    "suggestedDisplay": "c. 570 – c. 495 BCE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "euclid",
+    "field": "birthYear",
+    "value": -325,
+    "issue": "approximate",
+    "note": "Euclid's exact birth and death years are unattested in surviving sources; he flourished in Alexandria c. 300 BCE during the reign of Ptolemy I Soter.",
+    "suggestedDisplay": "fl. c. 300 BCE (c. 325–265 BCE)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "hippocrates",
+    "field": "birthYear",
+    "value": -460,
+    "issue": "approximate",
+    "note": "c. 460 – c. 370 BCE are traditional approximate dates for Hippocrates of Kos; ancient sources vary on his exact death year (often placed between 377 and 370 BCE).",
+    "suggestedDisplay": "c. 460 – c. 370 BCE"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "panini",
+    "field": "birthYear",
+    "value": -520,
+    "issue": "disputed",
+    "note": "Scholars debate Panini's lifetime between the 6th, 5th, and 4th centuries BCE (commonly placed c. 5th–4th century BCE based on linguistic and historical references).",
+    "suggestedDisplay": "c. 5th–4th century BCE (disputed)"
+  },
+  {
+    "entityType": "PERSON",
+    "slug": "yax-ehb-xook",
+    "field": "birthYear",
+    "value": 60,
+    "issue": "approximate",
+    "note": "Yax Ehb Xook, dynastic founder of Tikal, is known from retrospective Classic Maya inscriptions; dates around the late 1st century CE are approximate archaeological reconstructions.",
+    "suggestedDisplay": "fl. c. 60–110 CE"
+  },
+  {
+    "entityType": "EVENT",
+    "slug": "founding-of-rome",
+    "field": "startYear",
+    "value": -753,
+    "issue": "legendary",
+    "note": "753 BCE is the canonical Varronian date from Roman tradition; archaeological evidence shows Iron Age settlements on Rome's hills from the 10th–8th centuries BCE coalescing into an urban polity later.",
+    "suggestedDisplay": "753 BCE (traditional)"
+  },
+  {
+    "entityType": "EVENT",
+    "slug": "first-ancient-olympic-games",
+    "field": "startYear",
+    "value": -776,
+    "issue": "approximate",
+    "note": "776 BCE is the traditional date compiled by Hippias of Elis; modern historians debate whether the Games began precisely in 776 BCE or slightly later around 700 BCE.",
+    "suggestedDisplay": "776 BCE (traditional)"
+  },
+  {
+    "entityType": "EVENT",
+    "slug": "control-of-fire-by-early-humans",
+    "field": "startYear",
+    "value": -400000,
+    "issue": "disputed",
+    "note": "Archaeologists distinguish opportunistic use of fire (possibly >1 million years ago at Wonderwerk Cave) from habitual, controlled fire-making, which becomes widespread between c. 400,000 and 300,000 BP.",
+    "suggestedDisplay": "c. 400,000–300,000 BCE (habitual control)"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "enuma-elish",
+    "field": "publicationYear",
+    "value": -1100,
+    "issue": "disputed",
+    "note": "Modern Assyriologists generally date Enuma Elish to the late 2nd millennium BCE (c. 12th–11th century BCE, often linked to Nebuchadnezzar I), revising older hypotheses of an Old Babylonian (c. 1750 BCE) origin.",
+    "suggestedDisplay": "c. 12th–11th century BCE"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "kalevala",
+    "field": "publicationYear",
+    "value": 1849,
+    "issue": "approximate",
+    "note": "Elias Lonnrot published the first 32-poem edition (Old Kalevala) in 1835 and the expanded canonical 50-poem, 22,795-line edition (New Kalevala) in 1849.",
+    "suggestedDisplay": "1849 (1st ed. 1835)"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "the-quran",
+    "field": "publicationYear",
+    "value": 632,
+    "issue": "approximate",
+    "note": "632 CE marks the completion of the Quran's oral revelation upon the death of Prophet Muhammad; the standardized Uthmanic written codex was compiled c. 650 CE.",
+    "suggestedDisplay": "610–632 CE (codified c. 650 CE)"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "mahabharata",
+    "field": "publicationYear",
+    "value": -400,
+    "issue": "disputed",
+    "note": "The Mahabharata evolved over centuries; scholars generally date its main textual composition between c. 400 BCE and 400 CE.",
+    "suggestedDisplay": "c. 400 BCE – 400 CE"
+  },
+  {
+    "entityType": "BOOK",
+    "slug": "ramayana",
+    "field": "publicationYear",
+    "value": -500,
+    "issue": "disputed",
+    "note": "The Sanskrit Ramayana was composed and expanded over several centuries, with core strata often dated c. 5th–4th century BCE through the 3rd century CE.",
+    "suggestedDisplay": "c. 500 BCE – 300 CE"
   }
 ]
