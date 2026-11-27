@@ -2693,5 +2693,201 @@
     "targetSlug": "vha-sovereignty-and-defense",
     "targetType": "IDEA",
     "relationshipType": "PART_OF"
+  },
+  {
+    "sourceSlug": "ly-bi",
+    "sourceType": "PERSON",
+    "targetSlug": "vietnam",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "trieu-quang-phuc",
+    "sourceType": "PERSON",
+    "targetSlug": "vietnam",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "khuc-thua-du",
+    "sourceType": "PERSON",
+    "targetSlug": "vietnam",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "khuc-hao",
+    "sourceType": "PERSON",
+    "targetSlug": "vietnam",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "le-dai-hanh",
+    "sourceType": "PERSON",
+    "targetSlug": "vietnam",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "ly-thai-to",
+    "sourceType": "PERSON",
+    "targetSlug": "vietnam",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "tran-nhan-tong",
+    "sourceType": "PERSON",
+    "targetSlug": "vietnam",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "nguyen-hoang",
+    "sourceType": "PERSON",
+    "targetSlug": "vietnam",
+    "targetType": "CIVILIZATION",
+    "relationshipType": "RULED"
+  },
+  {
+    "sourceSlug": "trieu-thi-trinh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-ba-trieu",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "ly-bi",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-ly-bi-lap-nuoc-van-xuan",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "trieu-quang-phuc",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-ly-bi-lap-nuoc-van-xuan",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "mai-thuc-loan",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khoi-nghia-mai-thuc-loan",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "khuc-hao",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-cai-cach-khuc-hao",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "le-dai-hanh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-khang-chien-chong-tong-981",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "ly-thai-to",
+    "sourceType": "PERSON",
+    "targetSlug": "relocation-of-capital-to-thang-long",
+    "targetType": "EVENT",
+    "relationshipType": "INITIATED"
+  },
+  {
+    "sourceSlug": "tran-nhan-tong",
+    "sourceType": "PERSON",
+    "targetSlug": "mongol-invasions-of-vietnam",
+    "targetType": "EVENT",
+    "relationshipType": "LED"
+  },
+  {
+    "sourceSlug": "hoang-hoa-tham",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-phong-trao-can-vuong",
+    "targetType": "EVENT",
+    "relationshipType": "COMMANDED"
+  },
+  {
+    "sourceSlug": "vo-nguyen-giap",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chien-dich-dien-bien-phu",
+    "targetType": "EVENT",
+    "relationshipType": "COMMANDED"
+  },
+  {
+    "sourceSlug": "vo-nguyen-giap",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-chien-dich-ho-chi-minh",
+    "targetType": "EVENT",
+    "relationshipType": "COMMANDED"
+  },
+  {
+    "sourceSlug": "ly-thai-to",
+    "sourceType": "PERSON",
+    "targetSlug": "chieu-doi-do",
+    "targetType": "BOOK",
+    "relationshipType": "PROCLAIMED"
+  },
+  {
+    "sourceSlug": "trieu-thi-trinh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "DEFENDED"
+  },
+  {
+    "sourceSlug": "mai-thuc-loan",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-sovereignty-and-defense",
+    "targetType": "IDEA",
+    "relationshipType": "DEFENDED"
+  },
+  {
+    "sourceSlug": "khuc-thua-du",
+    "sourceType": "PERSON",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "PIONEERED"
+  },
+  {
+    "sourceSlug": "khuc-hao",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-state-governance-and-law",
+    "targetType": "IDEA",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "nguyen-binh-khiem",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "DEVELOPED"
+  },
+  {
+    "sourceSlug": "phan-boi-chau",
+    "sourceType": "PERSON",
+    "targetSlug": "national-sovereignty-identity",
+    "targetType": "IDEA",
+    "relationshipType": "CHAMPIONED"
+  },
+  {
+    "sourceSlug": "phan-chau-trinh",
+    "sourceType": "PERSON",
+    "targetSlug": "vha-culture-and-thought",
+    "targetType": "IDEA",
+    "relationshipType": "ADVOCATED"
+  },
+  {
+    "sourceSlug": "nguyen-binh-khiem",
+    "sourceType": "PERSON",
+    "targetSlug": "nguyen-hoang",
+    "targetType": "PERSON",
+    "relationshipType": "ADVISED"
   }
 ]
