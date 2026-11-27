@@ -637,5 +637,14 @@
     "issue": "approximate",
     "note": "Birth and death dates for the Teotihuacan-linked Maya figure Spearthrower Owl are approximate epigraphic reconstructions around his 374–439 CE attested activity.",
     "suggestedDisplay": "fl. 374–439 CE"
+  },
+  {
+    "entityType": "EVENT",
+    "slug": "rise-of-chichen-itza",
+    "field": "startYear",
+    "value": 987,
+    "issue": "disputed",
+    "note": "987 CE reflects later colonial-era ethnohistoric chronicles (Books of Chilam Balam) regarding Kukulcan's arrival; radiocarbon and epigraphic evidence shows Chichen Itza's major florescence began earlier in the Terminal Classic (c. 800–1050 CE).",
+    "suggestedDisplay": "c. 800–1100 CE (trad. 987–1200)"
   }
 ]

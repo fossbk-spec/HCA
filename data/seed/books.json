@@ -189,11 +189,11 @@
   {
     "slug": "bhagavad-gita",
     "title": "Bhagavad Gita",
-    "author": "Vyasa",
+    "author": "Vyasa (Traditional Attribution)",
     "publicationYear": -200,
     "summary": "700-verse Hindu scripture within the epic Mahabharata, presenting a profound spiritual dialogue on duty (Dharma), action without attachment (Karma Yoga), and devotion.",
     "titleVi": "Chí Tôn Ca (Bhagavad Gita)",
-    "authorVi": "Vyasa",
+    "authorVi": "Vyasa (Tương truyền)",
     "summaryVi": "Khúc ca thánh thi 700 câu trong sử thi Mahabharata, ghi lại cuộc đối thoại tâm linh sâu sắc giữa chiến binh Arjuna và Thần Krishna trên chiến trường Kurukshetra.",
     "contentVi": "Chí Tôn Ca giải tỏa cuộc khủng hoảng đạo đức của Arjuna bằng cách giảng giải về bản chất bất tử của linh hồn (Atman), ba con đường giải thoát: Karma Yoga (hành động xả kỷ), Jnana Yoga (trí tuệ) và Bhakti Yoga (sự dâng hiến sùng kính cho Thượng đế)."
   },
@@ -451,11 +451,11 @@
     "title": "The Cyrus Cylinder",
     "author": "Cyrus the Great & Imperial Scribes",
     "publicationYear": -539,
-    "summary": "Ancient baked-clay cylinder inscribed in Babylonian cuneiform, hailed as the world's first charter of human rights and cultural tolerance.",
+    "summary": "Ancient baked-clay cylinder inscribed in Babylonian cuneiform recording Cyrus the Great's conquest of Babylon, temple restorations, and repatriation of deported peoples; often popularly—though anachronistically—cited as a precursor to human rights.",
     "content": "Discovered in the ruins of Babylon in 1879 and now housed in the British Museum, the Cyrus Cylinder records Cyrus the Great's capture of Babylon in 539 BCE. In the text, Cyrus denounces Nabonidus's religious tyranny, proclaims that he conquered Babylon peacefully under the blessing of the god Marduk, repatriated displaced peoples, and restored their temples, providing primary archaeological proof of imperial tolerance.",
     "titleVi": "Trụ Cyrus (Tuyên ngôn Nhân quyền Cyrus)",
     "authorVi": "Cyrus Đại đế",
-    "summaryVi": "Bản khắc đất sét hình trụ bằng chữ nêm Babylon năm 539 TCN của Cyrus Đại đế, công bố chính sách khoan dung tôn giáo, thả tù nhân và phục hồi đền thờ.",
+    "summaryVi": "Bản khắc đất sét hình trụ bằng chữ nêm Babylon năm 539 TCN ghi lại việc Cyrus Đại đế tiếp quản Babylon, phục hồi đền thờ và cho phép các cộng đồng bị lưu đày hồi hương; thường được truyền thông hiện đại ví von (dù mang tính quy chiếu hiện đại) như tiền thân của ý niệm khoan dung văn hóa.",
     "contentVi": "Được Liên Hợp Quốc dịch sang sáu thứ tiếng chính thức và xem như bản Tuyên ngôn Nhân quyền đầu tiên của nhân loại, Trụ Cyrus ghi nhận sự tôn trọng quyền tự do tín ngưỡng, văn hóa bản địa của người Babylon và cho phép người Do Thái hồi hương tái thiết Đền thờ Jerusalem."
   },
   {
