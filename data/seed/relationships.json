@@ -2506,14 +2506,7 @@
     "relationshipType": "PART_OF"
   },
   {
-    "sourceSlug": "ly-thuong-kiet",
-    "sourceType": "PERSON",
-    "targetSlug": "vha-tran-nhu-nguyet-1077",
-    "targetType": "EVENT",
-    "relationshipType": "LED"
-  },
-  {
-    "sourceSlug": "vha-tran-nhu-nguyet-1077",
+    "sourceSlug": "song-dynasty-resistance-1077",
     "sourceType": "EVENT",
     "targetSlug": "vha-sovereignty-and-defense",
     "targetType": "IDEA",
@@ -2562,13 +2555,6 @@
     "relationshipType": "PROCLAIMED"
   },
   {
-    "sourceSlug": "le-thanh-tong",
-    "sourceType": "PERSON",
-    "targetSlug": "vha-quoc-trieu-hinh-luat",
-    "targetType": "BOOK",
-    "relationshipType": "PROMULGATED"
-  },
-  {
     "sourceSlug": "quang-trung",
     "sourceType": "PERSON",
     "targetSlug": "vha-chieu-cau-hien",
@@ -2604,7 +2590,7 @@
     "relationshipType": "ARTICULATED"
   },
   {
-    "sourceSlug": "vha-quoc-trieu-hinh-luat",
+    "sourceSlug": "quoc-trieu-hinh-luat",
     "sourceType": "BOOK",
     "targetSlug": "vha-state-governance-and-law",
     "targetType": "IDEA",

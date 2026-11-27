@@ -332,7 +332,8 @@
     "summary": "King An Duong Vuong built the monumental spiral earthen citadel of Co Loa, creating an advanced defensive capital for Au Lac.",
     "content": "Following the unification of Tay Au and Lac Viet, King An Duong Vuong established his capital at Co Loa (Dong Anh, Hanoi). The fortification featured concentric earthen ramparts interspersed with deep water moats connected to the Hoang Giang river system. Excavations reveal sophisticated bronze arrow-heads manufactured in massive quantities, demonstrating advanced urban engineering and defensive logistics.",
     "titleVi": "Xây dựng Thành Cổ Loa của nước Âu Lạc",
-    "summaryVi": "An Dương Vương xây dựng tòa thành xoắn ốc Cổ Loa với ba vòng hào sâu kiên cố và trang bị nỏ thần liên châu, trung tâm chính trị quân sự độc đáo của người Việt cổ."
+    "summaryVi": "An Dương Vương xây dựng tòa thành xoắn ốc Cổ Loa với ba vòng hào sâu kiên cố và trang bị nỏ thần liên châu, trung tâm chính trị quân sự độc đáo của người Việt cổ.",
+    "civilizationSlug": "vietnam"
   },
   {
     "slug": "hai-ba-trung-uprising",
@@ -376,9 +377,12 @@
     "startYear": 1075,
     "endYear": 1077,
     "summary": "Ly Thuong Kiet executed a preemptive border raid and mounted an impregnable river defense, forcing the Song Empire to sue for peace.",
-    "content": "Confronted with Song invasion preparations, Ly Thuong Kiet launched a preemptive strike in 1075 against Song logistical hubs at Yongzhou (Qinzhou/Lianzhou), neutralizing their invasion readiness. When Song armies advanced in 1077, Ly forces halted them along fortified defensive ramparts on the Nhu Nguyet River (Cau River). Through military defense and psychological warfare via the poem Nam Quoc Son Ha, the Ly compelled the Song court to accept diplomatic peace.",
+    "content": "Confronted with Song invasion preparations, Ly Thuong Kiet launched a preemptive strike in 1075 against Song logistical hubs at Yongzhou, Qinzhou, and Lianzhou. When Song armies under Guo Kui and Zhao Xie advanced in 1076–1077, Dai Viet forces halted them along fortified ramparts on the Nhu Nguyet (Cau) River, leading to a negotiated withdrawal that preserved the northern frontier. Historians note that exact troop figures cited in traditional chronicles remain difficult to verify independently.",
     "titleVi": "Kháng chiến chống Tống trên phòng tuyến sông Như Nguyệt (1077)",
-    "summaryVi": "Thái úy Lý Thường Kiệt lãnh đạo quân dân Đại Việt chặn đứng đại quân nhà Tống trên sông Như Nguyệt, vang lên bài thơ thần Nam quốc sơn hà khẳng định chủ quyền bất khả xâm phạm."
+    "summaryVi": "Thái úy Lý Thường Kiệt lãnh đạo quân dân Đại Việt chặn đứng đại quân nhà Tống trên sông Như Nguyệt, vang lên bài thơ thần Nam quốc sơn hà khẳng định chủ quyền bất khả xâm phạm.",
+    "civilizationSlug": "vietnam",
+    "sourceExternalId": "vha:event:tran-nhu-nguyet-1077",
+    "contentVi": "Trước nguy cơ xâm lược từ nhà Tống, năm 1075 Thái úy Lý Thường Kiệt chủ động thực hiện chiến lược 'tiên phát chế nhân', tập kích các căn cứ hậu cần ở Ung Châu, Khâm Châu và Liêm Châu. Khi đại quân Tống do Quách Quỳ và Triệu Tiết tiến sang năm 1076–1077, quân dân Đại Việt đã chặn đứng đối phương trên phòng tuyến sông Như Nguyệt (sông Cầu), buộc nhà Tống phải chấp nhận giảng hòa và rút quân, giữ vững biên cương phía Bắc. Các nhà sử học lưu ý rằng những con số quân đội cụ thể trong sử liệu cổ còn khó kiểm chứng độc lập."
   },
   {
     "slug": "mongol-invasions-of-vietnam",
@@ -412,7 +416,8 @@
     "summary": "King Le Thanh Tong codified the Quoc Trieu Hinh Luat, creating one of the most comprehensive and progressive legal codes in pre-modern Asia.",
     "content": "In 1483, Emperor Le Thanh Tong promulgated the Quoc Trieu Hinh Luat (commonly known as the Hong Duc Code). Comprising 722 articles across six volumes, it synthesized Confucian moral propriety, Tang legal precedents, and ancient Vietnamese customary law. The code included unique provisions protecting women's property and inheritance rights, regulating contracts, and penalizing official malfeasance.",
     "titleVi": "Ban hành Bộ luật Hồng Đức (Quốc triều hình luật - 1483)",
-    "summaryVi": "Vua Lê Thánh Tông ban hành Bộ luật Hồng Đức—đỉnh cao pháp luật phong kiến Việt Nam, nổi bật với các điều khoản tiến bộ bảo vệ quyền sở hữu và tài sản của phụ nữ."
+    "summaryVi": "Vua Lê Thánh Tông ban hành Bộ luật Hồng Đức—đỉnh cao pháp luật phong kiến Việt Nam, nổi bật với các điều khoản tiến bộ bảo vệ quyền sở hữu và tài sản của phụ nữ.",
+    "civilizationSlug": "vietnam"
   },
   {
     "slug": "cyrus-cylinder-and-babylon-conquest",
@@ -742,17 +747,6 @@
     "summaryVi": "Cuộc khởi nghĩa quy mô lớn nhất thế kỷ VIII bùng nổ tại Hoan Châu lật đổ ách đô hộ của nhà Đường, giải phóng phủ thành Tống Bình và thành lập chính quyền tự chủ.",
     "civilizationSlug": "vietnam",
     "sourceExternalId": "vha:event:khoi-nghia-mai-thuc-loan"
-  },
-  {
-    "slug": "vha-tran-nhu-nguyet-1077",
-    "title": "Battle of the Nhu Nguyet River Line (1077)",
-    "startYear": 1076,
-    "endYear": 1077,
-    "summary": "In 1076–1077, Grand Preceptor Ly Thuong Kiet defended the Nhu Nguyet (Cau) River line against a major Song invasion, forcing a negotiated withdrawal that preserved Dai Viet's northern frontier.",
-    "titleVi": "Trận phòng tuyến sông Như Nguyệt (năm 1077)",
-    "summaryVi": "Trận quyết chiến chiến lược diễn ra vào mùa xuân năm 1077 trên phòng tuyến sông Như Nguyệt (sông Cầu), dưới sự chỉ huy của Thái úy Lý Thường Kiệt, đẩy lui cuộc tiến công của quân Tống do Quách Quỳ và Triệu Tiết chỉ huy; các con số quân đội trong sử liệu còn khó kiểm chứng.",
-    "civilizationSlug": "vietnam",
-    "sourceExternalId": "vha:event:tran-nhu-nguyet-1077"
   },
   {
     "slug": "vha-cach-mang-thang-tam-1945",

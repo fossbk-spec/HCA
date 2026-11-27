@@ -413,11 +413,13 @@
     "author": "Emperor Le Thanh Tong",
     "publicationYear": 1483,
     "summary": "Comprehensive legal code of the Early Le dynasty renowned for its sophistication, moral ethics, and progressive civil rights.",
-    "content": "The Hong Duc Code represented the institutional apex of pre-modern Vietnamese law. Spanning 722 articles, it regulated criminal justice, land distribution, administrative duties, family law, and contract agreements. Notably, it granted daughters equal inheritance rights to family ancestral property and protected women's legal status during divorce, centuries ahead of contemporary legal traditions.",
+    "content": "The Hong Duc Code (Quoc Trieu Hinh Luat) represents the institutional apex of pre-modern Vietnamese law, compiled and revised across the reign of Emperor Le Thanh Tong (1470–1497, traditionally dated 1483). Spanning 6 volumes, 13 chapters, and 722 articles, it regulated criminal justice, administration, land tenure, family law, and official accountability. Historians note its distinctive protections for women's property and conditional inheritance (such as huong hoa ancestral-worship land in the absence of male heirs), as well as safeguards for the elderly and vulnerable, while cautioning against equating these provisions with modern gender equality.",
     "titleVi": "Quốc triều hình luật (Luật Hồng Đức)",
     "authorVi": "Triều Hậu Lê (hoàn thiện thời Lê Thánh Tông)",
     "summaryVi": "Bộ pháp điển vĩ đại và tiến bộ bậc nhất của chế độ phong kiến Việt Nam thời Hậu Lê, gồm 722 điều luật mang tính nhân văn sâu sắc và nét đặc thù dân tộc độc đáo.",
-    "contentVi": "Luật Hồng Đức không chỉ bảo vệ trật tự nhà nước phong kiến mà còn có những quy định cực kỳ tiến bộ vượt thời đại: bảo vệ quyền thừa kế tài sản của phụ nữ, bảo vệ người già yếu, trẻ mồ côi và người tàn tật, kết hợp nhuần nhuyễn giữa tinh thần Nho giáo và tập quán cổ truyền Việt Nam."
+    "contentVi": "Bộ luật gồm 6 quyển, 13 chương, 722 điều, điều chỉnh toàn diện các quan hệ xã hội từ hình sự, dân sự, hôn nhân gia đình, điền sản đến tố tụng và quốc phòng. Nhiều nhà nghiên cứu chú ý đến các quy định liên quan đến phụ nữ (như quyền tài sản và ly hôn trong một số trường hợp), người già, trẻ em và người tàn tật, cùng các điều xử phạt quan lại tham nhũng; tuy nhiên phạm vi các quyền này, nhất là quyền thừa kế hương hỏa của con gái, còn được nghiên cứu và đánh giá khác nhau, và không nên hiểu là quyền bình đẳng theo nghĩa hiện đại.",
+    "civilizationSlug": "vietnam",
+    "sourceExternalId": "vha:document:quoc-trieu-hinh-luat"
   },
   {
     "slug": "truyen-kieu",
@@ -586,7 +588,8 @@
     "titleVi": "Hải Thượng y tông tâm lĩnh",
     "authorVi": "Hải Thượng Lãn Ông Lê Hữu Trác",
     "summaryVi": "Bộ bách khoa toàn thư y học cổ truyền đồ sộ nhất Việt Nam gồm 28 tập 66 quyển do Đại danh y Lê Hữu Trác biên soạn trong gần 30 năm miệt mài.",
-    "contentVi": "Tác phẩm kết tinh toàn bộ y lý, y pháp, y thuật, dược tễ và đặc biệt là y đức cao thượng của Hải Thượng Lãn Ông, vận dụng sáng tạo y học phương Đông vào thể chất và thổ nhưỡng khí hậu Việt Nam với phương châm 'Trị bệnh cứu người là nhiệm vụ thiêng liêng'."
+    "contentVi": "Tác phẩm kết tinh toàn bộ y lý, y pháp, y thuật, dược tễ và đặc biệt là y đức cao thượng của Hải Thượng Lãn Ông, vận dụng sáng tạo y học phương Đông vào thể chất và thổ nhưỡng khí hậu Việt Nam với phương châm 'Trị bệnh cứu người là nhiệm vụ thiêng liêng'.",
+    "civilizationSlug": "vietnam"
   },
   {
     "slug": "corpus-juris-civilis",
@@ -687,7 +690,8 @@
     "publicationYear": 1200,
     "summary": "The grand heroic epic of the Central Highlands of Vietnam, narrating the legendary chieftain Dam San's battles against rival chiefs, quest to capture the Sun Goddess, and defense of his community.",
     "summaryVi": "Đại sử thi anh hùng tráng lệ của đồng bào Ê-đê vùng Tây Nguyên, ca ngợi tù trưởng dũng mãnh Đăm Săn đánh bại tù trưởng thù địch Mtao Mxây, chặt cây thần Smuk và hành trình đi bắt Nữ thần Mặt Trời.",
-    "contentVi": "Thuộc thể loại klei khan (hát kể sử thi), Đăm Săn là báu vật văn học dân gian vô giá của văn hóa Tây Nguyên và di sản văn học các dân tộc Việt Nam. Bản trường ca khắc họa sinh động chế độ mẫu hệ, tinh thần bất khuất chinh phục tự nhiên hoang dã, bảo vệ buôn làng ấm no. Những trường đoạn giao tranh lẫy lừng giữa Đăm Săn và Mtao Mxây cùng khúc ca khát vọng chinh phục ánh sáng mặt trời thể hiện vẻ đẹp bi hùng, khoáng đạt và tâm hồn hào sảng của con người miền sơn cước."
+    "contentVi": "Thuộc thể loại klei khan (hát kể sử thi), Đăm Săn là báu vật văn học dân gian vô giá của văn hóa Tây Nguyên và di sản văn học các dân tộc Việt Nam. Bản trường ca khắc họa sinh động chế độ mẫu hệ, tinh thần bất khuất chinh phục tự nhiên hoang dã, bảo vệ buôn làng ấm no. Những trường đoạn giao tranh lẫy lừng giữa Đăm Săn và Mtao Mxây cùng khúc ca khát vọng chinh phục ánh sáng mặt trời thể hiện vẻ đẹp bi hùng, khoáng đạt và tâm hồn hào sảng của con người miền sơn cước.",
+    "civilizationSlug": "vietnam"
   },
   {
     "slug": "epic-of-king-gesar",
@@ -753,7 +757,8 @@
     "publicationYear": 1100,
     "summary": "The monumental cosmogonic epic of the Muong people in Vietnam, narrating the genesis of heaven and earth, the magical birth of the tree of life (Cay Si), the emergence of human society, and communal customs.",
     "summaryVi": "Đại sử thi vũ trụ luận đồ sộ và thiêng liêng nhất của dân tộc Mường tại Việt Nam, hát kể về sự hình thành trời đất, muôn loài từ cây Si thần thoại, sự xuất hiện của loài người và trật tự bản mường.",
-    "contentVi": "Gồm hàng vạn câu thơ truyền khẩu chia làm nhiều roóng (khúc ca), Đẻ đất Đẻ nước là pho bách khoa toàn thư dân gian về nguồn cội vũ trụ và tri thức bản địa của cư dân ngữ hệ Việt - Mường cổ đại. Sử thi diễn xướng trong các nghi lễ tang lễ trang trọng để dẫn đường linh hồn về quê cha đất tổ, khắc họa quá trình con người chế ngự thiên nhiên hoang sơ, tìm ra lửa, dựng nhà sàn, trồng lúa nước và xác lập các quy chuẩn đạo đức gia đình và cộng đồng."
+    "contentVi": "Gồm hàng vạn câu thơ truyền khẩu chia làm nhiều roóng (khúc ca), Đẻ đất Đẻ nước là pho bách khoa toàn thư dân gian về nguồn cội vũ trụ và tri thức bản địa của cư dân ngữ hệ Việt - Mường cổ đại. Sử thi diễn xướng trong các nghi lễ tang lễ trang trọng để dẫn đường linh hồn về quê cha đất tổ, khắc họa quá trình con người chế ngự thiên nhiên hoang sơ, tìm ra lửa, dựng nhà sàn, trồng lúa nước và xác lập các quy chuẩn đạo đức gia đình và cộng đồng.",
+    "civilizationSlug": "vietnam"
   },
   {
     "slug": "epic-of-sundiata",
@@ -1165,19 +1170,6 @@
     "contentVi": "Tác phẩm gồm 22 truyện tiêu biểu như Truyện họ Hồng Bàng (Lạc Long Quân và Âu Cơ), Truyện rùa vàng (An Dương Vương xây thành Cổ Loa), Truyện Đầm Nhất Dạ (Chử Đồng Tử và Tiên Dung), Truyện núi Tản Viên (Sơn Tinh Thủy Tinh), Truyện cây cau, Truyện bánh chưng bánh giầy. Các câu chuyện phản ánh vũ trụ quan, triết lý nhân sinh, phong tục tập quán và dấu ấn lịch sử hào hùng của cư dân Văn Lang - Âu Lạc từ buổi đầu dựng nước.",
     "civilizationSlug": "vietnam",
     "sourceExternalId": "vha:document:linh-nam-chich-quai"
-  },
-  {
-    "slug": "vha-quoc-trieu-hinh-luat",
-    "title": "Penal Code of the National Dynasty (Hong Duc Code)",
-    "author": "Later Le Court (under Emperor Le Thanh Tong)",
-    "publicationYear": 1470,
-    "summary": "Compiled under Emperor Le Thanh Tong (1470–1497), this 722-article legal code is noted by historians for its comprehensive civil, criminal, administrative, and family property provisions.",
-    "titleVi": "Quốc triều hình luật (Luật Hồng Đức)",
-    "authorVi": "Triều đình nhà Hậu Lê (dưới thời vua Lê Thánh Tông)",
-    "summaryVi": "Bộ luật thành văn hoàn chỉnh và tiến bộ bậc nhất trong lịch sử pháp luật phong kiến Việt Nam và Đông Á thời trung đại, được biên soạn và hoàn thiện dưới triều vua Lê Thánh Tông (niên hiệu Hồng Đức, 1470–1497).",
-    "contentVi": "Bộ luật gồm 6 quyển, 13 chương, 722 điều, điều chỉnh toàn diện các quan hệ xã hội từ hình sự, dân sự, hôn nhân gia đình, điền sản đến tố tụng và quốc phòng. Nhiều nhà nghiên cứu chú ý đến các quy định liên quan đến phụ nữ (như quyền tài sản và ly hôn trong một số trường hợp), người già, trẻ em và người tàn tật, cùng các điều xử phạt quan lại tham nhũng; tuy nhiên phạm vi các quyền này, nhất là quyền thừa kế hương hỏa của con gái, còn được nghiên cứu và đánh giá khác nhau, và không nên hiểu là quyền bình đẳng theo nghĩa hiện đại.",
-    "civilizationSlug": "vietnam",
-    "sourceExternalId": "vha:document:quoc-trieu-hinh-luat"
   },
   {
     "slug": "vha-viet-dien-u-linh-tap",
